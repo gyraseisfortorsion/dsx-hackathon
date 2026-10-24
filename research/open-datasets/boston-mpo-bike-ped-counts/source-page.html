@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TVRXRVW1YN"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag("set", "developer_id.dMDhkMT", true);
+	  gtag("config", "G-TVRXRVW1YN", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});
+	  gtag("config", "UA-39489988-1", {"groups":"default","page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false,"anonymize_ip":true});
+	</script>
+
+	<meta charset="UTF-8">
+	<title>Boston Region MPO Bicycle - Pedestrian Traffic Counts Data Browser</title>
+	
+	<!-- JS for jQuery library, loaded locally -->
+	<script src="libs/jquery-3.7.0.min.js"></script>
+	<!-- JS for jQuery library, loaded from a CDN -->
+	<!--
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+	         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+			 crossorigin="anonymous">
+	</script>
+	-->
+	
+	<!-- JS for lodash.js library, loaded locally -->
+	<script src="libs/lodash-4.17.21.js"></script>
+	<!-- JS for lodash library, loaded from a CDN -->
+	<!-- 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js" 
+	        integrity="sha512-2iwCHjuj+PmdCyvb88rMOch0UcKQxVHi/gsAml1fN3eg82IDaO/cdzzeXX4iF2VzIIes7pODE1/G0ts3QBwslA==" 
+			crossorigin="anonymous" 
+			referrerpolicy="no-referrer">
+	</script>
+	-->
+	
+	<!-- OpenLayers library, loaded locally -->
+	<script src="libs/openlayers-6.14.1-ol.js"></script>
+	<!-- OpenLayers library: loaded from CDN -->
+	<!-- <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script> -->
+	
+	<!-- OpenLayers layer switcher aad-on control: loaded locally -->
+	<script = src="libs/ol-layerswitcher.js"></script>
+	
+	<!-- D3 library (minified), loaded locally -->
+	<script src="libs/d3-7.8.5.min.js"></script>
+	<!-- D3 library (minified) loaded from a CDN -->
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js" 
+	        integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ==" 
+			crossorigin="anonymous" 
+			referrerpolicy="no-referrer">
+	</script>
+	-->
+	
+	<!-- Plotly.js library, loaded locally -->
+	<script src="libs/plotly-2.24.1.min.js"></script>
+	
+	<!-- download.js library, loaded locally -->
+	<script src="libs/download.min.js"></script>
+	
+	<!-- CSS and JS for jsgrid, loaded locally -->
+	<link type="text/css" rel="stylesheet" href="libs/jsgrid-1.5.3.min.css" />
+	<link type="text/css" rel="stylesheet" href="libs/jsgrid-1.5.3-jsgrid-theme.min.css" />
+	<script type="text/javascript" src="libs/jsgrid-1.5.3.min.js"></script>
+	<!-- CSS and JS for jsgrid, loaded from a CDN -->
+    <!--
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>	
+	-->
+	
+	<!-- CSS for OpenLayers --> 
+	<link rel="stylesheet" src="libs/openlayers-6.14.1-ol.css" type="text/css">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css"> -->
+	
+	<!-- CSS for OpenLayers layer switcher add-on control, loaded locally -->
+	<link rel="stylesheet" href="libs/ol-layerswitcher.css" type="text/css">
+	
+	 <!-- CSS for bike-ped app -->
+	 <link rel="stylesheet" href="css/bike_ped_app.css">
+</head>
+<body>
+	<div class="container">
+	
+	<div class="ctpsHeader">
+		<div class="lightBlue"></div>
+		<div class="darkBlue"></div>
+		<div id="banner"><a href="https://ctps.org/" target="_blank" title="Boston MPO"><img style="height:59px" src="./img/ctps_header.png" title="Opens Boston MPO website in a new window"></a></div>
+	</div>
+	
+	<h3>Boston Region MPO Bicycle - Pedestrian Traffic Counts Data Browser</h3>
+	
+		<div id="controls">
+			<span>
+					<label for="select_town">Select municipality:&nbsp;</label>
+					<select name ="select_town" id="select_town" class="pick_list">
+					</select>
+					&nbsp;
+					<label for="select_year">Select year:&nbsp;</label>
+					<select name="select_year" id="select_year" class="pick_list">
+					</select>
+					&nbsp;
+					<button id="clear_filters">Clear Filters</button>
+					&nbsp;
+					<button id="download_all">Download all data</button>
+					<!-- <a href="data/csv/bp_counts.csv" download="bp_counts.csv" target="_blank" class="nostyle">Download all data</a> -->
+					<button id="metadata">
+						<a target="_blank" class="nostyle" alt="metadata link opens new browser window">Metadata</a>
+					</button>
+			</span>
+		</div>
+		
+		<div id="map">
+		</div>
+		
+		<div id="output_table">
+		</div>
+		
+		<div id="popup" class="ol-popup">
+			<a href="#" id="popup-closer" class="ol-popup-closer"></a>
+			<div id="popup-content"></div>
+		</div>
+	</div> <!-- container -->
+	
+	<!-- JS for common data structures and functions -->
+	<script src="js/common.js"></script>
+	
+	<!-- JS for 'main page' of app -->
+	<script src="js/main.js"></script>
+	<script>
+	$(document).ready(function() {
+		initialize();	
+	});
+	</script>
+</body>
+</html>

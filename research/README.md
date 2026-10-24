@@ -10,6 +10,9 @@ mobile app. Both contain only Git placeholders; implementation has not started.
 
 ## Research files
 
+- [CollegeHack open datasets](open-datasets/README.md): source-sheet snapshot,
+  additional downloaded datasets, coverage, row counts, source URLs, and download
+  errors for all 33 sources on the supplied open-datasets worksheet.
 - [Source assessment](source-audit/source-notes.md): verified dataset coverage,
   field definitions, access limitations, and possible data-science approaches.
 - [Verified source inventory](source-audit/verified-profile.json): row counts,

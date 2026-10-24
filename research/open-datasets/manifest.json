@@ -1,0 +1,1158 @@
+{
+  "retrieved_at": "2026-10-24T21:52:28.885533+00:00",
+  "sources": [
+    {
+      "name": "IPEDS complete data files",
+      "source_url": "https://nces.ed.gov/ipeds/use-the-data",
+      "sheet_description": "Institutional enrollment, completions, staffing, finances, aid and graduation by reporting year",
+      "constraints": "Definitions and reporting years differ across variables",
+      "files": [
+        {
+          "file": "source-audit/ipeds-hd2024.zip",
+          "bytes": 1088372,
+          "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+          "reused": true
+        },
+        {
+          "file": "source-audit/ipeds-ic2024.zip",
+          "bytes": 135305,
+          "sha256": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+          "reused": true
+        },
+        {
+          "file": "source-audit/om2023.zip",
+          "bytes": 1347816,
+          "sha256": "60a619776e8da60542c9a728b2c2122bcdef6825c76b5b36a40ab243a5d0b504",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 3
+    },
+    {
+      "name": "College Scorecard",
+      "source_url": "https://collegescorecard.ed.gov/data/",
+      "sheet_description": "Institution and field-of-study costs, debt, earnings, completion and student outcomes",
+      "constraints": "Suppressed values and differing cohorts; earnings not causal",
+      "files": [
+        {
+          "file": "source-audit/scorecard.zip",
+          "bytes": 24212719,
+          "sha256": "ba74e3892a3379b5d2112dbc78c310f4c04849d36ac9cef9e3cb5f8556e76477",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 1
+    },
+    {
+      "name": "Massachusetts E2C Hub",
+      "source_url": "https://www.mass.gov/info-details/e2c-hub-directory-of-datasets-and-reports",
+      "sheet_description": "State education, enrollment, credentials, graduation and workforce datasets",
+      "constraints": "Availability varies by dataset; no unrestricted individual-level records",
+      "files": [],
+      "errors": [
+        {
+          "url": "https://www.mass.gov/info-details/e2c-hub-directory-of-datasets-and-reports",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "unavailable",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 0
+    },
+    {
+      "name": "NSSE public displays",
+      "source_url": "https://nsse.indiana.edu/nsse/reports-data/data-displays.html",
+      "sheet_description": "Survey indicators and aggregate displays for first-year and senior undergraduate engagement",
+      "constraints": "Institution-level detailed microdata generally restricted",
+      "files": [
+        {
+          "file": "nsse-public-search/NSSE25 Sample Data (US).sav",
+          "bytes": 101737,
+          "sha256": "accef0941968bd2d7eff56d15ae6baa3902cf543658e482fb623520896fdd527",
+          "reused": true
+        },
+        {
+          "file": "nsse-public-search/NSSE25 Sample Data (Canada).sav",
+          "bytes": 93834,
+          "sha256": "5ba667d11da2f96a987f863323c875b49f2f48797dbeb115cfe46c26040a38d8",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 2
+    },
+    {
+      "name": "OpenAlex",
+      "source_url": "https://docs.openalex.org/",
+      "sheet_description": "Scholarly works, authors, institutions, topics, citations and relationships",
+      "constraints": "Research output is not proof of mentoring availability",
+      "files": [
+        {
+          "file": "source-audit/openalex-bu-works.json",
+          "bytes": 108626,
+          "sha256": "ce77667c5ad202ae05982c7550befe75e3086d103aaa2968a987db0a09bce772",
+          "reused": true
+        },
+        {
+          "file": "source-audit/openalex-bu-institution.json",
+          "bytes": 119939,
+          "sha256": "9517b6442e2fafc219a0da4da841828b0ab698e8989735e247c93bebc4c8f7c2",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 2
+    },
+    {
+      "name": "MassGIS colleges and universities",
+      "source_url": "https://www.mass.gov/info-details/massgis-data-colleges-and-universities",
+      "sheet_description": "Geographic locations of colleges and universities in Massachusetts",
+      "constraints": "Locations do not represent all buildings or accessibility features",
+      "files": [
+        {
+          "file": "source-audit/massgis-full.json",
+          "bytes": 23866,
+          "sha256": "731ed107634a7aef0da9edd9acb0d0dd07d71a0be7968199397bc42565f3efd7",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 1
+    },
+    {
+      "name": "O*NET database",
+      "source_url": "https://www.onetcenter.org/database.html",
+      "sheet_description": "Occupation descriptions, tasks, skills, abilities and work activities",
+      "constraints": "Occupational profiles are generalized, not live vacancies",
+      "files": [
+        {
+          "url": "https://www.onetcenter.org/database.html",
+          "resolved_url": "https://www.onetcenter.org/database.html",
+          "file": "open-datasets/o-net-database/source-page.html",
+          "bytes": 424353,
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "4b525928af3eb599ad6d2265500450b1bd4afb2cfa4761e1ddc468eeda254981"
+        },
+        {
+          "url": "https://www.onetcenter.org/dl_files/database/db_31_0_excel.zip",
+          "resolved_url": "https://www.onetcenter.org/dl_files/database/db_31_0_excel.zip",
+          "file": "open-datasets/o-net-database/db_31_0_excel.zip",
+          "bytes": 47880800,
+          "content_type": "application/zip",
+          "sha256": "c63ad00a8e45f3d3ef8e1529fcf8864d2279f2dfcb98737436818f5664781b04"
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Full current O*NET database in the Excel ZIP linked from its official download page.",
+      "data_files": 1
+    },
+    {
+      "name": "BLS OEWS",
+      "source_url": "https://www.bls.gov/oes/tables.htm",
+      "sheet_description": "Occupational employment estimates and wages by industry and region",
+      "constraints": "Wages are estimates; not individual job offers",
+      "files": [],
+      "errors": [
+        {
+          "url": "https://www.bls.gov/oes/tables.htm",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "unavailable",
+      "scope": "Latest downloadable OEWS file linked on the official tables page.",
+      "data_files": 0
+    },
+    {
+      "name": "MA public higher education performance",
+      "source_url": "https://www.mass.edu/datacenter/PMRS/home.asp",
+      "sheet_description": "Public higher education performance indicators and reporting",
+      "constraints": "Scope excludes many private institutions",
+      "files": [
+        {
+          "url": "https://www.mass.edu/datacenter/PMRS/home.asp",
+          "resolved_url": "https://www.mass.edu/datacenter/PMRS/home.asp",
+          "file": "open-datasets/ma-public-higher-education-performance/source-page.html",
+          "bytes": 24779,
+          "content_type": "text/html",
+          "sha256": "867aa65cd9ce52da331a71d04c7b7843765e46ea51bde310778a723e7f1bb018"
+        }
+      ],
+      "errors": [],
+      "status": "reference_only",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 0
+    },
+    {
+      "name": "MA college and career outcomes",
+      "source_url": "https://www.mass.gov/info-details/massachusetts-college-and-career-outcomes-dashboard",
+      "sheet_description": "Massachusetts college enrollment and postsecondary pathway indicators",
+      "constraints": "Check export options for specific views",
+      "files": [],
+      "errors": [
+        {
+          "url": "https://www.mass.gov/info-details/massachusetts-college-and-career-outcomes-dashboard",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "unavailable",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 0
+    },
+    {
+      "name": "American Community Survey",
+      "source_url": "https://data.census.gov/",
+      "sheet_description": "Community income, education, housing, commuting and employment estimates",
+      "constraints": "Margins of error; avoid ecological inference",
+      "files": [
+        {
+          "url": "https://data.census.gov/",
+          "resolved_url": "https://data.census.gov/",
+          "file": "open-datasets/american-community-survey/source-page.html",
+          "bytes": 2928,
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "d7a411be674ad3eebea60f5adbfac8d8483faf57a9805afd02bae5e1fd9d5db1"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME,B01003_001E,B15003_001E,B15003_022E,B19013_001E,B08301_001E&for=county:*&in=state:25",
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        }
+      ],
+      "status": "reference_only",
+      "scope": "2024 ACS 5-year, all Massachusetts counties; population, education, median household income, commuting denominator. Estimates only; not full ACS.",
+      "data_files": 0
+    },
+    {
+      "name": "College Navigator",
+      "source_url": "https://nces.ed.gov/collegenavigator/",
+      "sheet_description": "Institution profiles using federal postsecondary statistics",
+      "constraints": "Prefer IPEDS for bulk downloadable records",
+      "files": [
+        {
+          "file": "source-audit/ipeds-hd2024.zip",
+          "bytes": 1088372,
+          "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+          "reused": true
+        },
+        {
+          "file": "source-audit/ipeds-ic2024.zip",
+          "bytes": 135305,
+          "sha256": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+          "reused": true
+        }
+      ],
+      "errors": [],
+      "status": "existing_data",
+      "scope": "Existing selected files; see source-audit/source-notes.md and nsse-public-search/findings.md for coverage and provenance.",
+      "data_files": 2
+    },
+    {
+      "name": "U.S. News rankings",
+      "source_url": "https://www.usnews.com/best-colleges/rankings",
+      "sheet_description": "Published institutional ranking results and methodology",
+      "constraints": "Not an open bulk dataset; do not scrape without permission",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "Times Higher Education rankings",
+      "source_url": "https://www.timeshighereducation.com/world-university-rankings",
+      "sheet_description": "Global rankings and indicators",
+      "constraints": "Commercial access and reuse restrictions",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "QS subject rankings",
+      "source_url": "https://www.topuniversities.com/subject-rankings",
+      "sheet_description": "Subject ranking positions and methodology",
+      "constraints": "Not generally open bulk data",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "ShanghaiRanking ARWU",
+      "source_url": "https://www.shanghairanking.com/rankings/arwu/2026",
+      "sheet_description": "Academic ranking positions and research-focused methodology",
+      "constraints": "Not generally open bulk data",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "Web of Science API",
+      "source_url": "https://developer.clarivate.com/apis/wos",
+      "sheet_description": "Indexed publication metadata, citations and scholarly connections",
+      "constraints": "Access/quotas may require subscription",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "Google Scholar",
+      "source_url": "https://scholar.google.com/",
+      "sheet_description": "Searchable scholarly records and citations",
+      "constraints": "Avoid unapproved automated scraping",
+      "files": [],
+      "errors": [],
+      "status": "restricted_or_no_bulk_export",
+      "scope": "Source link retained; no licensed data or unapproved scraping downloaded.",
+      "data_files": 0
+    },
+    {
+      "name": "Bluebikes system data",
+      "source_url": "https://bluebikes.com/system-data",
+      "sheet_description": "Trip-level bike-share journeys and station activity",
+      "constraints": "Only Bluebikes service area; respect data terms",
+      "files": [
+        {
+          "url": "https://bluebikes.com/system-data",
+          "resolved_url": "https://bluebikes.com/system-data",
+          "file": "open-datasets/bluebikes-system-data/source-page.html",
+          "bytes": 128420,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4e6fb90643c9b637d9d4607b6904ddb573cb248994a9b18b23327f467aacd20e"
+        },
+        {
+          "url": "https://s3.amazonaws.com/hubway-data?list-type=2",
+          "resolved_url": "https://s3.amazonaws.com/hubway-data?list-type=2",
+          "file": "open-datasets/bluebikes-system-data/bucket.xml",
+          "bytes": 36323,
+          "content_type": "application/xml",
+          "sha256": "6b3cee0716fdf9be45b255f548aa8ee7e182d55fe7741e402a58a89cc4061b40"
+        },
+        {
+          "url": "https://s3.amazonaws.com/hubway-data/202608-bluebikes-tripdata.zip",
+          "resolved_url": "https://s3.amazonaws.com/hubway-data/202608-bluebikes-tripdata.zip",
+          "file": "open-datasets/bluebikes-system-data/202608-bluebikes-tripdata.zip",
+          "bytes": 22461227,
+          "content_type": "application/zip",
+          "sha256": "bbefb7b2d77bcd9ccaad50d1228a7226ab434c19006357a415a86f5b2dc18c23"
+        },
+        {
+          "url": "https://assets.ctfassets.net/p6ae3zqfb1e3/3BswRZgQMp0f8XWBLY6T19/60da57a4630102788a127902bfda9888/-External-_Bluebikes_Station_List__updated_08.21.26_.csv",
+          "resolved_url": "https://assets.ctfassets.net/p6ae3zqfb1e3/3BswRZgQMp0f8XWBLY6T19/60da57a4630102788a127902bfda9888/-External-_Bluebikes_Station_List__updated_08.21.26_.csv",
+          "file": "open-datasets/bluebikes-system-data/station-list.csv",
+          "bytes": 50233,
+          "content_type": "text/csv",
+          "sha256": "8dd73472d1e77813ff04b91a8595097eb587ca895894e3debc0112be84a01509",
+          "data_rows": 614
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "download_links": [
+        "https://s3.amazonaws.com/hubway-data/index.html"
+      ],
+      "scope": "Latest monthly trip ZIP present in the official bucket listing at retrieval, plus the linked station CSV. Not the complete history.",
+      "data_files": 2
+    },
+    {
+      "name": "Cambridge Broadway Eco-Totem",
+      "source_url": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg",
+      "sheet_description": "Automated bicycle counts on Broadway",
+      "constraints": "Single counter does not represent all Cambridge",
+      "files": [
+        {
+          "url": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg",
+          "resolved_url": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg",
+          "file": "open-datasets/cambridge-broadway-eco-totem/source-page.html",
+          "bytes": 554939,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "cf532f06920cac7cde1ac284c5bad898bd8c20a8cd56ae8ca4d4075c47733811"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/q8v9-mcfg.json",
+          "resolved_url": "https://data.cambridgema.gov/api/views/q8v9-mcfg.json",
+          "file": "open-datasets/cambridge-broadway-eco-totem/metadata.json",
+          "bytes": 18107,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "079583586358474cc7f22326950e74446ac7b0b186b1dede5246fa3652bb8171"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/q8v9-mcfg/rows.csv?accessType=DOWNLOAD",
+          "resolved_url": "https://data.cambridgema.gov/api/views/q8v9-mcfg/rows.csv?accessType=DOWNLOAD",
+          "file": "open-datasets/cambridge-broadway-eco-totem/data.csv",
+          "bytes": 17945783,
+          "content_type": "text/csv; charset=utf-8",
+          "sha256": "9c26e1c696f58dd47c10bbe613b605b6550c327afa1eda91a8eb3a841b0b45ae",
+          "data_rows": 306854
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete CSV export of the linked Socrata dataset at retrieval time.",
+      "data_files": 1
+    },
+    {
+      "name": "Cambridge Fresh Pond usership",
+      "source_url": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data",
+      "sheet_description": "Fresh Pond Reservation usership counts",
+      "constraints": "Limited geography and measurement coverage",
+      "files": [
+        {
+          "url": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data",
+          "resolved_url": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data",
+          "file": "open-datasets/cambridge-fresh-pond-usership/source-page.html",
+          "bytes": 583474,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fd5a4be1f9fb5dc38b5f3d4cbb74550def5bb6a2c091a9c43fcaec18f6effe69"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/6xy8-cstb.json",
+          "resolved_url": "https://data.cambridgema.gov/api/views/6xy8-cstb.json",
+          "file": "open-datasets/cambridge-fresh-pond-usership/metadata.json",
+          "bytes": 41149,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "3586a2a5a5bfe300126c91c4b66019a7a444979394430e955276fc645d774d0a"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/6xy8-cstb/rows.csv?accessType=DOWNLOAD",
+          "resolved_url": "https://data.cambridgema.gov/api/views/6xy8-cstb/rows.csv?accessType=DOWNLOAD",
+          "file": "open-datasets/cambridge-fresh-pond-usership/data.csv",
+          "bytes": 13744158,
+          "content_type": "text/csv; charset=utf-8",
+          "sha256": "07dab726efec8e58ae53e87d271bb2623305d24203d2505b0f8aa92b9b9b1fe6",
+          "data_rows": 122568
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete CSV export of the linked Socrata dataset at retrieval time.",
+      "data_files": 1
+    },
+    {
+      "name": "Cambridge citywide bicycle counts",
+      "source_url": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data",
+      "sheet_description": "Bicycle counts at multiple Cambridge locations",
+      "constraints": "Count periods and locations vary",
+      "files": [
+        {
+          "url": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data",
+          "resolved_url": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data",
+          "file": "open-datasets/cambridge-citywide-bicycle-counts/source-page.html",
+          "bytes": 576792,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c8e42f51ca331caaad1a104c50407a8be252c65d4f0cde613c4c31ed9035dcb2"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/ijm6-q7em.json",
+          "resolved_url": "https://data.cambridgema.gov/api/views/ijm6-q7em.json",
+          "file": "open-datasets/cambridge-citywide-bicycle-counts/metadata.json",
+          "bytes": 34019,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "5ccf24c996f2847d5fefc39bcd3e8496583e141c7ad196f450ac7ab1ac650a52"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/ijm6-q7em/rows.csv?accessType=DOWNLOAD",
+          "resolved_url": "https://data.cambridgema.gov/api/views/ijm6-q7em/rows.csv?accessType=DOWNLOAD",
+          "file": "open-datasets/cambridge-citywide-bicycle-counts/data.csv",
+          "bytes": 47443418,
+          "content_type": "text/csv; charset=utf-8",
+          "sha256": "8d8bb3799ca815ec5eb027992411cc22cb9a7caee7e7cae02d2f5bfab6dbd4cf",
+          "data_rows": 238799
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete CSV export of the linked Socrata dataset at retrieval time.",
+      "data_files": 1
+    },
+    {
+      "name": "Boston bicycle count dashboard",
+      "source_url": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa",
+      "sheet_description": "Boston bicycle count monitoring and visualizations",
+      "constraints": "Confirm export availability and sensor coverage",
+      "files": [
+        {
+          "url": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa",
+          "resolved_url": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa",
+          "file": "open-datasets/boston-bicycle-count-dashboard/source-page.html",
+          "bytes": 2354,
+          "content_type": "text/html",
+          "sha256": "2908efa909cb4fddd73868a8800b3ffbf453dfb844a6f39d28cc6db74c30457c"
+        },
+        {
+          "url": "https://www.arcgis.com/sharing/rest/content/items/3491f78e46a545fe8186ad70ebe897aa/data?f=json",
+          "resolved_url": "https://www.arcgis.com/sharing/rest/content/items/3491f78e46a545fe8186ad70ebe897aa/data?f=json",
+          "file": "open-datasets/boston-bicycle-count-dashboard/dashboard.json",
+          "bytes": 27879,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "46307b5bf408e3539a1fcec61afd284af1a1649e97b0b6e37c462fa172072dd7"
+        },
+        {
+          "url": "https://www.arcgis.com/sharing/rest/content/items/3491f78e46a545fe8186ad70ebe897aa?f=json",
+          "resolved_url": "https://www.arcgis.com/sharing/rest/content/items/3491f78e46a545fe8186ad70ebe897aa?f=json",
+          "file": "open-datasets/boston-bicycle-count-dashboard/metadata.json",
+          "bytes": 1059,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "a907142b9c420fb3e7892ac663e6fb6a6fe5a8607ffca9a1efb72a254dd8d362"
+        },
+        {
+          "url": "https://www.arcgis.com/sharing/rest/content/items/35b5008743be439096ceebd61cf1bc17/data?f=json",
+          "resolved_url": "https://www.arcgis.com/sharing/rest/content/items/35b5008743be439096ceebd61cf1bc17/data?f=json",
+          "file": "open-datasets/boston-bicycle-count-dashboard/webmap.json",
+          "bytes": 248928,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "417f1640c1dadd95cde4a13690d00f23de7bbd5c3171f961cc157e5dcda9a493"
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Daily_Bike_Counts/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "resolved_url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Daily_Bike_Counts/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "file": "open-datasets/boston-bicycle-count-dashboard/layer-0.geojson",
+          "bytes": 509003,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "a2e5b655dd8aa886e7ac44748480fff477d438f793ecbd765d702b62c1264e00",
+          "features": 1000,
+          "complete": false
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Count_Date_Weather_List/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "resolved_url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Count_Date_Weather_List/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "file": "open-datasets/boston-bicycle-count-dashboard/layer-1.geojson",
+          "bytes": 26735,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "926a534d2b04c30049a240333c941cb1040f0a9cd614c0af65b57a325d7f82c8",
+          "features": 145,
+          "complete": true
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Hourly_Bike_Counts/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "resolved_url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Hourly_Bike_Counts/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "file": "open-datasets/boston-bicycle-count-dashboard/layer-2.geojson",
+          "bytes": 503348,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "43233641a91c78b1ddf76e65633ac718e2aa2f9876f0bc6090281d35764052e2",
+          "features": 1000,
+          "complete": false
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/active_transportation_network_gdb/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "resolved_url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/active_transportation_network_gdb/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&resultRecordCount=10000",
+          "file": "open-datasets/boston-bicycle-count-dashboard/layer-3.geojson",
+          "bytes": 1754719,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "477fa3c07762a7cc3b9f0752bd1adae29b56f8a8a838f473ca7f5c140b2de702",
+          "features": 2000,
+          "complete": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Daily_Bike_Counts/FeatureServer/0",
+          "error": "Export is limited or returned an API error; inspect layer response."
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Streets_Hourly_Bike_Counts/FeatureServer/0",
+          "error": "Export is limited or returned an API error; inspect layer response."
+        },
+        {
+          "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/active_transportation_network_gdb/FeatureServer/0",
+          "error": "Export is limited or returned an API error; inspect layer response."
+        }
+      ],
+      "status": "downloaded",
+      "related_arcgis_items": [
+        "35b5008743be439096ceebd61cf1bc17",
+        "fa5bd7b3b6d245a9af16063635dd5391"
+      ],
+      "scope": "Bounded feature-layer snapshots from the dashboard webmap: three layers are partial API-limited samples (1,000 / 1,000 / 2,000 features), one layer has 145 features. See per-file complete flags.",
+      "data_files": 4
+    },
+    {
+      "name": "Boston Numina multimodal sensors",
+      "source_url": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+      "sheet_description": "Sensor measurements of multimodal street activity",
+      "constraints": "Sensors only cover selected locations",
+      "files": [
+        {
+          "url": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+          "resolved_url": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+          "file": "open-datasets/boston-numina-multimodal-sensors/source-page.html",
+          "bytes": 62173,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "9bca869d3ceee44a2bc0398b57f69491ac919989ecb2d9a00f08fa8bf76d177f"
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/package_show?id=numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+          "resolved_url": "https://data.boston.gov/api/3/action/package_show?id=numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+          "file": "open-datasets/boston-numina-multimodal-sensors/metadata.json",
+          "bytes": 21919,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "dea8cf22561fea4528ac222da894c66c45b1c9fb4f2ff9ed27588daf0a03c1a9"
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=546c819e-97fd-4d27-9757-5bba41f9fcb1&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=546c819e-97fd-4d27-9757-5bba41f9fcb1&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/546c819e-97fd-4d27-9757-5bba41f9fcb1.json",
+          "bytes": 3265180,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "c987f22f3a6930b1e1bc96e143635146b859a5d6af1cc7827dfb5508382d2f97",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=c8e8bce9-382c-4798-bade-9233df8dde60&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=c8e8bce9-382c-4798-bade-9233df8dde60&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/c8e8bce9-382c-4798-bade-9233df8dde60.json",
+          "bytes": 3267289,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "c32938d0f0f4b483bd2828b07e0ef2359012830aaa67813704ea461a79b86afd",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=784da106-da55-45a6-a0dd-554f81d1f602&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=784da106-da55-45a6-a0dd-554f81d1f602&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/784da106-da55-45a6-a0dd-554f81d1f602.json",
+          "bytes": 3254336,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "7d7ff449529547901417195629ba9586a2d297a5a1175558bd3f0b94b364b658",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=b0b51080-55ef-46bd-84a2-f64e1ae9701e&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=b0b51080-55ef-46bd-84a2-f64e1ae9701e&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/b0b51080-55ef-46bd-84a2-f64e1ae9701e.json",
+          "bytes": 3265201,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "2171d422166185e1a97ef4a7b555a9de4da1c6571145703c55b181077e6ba5cf",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=d47f85e5-07f9-4c77-8471-5283d61c4645&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=d47f85e5-07f9-4c77-8471-5283d61c4645&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/d47f85e5-07f9-4c77-8471-5283d61c4645.json",
+          "bytes": 4616581,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "0cdf9a2dfe37a39dd2211cf7ff22d30b453afa7be72c5e45d9fda7db57755387",
+          "data_rows": 35400,
+          "total_rows": 35400,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=d6c06150-418d-4705-b0c9-e92afd23ede7&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=d6c06150-418d-4705-b0c9-e92afd23ede7&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/d6c06150-418d-4705-b0c9-e92afd23ede7.json",
+          "bytes": 4628686,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "c4c5d159806954fa7f2b011f4a9e450979b55ebe6fbcebe04f272598780e25d3",
+          "data_rows": 35400,
+          "total_rows": 35400,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=371fe13a-258a-44fd-8455-6766be95cdbc&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=371fe13a-258a-44fd-8455-6766be95cdbc&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/371fe13a-258a-44fd-8455-6766be95cdbc.json",
+          "bytes": 3263294,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "8c0e34bd08d4ecc760b3a7c95217a2dfdc77d3f6bf62e4222cda646525dacdfe",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=77914b24-91bd-437f-9efa-8c8463c21a0b&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=77914b24-91bd-437f-9efa-8c8463c21a0b&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/77914b24-91bd-437f-9efa-8c8463c21a0b.json",
+          "bytes": 3269856,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "e5e5cafc9344bcea34db47d06caaea7b8cd1cdb48b887549f3fc17f73466f418",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=f58dac33-8255-4274-862d-71f5a22b6f14&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=f58dac33-8255-4274-862d-71f5a22b6f14&limit=100000",
+          "file": "open-datasets/boston-numina-multimodal-sensors/f58dac33-8255-4274-862d-71f5a22b6f14.json",
+          "bytes": 3262469,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "9e9502770d0433116c87241c2a43ede26a98cc72c5269f11ad126c233a0af6a2",
+          "data_rows": 24965,
+          "total_rows": 24965,
+          "complete": true
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/546c819e-97fd-4d27-9757-5bba41f9fcb1/download/jackson-square-eastbound-lanes.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/c8e8bce9-382c-4798-bade-9233df8dde60/download/jackson-square-eastside-crosswalk.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/784da106-da55-45a6-a0dd-554f81d1f602/download/jackson-square-northside-sidewalk.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/b0b51080-55ef-46bd-84a2-f64e1ae9701e/download/jackson-square-westbound-lanes.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/d47f85e5-07f9-4c77-8471-5283d61c4645/download/northern-ave-northside-sidewalk.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/d6c06150-418d-4705-b0c9-e92afd23ede7/download/northern-ave-roadway.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/371fe13a-258a-44fd-8455-6766be95cdbc/download/tremont-diagonal-crossing.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/77914b24-91bd-437f-9efa-8c8463c21a0b/download/tremont-northside-crosswalk.csv",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://data.boston.gov/dataset/3b2ce71d-d7ca-4027-b971-7180c263d730/resource/f58dac33-8255-4274-862d-71f5a22b6f14/download/tremont-northwest-side-bicycles.csv",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "downloaded",
+      "scope": "CKAN metadata and any publicly exposed datastore records; original CSV download errors are retained.",
+      "data_files": 9,
+      "derived_files": [
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/546c819e-97fd-4d27-9757-5bba41f9fcb1.csv",
+          "bytes": 1392072,
+          "sha256": "2a440119b5349d5277bbfc1d207bc8a0f4de1551311fa10f94576687a1b12b01",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/546c819e-97fd-4d27-9757-5bba41f9fcb1.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/c8e8bce9-382c-4798-bade-9233df8dde60.csv",
+          "bytes": 1394181,
+          "sha256": "558ab1ff8bcfb0331bfaae3f13ab885791a85a78fc39ffeaf4e44a003c8cace0",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/c8e8bce9-382c-4798-bade-9233df8dde60.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/784da106-da55-45a6-a0dd-554f81d1f602.csv",
+          "bytes": 1381228,
+          "sha256": "99684416176d851f0f1763ab4439b2245332da626bf48e5bc1119946d2093afb",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/784da106-da55-45a6-a0dd-554f81d1f602.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/b0b51080-55ef-46bd-84a2-f64e1ae9701e.csv",
+          "bytes": 1392093,
+          "sha256": "b2c7448ebacd14c825bc7cfc4322806298ddd35de6fe5ddcd2ae045b52cda0c4",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/b0b51080-55ef-46bd-84a2-f64e1ae9701e.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/d47f85e5-07f9-4c77-8471-5283d61c4645.csv",
+          "bytes": 1960848,
+          "sha256": "85651d7f006787773f95b85976035baa7a306c0b1196f608be8c5aa7b4155ce8",
+          "data_rows": 35400,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/d47f85e5-07f9-4c77-8471-5283d61c4645.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/d6c06150-418d-4705-b0c9-e92afd23ede7.csv",
+          "bytes": 1972953,
+          "sha256": "856d86e617e7603ec7af0e65921d700f51f9fbbe395d17f484c9ae3111e8e85e",
+          "data_rows": 35400,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/d6c06150-418d-4705-b0c9-e92afd23ede7.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/371fe13a-258a-44fd-8455-6766be95cdbc.csv",
+          "bytes": 1390186,
+          "sha256": "5a7cf0a6d935ca92e8fbdffdce1350df03809da5e3533447b411ab49ae4b00ba",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/371fe13a-258a-44fd-8455-6766be95cdbc.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/77914b24-91bd-437f-9efa-8c8463c21a0b.csv",
+          "bytes": 1396748,
+          "sha256": "9fa66e1ca196314a9b97f0a3384731b6645dbb7fe2b8ec43426d99c21258be2c",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/77914b24-91bd-437f-9efa-8c8463c21a0b.json"
+        },
+        {
+          "file": "open-datasets/boston-numina-multimodal-sensors/f58dac33-8255-4274-862d-71f5a22b6f14.csv",
+          "bytes": 1389361,
+          "sha256": "60b165bcefffd4bc45005abc5c714c91291b2b79f8ec14da731a22316795ca18",
+          "data_rows": 24965,
+          "derived_from": "open-datasets/boston-numina-multimodal-sensors/f58dac33-8255-4274-862d-71f5a22b6f14.json"
+        }
+      ]
+    },
+    {
+      "name": "MassDOT count dashboard",
+      "source_url": "https://mhd.ms2soft.com/tdms.ui/nmds/dashboard?loc=mhd",
+      "sheet_description": "Massachusetts transportation count stations and monitoring",
+      "constraints": "Check available modes and temporal coverage",
+      "files": [],
+      "errors": [
+        {
+          "url": "https://mhd.ms2soft.com/tdms.ui/nmds/dashboard?loc=mhd",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "unavailable",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 0
+    },
+    {
+      "name": "Boston MPO bike/ped counts",
+      "source_url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html",
+      "sheet_description": "Regional bicycle and pedestrian count locations and records",
+      "constraints": "Boston metro geography only",
+      "files": [
+        {
+          "url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html",
+          "resolved_url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html",
+          "file": "open-datasets/boston-mpo-bike-ped-counts/source-page.html",
+          "bytes": 5550,
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "2b259a0ed5ddecda49bcf6f9b7a602eb9f435c0f9c0aa3c21cf10ed14b52f926"
+        },
+        {
+          "url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/js/common.js",
+          "resolved_url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/js/common.js",
+          "file": "open-datasets/boston-mpo-bike-ped-counts/common.js",
+          "bytes": 26083,
+          "content_type": "application/javascript;charset=UTF-8",
+          "sha256": "1014c9a24834e51937573f6239e65b134384d6cc3d2fec9254e9118f3d22b038"
+        },
+        {
+          "url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/data/csv/bp_counts.csv",
+          "resolved_url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/data/csv/bp_counts.csv",
+          "file": "open-datasets/boston-mpo-bike-ped-counts/bp_counts.csv",
+          "bytes": 1633249,
+          "content_type": "text/csv;charset=UTF-8",
+          "sha256": "092b1debf714a8d3b884fb68c43b00755b3499ddf14058b804fce344c1f9c6b4",
+          "data_rows": 8228
+        },
+        {
+          "url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/js/main.js",
+          "resolved_url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/js/main.js",
+          "file": "open-datasets/boston-mpo-bike-ped-counts/main.js",
+          "bytes": 28187,
+          "content_type": "application/javascript;charset=UTF-8",
+          "sha256": "836cd1a089a79d70ff1b4a54b560ea4e25aa6b364bee05c9e6232b8c072335a3"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/d3.csv",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "status": "downloaded",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 1
+    },
+    {
+      "name": "Somerville bicycle & pedestrian counts",
+      "source_url": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data",
+      "sheet_description": "Counts of cyclists and pedestrians at Somerville locations",
+      "constraints": "Count locations and periods vary",
+      "files": [
+        {
+          "url": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data",
+          "resolved_url": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data",
+          "file": "open-datasets/somerville-bicycle-pedestrian-counts/source-page.html",
+          "bytes": 555647,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "00733211f495535aa7916b6ab444eda27527e0f232ccd754b93c5cac965bcf02"
+        },
+        {
+          "url": "https://data.somervillema.gov/api/views/qu9x-4xq5.json",
+          "resolved_url": "https://data.somervillema.gov/api/views/qu9x-4xq5.json",
+          "file": "open-datasets/somerville-bicycle-pedestrian-counts/metadata.json",
+          "bytes": 17094,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "67da272e71f38a3eb3f555ea38966433d310a75c524c95d89932689ec45155d2"
+        },
+        {
+          "url": "https://data.somervillema.gov/api/views/qu9x-4xq5/rows.csv?accessType=DOWNLOAD",
+          "resolved_url": "https://data.somervillema.gov/api/views/qu9x-4xq5/rows.csv?accessType=DOWNLOAD",
+          "file": "open-datasets/somerville-bicycle-pedestrian-counts/data.csv",
+          "bytes": 155657,
+          "content_type": "text/csv; charset=utf-8",
+          "sha256": "d7c13ca5b3d1b969842f07be6fa239c0e4929a70fbf0eb6f7ed0dfc30514238c",
+          "data_rows": 2532
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete CSV export of the linked Socrata dataset at retrieval time.",
+      "data_files": 1
+    },
+    {
+      "name": "Boston Vision Zero crash records",
+      "source_url": "https://data.boston.gov/dataset/vision-zero-crash-records",
+      "sheet_description": "Boston Vision Zero crash records from local reporting",
+      "constraints": "Not interchangeable with state crash reports; definitions differ",
+      "files": [
+        {
+          "url": "https://data.boston.gov/dataset/vision-zero-crash-records",
+          "resolved_url": "https://data.boston.gov/dataset/vision-zero-crash-records",
+          "file": "open-datasets/boston-vision-zero-crash-records/source-page.html",
+          "bytes": 45656,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f69310fd300b7ab74136b873ad537f826bc74c007ed5c9bb21a27bd0bcf6386b"
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/package_show?id=vision-zero-crash-records",
+          "resolved_url": "https://data.boston.gov/api/3/action/package_show?id=vision-zero-crash-records",
+          "file": "open-datasets/boston-vision-zero-crash-records/metadata.json",
+          "bytes": 10316,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "573e260011d458819e5463fea0975f8937668dcdc5b87f988f87059d4448136f"
+        },
+        {
+          "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=e4bfe397-6bfc-49c5-9367-c879fac7401d&limit=100000",
+          "resolved_url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=e4bfe397-6bfc-49c5-9367-c879fac7401d&limit=100000",
+          "file": "open-datasets/boston-vision-zero-crash-records/e4bfe397-6bfc-49c5-9367-c879fac7401d.json",
+          "bytes": 12793729,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "9cf9f17ed36a3907b833a8743eb6353e6e2c73dac0eaf053ebcafdf0a2bcbe8f",
+          "data_rows": 44986,
+          "total_rows": 44986,
+          "complete": true
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://data.boston.gov/dataset/7b29c1b2-7ec2-4023-8292-c24f5d8f0905/resource/e4bfe397-6bfc-49c5-9367-c879fac7401d/download/tmpgxjopxm7.csv",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "status": "downloaded",
+      "scope": "CKAN metadata and any publicly exposed datastore records; original CSV download errors are retained.",
+      "data_files": 1,
+      "derived_files": [
+        {
+          "file": "open-datasets/boston-vision-zero-crash-records/e4bfe397-6bfc-49c5-9367-c879fac7401d.csv",
+          "bytes": 5847300,
+          "sha256": "de20e6e68631e8344547dec8ad4447394a6916d8d6543bc7ca6048776ab213bc",
+          "data_rows": 44986,
+          "derived_from": "open-datasets/boston-vision-zero-crash-records/e4bfe397-6bfc-49c5-9367-c879fac7401d.json"
+        }
+      ]
+    },
+    {
+      "name": "MassDOT statewide crash data",
+      "source_url": "https://apps.crashdata.dot.mass.gov/cdp/home",
+      "sheet_description": "State crash records, locations, crash characteristics and injury information",
+      "constraints": "Geocoding gaps, reporting lag and duplicates require care",
+      "files": [
+        {
+          "url": "https://apps.crashdata.dot.mass.gov/cdp/home",
+          "resolved_url": "https://apps.crashdata.dot.mass.gov/cdp/home",
+          "file": "open-datasets/massdot-statewide-crash-data/source-page.html",
+          "bytes": 2506,
+          "content_type": "text/html",
+          "sha256": "0b57b0999ae374ba4fa933ef1c01aee281c77e1a6d62e901f4006f955959ca85"
+        },
+        {
+          "url": "https://www.arcgis.com/sharing/rest/content/items/b42f2c990f784716b320ae0499886591?f=json",
+          "resolved_url": "https://www.arcgis.com/sharing/rest/content/items/b42f2c990f784716b320ae0499886591?f=json",
+          "file": "open-datasets/massdot-statewide-crash-data/arcgis-metadata.json",
+          "bytes": 1243,
+          "content_type": "application/json;charset=utf-8",
+          "sha256": "ac5bc39f8718c4b26031a96b96e4189e473f16f809d73c33a4ba4e52789aa081"
+        },
+        {
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0?f=json",
+          "resolved_url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0?f=json",
+          "file": "open-datasets/massdot-statewide-crash-data/layer-metadata.json",
+          "bytes": 31160,
+          "content_type": "application/json;charset=UTF-8",
+          "sha256": "bc12e036187bf5eb53eb4a9bca3a8b39e080e2fc8b46d66a3a13d1cc88097844"
+        },
+        {
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&returnCountOnly=true&f=json",
+          "resolved_url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&returnCountOnly=true&f=json",
+          "file": "open-datasets/massdot-statewide-crash-data/boston-count.json",
+          "bytes": 14,
+          "content_type": "application/json;charset=UTF-8",
+          "sha256": "427635d5cd8b89794ac9ebbaa0b2c8723e9c88343f0f06debb9f68cf9158b849"
+        },
+        {
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=0&resultRecordCount=2000&orderByFields=OBJECTID",
+          "resolved_url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=0&resultRecordCount=2000&orderByFields=OBJECTID",
+          "file": "open-datasets/massdot-statewide-crash-data/boston-page-0.json",
+          "bytes": 7686990,
+          "content_type": "application/json;charset=UTF-8",
+          "sha256": "373463bc511e3ac480878cc6f2e372ca47e7ccafbddfe237c1f3733b576663c1",
+          "data_rows": 2000
+        },
+        {
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=2000&resultRecordCount=2000&orderByFields=OBJECTID",
+          "resolved_url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=2000&resultRecordCount=2000&orderByFields=OBJECTID",
+          "file": "open-datasets/massdot-statewide-crash-data/boston-page-2000.json",
+          "bytes": 7685928,
+          "content_type": "application/json;charset=UTF-8",
+          "sha256": "5dda6e91a77dbf7cf0faa1ba2f3889d62555c1e00ff2ceeccf1ce919129f476d",
+          "data_rows": 2000
+        },
+        {
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=4000&resultRecordCount=2000&orderByFields=OBJECTID",
+          "resolved_url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0/query?where=CITY_TOWN_NAME+%3D+%27BOSTON%27&outFields=%2A&outSR=4326&f=json&resultOffset=4000&resultRecordCount=2000&orderByFields=OBJECTID",
+          "file": "open-datasets/massdot-statewide-crash-data/boston-page-4000.json",
+          "bytes": 6463715,
+          "content_type": "application/json;charset=UTF-8",
+          "sha256": "59cacebf28df1c07fb259ab3021c2b5f52427fab6a81eedf0b7f64075ba6ab37",
+          "data_rows": 1692
+        },
+        {
+          "file": "open-datasets/massdot-statewide-crash-data/boston-2024.csv",
+          "bytes": 8456109,
+          "sha256": "4a8eb48b56d691c931d62effbc1282b6e88ea3219e6885be7738ac7877e14ef4",
+          "url": "https://gis.crashdata.dot.mass.gov/arcgis/rest/services/MassDOT/MASSDOT_ODP_OPEN_2024/FeatureServer/0",
+          "data_rows": 5692,
+          "total_rows": 5692,
+          "complete": true
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete Boston subset of the official MassDOT 2024 crash layer, verified against returnCountOnly. Not the statewide archive.",
+      "data_files": 4
+    },
+    {
+      "name": "Cambridge police crash data",
+      "source_url": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data",
+      "sheet_description": "Cambridge police crash records",
+      "constraints": "Compare cautiously against MassDOT records",
+      "files": [
+        {
+          "url": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data",
+          "resolved_url": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data",
+          "file": "open-datasets/cambridge-police-crash-data/source-page.html",
+          "bytes": 897999,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3154a67605e76bc73c938664c060adafc545900b44b4f841b129dd52d142df11"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/gb5w-yva3.json",
+          "resolved_url": "https://data.cambridgema.gov/api/views/gb5w-yva3.json",
+          "file": "open-datasets/cambridge-police-crash-data/metadata.json",
+          "bytes": 267149,
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "71e0ab390545bc8263538a817815e1b9b5a370c7019ec27d143adf65e63c81f7"
+        },
+        {
+          "url": "https://data.cambridgema.gov/api/views/gb5w-yva3/rows.csv?accessType=DOWNLOAD",
+          "resolved_url": "https://data.cambridgema.gov/api/views/gb5w-yva3/rows.csv?accessType=DOWNLOAD",
+          "file": "open-datasets/cambridge-police-crash-data/data.csv",
+          "bytes": 46884676,
+          "content_type": "text/csv; charset=utf-8",
+          "sha256": "b6365ea1e2345ee24ee16fc7aec74e2a49f2ebdaeea4bd1d3215b06c39d102b0",
+          "data_rows": 17230
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "Complete CSV export of the linked Socrata dataset at retrieval time.",
+      "data_files": 1
+    },
+    {
+      "name": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/",
+      "sheet_description": "Open map features including roads, paths and amenities",
+      "constraints": "Completeness varies; follow attribution/license",
+      "files": [
+        {
+          "url": "https://www.openstreetmap.org/",
+          "resolved_url": "https://www.openstreetmap.org/",
+          "file": "open-datasets/openstreetmap/source-page.html",
+          "bytes": 32303,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "bf87eda78e3adaec704e9d7625cdb406cdcc57b7b8f5aa7629b3e955f2eb1f9c"
+        },
+        {
+          "url": "https://www.openstreetmap.org/api/0.6/map?bbox=-71.113,42.345,-71.096,42.355",
+          "resolved_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-71.113,42.345,-71.096,42.355",
+          "file": "open-datasets/openstreetmap/bu-central-campus.osm",
+          "bytes": 6807718,
+          "content_type": "application/xml; charset=utf-8",
+          "sha256": "a0213f7140f649d1993632d8e653a7e424aa5d6d0bec454592732fa33063ffbe"
+        }
+      ],
+      "errors": [],
+      "status": "downloaded",
+      "scope": "BU central-campus bounding box only (-71.113,42.345,-71.096,42.355); ODbL, attribute OpenStreetMap contributors.",
+      "data_files": 1
+    },
+    {
+      "name": "Boston Cyclists Union data explainer",
+      "source_url": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking",
+      "sheet_description": "Context on local bike counting methods and coverage",
+      "constraints": "Not itself a downloadable dataset",
+      "files": [
+        {
+          "url": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking",
+          "resolved_url": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking",
+          "file": "open-datasets/boston-cyclists-union-data-explainer/source-page.html",
+          "bytes": 91034,
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1f84a28daa5100384cacf746ab25fc158ac6c60ee9e63fabd04e46985c3c7bcd"
+        }
+      ],
+      "errors": [],
+      "status": "reference_only",
+      "scope": "Direct downloadable data links from the supplied source page, if exposed (up to five files). Directory/dashboard HTML is documentation, not data.",
+      "data_files": 0
+    },
+    {
+      "name": "Massachusetts crash data background",
+      "source_url": "https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit",
+      "sheet_description": "Discussion of reporting gaps across state and municipal crash sources",
+      "constraints": "Reference material, not raw data",
+      "files": [
+        {
+          "file": "open-datasets/massachusetts-crash-data-background/document.txt",
+          "bytes": 11377,
+          "sha256": "54604473b027d8319235f0705feec89eb76bcfab3250eec1a83a837c601308b7",
+          "kind": "reference_document",
+          "url": "https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit"
+        }
+      ],
+      "errors": [],
+      "status": "reference_document",
+      "data_files": 0
+    }
+  ]
+}

@@ -1,0 +1,1842 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1RaA6ecNuExAW98tWhhlHTUMMjdj5xp6fN3RgJL7e9Qk/edit?gid=806827996",
+  "retrieved": "2026-10-24",
+  "spreadsheetId": "1RaA6ecNuExAW98tWhhlHTUMMjdj5xp6fN3RgJL7e9Qk",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1RaA6ecNuExAW98tWhhlHTUMMjdj5xp6fN3RgJL7e9Qk/edit?ouid=102634077235025321857",
+  "properties": {
+    "title": "College Hack Challenges DS+X",
+    "locale": "en_US",
+    "timeZone": "America/Los_Angeles"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 806827996,
+        "title": "Hack College Open Datasets",
+        "index": 1,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 24
+        }
+      },
+      "data": [
+        {
+          "rowData": [
+            {
+              "values": [
+                {
+                  "formattedValue": "DS+X College Hack Data Sets",
+                  "userEnteredValue": {
+                    "stringValue": "DS+X College Hack Data Sets"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Data",
+                  "userEnteredValue": {
+                    "stringValue": "Data"
+                  }
+                },
+                {
+                  "formattedValue": "Hackachusetts Challenge ",
+                  "userEnteredValue": {
+                    "stringValue": "Hackachusetts Challenge "
+                  }
+                },
+                {
+                  "formattedValue": "What the data does",
+                  "userEnteredValue": {
+                    "stringValue": "What the data does"
+                  }
+                },
+                {
+                  "formattedValue": "What is the data?",
+                  "userEnteredValue": {
+                    "stringValue": "What is the data?"
+                  }
+                },
+                {
+                  "formattedValue": "Link to the data",
+                  "userEnteredValue": {
+                    "stringValue": "Link to the data"
+                  }
+                },
+                {
+                  "formattedValue": "Data type",
+                  "userEnteredValue": {
+                    "stringValue": "Data type"
+                  }
+                },
+                {
+                  "formattedValue": "What could you do with this data?",
+                  "userEnteredValue": {
+                    "stringValue": "What could you do with this data?"
+                  }
+                },
+                {
+                  "formattedValue": "Constraints",
+                  "userEnteredValue": {
+                    "stringValue": "Constraints"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "IPEDS complete data files",
+                  "userEnteredValue": {
+                    "stringValue": "IPEDS complete data files"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Compare institutions and student outcomes",
+                  "userEnteredValue": {
+                    "stringValue": "Compare institutions and student outcomes"
+                  }
+                },
+                {
+                  "formattedValue": "Institutional enrollment, completions, staffing, finances, aid and graduation by reporting year",
+                  "userEnteredValue": {
+                    "stringValue": "Institutional enrollment, completions, staffing, finances, aid and graduation by reporting year"
+                  }
+                },
+                {
+                  "formattedValue": "https://nces.ed.gov/ipeds/use-the-data",
+                  "userEnteredValue": {
+                    "stringValue": "https://nces.ed.gov/ipeds/use-the-data"
+                  },
+                  "hyperlink": "https://nces.ed.gov/ipeds/use-the-data"
+                },
+                {
+                  "formattedValue": "CSV ZIP downloads",
+                  "userEnteredValue": {
+                    "stringValue": "CSV ZIP downloads"
+                  }
+                },
+                {
+                  "formattedValue": "Build an institutional fact-book dashboard or explore differences in completion rates",
+                  "userEnteredValue": {
+                    "stringValue": "Build an institutional fact-book dashboard or explore differences in completion rates"
+                  }
+                },
+                {
+                  "formattedValue": "Definitions and reporting years differ across variables",
+                  "userEnteredValue": {
+                    "stringValue": "Definitions and reporting years differ across variables"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "College Scorecard",
+                  "userEnteredValue": {
+                    "stringValue": "College Scorecard"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Explore affordability and return on education",
+                  "userEnteredValue": {
+                    "stringValue": "Explore affordability and return on education"
+                  }
+                },
+                {
+                  "formattedValue": "Institution and field-of-study costs, debt, earnings, completion and student outcomes",
+                  "userEnteredValue": {
+                    "stringValue": "Institution and field-of-study costs, debt, earnings, completion and student outcomes"
+                  }
+                },
+                {
+                  "formattedValue": "https://collegescorecard.ed.gov/data/",
+                  "userEnteredValue": {
+                    "stringValue": "https://collegescorecard.ed.gov/data/"
+                  },
+                  "hyperlink": "https://collegescorecard.ed.gov/data/"
+                },
+                {
+                  "formattedValue": "CSV ZIP / API",
+                  "userEnteredValue": {
+                    "stringValue": "CSV ZIP / API"
+                  }
+                },
+                {
+                  "formattedValue": "Create a personalized college value explorer",
+                  "userEnteredValue": {
+                    "stringValue": "Create a personalized college value explorer"
+                  }
+                },
+                {
+                  "formattedValue": "Suppressed values and differing cohorts; earnings not causal",
+                  "userEnteredValue": {
+                    "stringValue": "Suppressed values and differing cohorts; earnings not causal"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Massachusetts E2C Hub",
+                  "userEnteredValue": {
+                    "stringValue": "Massachusetts E2C Hub"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Trace education-to-workforce pathways",
+                  "userEnteredValue": {
+                    "stringValue": "Trace education-to-workforce pathways"
+                  }
+                },
+                {
+                  "formattedValue": "State education, enrollment, credentials, graduation and workforce datasets",
+                  "userEnteredValue": {
+                    "stringValue": "State education, enrollment, credentials, graduation and workforce datasets"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.mass.gov/info-details/e2c-hub-directory-of-datasets-and-reports",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.mass.gov/info-details/e2c-hub-directory-of-datasets-and-reports"
+                  },
+                  "hyperlink": "https://www.mass.gov/info-details/e2c-hub-directory-of-datasets-and-reports"
+                },
+                {
+                  "formattedValue": "Dataset directory; CSV/API for selected assets",
+                  "userEnteredValue": {
+                    "stringValue": "Dataset directory; CSV/API for selected assets"
+                  }
+                },
+                {
+                  "formattedValue": "Map transitions from high school to postsecondary education",
+                  "userEnteredValue": {
+                    "stringValue": "Map transitions from high school to postsecondary education"
+                  }
+                },
+                {
+                  "formattedValue": "Availability varies by dataset; no unrestricted individual-level records",
+                  "userEnteredValue": {
+                    "stringValue": "Availability varies by dataset; no unrestricted individual-level records"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "NSSE public displays",
+                  "userEnteredValue": {
+                    "stringValue": "NSSE public displays"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Understand engagement and belonging",
+                  "userEnteredValue": {
+                    "stringValue": "Understand engagement and belonging"
+                  }
+                },
+                {
+                  "formattedValue": "Survey indicators and aggregate displays for first-year and senior undergraduate engagement",
+                  "userEnteredValue": {
+                    "stringValue": "Survey indicators and aggregate displays for first-year and senior undergraduate engagement"
+                  }
+                },
+                {
+                  "formattedValue": "https://nsse.indiana.edu/nsse/reports-data/data-displays.html",
+                  "userEnteredValue": {
+                    "stringValue": "https://nsse.indiana.edu/nsse/reports-data/data-displays.html"
+                  },
+                  "hyperlink": "https://nsse.indiana.edu/nsse/reports-data/data-displays.html"
+                },
+                {
+                  "formattedValue": "Public dashboards / reports",
+                  "userEnteredValue": {
+                    "stringValue": "Public dashboards / reports"
+                  }
+                },
+                {
+                  "formattedValue": "Design a student engagement feedback dashboard or prototype",
+                  "userEnteredValue": {
+                    "stringValue": "Design a student engagement feedback dashboard or prototype"
+                  }
+                },
+                {
+                  "formattedValue": "Institution-level detailed microdata generally restricted",
+                  "userEnteredValue": {
+                    "stringValue": "Institution-level detailed microdata generally restricted"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "OpenAlex",
+                  "userEnteredValue": {
+                    "stringValue": "OpenAlex"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Discover research and collaboration",
+                  "userEnteredValue": {
+                    "stringValue": "Discover research and collaboration"
+                  }
+                },
+                {
+                  "formattedValue": "Scholarly works, authors, institutions, topics, citations and relationships",
+                  "userEnteredValue": {
+                    "stringValue": "Scholarly works, authors, institutions, topics, citations and relationships"
+                  }
+                },
+                {
+                  "formattedValue": "https://docs.openalex.org/",
+                  "userEnteredValue": {
+                    "stringValue": "https://docs.openalex.org/"
+                  },
+                  "hyperlink": "https://docs.openalex.org/"
+                },
+                {
+                  "formattedValue": "API / data snapshots",
+                  "userEnteredValue": {
+                    "stringValue": "API / data snapshots"
+                  }
+                },
+                {
+                  "formattedValue": "Build an interdisciplinary research or mentor discovery graph",
+                  "userEnteredValue": {
+                    "stringValue": "Build an interdisciplinary research or mentor discovery graph"
+                  }
+                },
+                {
+                  "formattedValue": "Research output is not proof of mentoring availability",
+                  "userEnteredValue": {
+                    "stringValue": "Research output is not proof of mentoring availability"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "MassGIS colleges and universities",
+                  "userEnteredValue": {
+                    "stringValue": "MassGIS colleges and universities"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Map campus locations and access",
+                  "userEnteredValue": {
+                    "stringValue": "Map campus locations and access"
+                  }
+                },
+                {
+                  "formattedValue": "Geographic locations of colleges and universities in Massachusetts",
+                  "userEnteredValue": {
+                    "stringValue": "Geographic locations of colleges and universities in Massachusetts"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.mass.gov/info-details/massgis-data-colleges-and-universities",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.mass.gov/info-details/massgis-data-colleges-and-universities"
+                  },
+                  "hyperlink": "https://www.mass.gov/info-details/massgis-data-colleges-and-universities"
+                },
+                {
+                  "formattedValue": "GIS downloads / map services",
+                  "userEnteredValue": {
+                    "stringValue": "GIS downloads / map services"
+                  }
+                },
+                {
+                  "formattedValue": "Map transit access and services around nine campuses",
+                  "userEnteredValue": {
+                    "stringValue": "Map transit access and services around nine campuses"
+                  }
+                },
+                {
+                  "formattedValue": "Locations do not represent all buildings or accessibility features",
+                  "userEnteredValue": {
+                    "stringValue": "Locations do not represent all buildings or accessibility features"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "O*NET database",
+                  "userEnteredValue": {
+                    "stringValue": "O*NET database"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Connect skills to careers",
+                  "userEnteredValue": {
+                    "stringValue": "Connect skills to careers"
+                  }
+                },
+                {
+                  "formattedValue": "Occupation descriptions, tasks, skills, abilities and work activities",
+                  "userEnteredValue": {
+                    "stringValue": "Occupation descriptions, tasks, skills, abilities and work activities"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.onetcenter.org/database.html",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.onetcenter.org/database.html"
+                  },
+                  "hyperlink": "https://www.onetcenter.org/database.html"
+                },
+                {
+                  "formattedValue": "Downloadable files",
+                  "userEnteredValue": {
+                    "stringValue": "Downloadable files"
+                  }
+                },
+                {
+                  "formattedValue": "Build a skill-to-career recommendation explorer",
+                  "userEnteredValue": {
+                    "stringValue": "Build a skill-to-career recommendation explorer"
+                  }
+                },
+                {
+                  "formattedValue": "Occupational profiles are generalized, not live vacancies",
+                  "userEnteredValue": {
+                    "stringValue": "Occupational profiles are generalized, not live vacancies"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "BLS OEWS",
+                  "userEnteredValue": {
+                    "stringValue": "BLS OEWS"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Understand occupations and wages",
+                  "userEnteredValue": {
+                    "stringValue": "Understand occupations and wages"
+                  }
+                },
+                {
+                  "formattedValue": "Occupational employment estimates and wages by industry and region",
+                  "userEnteredValue": {
+                    "stringValue": "Occupational employment estimates and wages by industry and region"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.bls.gov/oes/tables.htm",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.bls.gov/oes/tables.htm"
+                  },
+                  "hyperlink": "https://www.bls.gov/oes/tables.htm"
+                },
+                {
+                  "formattedValue": "XLSX / tables",
+                  "userEnteredValue": {
+                    "stringValue": "XLSX / tables"
+                  }
+                },
+                {
+                  "formattedValue": "Compare career earnings and regional opportunities",
+                  "userEnteredValue": {
+                    "stringValue": "Compare career earnings and regional opportunities"
+                  }
+                },
+                {
+                  "formattedValue": "Wages are estimates; not individual job offers",
+                  "userEnteredValue": {
+                    "stringValue": "Wages are estimates; not individual job offers"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "MA public higher education performance",
+                  "userEnteredValue": {
+                    "stringValue": "MA public higher education performance"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Benchmark public college performance",
+                  "userEnteredValue": {
+                    "stringValue": "Benchmark public college performance"
+                  }
+                },
+                {
+                  "formattedValue": "Public higher education performance indicators and reporting",
+                  "userEnteredValue": {
+                    "stringValue": "Public higher education performance indicators and reporting"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.mass.edu/datacenter/PMRS/home.asp",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.mass.edu/datacenter/PMRS/home.asp"
+                  },
+                  "hyperlink": "https://www.mass.edu/datacenter/PMRS/home.asp"
+                },
+                {
+                  "formattedValue": "Reports / tables",
+                  "userEnteredValue": {
+                    "stringValue": "Reports / tables"
+                  }
+                },
+                {
+                  "formattedValue": "Compare outcomes at Massachusetts public institutions",
+                  "userEnteredValue": {
+                    "stringValue": "Compare outcomes at Massachusetts public institutions"
+                  }
+                },
+                {
+                  "formattedValue": "Scope excludes many private institutions",
+                  "userEnteredValue": {
+                    "stringValue": "Scope excludes many private institutions"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "MA college and career outcomes",
+                  "userEnteredValue": {
+                    "stringValue": "MA college and career outcomes"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Understand transitions after high school",
+                  "userEnteredValue": {
+                    "stringValue": "Understand transitions after high school"
+                  }
+                },
+                {
+                  "formattedValue": "Massachusetts college enrollment and postsecondary pathway indicators",
+                  "userEnteredValue": {
+                    "stringValue": "Massachusetts college enrollment and postsecondary pathway indicators"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.mass.gov/info-details/massachusetts-college-and-career-outcomes-dashboard",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.mass.gov/info-details/massachusetts-college-and-career-outcomes-dashboard"
+                  },
+                  "hyperlink": "https://www.mass.gov/info-details/massachusetts-college-and-career-outcomes-dashboard"
+                },
+                {
+                  "formattedValue": "Dashboard / reports",
+                  "userEnteredValue": {
+                    "stringValue": "Dashboard / reports"
+                  }
+                },
+                {
+                  "formattedValue": "Visualize where college-going pathways differ",
+                  "userEnteredValue": {
+                    "stringValue": "Visualize where college-going pathways differ"
+                  }
+                },
+                {
+                  "formattedValue": "Check export options for specific views",
+                  "userEnteredValue": {
+                    "stringValue": "Check export options for specific views"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "American Community Survey",
+                  "userEnteredValue": {
+                    "stringValue": "American Community Survey"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Place education in local context",
+                  "userEnteredValue": {
+                    "stringValue": "Place education in local context"
+                  }
+                },
+                {
+                  "formattedValue": "Community income, education, housing, commuting and employment estimates",
+                  "userEnteredValue": {
+                    "stringValue": "Community income, education, housing, commuting and employment estimates"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.census.gov/",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.census.gov/"
+                  },
+                  "hyperlink": "https://data.census.gov/"
+                },
+                {
+                  "formattedValue": "CSV / API",
+                  "userEnteredValue": {
+                    "stringValue": "CSV / API"
+                  }
+                },
+                {
+                  "formattedValue": "Map barriers to college access by neighborhood",
+                  "userEnteredValue": {
+                    "stringValue": "Map barriers to college access by neighborhood"
+                  }
+                },
+                {
+                  "formattedValue": "Margins of error; avoid ecological inference",
+                  "userEnteredValue": {
+                    "stringValue": "Margins of error; avoid ecological inference"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "College Navigator",
+                  "userEnteredValue": {
+                    "stringValue": "College Navigator"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Help prospective students compare colleges",
+                  "userEnteredValue": {
+                    "stringValue": "Help prospective students compare colleges"
+                  }
+                },
+                {
+                  "formattedValue": "Institution profiles using federal postsecondary statistics",
+                  "userEnteredValue": {
+                    "stringValue": "Institution profiles using federal postsecondary statistics"
+                  }
+                },
+                {
+                  "formattedValue": "https://nces.ed.gov/collegenavigator/",
+                  "userEnteredValue": {
+                    "stringValue": "https://nces.ed.gov/collegenavigator/"
+                  },
+                  "hyperlink": "https://nces.ed.gov/collegenavigator/"
+                },
+                {
+                  "formattedValue": "Interactive profiles",
+                  "userEnteredValue": {
+                    "stringValue": "Interactive profiles"
+                  }
+                },
+                {
+                  "formattedValue": "Prototype a college exploration guide",
+                  "userEnteredValue": {
+                    "stringValue": "Prototype a college exploration guide"
+                  }
+                },
+                {
+                  "formattedValue": "Prefer IPEDS for bulk downloadable records",
+                  "userEnteredValue": {
+                    "stringValue": "Prefer IPEDS for bulk downloadable records"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "U.S. News rankings",
+                  "userEnteredValue": {
+                    "stringValue": "U.S. News rankings"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Challenge conventional definitions of quality",
+                  "userEnteredValue": {
+                    "stringValue": "Challenge conventional definitions of quality"
+                  }
+                },
+                {
+                  "formattedValue": "Published institutional ranking results and methodology",
+                  "userEnteredValue": {
+                    "stringValue": "Published institutional ranking results and methodology"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.usnews.com/best-colleges/rankings",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.usnews.com/best-colleges/rankings"
+                  },
+                  "hyperlink": "https://www.usnews.com/best-colleges/rankings"
+                },
+                {
+                  "formattedValue": "Website; licensing restrictions",
+                  "userEnteredValue": {
+                    "stringValue": "Website; licensing restrictions"
+                  }
+                },
+                {
+                  "formattedValue": "Compare ranking position with affordability and outcomes",
+                  "userEnteredValue": {
+                    "stringValue": "Compare ranking position with affordability and outcomes"
+                  }
+                },
+                {
+                  "formattedValue": "Not an open bulk dataset; do not scrape without permission",
+                  "userEnteredValue": {
+                    "stringValue": "Not an open bulk dataset; do not scrape without permission"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Times Higher Education rankings",
+                  "userEnteredValue": {
+                    "stringValue": "Times Higher Education rankings"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Explore global ranking criteria",
+                  "userEnteredValue": {
+                    "stringValue": "Explore global ranking criteria"
+                  }
+                },
+                {
+                  "formattedValue": "Global rankings and indicators",
+                  "userEnteredValue": {
+                    "stringValue": "Global rankings and indicators"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.timeshighereducation.com/world-university-rankings",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.timeshighereducation.com/world-university-rankings"
+                  },
+                  "hyperlink": "https://www.timeshighereducation.com/world-university-rankings"
+                },
+                {
+                  "formattedValue": "Website / licensed data",
+                  "userEnteredValue": {
+                    "stringValue": "Website / licensed data"
+                  }
+                },
+                {
+                  "formattedValue": "Create a ranking sensitivity explainer",
+                  "userEnteredValue": {
+                    "stringValue": "Create a ranking sensitivity explainer"
+                  }
+                },
+                {
+                  "formattedValue": "Commercial access and reuse restrictions",
+                  "userEnteredValue": {
+                    "stringValue": "Commercial access and reuse restrictions"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "QS subject rankings",
+                  "userEnteredValue": {
+                    "stringValue": "QS subject rankings"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Compare subject-level reputation",
+                  "userEnteredValue": {
+                    "stringValue": "Compare subject-level reputation"
+                  }
+                },
+                {
+                  "formattedValue": "Subject ranking positions and methodology",
+                  "userEnteredValue": {
+                    "stringValue": "Subject ranking positions and methodology"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.topuniversities.com/subject-rankings",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.topuniversities.com/subject-rankings"
+                  },
+                  "hyperlink": "https://www.topuniversities.com/subject-rankings"
+                },
+                {
+                  "formattedValue": "Website / licensed data",
+                  "userEnteredValue": {
+                    "stringValue": "Website / licensed data"
+                  }
+                },
+                {
+                  "formattedValue": "Show how subject rankings differ from overall rankings",
+                  "userEnteredValue": {
+                    "stringValue": "Show how subject rankings differ from overall rankings"
+                  }
+                },
+                {
+                  "formattedValue": "Not generally open bulk data",
+                  "userEnteredValue": {
+                    "stringValue": "Not generally open bulk data"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "ShanghaiRanking ARWU",
+                  "userEnteredValue": {
+                    "stringValue": "ShanghaiRanking ARWU"
+                  }
+                },
+                {
+                  "formattedValue": "Education & opportunity",
+                  "userEnteredValue": {
+                    "stringValue": "Education & opportunity"
+                  }
+                },
+                {
+                  "formattedValue": "Compare research-oriented ranking measures",
+                  "userEnteredValue": {
+                    "stringValue": "Compare research-oriented ranking measures"
+                  }
+                },
+                {
+                  "formattedValue": "Academic ranking positions and research-focused methodology",
+                  "userEnteredValue": {
+                    "stringValue": "Academic ranking positions and research-focused methodology"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.shanghairanking.com/rankings/arwu/2026",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.shanghairanking.com/rankings/arwu/2026"
+                  },
+                  "hyperlink": "https://www.shanghairanking.com/rankings/arwu/2026"
+                },
+                {
+                  "formattedValue": "Website / licensed data",
+                  "userEnteredValue": {
+                    "stringValue": "Website / licensed data"
+                  }
+                },
+                {
+                  "formattedValue": "Compare research rankings with student outcomes",
+                  "userEnteredValue": {
+                    "stringValue": "Compare research rankings with student outcomes"
+                  }
+                },
+                {
+                  "formattedValue": "Not generally open bulk data",
+                  "userEnteredValue": {
+                    "stringValue": "Not generally open bulk data"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Web of Science API",
+                  "userEnteredValue": {
+                    "stringValue": "Web of Science API"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Analyze citations and research impact",
+                  "userEnteredValue": {
+                    "stringValue": "Analyze citations and research impact"
+                  }
+                },
+                {
+                  "formattedValue": "Indexed publication metadata, citations and scholarly connections",
+                  "userEnteredValue": {
+                    "stringValue": "Indexed publication metadata, citations and scholarly connections"
+                  }
+                },
+                {
+                  "formattedValue": "https://developer.clarivate.com/apis/wos",
+                  "userEnteredValue": {
+                    "stringValue": "https://developer.clarivate.com/apis/wos"
+                  },
+                  "hyperlink": "https://developer.clarivate.com/apis/wos"
+                },
+                {
+                  "formattedValue": "API; entitlement may be required",
+                  "userEnteredValue": {
+                    "stringValue": "API; entitlement may be required"
+                  }
+                },
+                {
+                  "formattedValue": "Compare collaboration networks across institutions",
+                  "userEnteredValue": {
+                    "stringValue": "Compare collaboration networks across institutions"
+                  }
+                },
+                {
+                  "formattedValue": "Access/quotas may require subscription",
+                  "userEnteredValue": {
+                    "stringValue": "Access/quotas may require subscription"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Google Scholar",
+                  "userEnteredValue": {
+                    "stringValue": "Google Scholar"
+                  }
+                },
+                {
+                  "formattedValue": "College experiences",
+                  "userEnteredValue": {
+                    "stringValue": "College experiences"
+                  }
+                },
+                {
+                  "formattedValue": "Discover academic publications",
+                  "userEnteredValue": {
+                    "stringValue": "Discover academic publications"
+                  }
+                },
+                {
+                  "formattedValue": "Searchable scholarly records and citations",
+                  "userEnteredValue": {
+                    "stringValue": "Searchable scholarly records and citations"
+                  }
+                },
+                {
+                  "formattedValue": "https://scholar.google.com/",
+                  "userEnteredValue": {
+                    "stringValue": "https://scholar.google.com/"
+                  },
+                  "hyperlink": "https://scholar.google.com/"
+                },
+                {
+                  "formattedValue": "Website; no official general public API",
+                  "userEnteredValue": {
+                    "stringValue": "Website; no official general public API"
+                  }
+                },
+                {
+                  "formattedValue": "Find background literature for a research discovery tool",
+                  "userEnteredValue": {
+                    "stringValue": "Find background literature for a research discovery tool"
+                  }
+                },
+                {
+                  "formattedValue": "Avoid unapproved automated scraping",
+                  "userEnteredValue": {
+                    "stringValue": "Avoid unapproved automated scraping"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Bluebikes system data",
+                  "userEnteredValue": {
+                    "stringValue": "Bluebikes system data"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Understand bike-share mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Understand bike-share mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Trip-level bike-share journeys and station activity",
+                  "userEnteredValue": {
+                    "stringValue": "Trip-level bike-share journeys and station activity"
+                  }
+                },
+                {
+                  "formattedValue": "https://bluebikes.com/system-data",
+                  "userEnteredValue": {
+                    "stringValue": "https://bluebikes.com/system-data"
+                  },
+                  "hyperlink": "https://bluebikes.com/system-data"
+                },
+                {
+                  "formattedValue": "Monthly downloadable files",
+                  "userEnteredValue": {
+                    "stringValue": "Monthly downloadable files"
+                  }
+                },
+                {
+                  "formattedValue": "Map bike-share flows near campuses",
+                  "userEnteredValue": {
+                    "stringValue": "Map bike-share flows near campuses"
+                  }
+                },
+                {
+                  "formattedValue": "Only Bluebikes service area; respect data terms",
+                  "userEnteredValue": {
+                    "stringValue": "Only Bluebikes service area; respect data terms"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Cambridge Broadway Eco-Totem",
+                  "userEnteredValue": {
+                    "stringValue": "Cambridge Broadway Eco-Totem"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Measure bike traffic trends",
+                  "userEnteredValue": {
+                    "stringValue": "Measure bike traffic trends"
+                  }
+                },
+                {
+                  "formattedValue": "Automated bicycle counts on Broadway",
+                  "userEnteredValue": {
+                    "stringValue": "Automated bicycle counts on Broadway"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg"
+                  },
+                  "hyperlink": "https://data.cambridgema.gov/Transportation/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg"
+                },
+                {
+                  "formattedValue": "Open data portal / API",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal / API"
+                  }
+                },
+                {
+                  "formattedValue": "Visualize seasonality in bike traffic",
+                  "userEnteredValue": {
+                    "stringValue": "Visualize seasonality in bike traffic"
+                  }
+                },
+                {
+                  "formattedValue": "Single counter does not represent all Cambridge",
+                  "userEnteredValue": {
+                    "stringValue": "Single counter does not represent all Cambridge"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Cambridge Fresh Pond usership",
+                  "userEnteredValue": {
+                    "stringValue": "Cambridge Fresh Pond usership"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Explore public-space usage",
+                  "userEnteredValue": {
+                    "stringValue": "Explore public-space usage"
+                  }
+                },
+                {
+                  "formattedValue": "Fresh Pond Reservation usership counts",
+                  "userEnteredValue": {
+                    "stringValue": "Fresh Pond Reservation usership counts"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data"
+                  },
+                  "hyperlink": "https://data.cambridgema.gov/dataset/Fresh-Pond-Reservation-Usership/6xy8-cstb/about_data"
+                },
+                {
+                  "formattedValue": "Open data portal",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal"
+                  }
+                },
+                {
+                  "formattedValue": "Study use of shared outdoor space",
+                  "userEnteredValue": {
+                    "stringValue": "Study use of shared outdoor space"
+                  }
+                },
+                {
+                  "formattedValue": "Limited geography and measurement coverage",
+                  "userEnteredValue": {
+                    "stringValue": "Limited geography and measurement coverage"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Cambridge citywide bicycle counts",
+                  "userEnteredValue": {
+                    "stringValue": "Cambridge citywide bicycle counts"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Analyze cycling demand",
+                  "userEnteredValue": {
+                    "stringValue": "Analyze cycling demand"
+                  }
+                },
+                {
+                  "formattedValue": "Bicycle counts at multiple Cambridge locations",
+                  "userEnteredValue": {
+                    "stringValue": "Bicycle counts at multiple Cambridge locations"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data"
+                  },
+                  "hyperlink": "https://data.cambridgema.gov/Transportation/Citywide-Bicycle-Counts/ijm6-q7em/about_data"
+                },
+                {
+                  "formattedValue": "Open data portal / API",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal / API"
+                  }
+                },
+                {
+                  "formattedValue": "Identify campus-to-neighborhood cycling corridors",
+                  "userEnteredValue": {
+                    "stringValue": "Identify campus-to-neighborhood cycling corridors"
+                  }
+                },
+                {
+                  "formattedValue": "Count periods and locations vary",
+                  "userEnteredValue": {
+                    "stringValue": "Count periods and locations vary"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Boston bicycle count dashboard",
+                  "userEnteredValue": {
+                    "stringValue": "Boston bicycle count dashboard"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Explore local cycling patterns",
+                  "userEnteredValue": {
+                    "stringValue": "Explore local cycling patterns"
+                  }
+                },
+                {
+                  "formattedValue": "Boston bicycle count monitoring and visualizations",
+                  "userEnteredValue": {
+                    "stringValue": "Boston bicycle count monitoring and visualizations"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa"
+                  },
+                  "hyperlink": "https://www.arcgis.com/apps/dashboards/3491f78e46a545fe8186ad70ebe897aa"
+                },
+                {
+                  "formattedValue": "Interactive dashboard",
+                  "userEnteredValue": {
+                    "stringValue": "Interactive dashboard"
+                  }
+                },
+                {
+                  "formattedValue": "Compare bicycle use across locations",
+                  "userEnteredValue": {
+                    "stringValue": "Compare bicycle use across locations"
+                  }
+                },
+                {
+                  "formattedValue": "Confirm export availability and sensor coverage",
+                  "userEnteredValue": {
+                    "stringValue": "Confirm export availability and sensor coverage"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Boston Numina multimodal sensors",
+                  "userEnteredValue": {
+                    "stringValue": "Boston Numina multimodal sensors"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Study shared-street activity",
+                  "userEnteredValue": {
+                    "stringValue": "Study shared-street activity"
+                  }
+                },
+                {
+                  "formattedValue": "Sensor measurements of multimodal street activity",
+                  "userEnteredValue": {
+                    "stringValue": "Sensor measurements of multimodal street activity"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets"
+                  },
+                  "hyperlink": "https://data.boston.gov/dataset/numina-sensor-measurement-of-multimodal-activity-and-shared-streets"
+                },
+                {
+                  "formattedValue": "Open data portal",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal"
+                  }
+                },
+                {
+                  "formattedValue": "Build a street-use and safety dashboard",
+                  "userEnteredValue": {
+                    "stringValue": "Build a street-use and safety dashboard"
+                  }
+                },
+                {
+                  "formattedValue": "Sensors only cover selected locations",
+                  "userEnteredValue": {
+                    "stringValue": "Sensors only cover selected locations"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "MassDOT count dashboard",
+                  "userEnteredValue": {
+                    "stringValue": "MassDOT count dashboard"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Explore traffic and bicycle counts",
+                  "userEnteredValue": {
+                    "stringValue": "Explore traffic and bicycle counts"
+                  }
+                },
+                {
+                  "formattedValue": "Massachusetts transportation count stations and monitoring",
+                  "userEnteredValue": {
+                    "stringValue": "Massachusetts transportation count stations and monitoring"
+                  }
+                },
+                {
+                  "formattedValue": "https://mhd.ms2soft.com/tdms.ui/nmds/dashboard?loc=mhd",
+                  "userEnteredValue": {
+                    "stringValue": "https://mhd.ms2soft.com/tdms.ui/nmds/dashboard?loc=mhd"
+                  },
+                  "hyperlink": "https://mhd.ms2soft.com/tdms.ui/nmds/dashboard?loc=mhd"
+                },
+                {
+                  "formattedValue": "Dashboard / exports vary",
+                  "userEnteredValue": {
+                    "stringValue": "Dashboard / exports vary"
+                  }
+                },
+                {
+                  "formattedValue": "Compare mobility patterns around statewide campuses",
+                  "userEnteredValue": {
+                    "stringValue": "Compare mobility patterns around statewide campuses"
+                  }
+                },
+                {
+                  "formattedValue": "Check available modes and temporal coverage",
+                  "userEnteredValue": {
+                    "stringValue": "Check available modes and temporal coverage"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Boston MPO bike/ped counts",
+                  "userEnteredValue": {
+                    "stringValue": "Boston MPO bike/ped counts"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Compare regional active transportation",
+                  "userEnteredValue": {
+                    "stringValue": "Compare regional active transportation"
+                  }
+                },
+                {
+                  "formattedValue": "Regional bicycle and pedestrian count locations and records",
+                  "userEnteredValue": {
+                    "stringValue": "Regional bicycle and pedestrian count locations and records"
+                  }
+                },
+                {
+                  "formattedValue": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html",
+                  "userEnteredValue": {
+                    "stringValue": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html"
+                  },
+                  "hyperlink": "https://bostonmpo.org/geoserver/www/apps/bp-counts-app-01262024/index.html"
+                },
+                {
+                  "formattedValue": "Map / download options vary",
+                  "userEnteredValue": {
+                    "stringValue": "Map / download options vary"
+                  }
+                },
+                {
+                  "formattedValue": "Identify underserved active-mobility corridors",
+                  "userEnteredValue": {
+                    "stringValue": "Identify underserved active-mobility corridors"
+                  }
+                },
+                {
+                  "formattedValue": "Boston metro geography only",
+                  "userEnteredValue": {
+                    "stringValue": "Boston metro geography only"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Somerville bicycle & pedestrian counts",
+                  "userEnteredValue": {
+                    "stringValue": "Somerville bicycle & pedestrian counts"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Explore walking and cycling patterns",
+                  "userEnteredValue": {
+                    "stringValue": "Explore walking and cycling patterns"
+                  }
+                },
+                {
+                  "formattedValue": "Counts of cyclists and pedestrians at Somerville locations",
+                  "userEnteredValue": {
+                    "stringValue": "Counts of cyclists and pedestrians at Somerville locations"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data"
+                  },
+                  "hyperlink": "https://data.somervillema.gov/Transportation-Mobility/Bicycle-Pedestrian-Counts/qu9x-4xq5/about_data"
+                },
+                {
+                  "formattedValue": "Open data portal / API",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal / API"
+                  }
+                },
+                {
+                  "formattedValue": "Design safer walking and cycling routes",
+                  "userEnteredValue": {
+                    "stringValue": "Design safer walking and cycling routes"
+                  }
+                },
+                {
+                  "formattedValue": "Count locations and periods vary",
+                  "userEnteredValue": {
+                    "stringValue": "Count locations and periods vary"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Boston Vision Zero crash records",
+                  "userEnteredValue": {
+                    "stringValue": "Boston Vision Zero crash records"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Locate crash risk",
+                  "userEnteredValue": {
+                    "stringValue": "Locate crash risk"
+                  }
+                },
+                {
+                  "formattedValue": "Boston Vision Zero crash records from local reporting",
+                  "userEnteredValue": {
+                    "stringValue": "Boston Vision Zero crash records from local reporting"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.boston.gov/dataset/vision-zero-crash-records",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.boston.gov/dataset/vision-zero-crash-records"
+                  },
+                  "hyperlink": "https://data.boston.gov/dataset/vision-zero-crash-records"
+                },
+                {
+                  "formattedValue": "Open data portal",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal"
+                  }
+                },
+                {
+                  "formattedValue": "Map injury hotspots near campuses",
+                  "userEnteredValue": {
+                    "stringValue": "Map injury hotspots near campuses"
+                  }
+                },
+                {
+                  "formattedValue": "Not interchangeable with state crash reports; definitions differ",
+                  "userEnteredValue": {
+                    "stringValue": "Not interchangeable with state crash reports; definitions differ"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "MassDOT statewide crash data",
+                  "userEnteredValue": {
+                    "stringValue": "MassDOT statewide crash data"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Analyze roadway safety statewide",
+                  "userEnteredValue": {
+                    "stringValue": "Analyze roadway safety statewide"
+                  }
+                },
+                {
+                  "formattedValue": "State crash records, locations, crash characteristics and injury information",
+                  "userEnteredValue": {
+                    "stringValue": "State crash records, locations, crash characteristics and injury information"
+                  }
+                },
+                {
+                  "formattedValue": "https://apps.crashdata.dot.mass.gov/cdp/home",
+                  "userEnteredValue": {
+                    "stringValue": "https://apps.crashdata.dot.mass.gov/cdp/home"
+                  },
+                  "hyperlink": "https://apps.crashdata.dot.mass.gov/cdp/home"
+                },
+                {
+                  "formattedValue": "Data portal / filtered downloads",
+                  "userEnteredValue": {
+                    "stringValue": "Data portal / filtered downloads"
+                  }
+                },
+                {
+                  "formattedValue": "Build statewide safer-routes risk maps",
+                  "userEnteredValue": {
+                    "stringValue": "Build statewide safer-routes risk maps"
+                  }
+                },
+                {
+                  "formattedValue": "Geocoding gaps, reporting lag and duplicates require care",
+                  "userEnteredValue": {
+                    "stringValue": "Geocoding gaps, reporting lag and duplicates require care"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Cambridge police crash data",
+                  "userEnteredValue": {
+                    "stringValue": "Cambridge police crash data"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Understand local collision patterns",
+                  "userEnteredValue": {
+                    "stringValue": "Understand local collision patterns"
+                  }
+                },
+                {
+                  "formattedValue": "Cambridge police crash records",
+                  "userEnteredValue": {
+                    "stringValue": "Cambridge police crash records"
+                  }
+                },
+                {
+                  "formattedValue": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data",
+                  "userEnteredValue": {
+                    "stringValue": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data"
+                  },
+                  "hyperlink": "https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Updated/gb5w-yva3/about_data"
+                },
+                {
+                  "formattedValue": "Open data portal / API",
+                  "userEnteredValue": {
+                    "stringValue": "Open data portal / API"
+                  }
+                },
+                {
+                  "formattedValue": "Find dangerous intersections near campuses",
+                  "userEnteredValue": {
+                    "stringValue": "Find dangerous intersections near campuses"
+                  }
+                },
+                {
+                  "formattedValue": "Compare cautiously against MassDOT records",
+                  "userEnteredValue": {
+                    "stringValue": "Compare cautiously against MassDOT records"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "OpenStreetMap",
+                  "userEnteredValue": {
+                    "stringValue": "OpenStreetMap"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Map paths and destinations",
+                  "userEnteredValue": {
+                    "stringValue": "Map paths and destinations"
+                  }
+                },
+                {
+                  "formattedValue": "Open map features including roads, paths and amenities",
+                  "userEnteredValue": {
+                    "stringValue": "Open map features including roads, paths and amenities"
+                  }
+                },
+                {
+                  "formattedValue": "https://www.openstreetmap.org/",
+                  "userEnteredValue": {
+                    "stringValue": "https://www.openstreetmap.org/"
+                  },
+                  "hyperlink": "https://www.openstreetmap.org/"
+                },
+                {
+                  "formattedValue": "Open geographic data / APIs",
+                  "userEnteredValue": {
+                    "stringValue": "Open geographic data / APIs"
+                  }
+                },
+                {
+                  "formattedValue": "Prototype accessible walking and cycling navigation",
+                  "userEnteredValue": {
+                    "stringValue": "Prototype accessible walking and cycling navigation"
+                  }
+                },
+                {
+                  "formattedValue": "Completeness varies; follow attribution/license",
+                  "userEnteredValue": {
+                    "stringValue": "Completeness varies; follow attribution/license"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Boston Cyclists Union data explainer",
+                  "userEnteredValue": {
+                    "stringValue": "Boston Cyclists Union data explainer"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Interpret bicycle measurement sources",
+                  "userEnteredValue": {
+                    "stringValue": "Interpret bicycle measurement sources"
+                  }
+                },
+                {
+                  "formattedValue": "Context on local bike counting methods and coverage",
+                  "userEnteredValue": {
+                    "stringValue": "Context on local bike counting methods and coverage"
+                  }
+                },
+                {
+                  "formattedValue": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking",
+                  "userEnteredValue": {
+                    "stringValue": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking"
+                  },
+                  "hyperlink": "https://bostoncyclistsunion.org/how-does-boston-know-when-and-where-people-are-biking"
+                },
+                {
+                  "formattedValue": "Article / reference",
+                  "userEnteredValue": {
+                    "stringValue": "Article / reference"
+                  }
+                },
+                {
+                  "formattedValue": "Use as documentation for a mobility data project",
+                  "userEnteredValue": {
+                    "stringValue": "Use as documentation for a mobility data project"
+                  }
+                },
+                {
+                  "formattedValue": "Not itself a downloadable dataset",
+                  "userEnteredValue": {
+                    "stringValue": "Not itself a downloadable dataset"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "Massachusetts crash data background",
+                  "userEnteredValue": {
+                    "stringValue": "Massachusetts crash data background"
+                  }
+                },
+                {
+                  "formattedValue": "Places & mobility",
+                  "userEnteredValue": {
+                    "stringValue": "Places & mobility"
+                  }
+                },
+                {
+                  "formattedValue": "Understand crash data comparability",
+                  "userEnteredValue": {
+                    "stringValue": "Understand crash data comparability"
+                  }
+                },
+                {
+                  "formattedValue": "Discussion of reporting gaps across state and municipal crash sources",
+                  "userEnteredValue": {
+                    "stringValue": "Discussion of reporting gaps across state and municipal crash sources"
+                  }
+                },
+                {
+                  "formattedValue": "https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit",
+                  "userEnteredValue": {
+                    "stringValue": "https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit"
+                  },
+                  "hyperlink": "https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit"
+                },
+                {
+                  "formattedValue": "Background document",
+                  "userEnteredValue": {
+                    "stringValue": "Background document"
+                  }
+                },
+                {
+                  "formattedValue": "Document limitations in a crash mapping prototype",
+                  "userEnteredValue": {
+                    "stringValue": "Document limitations in a crash mapping prototype"
+                  }
+                },
+                {
+                  "formattedValue": "Reference material, not raw data",
+                  "userEnteredValue": {
+                    "stringValue": "Reference material, not raw data"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+Source: https://docs.google.com/document/d/1uXopTPMfoXXUVYxw3qVNQyWBeCKVfKLmRSZtwE6gJOc/edit
+Retrieved: 2026-10-24
+
+﻿Crash Data background for BU Spark
+Last updated 5 March 2026 by Jack Dougherty for Boston Cyclists Union Labs
+Anyone can view and comment – email jack@jackdougherty.org if you wish to edit
+
+
+Goal
+Build a programmatic method to compile Boston-area crash data from state AND local sources, for us to incorporate into interactive maps that highlight specific needs for safer streets for all.
+
+
+Geographic area:
+City of Boston
+Cambridge
+Somerville
+Brookline
+
+
+Data sources and coverage issues:
+
+
+Reminder: focus on crash data where each row is a crash (not a victim, not a vehicle)
+
+
+Provider
+	Coverage
+	Data page
+	API resources
+	MassDOT
+	Statewide, by year, but does not include all crashes in local govt sources below
+	https://geodot.mass.gov/search?groupIds=1816c66377f9495ba6baa72515494d2c
+	ArcGIS API Explorer https://geodot.mass.gov/datasets/b42f2c990f784716b320ae0499886591_0/api
+	City of Boston Vision Zero
+	Boston (separate for crashes and fatalities), but does not include all crashes in MDOT
+	https://data.boston.gov/organization/vision-zero-boston-program
+	Data.Boston CKAN api list
+https://data.boston.gov/api/3/action/package_list 
+CKAN api docs https://docs.ckan.org/en/latest/api/index.html 
+	Cambridge Police
+	Cambridge, but does not include all crashes in MDOT
+	https://data.cambridgema.gov/Public-Safety/CPD-Crash-Log/h6fp-bp8s/ 
+	Socrata API endpoint https://data.cambridgema.gov/resource/h6fp-bp8s.json 
+	Somerville Police
+	Somerville, but does not include all crashes in MDOT
+	https://data.somervillema.gov/Public-Safety/Police-Data-Crashes/mtik-28va 
+	Socrata API endpoint https://data.somervillema.gov/resource/mtik-28va.json 
+	Note: I have not found any crash data online from Brookline local government or police dept
+TODO: Read more from Boston Metro Planning Org and its Vision Zero maps and datasets
+NEW Context about MassDOT data from Highway Safety Manager Bonnie Polin, based on Jack's Feb 26th phone notes
+Q: How does MassDOT obtain and process crash data from different sources?
+Q: What factors might explain the large number of Boston Vision Zero (BVZ) crash records that do NOT appear to be duplicated in MassDOT database? Possible factors are numbered below:
+1. Definition of crash by law in MassDOT database
+- current crash definition must involve a motor vehicle operator, meaning a cyclist who hits a pothole is not counted, or a cyclist who is doored by sudden opening of a parked car (but motor not running by operator) also is not counted. Current legislative bills may change this
+- current crash definition must be on a public road (not a parking lot or private way)
+- these definitions might explain one part of the gap we see between BVZ and MDOT crash records, because 2018 study showed about 14% of bike crashes in Boston were due to dooring
+2. Emergency calls versus Police reports
+- MassDOT pulls crash records nightly from sources that have no public bulk access (MA State Police, Boston Police, Brookline Police) and those that do have public bulk access (Cambridge and Somerville Police)
+- But MassDOT does NOT pull records directly from Boston Emergency Medical Services (EMS), where dispatchers records calls from 911 and police requests for emergency services for apparent injuries in crash crashes.
+- Since Boston Vision Zero pulls its crash data from Boston EMS calls (which has bulk public access), rather than Boston Police records (no bulk public access), AND if significant numbers of EMS calls about crashes in the city do NOT result in crash reports by Boston Police or State Police, this might explain another part of the significant gap we observe between Boston VZ crashes that are NOT duplicated in MassDOT crash records.
+3. Time delay
+- While MassDOT updates its records nightly, crash records are not actually real time, because police reports may be delayed several weeks or months due to investigations of fatalities or serious injuries (e.g. toxicology reports do not happen as fast as they appear on TV police shows). In fact, the MA Registry of Motor Vehicles (RMV) only recently "closed" the data file on crashes for 2022, meaning additions/changes can be 4 years behind real time!
+4. Geocoding quality
+- When MassDOT uploads police records, it has 9 steps to confirm the quality of geocoding in police reports, and successfully confirms about 85% of reported crashes. But quality issues mean the other 15% of crashes are listed as "IsGeocoded = No". This might explain another part of the gap we observe between BVZ crashes and MDOT reports
+- State Police do not successfully geocode many crashes they report, such as missing about 25% somewhere in Boston in 2024 - see my Data Quality analysis in Google Sheet
+5. New Boston PD data system
+- Boston Police did not successfully report many crashes prior to switching to new MDOT-provided system in 2022 - see my Data Quality analysis in Google Sheet
+6. Unreliable police coding
+- Boston Police did not uniformly code Most Severe Injury prior to switching to new MDOT-provided system in 2022 - see my Data Quality analysis in Google Sheet
+- Some police appear to have mistakenly recorded "witnesses to a crash" in the "Vulnerable Users" field over time - see my Data Quality analysis in Google Sheet
+7. There may be other data quality issues not shown here, including those more directly related to 2020 Covid pandemic. For example in Connecticut, police enforcement sharply declined.
+Three questions about Boston Vision Zero crash data to help set our priorities:
+My conversation with Bonnie led me to ask three questions about Boston Vision Zero (BVZ) crash data to help us focus our priorities for time and energy:
+a) How many "likely non-duplicate" crashes from local sources do not appear in MassDOT crash data in 2024? What percentage of these are ped and bike crashes?
+Based on my current methods, MassDOT reported 8362 crashes involving motor vehicles located in Boston in 2024. Local sources such as Boston VZ EMS data reported an additional 2673 "likely non-duplicates" (almost another one-third of the MDOT data) in 2024. Of these 2673 likely non-duplicate crashes, 385 (or 14%) involved pedestrians and 317 (12%) involved cyclists. In Cambridge and Somerville, the percentages are similar for cyclists but smaller for pedestrians. If better duplicate matching methods yield similar results, this may show significant underreporting from local-to-state data collection systems. In other words, it's *possible* that we may have evidence that significantly more pedestrians and cyclists have been injured than what currently appears in the state data.
+	Count of "likely non-duplicate" crashes in 2024 by local source (Jack's data, 5 March)
+	source
+	COUNT of id
+	COUNTA of pedestrian
+	COUNTA of cyclist
+	Pct ped
+	Pct cyclist
+	BVZ
+	2673
+	385
+	317
+	14%
+	12%
+	CPD
+	719
+	38
+	93
+	5%
+	13%
+	SPD
+	158
+	15
+	16
+	9%
+	10%
+	Grand Total
+	3550
+	438
+	426
+	12%
+	12%
+	
+
+
+
+b) In the BVZ 2024 crashes that are NOT duplicated in MassDOT 2024, can we estimate how many were geolocated by EMS in public roads (not parking lots, not private ways, and not inside buildings, such as police departments)? Knowing a rough estimate based on a random sample would matter for setting our priorities
+
+c) Looking at BVZ crash data from 2022 to present, do any significant changes stand out that are NOT present in MDOT data? 
+
+
+Data Challenges
+
+
+1) The big challenge: Identify duplicates and merge non-duplicates
+MassDOT data is most complete, but does not include many crashes recorded by local govts
+Here's what I found when analyzing 2024 data from all sources above
+
+
+2024 Crash data for four areas
+	Boston
+	Cambridge
+	Somerville
+	Brookline
+	MassDOT Source
+	5689
+	1576
+	627
+	419
+	Local government source
+	3456
+	1691
+	398
+	
+
+	Total (with dups)
+	9145
+	3267
+	1025
+	419
+	LocalGov NonDups found
+	2673
+	719
+	158
+	
+
+	Combined MassDOT + Local govt NonDups
+(BUT not all of local govt records are geocoded)
+	8362
+	2295
+	785
+	419
+	Percent LocalGov NonDups / Local Total
+	77%
+	43%
+	40%
+	
+
+	Percent Combined / Total with Dups
+	91%
+	70%
+	77%
+	100%
+	
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My current strategy to identify duplicates (and happy to consider other ideas)!
+        Duplicate = same DATE and within 0.001 LAT and within 0.001 LNG
+REVISED duplicate strategy by BU Spark
+        Duplicate = timestamp within 60 minutes and location within 100 meters
+
+
+        NEW See simple demo map illustrating ± 0.001 Lat and Lng
+  
+
+
+
+NEW Additional questions from Jack
+1) What do you call this process of merging datasets and removing likely duplicates? 
+Someone else called this "conflating" – is that your preferred term? Or something else?
+
+
+2) When identifying duplicates, can you assign confidence scores for likely matches? 
+Also, can you separate those above a certain confidence score for me to inspect for patterns?
+See more issues and 2024 manually-cleaned data in this Google Sheet – sample row below
+
+
+NEW: Jack's preferences for crash data fields that align best with existing MassDOT data fields
+source         (add MDOT or other string)
+id                 (MDOT calls this Crash Number, but we need to invent for BVZ, CPD, SomPD)
+muni                 (MDOT calls this City Town Name
+date                 (keep MDOT format 01/31/2025)
+severity         (1 = any fatal, 2 = any injury, blank = property damage only or unknown)
+time                 (keep format: 2:22 AM)
+police                 (keep only Local, State, MBTA, Campus)
+cyclist                 (1 or blank)
+pedestrian         (1 or blank)
+lat
+lng
+interstate         (1 or blank; based on MDOT Functional Classification linked RD field)
+
+
+Jack's OLD format from February
+source
+	id
+	muni
+	date
+	time
+	lat
+	lng
+	cyclist
+	ped
+	severity
+	BVZ
+	120243456
+	bos
+	2024-12-30
+	09:50
+	42.3611
+	-71.0628
+	1
+	1
+	2
+	
+
+
+
+NEW from Jack about Cambridge Police data and geocoding issue – see screenshot
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+NEW additions to Relevant map examples:
+
+
+Boston Region Metropolitan Planning Organization (Boston MPO) is the regional transportation planning organization that is required in order to receive federal funding. 
+Boston MPO Vision Zero also publishes its regional VZ Dashboard with a regional crash map that includes more features than above – still looking into data sources and additional details
+  
+
+
+
+March 19th: Jack updated links: Jack and his collaborator Ilya have created a DRAFT Massachusetts Crash Map, coded using the Leaflet JS library, that blends heatmap clusters and symbol point icons, with GitHub repo
+
+
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BCU and its collaborators launched a Boston-only crash map in 2014, with 2023 map online with code on GitHub, but has not been updated due to data source challenges described below
+  
+
+
+
+City of Boston Vision Zero hosts its Boston-only crash map, but this does not include all crashes in the MassDOT database
+  
+
+
+
+MassDOT hosts its own crash maps, but for specific years (such as 2024 below), and does not include all crashes from City of Boston Vision Zero, Cambridge Police, Somerville Police Dept
+  
+
+
+
+In 2024, Jack and collaborators created a Heat and Point Map of crashes in Hartford CT  that pre-processed data from CT state crash repository with Python script in Jupyter Notebook on GitHub. But this did not compile data from different sources

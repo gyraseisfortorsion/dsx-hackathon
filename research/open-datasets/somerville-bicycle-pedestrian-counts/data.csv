@@ -1,0 +1,2533 @@
+Year,Location #,Location Name,Latitude,Longitude,AM/PM,Mode,Count
+2025,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,181
+2025,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,257
+2025,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,173
+2025,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,291
+2025,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,98
+2025,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,483
+2025,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,
+2025,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,
+2025,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,
+2025,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,
+2025,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,205
+2025,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,565
+2025,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,110
+2025,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,196
+2025,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,155
+2025,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,246
+2025,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,14
+2025,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,111
+2025,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,60
+2025,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,232
+2025,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,96
+2025,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,166
+2025,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,192
+2025,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,258
+2025,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,193
+2025,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,413
+2025,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,308
+2025,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,693
+2025,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,438
+2025,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,411
+2025,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,383
+2025,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,445
+2025,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,155
+2025,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,289
+2025,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,184
+2025,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,410
+2025,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,110
+2025,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,128
+2025,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,114
+2025,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,309
+2025,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,105
+2025,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,308
+2025,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,112
+2025,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,417
+2025,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,45
+2025,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,146
+2025,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,38
+2025,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,104
+2025,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,312
+2025,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,293
+2025,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,219
+2025,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,380
+2025,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,228
+2025,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,160
+2025,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,431
+2025,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,442
+2025,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,301
+2025,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,219
+2025,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,464
+2025,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,548
+2025,16,College Ave & Winter St,42.397,-71.122,AM,Bike,45
+2025,16,College Ave & Winter St,42.397,-71.122,AM,Ped,418
+2025,16,College Ave & Winter St,42.397,-71.122,PM,Bike,75
+2025,16,College Ave & Winter St,42.397,-71.122,PM,Ped,637
+2025,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,271
+2025,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,374
+2025,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,405
+2025,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,424
+2025,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,118
+2025,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,314
+2025,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,75
+2025,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,228
+2025,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,83
+2025,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,161
+2025,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,110
+2025,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,213
+2025,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,22
+2025,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,197
+2025,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,37
+2025,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,184
+2025,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,36
+2025,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,126
+2025,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,56
+2025,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,361
+2025,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,18
+2025,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,112
+2025,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,39
+2025,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,119
+2025,23,Medford St & South St,42.3742,-71.0881,AM,Bike,89
+2025,23,Medford St & South St,42.3742,-71.0881,AM,Ped,76
+2025,23,Medford St & South St,42.3742,-71.0881,PM,Bike,100
+2025,23,Medford St & South St,42.3742,-71.0881,PM,Ped,200
+2025,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,137
+2025,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,126
+2025,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,255
+2025,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,189
+2025,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,21
+2025,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,223
+2025,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,35
+2025,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,277
+2025,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,46
+2025,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,234
+2025,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,61
+2025,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,302
+2025,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,57
+2025,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,339
+2025,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,114
+2025,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,389
+2025,28,Broadway & Holland St,42.403,-71.127,AM,Bike,99
+2025,28,Broadway & Holland St,42.403,-71.127,AM,Ped,298
+2025,28,Broadway & Holland St,42.403,-71.127,PM,Bike,82
+2025,28,Broadway & Holland St,42.403,-71.127,PM,Ped,457
+2025,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,81
+2025,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,97
+2025,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,117
+2025,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,125
+2025,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,131
+2025,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,193
+2025,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,126
+2025,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,307
+2025,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,6
+2025,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,169
+2025,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,32
+2025,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,137
+2025,32,Summer St & School St,42.3844,-71.1004,AM,Bike,57
+2025,32,Summer St & School St,42.3844,-71.1004,AM,Ped,155
+2025,32,Summer St & School St,42.3844,-71.1004,PM,Bike,67
+2025,32,Summer St & School St,42.3844,-71.1004,PM,Ped,260
+2025,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,48
+2025,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,195
+2025,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,
+2025,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,
+2025,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,95
+2025,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,378
+2025,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,75
+2025,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,90
+2025,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,501
+2025,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,354
+2025,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,367
+2025,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,407
+2025,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,38
+2025,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,103
+2025,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,50
+2025,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,157
+2025,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,38
+2025,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,302
+2025,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,50
+2025,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,305
+2025,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,222
+2025,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,254
+2025,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,264
+2025,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,265
+2025,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,105
+2025,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,108
+2025,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,183
+2025,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,251
+2025,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,564
+2025,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,252
+2025,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,467
+2025,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,407
+2025,41,School St and Medford St,42.3891,-71.0972,AM,Bike,62
+2025,41,School St and Medford St,42.3891,-71.0972,AM,Ped,255
+2025,41,School St and Medford St,42.3891,-71.0972,PM,Bike,73
+2025,41,School St and Medford St,42.3891,-71.0972,PM,Ped,339
+2025,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,23
+2025,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,377
+2025,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,25
+2025,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,622
+2024,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,77
+2024,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,204
+2024,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,245
+2024,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,377
+2024,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,214
+2024,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,544
+2024,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,236
+2024,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,723
+2024,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,160
+2024,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,275
+2024,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,203
+2024,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,505
+2024,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,91
+2024,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,199
+2024,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,181
+2024,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,273
+2024,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,39
+2024,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,129
+2024,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,49
+2024,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,276
+2024,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,124
+2024,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,192
+2024,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,144
+2024,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,258
+2024,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,202
+2024,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,293
+2024,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,258
+2024,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,418
+2024,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,302
+2024,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,344
+2024,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,286
+2024,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,487
+2024,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,174
+2024,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,309
+2024,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,209
+2024,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,432
+2024,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,82
+2024,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,131
+2024,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,139
+2024,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,405
+2024,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,77
+2024,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,311
+2024,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,145
+2024,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,396
+2024,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,44
+2024,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,89
+2024,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,43
+2024,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,141
+2024,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,349
+2024,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,289
+2024,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,430
+2024,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,457
+2024,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,306
+2024,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,237
+2024,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,509
+2024,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,356
+2024,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,345
+2024,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,233
+2024,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,402
+2024,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,492
+2024,16,College Ave & Winter St,42.397,-71.122,AM,Bike,64
+2024,16,College Ave & Winter St,42.397,-71.122,AM,Ped,329
+2024,16,College Ave & Winter St,42.397,-71.122,PM,Bike,115
+2024,16,College Ave & Winter St,42.397,-71.122,PM,Ped,622
+2024,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,239
+2024,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,340
+2024,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,292
+2024,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,626
+2024,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,114
+2024,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,249
+2024,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,69
+2024,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,240
+2024,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,79
+2024,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,148
+2024,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,115
+2024,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,196
+2024,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,24
+2024,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,252
+2024,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,45
+2024,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,185
+2024,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,50
+2024,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,117
+2024,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,64
+2024,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,334
+2024,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,22
+2024,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,155
+2024,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,31
+2024,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,139
+2024,23,Medford St & South St,42.3742,-71.0881,AM,Bike,33
+2024,23,Medford St & South St,42.3742,-71.0881,AM,Ped,80
+2024,23,Medford St & South St,42.3742,-71.0881,PM,Bike,83
+2024,23,Medford St & South St,42.3742,-71.0881,PM,Ped,195
+2024,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,138
+2024,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,185
+2024,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,190
+2024,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,224
+2024,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,69
+2024,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,229
+2024,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,34
+2024,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,257
+2024,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,39
+2024,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,236
+2024,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,66
+2024,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,456
+2024,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,60
+2024,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,337
+2024,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,78
+2024,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,419
+2024,28,Broadway & Holland St,42.403,-71.127,AM,Bike,60
+2024,28,Broadway & Holland St,42.403,-71.127,AM,Ped,231
+2024,28,Broadway & Holland St,42.403,-71.127,PM,Bike,80
+2024,28,Broadway & Holland St,42.403,-71.127,PM,Ped,467
+2024,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,84
+2024,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,72
+2024,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,100
+2024,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,158
+2024,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,114
+2024,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,158
+2024,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,204
+2024,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,362
+2024,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,11
+2024,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,116
+2024,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,15
+2024,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,139
+2024,32,Summer St & School St,42.3844,-71.1004,AM,Bike,61
+2024,32,Summer St & School St,42.3844,-71.1004,AM,Ped,164
+2024,32,Summer St & School St,42.3844,-71.1004,PM,Bike,57
+2024,32,Summer St & School St,42.3844,-71.1004,PM,Ped,221
+2024,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,39
+2024,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,179
+2024,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,54
+2024,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,158
+2024,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,117
+2024,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,453
+2024,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,95
+2024,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,265
+2024,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,415
+2024,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,340
+2024,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,433
+2024,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,411
+2024,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,57
+2024,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,134
+2024,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,66
+2024,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,193
+2024,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,66
+2024,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,237
+2024,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,27
+2024,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,231
+2024,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,222
+2024,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,181
+2024,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,362
+2024,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,357
+2024,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,70
+2024,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,62
+2024,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,82
+2024,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,132
+2024,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,362
+2024,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,207
+2024,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,446
+2024,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,430
+2024,41,School St and Medford St,42.3891,-71.0972,AM,Bike,88
+2024,41,School St and Medford St,42.3891,-71.0972,AM,Ped,314
+2024,41,School St and Medford St,42.3891,-71.0972,PM,Bike,96
+2024,41,School St and Medford St,42.3891,-71.0972,PM,Ped,360
+2024,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,21
+2024,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,351
+2024,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,13
+2024,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,335
+2023,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,145
+2023,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,200
+2023,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,182
+2023,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,276
+2023,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,193
+2023,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,584
+2023,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,270
+2023,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,555
+2023,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,173
+2023,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,243
+2023,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,209
+2023,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,312
+2023,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,108
+2023,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,252
+2023,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,176
+2023,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,231
+2023,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,36
+2023,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,156
+2023,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,54
+2023,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,247
+2023,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,109
+2023,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,182
+2023,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,203
+2023,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,406
+2023,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,188
+2023,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,341
+2023,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,231
+2023,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,638
+2023,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,272
+2023,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,382
+2023,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,326
+2023,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,559
+2023,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,153
+2023,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,257
+2023,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,238
+2023,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,393
+2023,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,77
+2023,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,150
+2023,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,116
+2023,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,375
+2023,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,74
+2023,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,288
+2023,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,116
+2023,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,415
+2023,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,39
+2023,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,100
+2023,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,41
+2023,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,102
+2023,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,331
+2023,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,270
+2023,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,407
+2023,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,445
+2023,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,363
+2023,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,225
+2023,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,527
+2023,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,442
+2023,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,480
+2023,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,335
+2023,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,531
+2023,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,463
+2023,16,College Ave & Winter St,42.397,-71.122,AM,Bike,73
+2023,16,College Ave & Winter St,42.397,-71.122,AM,Ped,344
+2023,16,College Ave & Winter St,42.397,-71.122,PM,Bike,80
+2023,16,College Ave & Winter St,42.397,-71.122,PM,Ped,683
+2023,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,242
+2023,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,391
+2023,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,331
+2023,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,634
+2023,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,113
+2023,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,274
+2023,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,49
+2023,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,229
+2023,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,57
+2023,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,172
+2023,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,90
+2023,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,247
+2023,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,12
+2023,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,210
+2023,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,23
+2023,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,253
+2023,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,0
+2023,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,0
+2023,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,48
+2023,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,237
+2023,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,17
+2023,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,121
+2023,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,49
+2023,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,102
+2023,23,Medford St & South St,42.3742,-71.0881,AM,Bike,110
+2023,23,Medford St & South St,42.3742,-71.0881,AM,Ped,163
+2023,23,Medford St & South St,42.3742,-71.0881,PM,Bike,54
+2023,23,Medford St & South St,42.3742,-71.0881,PM,Ped,153
+2023,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,114
+2023,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,193
+2023,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,212
+2023,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,270
+2023,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,30
+2023,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,241
+2023,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,49
+2023,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,352
+2023,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,48
+2023,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,219
+2023,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,38
+2023,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,310
+2023,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,36
+2023,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,209
+2023,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,76
+2023,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,240
+2023,28,Broadway & Holland St,42.403,-71.127,AM,Bike,62
+2023,28,Broadway & Holland St,42.403,-71.127,AM,Ped,250
+2023,28,Broadway & Holland St,42.403,-71.127,PM,Bike,94
+2023,28,Broadway & Holland St,42.403,-71.127,PM,Ped,347
+2023,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,72
+2023,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,81
+2023,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,81
+2023,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,125
+2023,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,104
+2023,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,161
+2023,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,93
+2023,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,342
+2023,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,10
+2023,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,159
+2023,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,18
+2023,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,134
+2023,32,Summer St & School St,42.3844,-71.1004,AM,Bike,63
+2023,32,Summer St & School St,42.3844,-71.1004,AM,Ped,161
+2023,32,Summer St & School St,42.3844,-71.1004,PM,Bike,72
+2023,32,Summer St & School St,42.3844,-71.1004,PM,Ped,240
+2023,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,35
+2023,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,173
+2023,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,34
+2023,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,204
+2023,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,104
+2023,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,379
+2023,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,98
+2023,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,217
+2023,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,500
+2023,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,345
+2023,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,442
+2023,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,427
+2023,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,44
+2023,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,97
+2023,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,48
+2023,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,146
+2023,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,33
+2023,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,219
+2023,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,36
+2023,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,399
+2023,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,182
+2023,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,198
+2023,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,253
+2023,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,418
+2023,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,88
+2023,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,72
+2023,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,125
+2023,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,239
+2023,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,290
+2023,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,203
+2023,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,308
+2023,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,334
+2023,41,School St and Medford St,42.3891,-71.0972,AM,Bike,436
+2023,41,School St and Medford St,42.3891,-71.0972,AM,Ped,311
+2023,41,School St and Medford St,42.3891,-71.0972,PM,Bike,377
+2023,41,School St and Medford St,42.3891,-71.0972,PM,Ped,355
+2023,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,24
+2023,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,449
+2023,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,23
+2023,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,667
+2022,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,124
+2022,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,226
+2022,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,143
+2022,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,256
+2022,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,183
+2022,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,585
+2022,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,274
+2022,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,634
+2022,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,123
+2022,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,331
+2022,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,186
+2022,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,421
+2022,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,110
+2022,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,218
+2022,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,217
+2022,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,314
+2022,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,57
+2022,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,144
+2022,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,67
+2022,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,251
+2022,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,121
+2022,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,191
+2022,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,238
+2022,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,266
+2022,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,98
+2022,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,386
+2022,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,112
+2022,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,673
+2022,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,96
+2022,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,408
+2022,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,135
+2022,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,543
+2022,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,103
+2022,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,295
+2022,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,49
+2022,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,271
+2022,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,77
+2022,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,190
+2022,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,104
+2022,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,420
+2022,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,77
+2022,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,290
+2022,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,95
+2022,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,470
+2022,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,36
+2022,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,127
+2022,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,47
+2022,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,167
+2022,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,278
+2022,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,273
+2022,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,395
+2022,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,393
+2022,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,332
+2022,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,205
+2022,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,376
+2022,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,387
+2022,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,322
+2022,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,352
+2022,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,508
+2022,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,495
+2022,16,College Ave & Winter St,42.397,-71.122,AM,Bike,77
+2022,16,College Ave & Winter St,42.397,-71.122,AM,Ped,497
+2022,16,College Ave & Winter St,42.397,-71.122,PM,Bike,93
+2022,16,College Ave & Winter St,42.397,-71.122,PM,Ped,736
+2022,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,131
+2022,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,391
+2022,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,185
+2022,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,759
+2022,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,143
+2022,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,266
+2022,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,58
+2022,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,267
+2022,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,72
+2022,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,167
+2022,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,90
+2022,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,219
+2022,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,19
+2022,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,217
+2022,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,16
+2022,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,89
+2022,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,46
+2022,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,103
+2022,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,61
+2022,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,239
+2022,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,20
+2022,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,151
+2022,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,23
+2022,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,130
+2022,23,Medford St & South St,42.3742,-71.0881,AM,Bike,109
+2022,23,Medford St & South St,42.3742,-71.0881,AM,Ped,117
+2022,23,Medford St & South St,42.3742,-71.0881,PM,Bike,99
+2022,23,Medford St & South St,42.3742,-71.0881,PM,Ped,196
+2022,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,102
+2022,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,100
+2022,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,160
+2022,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,185
+2022,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,25
+2022,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,236
+2022,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,43
+2022,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,251
+2022,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,62
+2022,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,221
+2022,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,52
+2022,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,344
+2022,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,43
+2022,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,148
+2022,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,74
+2022,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,234
+2022,28,Broadway & Holland St,42.403,-71.127,AM,Bike,62
+2022,28,Broadway & Holland St,42.403,-71.127,AM,Ped,306
+2022,28,Broadway & Holland St,42.403,-71.127,PM,Bike,69
+2022,28,Broadway & Holland St,42.403,-71.127,PM,Ped,631
+2022,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,62
+2022,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,79
+2022,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,58
+2022,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,162
+2022,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,137
+2022,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,145
+2022,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,181
+2022,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,244
+2022,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,6
+2022,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,109
+2022,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,7
+2022,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,96
+2022,32,Summer St & School St,42.3844,-71.1004,AM,Bike,77
+2022,32,Summer St & School St,42.3844,-71.1004,AM,Ped,161
+2022,32,Summer St & School St,42.3844,-71.1004,PM,Bike,91
+2022,32,Summer St & School St,42.3844,-71.1004,PM,Ped,245
+2022,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,50
+2022,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,192
+2022,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,59
+2022,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,195
+2022,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,49
+2022,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,375
+2022,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,54
+2022,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,305
+2022,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,467
+2022,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,345
+2022,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,397
+2022,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,439
+2022,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,56
+2022,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,115
+2022,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,56
+2022,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,132
+2022,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,46
+2022,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,198
+2022,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,56
+2022,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,304
+2022,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,217
+2022,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,260
+2022,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,318
+2022,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,325
+2022,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,96
+2022,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,100
+2022,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,136
+2022,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,145
+2022,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,60
+2022,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,99
+2022,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,16
+2022,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,50
+2022,41,School St and Medford St,42.3891,-71.0972,AM,Bike,69
+2022,41,School St and Medford St,42.3891,-71.0972,AM,Ped,144
+2022,41,School St and Medford St,42.3891,-71.0972,PM,Bike,110
+2022,41,School St and Medford St,42.3891,-71.0972,PM,Ped,266
+2022,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,5
+2022,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,484
+2022,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,8
+2022,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,288
+2021,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,132
+2021,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,99
+2021,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,149
+2021,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,188
+2021,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,0
+2021,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,0
+2021,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,0
+2021,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,0
+2021,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,88
+2021,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,164
+2021,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,85
+2021,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,181
+2021,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,82
+2021,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,134
+2021,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,131
+2021,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,165
+2021,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,30
+2021,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,126
+2021,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,73
+2021,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,260
+2021,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,106
+2021,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,165
+2021,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,167
+2021,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,212
+2021,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,92
+2021,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,315
+2021,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,0
+2021,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,0
+2021,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,69
+2021,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,326
+2021,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,121
+2021,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,604
+2021,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,0
+2021,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,0
+2021,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,136
+2021,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,424
+2021,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,63
+2021,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,185
+2021,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,53
+2021,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,214
+2021,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,81
+2021,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,223
+2021,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,62
+2021,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,373
+2021,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,49
+2021,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,104
+2021,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,45
+2021,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,175
+2021,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,331
+2021,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,258
+2021,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,72
+2021,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,170
+2021,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,266
+2021,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,186
+2021,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,0
+2021,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,0
+2021,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,224
+2021,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,349
+2021,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,92
+2021,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,269
+2021,16,College Ave & Winter St,42.397,-71.122,AM,Bike,51
+2021,16,College Ave & Winter St,42.397,-71.122,AM,Ped,377
+2021,16,College Ave & Winter St,42.397,-71.122,PM,Bike,66
+2021,16,College Ave & Winter St,42.397,-71.122,PM,Ped,630
+2021,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,100
+2021,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,390
+2021,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,191
+2021,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,679
+2021,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,61
+2021,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,247
+2021,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,61
+2021,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,267
+2021,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,48
+2021,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,114
+2021,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,57
+2021,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,172
+2021,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,0
+2021,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,0
+2021,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,30
+2021,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,174
+2021,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,14
+2021,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,94
+2021,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,38
+2021,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,244
+2021,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,12
+2021,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,151
+2021,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,14
+2021,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,156
+2021,23,Medford St & South St,42.3742,-71.0881,AM,Bike,58
+2021,23,Medford St & South St,42.3742,-71.0881,AM,Ped,103
+2021,23,Medford St & South St,42.3742,-71.0881,PM,Bike,92
+2021,23,Medford St & South St,42.3742,-71.0881,PM,Ped,197
+2021,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,0
+2021,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,0
+2021,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,114
+2021,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,139
+2021,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,35
+2021,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,224
+2021,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,66
+2021,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,263
+2021,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,49
+2021,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,164
+2021,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,51
+2021,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,246
+2021,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,24
+2021,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,137
+2021,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,51
+2021,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,193
+2021,28,Broadway & Holland St,42.403,-71.127,AM,Bike,56
+2021,28,Broadway & Holland St,42.403,-71.127,AM,Ped,317
+2021,28,Broadway & Holland St,42.403,-71.127,PM,Bike,68
+2021,28,Broadway & Holland St,42.403,-71.127,PM,Ped,391
+2021,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,35
+2021,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,88
+2021,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,44
+2021,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,117
+2021,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,28
+2021,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,62
+2021,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,142
+2021,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,313
+2021,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,3
+2021,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,64
+2021,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,13
+2021,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,84
+2021,32,Summer St & School St,42.3844,-71.1004,AM,Bike,0
+2021,32,Summer St & School St,42.3844,-71.1004,AM,Ped,0
+2021,32,Summer St & School St,42.3844,-71.1004,PM,Bike,83
+2021,32,Summer St & School St,42.3844,-71.1004,PM,Ped,250
+2021,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,46
+2021,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,156
+2021,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,61
+2021,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,200
+2021,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,44
+2021,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,315
+2021,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,67
+2021,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,196
+2021,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,354
+2021,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,333
+2021,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,0
+2021,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,0
+2021,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,19
+2021,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,79
+2021,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,0
+2021,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,0
+2021,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,43
+2021,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,163
+2021,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,60
+2021,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,291
+2021,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,205
+2021,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,225
+2021,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,0
+2021,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,0
+2021,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,82
+2021,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,96
+2021,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,139
+2021,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,158
+2021,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,0
+2021,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,0
+2021,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,0
+2021,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,0
+2021,41,School St and Medford St,42.3891,-71.0972,AM,Bike,26
+2021,41,School St and Medford St,42.3891,-71.0972,AM,Ped,211
+2021,41,School St and Medford St,42.3891,-71.0972,PM,Bike,0
+2021,41,School St and Medford St,42.3891,-71.0972,PM,Ped,0
+2021,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,12
+2021,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,186
+2021,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,19
+2021,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,427
+2020,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,110
+2020,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,105
+2020,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,191
+2020,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,255
+2020,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,138
+2020,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,158
+2020,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,125
+2020,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,419
+2020,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,34
+2020,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,97
+2020,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,62
+2020,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,153
+2020,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,0
+2020,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,0
+2020,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,83
+2020,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,161
+2020,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,18
+2020,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,109
+2020,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,38
+2020,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,272
+2020,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,76
+2020,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,125
+2020,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,176
+2020,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,289
+2020,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,0
+2020,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,0
+2020,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,104
+2020,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,515
+2020,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,0
+2020,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,0
+2020,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,0
+2020,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,0
+2020,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,50
+2020,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,161
+2020,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,115
+2020,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,299
+2020,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,43
+2020,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,184
+2020,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,68
+2020,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,262
+2020,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,0
+2020,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,0
+2020,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,57
+2020,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,274
+2020,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,34
+2020,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,94
+2020,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,53
+2020,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,108
+2020,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,204
+2020,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,211
+2020,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,270
+2020,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,291
+2020,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,173
+2020,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,109
+2020,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,174
+2020,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,189
+2020,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,0
+2020,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,0
+2020,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,260
+2020,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,363
+2020,16,College Ave & Winter St,42.397,-71.122,AM,Bike,61
+2020,16,College Ave & Winter St,42.397,-71.122,AM,Ped,182
+2020,16,College Ave & Winter St,42.397,-71.122,PM,Bike,52
+2020,16,College Ave & Winter St,42.397,-71.122,PM,Ped,374
+2020,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,43
+2020,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,203
+2020,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,158
+2020,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,552
+2020,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,46
+2020,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,125
+2020,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,33
+2020,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,259
+2020,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,28
+2020,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,99
+2020,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,0
+2020,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,0
+2020,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,0
+2020,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,0
+2020,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,21
+2020,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,150
+2020,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,21
+2020,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,162
+2020,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,60
+2020,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,328
+2020,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,0
+2020,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,0
+2020,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,26
+2020,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,169
+2020,23,Medford St & South St,42.3742,-71.0881,AM,Bike,40
+2020,23,Medford St & South St,42.3742,-71.0881,AM,Ped,56
+2020,23,Medford St & South St,42.3742,-71.0881,PM,Bike,67
+2020,23,Medford St & South St,42.3742,-71.0881,PM,Ped,180
+2020,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,39
+2020,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,43
+2020,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,81
+2020,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,84
+2020,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,23
+2020,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,180
+2020,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,67
+2020,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,233
+2020,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,38
+2020,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,96
+2020,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,0
+2020,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,0
+2020,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,21
+2020,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,131
+2020,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,49
+2020,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,265
+2020,28,Broadway & Holland St,42.403,-71.127,AM,Bike,0
+2020,28,Broadway & Holland St,42.403,-71.127,AM,Ped,0
+2020,28,Broadway & Holland St,42.403,-71.127,PM,Bike,64
+2020,28,Broadway & Holland St,42.403,-71.127,PM,Ped,373
+2020,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,63
+2020,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,87
+2020,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,0
+2020,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,0
+2020,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,0
+2020,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,0
+2020,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,0
+2020,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,0
+2020,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,1
+2020,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,39
+2020,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,1
+2020,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,55
+2020,32,Summer St & School St,42.3844,-71.1004,AM,Bike,0
+2020,32,Summer St & School St,42.3844,-71.1004,AM,Ped,0
+2020,32,Summer St & School St,42.3844,-71.1004,PM,Bike,72
+2020,32,Summer St & School St,42.3844,-71.1004,PM,Ped,263
+2020,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,32
+2020,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,65
+2020,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,59
+2020,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,181
+2020,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,6
+2020,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,56
+2020,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,37
+2020,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,86
+2020,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,209
+2020,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,177
+2020,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,258
+2020,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,260
+2020,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,0
+2020,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,0
+2020,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,0
+2020,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,0
+2020,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,0
+2020,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,0
+2020,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,65
+2020,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,317
+2020,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,125
+2020,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,236
+2020,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,247
+2020,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,346
+2020,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,50
+2020,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,72
+2020,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,0
+2020,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,0
+2020,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,27
+2020,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,66
+2020,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,43
+2020,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,115
+2020,41,School St and Medford St,42.3891,-71.0972,AM,Bike,15
+2020,41,School St and Medford St,42.3891,-71.0972,AM,Ped,70
+2020,41,School St and Medford St,42.3891,-71.0972,PM,Bike,27
+2020,41,School St and Medford St,42.3891,-71.0972,PM,Ped,155
+2020,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,2
+2020,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,99
+2020,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,41
+2020,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,225
+2019,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,293
+2019,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,225
+2019,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,260
+2019,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,256
+2019,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,346
+2019,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,515
+2019,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,274
+2019,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,547
+2019,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,77
+2019,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,178
+2019,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,169
+2019,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,209
+2019,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,130
+2019,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,298
+2019,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,334
+2019,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,391
+2019,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,55
+2019,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,141
+2019,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,40
+2019,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,380
+2019,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,0
+2019,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,0
+2019,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,340
+2019,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,329
+2019,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,128
+2019,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,746
+2019,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,101
+2019,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,592
+2019,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,159
+2019,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,351
+2019,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,0
+2019,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,0
+2019,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,63
+2019,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,325
+2019,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,117
+2019,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,483
+2019,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,136
+2019,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,158
+2019,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,85
+2019,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,227
+2019,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,56
+2019,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,378
+2019,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,89
+2019,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,441
+2019,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,46
+2019,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,125
+2019,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,33
+2019,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,189
+2019,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,356
+2019,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,554
+2019,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,0
+2019,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,0
+2019,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,0
+2019,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,0
+2019,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,498
+2019,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,272
+2019,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,355
+2019,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,345
+2019,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,249
+2019,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,484
+2019,16,College Ave & Winter St,42.397,-71.122,AM,Bike,38
+2019,16,College Ave & Winter St,42.397,-71.122,AM,Ped,723
+2019,16,College Ave & Winter St,42.397,-71.122,PM,Bike,59
+2019,16,College Ave & Winter St,42.397,-71.122,PM,Ped,697
+2019,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,84
+2019,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,445
+2019,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,0
+2019,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,0
+2019,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,98
+2019,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,242
+2019,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,42
+2019,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,231
+2019,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,48
+2019,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,143
+2019,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,59
+2019,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,258
+2019,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,39
+2019,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,176
+2019,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,29
+2019,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,143
+2019,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,30
+2019,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,75
+2019,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,53
+2019,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,92
+2019,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,30
+2019,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,216
+2019,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,0
+2019,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,0
+2019,23,Medford St & South St,42.3742,-71.0881,AM,Bike,92
+2019,23,Medford St & South St,42.3742,-71.0881,AM,Ped,144
+2019,23,Medford St & South St,42.3742,-71.0881,PM,Bike,158
+2019,23,Medford St & South St,42.3742,-71.0881,PM,Ped,292
+2019,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,0
+2019,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,0
+2019,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,3
+2019,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,24
+2019,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,42
+2019,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,161
+2019,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,57
+2019,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,180
+2019,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,0
+2019,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,0
+2019,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,68
+2019,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,410
+2019,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,10
+2019,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,97
+2019,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,0
+2019,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,0
+2019,28,Broadway & Holland St,42.403,-71.127,AM,Bike,125
+2019,28,Broadway & Holland St,42.403,-71.127,AM,Ped,379
+2019,28,Broadway & Holland St,42.403,-71.127,PM,Bike,113
+2019,28,Broadway & Holland St,42.403,-71.127,PM,Ped,352
+2019,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,105
+2019,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,100
+2019,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,76
+2019,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,81
+2019,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,188
+2019,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,181
+2019,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,0
+2019,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,0
+2019,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,12
+2019,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,162
+2019,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,14
+2019,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,128
+2019,32,Summer St & School St,42.3844,-71.1004,AM,Bike,150
+2019,32,Summer St & School St,42.3844,-71.1004,AM,Ped,167
+2019,32,Summer St & School St,42.3844,-71.1004,PM,Bike,59
+2019,32,Summer St & School St,42.3844,-71.1004,PM,Ped,148
+2019,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,22
+2019,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,145
+2019,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,52
+2019,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,249
+2019,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,62
+2019,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,341
+2019,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,74
+2019,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,223
+2019,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,404
+2019,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,516
+2019,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,294
+2019,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,504
+2019,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,42
+2019,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,100
+2019,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,29
+2019,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,79
+2019,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,0
+2019,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,0
+2019,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,62
+2019,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,234
+2019,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,502
+2019,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,375
+2019,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,248
+2019,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,332
+2019,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,0
+2019,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,0
+2019,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,225
+2019,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,278
+2019,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,0
+2019,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,0
+2019,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,74
+2019,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,124
+2019,41,School St and Medford St,42.3891,-71.0972,AM,Bike,54
+2019,41,School St and Medford St,42.3891,-71.0972,AM,Ped,221
+2019,41,School St and Medford St,42.3891,-71.0972,PM,Bike,56
+2019,41,School St and Medford St,42.3891,-71.0972,PM,Ped,186
+2019,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,31
+2019,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,384
+2019,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,12
+2019,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,571
+2018,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,182
+2018,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,159
+2018,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,175
+2018,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,209
+2018,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,169
+2018,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,0
+2018,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,129
+2018,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,0
+2018,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,196
+2018,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,226
+2018,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,189
+2018,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,212
+2018,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,191
+2018,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,271
+2018,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,256
+2018,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,265
+2018,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,19
+2018,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,0
+2018,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,6
+2018,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,0
+2018,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,119
+2018,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,161
+2018,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,261
+2018,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,256
+2018,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,96
+2018,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,681
+2018,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,123
+2018,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,649
+2018,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,108
+2018,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,269
+2018,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,150
+2018,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,367
+2018,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,17
+2018,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,176
+2018,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,15
+2018,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,115
+2018,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,73
+2018,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,169
+2018,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,96
+2018,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,281
+2018,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,121
+2018,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,516
+2018,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,127
+2018,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,385
+2018,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,0
+2018,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,0
+2018,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,54
+2018,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,226
+2018,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,361
+2018,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,530
+2018,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,330
+2018,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,435
+2018,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,169
+2018,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,137
+2018,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,357
+2018,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,330
+2018,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,222
+2018,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,0
+2018,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,172
+2018,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,0
+2018,16,College Ave & Winter St,42.397,-71.122,AM,Bike,37
+2018,16,College Ave & Winter St,42.397,-71.122,AM,Ped,881
+2018,16,College Ave & Winter St,42.397,-71.122,PM,Bike,86
+2018,16,College Ave & Winter St,42.397,-71.122,PM,Ped,942
+2018,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,63
+2018,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,0
+2018,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,42
+2018,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,0
+2018,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,46
+2018,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,250
+2018,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,43
+2018,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,194
+2018,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,30
+2018,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,79
+2018,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,53
+2018,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,118
+2018,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,16
+2018,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,205
+2018,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,45
+2018,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,124
+2018,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,75
+2018,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,61
+2018,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,45
+2018,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,188
+2018,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,23
+2018,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,182
+2018,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,18
+2018,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,86
+2018,23,Medford St & South St,42.3742,-71.0881,AM,Bike,155
+2018,23,Medford St & South St,42.3742,-71.0881,AM,Ped,158
+2018,23,Medford St & South St,42.3742,-71.0881,PM,Bike,221
+2018,23,Medford St & South St,42.3742,-71.0881,PM,Ped,254
+2018,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,136
+2018,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,167
+2018,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,142
+2018,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,192
+2018,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,41
+2018,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,139
+2018,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,42
+2018,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,149
+2018,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,48
+2018,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,0
+2018,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,20
+2018,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,0
+2018,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,17
+2018,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,132
+2018,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,48
+2018,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,236
+2018,28,Broadway & Holland St,42.403,-71.127,AM,Bike,50
+2018,28,Broadway & Holland St,42.403,-71.127,AM,Ped,0
+2018,28,Broadway & Holland St,42.403,-71.127,PM,Bike,31
+2018,28,Broadway & Holland St,42.403,-71.127,PM,Ped,0
+2018,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,85
+2018,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,97
+2018,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,58
+2018,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,116
+2018,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,260
+2018,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,196
+2018,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,168
+2018,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,184
+2018,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,6
+2018,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,178
+2018,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,15
+2018,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,181
+2018,32,Summer St & School St,42.3844,-71.1004,AM,Bike,169
+2018,32,Summer St & School St,42.3844,-71.1004,AM,Ped,139
+2018,32,Summer St & School St,42.3844,-71.1004,PM,Bike,103
+2018,32,Summer St & School St,42.3844,-71.1004,PM,Ped,201
+2018,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,29
+2018,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,145
+2018,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,11
+2018,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,202
+2018,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,54
+2018,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,286
+2018,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,65
+2018,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,225
+2018,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,0
+2018,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,0
+2018,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,284
+2018,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,538
+2018,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,29
+2018,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,66
+2018,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,40
+2018,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,91
+2018,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,38
+2018,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,133
+2018,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,53
+2018,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,163
+2018,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,337
+2018,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,309
+2018,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,319
+2018,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,288
+2018,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,189
+2018,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,144
+2018,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,240
+2018,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,115
+2018,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,53
+2018,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,78
+2018,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,52
+2018,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,131
+2018,41,School St and Medford St,42.3891,-71.0972,AM,Bike,30
+2018,41,School St and Medford St,42.3891,-71.0972,AM,Ped,120
+2018,41,School St and Medford St,42.3891,-71.0972,PM,Bike,37
+2018,41,School St and Medford St,42.3891,-71.0972,PM,Ped,179
+2018,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,19
+2018,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,350
+2018,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,17
+2018,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,640
+2017,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,157
+2017,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,161
+2017,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,178
+2017,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,182
+2017,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,251
+2017,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,583
+2017,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,235
+2017,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,392
+2017,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,133
+2017,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,202
+2017,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,217
+2017,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,227
+2017,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,303
+2017,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,220
+2017,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,277
+2017,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,305
+2017,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,35
+2017,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,0
+2017,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,30
+2017,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,0
+2017,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,204
+2017,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,240
+2017,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,344
+2017,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,266
+2017,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,116
+2017,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,565
+2017,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,104
+2017,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,422
+2017,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,124
+2017,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,317
+2017,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,110
+2017,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,383
+2017,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,140
+2017,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,397
+2017,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,186
+2017,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,486
+2017,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,101
+2017,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,150
+2017,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,170
+2017,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,276
+2017,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,78
+2017,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,265
+2017,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,48
+2017,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,198
+2017,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,41
+2017,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,131
+2017,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,26
+2017,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,131
+2017,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,280
+2017,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,220
+2017,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,247
+2017,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,585
+2017,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,424
+2017,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,272
+2017,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,656
+2017,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,420
+2017,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,474
+2017,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,468
+2017,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,489
+2017,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,279
+2017,16,College Ave & Winter St,42.397,-71.122,AM,Bike,98
+2017,16,College Ave & Winter St,42.397,-71.122,AM,Ped,820
+2017,16,College Ave & Winter St,42.397,-71.122,PM,Bike,82
+2017,16,College Ave & Winter St,42.397,-71.122,PM,Ped,767
+2017,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,146
+2017,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,418
+2017,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,210
+2017,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,496
+2017,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,5
+2017,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,268
+2017,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,40
+2017,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,237
+2017,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,114
+2017,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,253
+2017,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,68
+2017,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,143
+2017,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,39
+2017,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,129
+2017,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,43
+2017,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,124
+2017,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,38
+2017,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,73
+2017,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,74
+2017,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,175
+2017,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,39
+2017,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,173
+2017,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,41
+2017,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,98
+2017,23,Medford St & South St,42.3742,-71.0881,AM,Bike,182
+2017,23,Medford St & South St,42.3742,-71.0881,AM,Ped,155
+2017,23,Medford St & South St,42.3742,-71.0881,PM,Bike,161
+2017,23,Medford St & South St,42.3742,-71.0881,PM,Ped,195
+2017,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,106
+2017,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,146
+2017,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,127
+2017,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,160
+2017,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,83
+2017,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,205
+2017,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,63
+2017,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,163
+2017,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,68
+2017,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,181
+2017,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,60
+2017,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,325
+2017,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,20
+2017,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,141
+2017,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,46
+2017,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,159
+2017,28,Broadway & Holland St,42.403,-71.127,AM,Bike,70
+2017,28,Broadway & Holland St,42.403,-71.127,AM,Ped,352
+2017,28,Broadway & Holland St,42.403,-71.127,PM,Bike,68
+2017,28,Broadway & Holland St,42.403,-71.127,PM,Ped,324
+2017,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,104
+2017,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,100
+2017,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,109
+2017,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,128
+2017,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,228
+2017,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,164
+2017,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,212
+2017,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,224
+2017,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,5
+2017,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,174
+2017,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,25
+2017,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,154
+2017,32,Summer St & School St,42.3844,-71.1004,AM,Bike,114
+2017,32,Summer St & School St,42.3844,-71.1004,AM,Ped,190
+2017,32,Summer St & School St,42.3844,-71.1004,PM,Bike,104
+2017,32,Summer St & School St,42.3844,-71.1004,PM,Ped,183
+2017,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,25
+2017,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,169
+2017,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,41
+2017,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,219
+2017,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,77
+2017,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,387
+2017,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,65
+2017,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,291
+2017,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,385
+2017,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,545
+2017,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,349
+2017,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,546
+2017,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,27
+2017,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,142
+2017,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,55
+2017,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,60
+2017,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,58
+2017,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,116
+2017,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,45
+2017,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,208
+2017,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,304
+2017,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,260
+2017,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,0
+2017,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,0
+2017,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,328
+2017,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,110
+2017,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,248
+2017,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,155
+2017,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Bike,73
+2017,40,Central St and Somerville Junction Park,42.3903,-71.1021,AM,Ped,112
+2017,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Bike,62
+2017,40,Central St and Somerville Junction Park,42.3903,-71.1021,PM,Ped,73
+2017,41,School St and Medford St,42.3891,-71.0972,AM,Bike,64
+2017,41,School St and Medford St,42.3891,-71.0972,AM,Ped,274
+2017,41,School St and Medford St,42.3891,-71.0972,PM,Bike,80
+2017,41,School St and Medford St,42.3891,-71.0972,PM,Ped,187
+2017,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Bike,14
+2017,42,Foley St and Great River Rd,42.3934,-71.0775,AM,Ped,240
+2017,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Bike,21
+2017,42,Foley St and Great River Rd,42.3934,-71.0775,PM,Ped,493
+2016,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,173
+2016,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,131
+2016,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,163
+2016,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,170
+2016,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,402
+2016,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,370
+2016,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,163
+2016,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,393
+2016,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,86
+2016,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,175
+2016,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,230
+2016,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,290
+2016,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,179
+2016,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,239
+2016,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,0
+2016,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,0
+2016,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,38
+2016,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,92
+2016,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,20
+2016,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,107
+2016,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,222
+2016,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,239
+2016,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,464
+2016,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,326
+2016,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,0
+2016,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,0
+2016,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,0
+2016,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,0
+2016,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,0
+2016,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,0
+2016,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,82
+2016,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,250
+2016,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,0
+2016,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,0
+2016,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,0
+2016,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,0
+2016,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,70
+2016,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,538
+2016,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,51
+2016,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,283
+2016,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,216
+2016,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,598
+2016,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,226
+2016,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,726
+2016,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,39
+2016,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,156
+2016,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,37
+2016,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,140
+2016,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,258
+2016,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,424
+2016,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,0
+2016,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,0
+2016,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,203
+2016,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,178
+2016,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,205
+2016,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,218
+2016,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,346
+2016,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,375
+2016,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,291
+2016,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,368
+2016,16,College Ave & Winter St,42.397,-71.122,AM,Bike,50
+2016,16,College Ave & Winter St,42.397,-71.122,AM,Ped,1104
+2016,16,College Ave & Winter St,42.397,-71.122,PM,Bike,49
+2016,16,College Ave & Winter St,42.397,-71.122,PM,Ped,496
+2016,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,134
+2016,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,479
+2016,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,130
+2016,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,264
+2016,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,0
+2016,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,0
+2016,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,35
+2016,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,214
+2016,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,33
+2016,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,140
+2016,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,53
+2016,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,130
+2016,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,33
+2016,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,112
+2016,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,44
+2016,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,186
+2016,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,39
+2016,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,62
+2016,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,55
+2016,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,99
+2016,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,18
+2016,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,45
+2016,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,34
+2016,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,167
+2016,23,Medford St & South St,42.3742,-71.0881,AM,Bike,203
+2016,23,Medford St & South St,42.3742,-71.0881,AM,Ped,105
+2016,23,Medford St & South St,42.3742,-71.0881,PM,Bike,166
+2016,23,Medford St & South St,42.3742,-71.0881,PM,Ped,159
+2016,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,56
+2016,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,106
+2016,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,100
+2016,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,153
+2016,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,53
+2016,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,177
+2016,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,54
+2016,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,228
+2016,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,77
+2016,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,305
+2016,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,18
+2016,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,371
+2016,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,30
+2016,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,136
+2016,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,46
+2016,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,124
+2016,28,Broadway & Holland St,42.403,-71.127,AM,Bike,48
+2016,28,Broadway & Holland St,42.403,-71.127,AM,Ped,440
+2016,28,Broadway & Holland St,42.403,-71.127,PM,Bike,140
+2016,28,Broadway & Holland St,42.403,-71.127,PM,Ped,316
+2016,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,61
+2016,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,66
+2016,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,41
+2016,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,91
+2016,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,232
+2016,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,282
+2016,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,284
+2016,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,158
+2016,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,1
+2016,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,109
+2016,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,3
+2016,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,146
+2016,32,Summer St & School St,42.3844,-71.1004,AM,Bike,112
+2016,32,Summer St & School St,42.3844,-71.1004,AM,Ped,96
+2016,32,Summer St & School St,42.3844,-71.1004,PM,Bike,45
+2016,32,Summer St & School St,42.3844,-71.1004,PM,Ped,82
+2016,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,42
+2016,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,189
+2016,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,20
+2016,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,386
+2016,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,42
+2016,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,322
+2016,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,18
+2016,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,204
+2016,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,429
+2016,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,578
+2016,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,366
+2016,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,582
+2016,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,22
+2016,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,82
+2016,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,35
+2016,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,103
+2016,37,Community Path and Lowell St,42.3928,-71.1062,AM,Bike,48
+2016,37,Community Path and Lowell St,42.3928,-71.1062,AM,Ped,145
+2016,37,Community Path and Lowell St,42.3928,-71.1062,PM,Bike,44
+2016,37,Community Path and Lowell St,42.3928,-71.1062,PM,Ped,130
+2016,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Bike,353
+2016,38,Park St and Somerville Ave,42.3832,-71.1063,AM,Ped,152
+2016,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Bike,440
+2016,38,Park St and Somerville Ave,42.3832,-71.1063,PM,Ped,226
+2016,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Bike,256
+2016,39,Somerville Ave and Medford St,42.3773,-71.0893,AM,Ped,52
+2016,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Bike,132
+2016,39,Somerville Ave and Medford St,42.3773,-71.0893,PM,Ped,110
+2015,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,179
+2015,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,127
+2015,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,0
+2015,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,0
+2015,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,174
+2015,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,257
+2015,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,269
+2015,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,300
+2015,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,126
+2015,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,144
+2015,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,283
+2015,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,165
+2015,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,164
+2015,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,226
+2015,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,348
+2015,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,323
+2015,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,45
+2015,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,205
+2015,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,78
+2015,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,166
+2015,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,189
+2015,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,227
+2015,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,198
+2015,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,206
+2015,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,0
+2015,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,0
+2015,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,94
+2015,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,411
+2015,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,121
+2015,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,308
+2015,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,102
+2015,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,338
+2015,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,39
+2015,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,423
+2015,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,104
+2015,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,365
+2015,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,126
+2015,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,145
+2015,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,189
+2015,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,329
+2015,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,190
+2015,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,455
+2015,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,141
+2015,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,542
+2015,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,51
+2015,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,162
+2015,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,31
+2015,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,180
+2015,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,295
+2015,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,462
+2015,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,234
+2015,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,370
+2015,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,311
+2015,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,149
+2015,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,279
+2015,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,402
+2015,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,354
+2015,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,371
+2015,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,300
+2015,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,378
+2015,16,College Ave & Winter St,42.397,-71.122,AM,Bike,67
+2015,16,College Ave & Winter St,42.397,-71.122,AM,Ped,755
+2015,16,College Ave & Winter St,42.397,-71.122,PM,Bike,10
+2015,16,College Ave & Winter St,42.397,-71.122,PM,Ped,193
+2015,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,127
+2015,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,361
+2015,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,209
+2015,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,433
+2015,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,142
+2015,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,190
+2015,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,46
+2015,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,156
+2015,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,0
+2015,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,0
+2015,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,41
+2015,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,145
+2015,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,35
+2015,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,88
+2015,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,35
+2015,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,207
+2015,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,23
+2015,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,48
+2015,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,22
+2015,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,52
+2015,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,33
+2015,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,223
+2015,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,24
+2015,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,73
+2015,23,Medford St & South St,42.3742,-71.0881,AM,Bike,111
+2015,23,Medford St & South St,42.3742,-71.0881,AM,Ped,107
+2015,23,Medford St & South St,42.3742,-71.0881,PM,Bike,98
+2015,23,Medford St & South St,42.3742,-71.0881,PM,Ped,163
+2015,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,77
+2015,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,128
+2015,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,94
+2015,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,182
+2015,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,51
+2015,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,153
+2015,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,0
+2015,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,0
+2015,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,56
+2015,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,248
+2015,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,23
+2015,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,218
+2015,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,32
+2015,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,108
+2015,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,34
+2015,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,182
+2015,28,Broadway & Holland St,42.403,-71.127,AM,Bike,61
+2015,28,Broadway & Holland St,42.403,-71.127,AM,Ped,342
+2015,28,Broadway & Holland St,42.403,-71.127,PM,Bike,73
+2015,28,Broadway & Holland St,42.403,-71.127,PM,Ped,371
+2015,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,71
+2015,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,78
+2015,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,53
+2015,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,102
+2015,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,224
+2015,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,134
+2015,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,139
+2015,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,217
+2015,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,1
+2015,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,59
+2015,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,26
+2015,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,86
+2015,32,Summer St & School St,42.3844,-71.1004,AM,Bike,112
+2015,32,Summer St & School St,42.3844,-71.1004,AM,Ped,169
+2015,32,Summer St & School St,42.3844,-71.1004,PM,Bike,94
+2015,32,Summer St & School St,42.3844,-71.1004,PM,Ped,206
+2015,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,15
+2015,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,224
+2015,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,0
+2015,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,0
+2015,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,52
+2015,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,379
+2015,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,73
+2015,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,163
+2015,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,566
+2015,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,456
+2015,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,314
+2015,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,436
+2015,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,16
+2015,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,92
+2015,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,29
+2015,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,93
+2014,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,187
+2014,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,147
+2014,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,234
+2014,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,196
+2014,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,203
+2014,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,403
+2014,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,264
+2014,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,486
+2014,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,116
+2014,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,223
+2014,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,361
+2014,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,286
+2014,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,175
+2014,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,293
+2014,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,0
+2014,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,0
+2014,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,34
+2014,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,73
+2014,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,18
+2014,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,92
+2014,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,150
+2014,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,217
+2014,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,355
+2014,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,378
+2014,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,95
+2014,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,483
+2014,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,95
+2014,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,617
+2014,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,111
+2014,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,259
+2014,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,127
+2014,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,404
+2014,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,75
+2014,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,314
+2014,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,73
+2014,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,421
+2014,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,68
+2014,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,197
+2014,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,103
+2014,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,298
+2014,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,100
+2014,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,444
+2014,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,159
+2014,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,530
+2014,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,35
+2014,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,146
+2014,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,24
+2014,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,152
+2014,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,350
+2014,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,431
+2014,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,302
+2014,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,298
+2014,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,426
+2014,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,274
+2014,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,457
+2014,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,388
+2014,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,507
+2014,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,347
+2014,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,513
+2014,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,460
+2014,16,College Ave & Winter St,42.397,-71.122,AM,Bike,55
+2014,16,College Ave & Winter St,42.397,-71.122,AM,Ped,709
+2014,16,College Ave & Winter St,42.397,-71.122,PM,Bike,93
+2014,16,College Ave & Winter St,42.397,-71.122,PM,Ped,764
+2014,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,122
+2014,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,372
+2014,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,146
+2014,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,356
+2014,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,124
+2014,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,271
+2014,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,41
+2014,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,212
+2014,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,59
+2014,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,144
+2014,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,18
+2014,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,128
+2014,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,41
+2014,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,186
+2014,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,35
+2014,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,167
+2014,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,27
+2014,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,47
+2014,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,31
+2014,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,115
+2014,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,34
+2014,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,219
+2014,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,47
+2014,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,149
+2014,23,Medford St & South St,42.3742,-71.0881,AM,Bike,0
+2014,23,Medford St & South St,42.3742,-71.0881,AM,Ped,0
+2014,23,Medford St & South St,42.3742,-71.0881,PM,Bike,123
+2014,23,Medford St & South St,42.3742,-71.0881,PM,Ped,202
+2014,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,73
+2014,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,158
+2014,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,110
+2014,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,243
+2014,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,48
+2014,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,171
+2014,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,79
+2014,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,243
+2014,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,29
+2014,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,249
+2014,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,24
+2014,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,343
+2014,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,59
+2014,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,160
+2014,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,0
+2014,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,0
+2014,28,Broadway & Holland St,42.403,-71.127,AM,Bike,117
+2014,28,Broadway & Holland St,42.403,-71.127,AM,Ped,539
+2014,28,Broadway & Holland St,42.403,-71.127,PM,Bike,141
+2014,28,Broadway & Holland St,42.403,-71.127,PM,Ped,648
+2014,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,80
+2014,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,90
+2014,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,76
+2014,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,97
+2014,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,167
+2014,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,108
+2014,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,171
+2014,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,219
+2014,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,5
+2014,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,86
+2014,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,4
+2014,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,83
+2014,32,Summer St & School St,42.3844,-71.1004,AM,Bike,134
+2014,32,Summer St & School St,42.3844,-71.1004,AM,Ped,147
+2014,32,Summer St & School St,42.3844,-71.1004,PM,Bike,0
+2014,32,Summer St & School St,42.3844,-71.1004,PM,Ped,0
+2014,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,30
+2014,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,235
+2014,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,22
+2014,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,336
+2014,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,59
+2014,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,641
+2014,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,43
+2014,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,190
+2014,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,554
+2014,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,568
+2014,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,319
+2014,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,352
+2014,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,25
+2014,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,57
+2014,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,17
+2014,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,99
+2013,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,212
+2013,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,73
+2013,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,145
+2013,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,157
+2013,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,226
+2013,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,409
+2013,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,264
+2013,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,559
+2013,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,102
+2013,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,95
+2013,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,0
+2013,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,0
+2013,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,119
+2013,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,284
+2013,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,166
+2013,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,172
+2013,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,29
+2013,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,155
+2013,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,53
+2013,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,280
+2013,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,153
+2013,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,214
+2013,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,300
+2013,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,380
+2013,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,89
+2013,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,501
+2013,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,96
+2013,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,509
+2013,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,101
+2013,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,329
+2013,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,83
+2013,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,328
+2013,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,80
+2013,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,348
+2013,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,99
+2013,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,424
+2013,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,23
+2013,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,91
+2013,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,74
+2013,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,251
+2013,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,95
+2013,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,395
+2013,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,90
+2013,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,314
+2013,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,29
+2013,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,128
+2013,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,102
+2013,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,414
+2013,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,370
+2013,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,425
+2013,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,0
+2013,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,0
+2013,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,471
+2013,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,200
+2013,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,361
+2013,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,322
+2013,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,453
+2013,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,307
+2013,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,456
+2013,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,329
+2013,16,College Ave & Winter St,42.397,-71.122,AM,Bike,79
+2013,16,College Ave & Winter St,42.397,-71.122,AM,Ped,798
+2013,16,College Ave & Winter St,42.397,-71.122,PM,Bike,89
+2013,16,College Ave & Winter St,42.397,-71.122,PM,Ped,900
+2013,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,62
+2013,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,299
+2013,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,123
+2013,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,259
+2013,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,127
+2013,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,246
+2013,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,39
+2013,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,198
+2013,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,45
+2013,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,127
+2013,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,28
+2013,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,152
+2013,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,16
+2013,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,198
+2013,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,32
+2013,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,183
+2013,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,21
+2013,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,49
+2013,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,29
+2013,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,79
+2013,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,24
+2013,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,279
+2013,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,22
+2013,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,115
+2013,23,Medford St & South St,42.3742,-71.0881,AM,Bike,61
+2013,23,Medford St & South St,42.3742,-71.0881,AM,Ped,75
+2013,23,Medford St & South St,42.3742,-71.0881,PM,Bike,88
+2013,23,Medford St & South St,42.3742,-71.0881,PM,Ped,142
+2013,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,105
+2013,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,157
+2013,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,99
+2013,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,148
+2013,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,34
+2013,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,75
+2013,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,0
+2013,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,0
+2013,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,53
+2013,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,337
+2013,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,18
+2013,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,291
+2013,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,33
+2013,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,135
+2013,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,32
+2013,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,137
+2013,28,Broadway & Holland St,42.403,-71.127,AM,Bike,101
+2013,28,Broadway & Holland St,42.403,-71.127,AM,Ped,328
+2013,28,Broadway & Holland St,42.403,-71.127,PM,Bike,94
+2013,28,Broadway & Holland St,42.403,-71.127,PM,Ped,193
+2013,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,81
+2013,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,98
+2013,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,51
+2013,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,122
+2013,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,167
+2013,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,135
+2013,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,150
+2013,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,264
+2013,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,4
+2013,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,59
+2013,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,5
+2013,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,47
+2013,32,Summer St & School St,42.3844,-71.1004,AM,Bike,105
+2013,32,Summer St & School St,42.3844,-71.1004,AM,Ped,106
+2013,32,Summer St & School St,42.3844,-71.1004,PM,Bike,64
+2013,32,Summer St & School St,42.3844,-71.1004,PM,Ped,85
+2013,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,21
+2013,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,142
+2013,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,22
+2013,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,223
+2013,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,54
+2013,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,264
+2013,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,48
+2013,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,194
+2013,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,358
+2013,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,428
+2013,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,287
+2013,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,437
+2013,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,0
+2013,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,0
+2013,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,36
+2013,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,58
+2012,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,183
+2012,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,93
+2012,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,168
+2012,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,177
+2012,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,201
+2012,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,410
+2012,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,200
+2012,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,362
+2012,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,241
+2012,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,242
+2012,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,241
+2012,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,242
+2012,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,115
+2012,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,220
+2012,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,142
+2012,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,207
+2012,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,18
+2012,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,74
+2012,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,0
+2012,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,0
+2012,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,58
+2012,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,117
+2012,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,192
+2012,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,314
+2012,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,55
+2012,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,442
+2012,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,61
+2012,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,393
+2012,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,84
+2012,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,302
+2012,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,47
+2012,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,162
+2012,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,57
+2012,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,303
+2012,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,39
+2012,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,356
+2012,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,65
+2012,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,105
+2012,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,90
+2012,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,300
+2012,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,79
+2012,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,351
+2012,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,0
+2012,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,0
+2012,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,30
+2012,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,106
+2012,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,30
+2012,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,165
+2012,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,185
+2012,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,264
+2012,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,303
+2012,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,328
+2012,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,497
+2012,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,166
+2012,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,357
+2012,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,233
+2012,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,393
+2012,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,229
+2012,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,343
+2012,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,381
+2012,16,College Ave & Winter St,42.397,-71.122,AM,Bike,65
+2012,16,College Ave & Winter St,42.397,-71.122,AM,Ped,736
+2012,16,College Ave & Winter St,42.397,-71.122,PM,Bike,91
+2012,16,College Ave & Winter St,42.397,-71.122,PM,Ped,674
+2012,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,60
+2012,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,301
+2012,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,0
+2012,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,0
+2012,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,57
+2012,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,189
+2012,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,47
+2012,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,192
+2012,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,38
+2012,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,108
+2012,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,40
+2012,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,134
+2012,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,0
+2012,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,0
+2012,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,36
+2012,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,187
+2012,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,21
+2012,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,49
+2012,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,54
+2012,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,89
+2012,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,14
+2012,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,212
+2012,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,28
+2012,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,109
+2012,23,Medford St & South St,42.3742,-71.0881,AM,Bike,97
+2012,23,Medford St & South St,42.3742,-71.0881,AM,Ped,71
+2012,23,Medford St & South St,42.3742,-71.0881,PM,Bike,86
+2012,23,Medford St & South St,42.3742,-71.0881,PM,Ped,164
+2012,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,66
+2012,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,119
+2012,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,78
+2012,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,153
+2012,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,38
+2012,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,176
+2012,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,57
+2012,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,195
+2012,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,27
+2012,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,255
+2012,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,35
+2012,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,386
+2012,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,34
+2012,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,142
+2012,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,39
+2012,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,138
+2012,28,Broadway & Holland St,42.403,-71.127,AM,Bike,71
+2012,28,Broadway & Holland St,42.403,-71.127,AM,Ped,242
+2012,28,Broadway & Holland St,42.403,-71.127,PM,Bike,99
+2012,28,Broadway & Holland St,42.403,-71.127,PM,Ped,458
+2012,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,39
+2012,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,56
+2012,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,0
+2012,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,0
+2012,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,0
+2012,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,0
+2012,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,117
+2012,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,134
+2012,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,2
+2012,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,25
+2012,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,5
+2012,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,87
+2012,32,Summer St & School St,42.3844,-71.1004,AM,Bike,54
+2012,32,Summer St & School St,42.3844,-71.1004,AM,Ped,83
+2012,32,Summer St & School St,42.3844,-71.1004,PM,Bike,0
+2012,32,Summer St & School St,42.3844,-71.1004,PM,Ped,0
+2012,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,3
+2012,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,128
+2012,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,30
+2012,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,228
+2012,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,37
+2012,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,266
+2012,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,0
+2012,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,0
+2012,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,274
+2012,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,432
+2012,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,221
+2012,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,354
+2012,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,0
+2012,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,0
+2012,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,19
+2012,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,73
+2011,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,90
+2011,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,87
+2011,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,85
+2011,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,117
+2011,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,135
+2011,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,283
+2011,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,61
+2011,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,240
+2011,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,67
+2011,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,140
+2011,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,145
+2011,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,210
+2011,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,107
+2011,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,182
+2011,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,107
+2011,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,191
+2011,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,11
+2011,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,67
+2011,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,1
+2011,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,101
+2011,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,74
+2011,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,139
+2011,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,177
+2011,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,256
+2011,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,45
+2011,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,457
+2011,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,30
+2011,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,445
+2011,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,103
+2011,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,295
+2011,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,33
+2011,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,213
+2011,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,44
+2011,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,354
+2011,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,49
+2011,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,345
+2011,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,48
+2011,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,123
+2011,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,68
+2011,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,289
+2011,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,46
+2011,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,347
+2011,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,57
+2011,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,419
+2011,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,0
+2011,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,0
+2011,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,0
+2011,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,0
+2011,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,194
+2011,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,384
+2011,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,216
+2011,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,341
+2011,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,126
+2011,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,109
+2011,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,211
+2011,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,262
+2011,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,250
+2011,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,206
+2011,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,264
+2011,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,495
+2011,16,College Ave & Winter St,42.397,-71.122,AM,Bike,45
+2011,16,College Ave & Winter St,42.397,-71.122,AM,Ped,794
+2011,16,College Ave & Winter St,42.397,-71.122,PM,Bike,38
+2011,16,College Ave & Winter St,42.397,-71.122,PM,Ped,594
+2011,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,54
+2011,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,284
+2011,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,97
+2011,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,406
+2011,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,64
+2011,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,234
+2011,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,46
+2011,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,235
+2011,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,11
+2011,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,103
+2011,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,33
+2011,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,111
+2011,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,101
+2011,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,23
+2011,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,25
+2011,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,184
+2011,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,13
+2011,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,42
+2011,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,0
+2011,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,0
+2011,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,6
+2011,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,77
+2011,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,0
+2011,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,0
+2011,23,Medford St & South St,42.3742,-71.0881,AM,Bike,61
+2011,23,Medford St & South St,42.3742,-71.0881,AM,Ped,77
+2011,23,Medford St & South St,42.3742,-71.0881,PM,Bike,60
+2011,23,Medford St & South St,42.3742,-71.0881,PM,Ped,128
+2011,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,45
+2011,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,104
+2011,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,59
+2011,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,130
+2011,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,59
+2011,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,212
+2011,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,42
+2011,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,165
+2011,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,17
+2011,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,205
+2011,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,14
+2011,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,299
+2011,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,17
+2011,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,155
+2011,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,31
+2011,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,198
+2011,28,Broadway & Holland St,42.403,-71.127,AM,Bike,49
+2011,28,Broadway & Holland St,42.403,-71.127,AM,Ped,279
+2011,28,Broadway & Holland St,42.403,-71.127,PM,Bike,48
+2011,28,Broadway & Holland St,42.403,-71.127,PM,Ped,438
+2011,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,38
+2011,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,106
+2011,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,35
+2011,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,69
+2011,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,65
+2011,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,83
+2011,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,89
+2011,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,153
+2011,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,0
+2011,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,0
+2011,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,0
+2011,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,0
+2011,32,Summer St & School St,42.3844,-71.1004,AM,Bike,61
+2011,32,Summer St & School St,42.3844,-71.1004,AM,Ped,74
+2011,32,Summer St & School St,42.3844,-71.1004,PM,Bike,65
+2011,32,Summer St & School St,42.3844,-71.1004,PM,Ped,151
+2011,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,10
+2011,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,106
+2011,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,0
+2011,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,0
+2011,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,17
+2011,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,125
+2011,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,14
+2011,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,110
+2011,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,340
+2011,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,437
+2011,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,100
+2011,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,295
+2011,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,11
+2011,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,73
+2011,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,0
+2011,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,0
+2010,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Bike,67
+2010,1,Webster Ave & Prospect St,42.377,-71.0956,AM,Ped,124
+2010,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Bike,110
+2010,1,Webster Ave & Prospect St,42.377,-71.0956,PM,Ped,146
+2010,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Bike,123
+2010,2,Washington St & Somerville Ave,42.3796,-71.0964,AM,Ped,298
+2010,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Bike,119
+2010,2,Washington St & Somerville Ave,42.3796,-71.0964,PM,Ped,335
+2010,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Bike,36
+2010,3,Somerville Ave & Prospect St,42.3791,-71.0941,AM,Ped,120
+2010,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Bike,47
+2010,3,Somerville Ave & Prospect St,42.3791,-71.0941,PM,Ped,80
+2010,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Bike,60
+2010,4,Somerville Ave & Elm St,42.3855,-71.1135,AM,Ped,198
+2010,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Bike,50
+2010,4,Somerville Ave & Elm St,42.3855,-71.1135,PM,Ped,153
+2010,5,Medford St & Broadway,42.3973,-71.1043,AM,Bike,23
+2010,5,Medford St & Broadway,42.3973,-71.1043,AM,Ped,87
+2010,5,Medford St & Broadway,42.3973,-71.1043,PM,Bike,34
+2010,5,Medford St & Broadway,42.3973,-71.1043,PM,Ped,209
+2010,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Bike,62
+2010,6,Willow Ave & Elm St,42.3913,-71.1187,AM,Ped,177
+2010,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Bike,146
+2010,6,Willow Ave & Elm St,42.3913,-71.1187,PM,Ped,333
+2010,7,Community Path & Grove St,42.3963,-71.1201,AM,Bike,34
+2010,7,Community Path & Grove St,42.3963,-71.1201,AM,Ped,422
+2010,7,Community Path & Grove St,42.3963,-71.1201,PM,Bike,73
+2010,7,Community Path & Grove St,42.3963,-71.1201,PM,Ped,408
+2010,8,Community Path & Cedar St,42.394,-71.1111,AM,Bike,50
+2010,8,Community Path & Cedar St,42.394,-71.1111,AM,Ped,171
+2010,8,Community Path & Cedar St,42.394,-71.1111,PM,Bike,23
+2010,8,Community Path & Cedar St,42.394,-71.1111,PM,Ped,117
+2010,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Bike,34
+2010,9,Community Path & Buena Vista Rd,42.3973,-71.1246,AM,Ped,308
+2010,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Bike,23
+2010,9,Community Path & Buena Vista Rd,42.3973,-71.1246,PM,Ped,279
+2010,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Bike,30
+2010,10,College Ave & Powder House Circle,42.4014,-71.1168,AM,Ped,236
+2010,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Bike,74
+2010,10,College Ave & Powder House Circle,42.4014,-71.1168,PM,Ped,323
+2010,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Bike,65
+2010,11,Holland St & Cameron Ave,42.4011,-71.1262,AM,Ped,331
+2010,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Bike,46
+2010,11,Holland St & Cameron Ave,42.4011,-71.1262,PM,Ped,428
+2010,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Bike,20
+2010,12,Broadway & McGrath Hwy,42.3897,-71.0881,AM,Ped,122
+2010,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Bike,25
+2010,12,Broadway & McGrath Hwy,42.3897,-71.0881,PM,Ped,154
+2010,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Bike,248
+2010,13,Somerville Ave & Beacon St,42.3869,-71.1162,AM,Ped,438
+2010,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Bike,130
+2010,13,Somerville Ave & Beacon St,42.3869,-71.1162,PM,Ped,318
+2010,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Bike,218
+2010,14,Concord Ave & Beacon St,42.3751,-71.1025,AM,Ped,185
+2010,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Bike,141
+2010,14,Concord Ave & Beacon St,42.3751,-71.1025,PM,Ped,215
+2010,15,Washington St & Beacon St,42.3783,-71.1064,AM,Bike,85
+2010,15,Washington St & Beacon St,42.3783,-71.1064,AM,Ped,182
+2010,15,Washington St & Beacon St,42.3783,-71.1064,PM,Bike,110
+2010,15,Washington St & Beacon St,42.3783,-71.1064,PM,Ped,166
+2010,16,College Ave & Winter St,42.397,-71.122,AM,Bike,102
+2010,16,College Ave & Winter St,42.397,-71.122,AM,Ped,1085
+2010,16,College Ave & Winter St,42.397,-71.122,PM,Bike,103
+2010,16,College Ave & Winter St,42.397,-71.122,PM,Ped,1596
+2010,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Bike,79
+2010,17,Community Path & Willow Ave,42.3952,-71.1161,AM,Ped,520
+2010,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Bike,106
+2010,17,Community Path & Willow Ave,42.3952,-71.1161,PM,Ped,315
+2010,18,Cedar St & Summer St,42.3905,-71.1136,AM,Bike,16
+2010,18,Cedar St & Summer St,42.3905,-71.1136,AM,Ped,168
+2010,18,Cedar St & Summer St,42.3905,-71.1136,PM,Bike,47
+2010,18,Cedar St & Summer St,42.3905,-71.1136,PM,Ped,177
+2010,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Bike,19
+2010,19,Washington St & Inner Belt Rd,42.382,-71.0815,AM,Ped,86
+2010,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Bike,23
+2010,19,Washington St & Inner Belt Rd,42.382,-71.0815,PM,Ped,144
+2010,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Bike,5
+2010,20,Highland Ave & Walnut St,42.3851,-71.0942,AM,Ped,177
+2010,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Bike,11
+2010,20,Highland Ave & Walnut St,42.3851,-71.0942,PM,Ped,161
+2010,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Bike,16
+2010,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,AM,Ped,41
+2010,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Bike,17
+2010,21,Rt. 28 Bridge & Shore Dr,42.3983,-71.0845,PM,Ped,86
+2010,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Bike,13
+2010,22,Powder House Blvd & North St,42.4074,-71.1303,AM,Ped,191
+2010,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Bike,10
+2010,22,Powder House Blvd & North St,42.4074,-71.1303,PM,Ped,86
+2010,23,Medford St & South St,42.3742,-71.0881,AM,Bike,54
+2010,23,Medford St & South St,42.3742,-71.0881,AM,Ped,83
+2010,23,Medford St & South St,42.3742,-71.0881,PM,Bike,66
+2010,23,Medford St & South St,42.3742,-71.0881,PM,Ped,102
+2010,24,Joy St & Washington St,42.3807,-71.0886,AM,Bike,64
+2010,24,Joy St & Washington St,42.3807,-71.0886,AM,Ped,95
+2010,24,Joy St & Washington St,42.3807,-71.0886,PM,Bike,50
+2010,24,Joy St & Washington St,42.3807,-71.0886,PM,Ped,123
+2010,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Bike,36
+2010,25,Highland Ave & Lowell St,42.3902,-71.108,AM,Ped,184
+2010,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Bike,28
+2010,25,Highland Ave & Lowell St,42.3902,-71.108,PM,Ped,94
+2010,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Bike,22
+2010,26,Broadway & Lombardi Way,42.3862,-71.0788,AM,Ped,290
+2010,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Bike,5
+2010,26,Broadway & Lombardi Way,42.3862,-71.0788,PM,Ped,243
+2010,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Bike,21
+2010,27,Broadway & Boston Ave,42.3997,-71.1115,AM,Ped,97
+2010,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Bike,35
+2010,27,Broadway & Boston Ave,42.3997,-71.1115,PM,Ped,221
+2010,28,Broadway & Holland St,42.403,-71.127,AM,Bike,20
+2010,28,Broadway & Holland St,42.403,-71.127,AM,Ped,231
+2010,28,Broadway & Holland St,42.403,-71.127,PM,Bike,65
+2010,28,Broadway & Holland St,42.403,-71.127,PM,Ped,258
+2010,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Bike,26
+2010,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,AM,Ped,51
+2010,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Bike,22
+2010,29,Broadway & Alewife Brook Pkwy,42.4069,-71.1336,PM,Ped,63
+2010,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Bike,45
+2010,30,Dane St & Somerville Ave,42.3825,-71.1034,AM,Ped,98
+2010,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Bike,59
+2010,30,Dane St & Somerville Ave,42.3825,-71.1034,PM,Ped,140
+2010,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Bike,12
+2010,31,Foley St & Middlesex Ave,42.3926,-71.083,AM,Ped,83
+2010,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Bike,3
+2010,31,Foley St & Middlesex Ave,42.3926,-71.083,PM,Ped,61
+2010,32,Summer St & School St,42.3844,-71.1004,AM,Bike,28
+2010,32,Summer St & School St,42.3844,-71.1004,AM,Ped,73
+2010,32,Summer St & School St,42.3844,-71.1004,PM,Bike,16
+2010,32,Summer St & School St,42.3844,-71.1004,PM,Ped,70
+2010,33,Temple St & Broadway,42.3926,-71.0933,AM,Bike,19
+2010,33,Temple St & Broadway,42.3926,-71.0933,AM,Ped,156
+2010,33,Temple St & Broadway,42.3926,-71.0933,PM,Bike,13
+2010,33,Temple St & Broadway,42.3926,-71.0933,PM,Ped,232
+2010,34,Cross St & Pearl St,42.3857,-71.0878,AM,Bike,18
+2010,34,Cross St & Pearl St,42.3857,-71.0878,AM,Ped,97
+2010,34,Cross St & Pearl St,42.3857,-71.0878,PM,Bike,48
+2010,34,Cross St & Pearl St,42.3857,-71.0878,PM,Ped,243
+2010,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Bike,262
+2010,35,Mossland St & Somerville Ave,42.3873,-71.1168,AM,Ped,436
+2010,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Bike,219
+2010,35,Mossland St & Somerville Ave,42.3873,-71.1168,PM,Ped,346
+2010,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Bike,14
+2010,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,AM,Ped,56
+2010,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Bike,29
+2010,36,Boston Ave & Alewife Brook Pkwy,42.4146,-71.1313,PM,Ped,51

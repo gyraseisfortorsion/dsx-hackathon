@@ -1,0 +1,625 @@
+{
+  "id" : "qu9x-4xq5",
+  "name" : "Bicycle & Pedestrian Counts",
+  "assetType" : "dataset",
+  "attribution" : "City of Somerville Transportation & Infrastructure Department",
+  "averageRating" : 0,
+  "category" : "Transportation & Mobility",
+  "createdAt" : 1483715205,
+  "description" : "The annual bike and pedestrian count is a volunteer data collection effort each fall that helps the City understand where and how many people are biking and walking in Somerville, and how those numbers are changing over time. This program has been taking place each year since 2010. \n\nCounts are collected Tuesday, Wednesday, or Thursday for one hour in the morning and evening using a “screen line” method, whereby cyclists and pedestrians are counted as they pass by an imaginary line across the street and sidewalks. Morning count sessions begin between 7:15 and 7:45 am, and evening count sessions begin between 4:45 and 5:15 pm.  \n\nBike counts capture the number of people riding bicycles, so an adult and child riding on the same bike would be counted as two counts even though it is only one bike. Pedestrian counts capture people walking or jogging, people using a wheelchair or assistive device, children in strollers, and people using other micro-mobility devices, such as skateboards, scooters, or roller skates. \n\nWhile the City and its amazing volunteers do their best to collect accurate and complete data each year and the City does quality control to catch clear errors, it is not possible to ensure 100% accuracy of the data and not all locations have been counted every year of the program. There are also several external factors impacting counts that are not consistent year-to-year, such as nearby construction and weather. For these reasons, the counts are intended to be used to observe high-level trends across the city and at count locations, and not to extrapolate that biking and walking in Somerville has changed by a specific percentage or number.\n\n Data in this dataset are available at the location count level. To request data at the movement level, please contact transportation@somervillema.gov.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 8891,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "ODBL",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40408411,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1707159347,
+  "publicationGroup" : 13986342,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1766526805,
+  "rowsUpdatedBy" : "nnwx-dqbu",
+  "tableId" : 19449965,
+  "totalTimesRated" : 0,
+  "viewCount" : 14216,
+  "viewLastModified" : 1738697041,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1707161190,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6132770,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1707161189,
+    "targetAudience" : "public",
+    "workflowId" : 1447,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1707161190,
+      "failureCount" : 0,
+      "startedAt" : 1707161190,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "7ja9-67cr",
+      "displayName" : "Emma Klekotka"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 589140581,
+    "name" : "Year",
+    "dataTypeName" : "number",
+    "description" : "Year of Count",
+    "fieldName" : "year",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 42456767,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "2025",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2020",
+        "count_1" : "168"
+      }, {
+        "item" : "2022",
+        "count_1" : "168"
+      }, {
+        "item" : "2018",
+        "count_1" : "168"
+      }, {
+        "item" : "2025",
+        "count_1" : "168"
+      }, {
+        "item" : "2024",
+        "count_1" : "168"
+      }, {
+        "item" : "2019",
+        "count_1" : "168"
+      }, {
+        "item" : "2023",
+        "count_1" : "168"
+      }, {
+        "item" : "2017",
+        "count_1" : "168"
+      }, {
+        "item" : "2021",
+        "count_1" : "168"
+      }, {
+        "item" : "2016",
+        "count_1" : "156"
+      }, {
+        "item" : "2011",
+        "count_1" : "144"
+      }, {
+        "item" : "2012",
+        "count_1" : "144"
+      }, {
+        "item" : "2013",
+        "count_1" : "144"
+      }, {
+        "item" : "2010",
+        "count_1" : "144"
+      }, {
+        "item" : "2015",
+        "count_1" : "144"
+      }, {
+        "item" : "2014",
+        "count_1" : "144"
+      } ],
+      "smallest" : "2010",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 589140582,
+    "name" : "Location #",
+    "dataTypeName" : "number",
+    "description" : "ID number of the intersection where the count took place. Corresponds to the location in “Location Name.”",
+    "fieldName" : "location",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 42456768,
+    "width" : 220,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "42",
+      "null" : "0",
+      "top" : [ {
+        "item" : "18",
+        "count_1" : "64"
+      }, {
+        "item" : "12",
+        "count_1" : "64"
+      }, {
+        "item" : "27",
+        "count_1" : "64"
+      }, {
+        "item" : "1",
+        "count_1" : "64"
+      }, {
+        "item" : "35",
+        "count_1" : "64"
+      }, {
+        "item" : "4",
+        "count_1" : "64"
+      }, {
+        "item" : "36",
+        "count_1" : "64"
+      }, {
+        "item" : "10",
+        "count_1" : "64"
+      }, {
+        "item" : "19",
+        "count_1" : "64"
+      }, {
+        "item" : "9",
+        "count_1" : "64"
+      }, {
+        "item" : "13",
+        "count_1" : "64"
+      }, {
+        "item" : "29",
+        "count_1" : "64"
+      }, {
+        "item" : "14",
+        "count_1" : "64"
+      }, {
+        "item" : "3",
+        "count_1" : "64"
+      }, {
+        "item" : "17",
+        "count_1" : "64"
+      }, {
+        "item" : "8",
+        "count_1" : "64"
+      }, {
+        "item" : "7",
+        "count_1" : "64"
+      }, {
+        "item" : "33",
+        "count_1" : "64"
+      }, {
+        "item" : "34",
+        "count_1" : "64"
+      }, {
+        "item" : "20",
+        "count_1" : "64"
+      } ],
+      "smallest" : "1",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140583,
+    "name" : "Location Name",
+    "dataTypeName" : "text",
+    "description" : "Description of the intersection where the count took place, as Street Name 1 & Street Name 2. Corresponds to the ID number in “Location ID.”",
+    "fieldName" : "location_name",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 42456769,
+    "width" : 256,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "Willow Ave & Elm St",
+      "null" : "0",
+      "top" : [ {
+        "item" : "College Ave & Winter St",
+        "count_1" : "64"
+      }, {
+        "item" : "Willow Ave & Elm St",
+        "count_1" : "64"
+      }, {
+        "item" : "Cross St & Pearl St",
+        "count_1" : "64"
+      }, {
+        "item" : "Webster Ave & Prospect St",
+        "count_1" : "64"
+      }, {
+        "item" : "Community Path & Grove St",
+        "count_1" : "64"
+      }, {
+        "item" : "Somerville Ave & Elm St",
+        "count_1" : "64"
+      }, {
+        "item" : "Medford St & Broadway",
+        "count_1" : "64"
+      }, {
+        "item" : "Summer St & School St",
+        "count_1" : "64"
+      }, {
+        "item" : "Medford St & South St",
+        "count_1" : "64"
+      }, {
+        "item" : "Washington St & Somerville Ave",
+        "count_1" : "64"
+      }, {
+        "item" : "Rt. 28 Bridge & Shore Dr",
+        "count_1" : "64"
+      }, {
+        "item" : "Broadway & Lombardi Way",
+        "count_1" : "64"
+      }, {
+        "item" : "Somerville Ave & Prospect St",
+        "count_1" : "64"
+      }, {
+        "item" : "Broadway & McGrath Hwy",
+        "count_1" : "64"
+      }, {
+        "item" : "Joy St & Washington St",
+        "count_1" : "64"
+      }, {
+        "item" : "Broadway & Holland St",
+        "count_1" : "64"
+      }, {
+        "item" : "Highland Ave & Lowell St",
+        "count_1" : "64"
+      }, {
+        "item" : "Dane St & Somerville Ave",
+        "count_1" : "64"
+      }, {
+        "item" : "Concord Ave & Beacon St",
+        "count_1" : "64"
+      }, {
+        "item" : "Broadway & Boston Ave",
+        "count_1" : "64"
+      } ],
+      "smallest" : "Boston Ave & Alewife Brook Pkwy",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140682,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Latitude of the intersection where the count took place",
+    "fieldName" : "latitude",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151265564,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "42.4146",
+      "null" : "0",
+      "top" : [ {
+        "item" : "42.3973",
+        "count_1" : "128"
+      }, {
+        "item" : "42.3926",
+        "count_1" : "128"
+      }, {
+        "item" : "42.3897",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3791",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3825",
+        "count_1" : "64"
+      }, {
+        "item" : "42.394",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3844",
+        "count_1" : "64"
+      }, {
+        "item" : "42.382",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3963",
+        "count_1" : "64"
+      }, {
+        "item" : "42.4011",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3913",
+        "count_1" : "64"
+      }, {
+        "item" : "42.4014",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3751",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3997",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3855",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3862",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3851",
+        "count_1" : "64"
+      }, {
+        "item" : "42.3952",
+        "count_1" : "64"
+      }, {
+        "item" : "42.377",
+        "count_1" : "64"
+      }, {
+        "item" : "42.403",
+        "count_1" : "64"
+      } ],
+      "smallest" : "42.3742",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140698,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Longitude of the intersection where the count took place",
+    "fieldName" : "longitude",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151265579,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "-71.0775",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-71.1168",
+        "count_1" : "128"
+      }, {
+        "item" : "-71.0881",
+        "count_1" : "128"
+      }, {
+        "item" : "-71.1115",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1313",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0886",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1262",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1336",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0941",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1025",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0815",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0942",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.122",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1004",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0933",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.083",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0956",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.0878",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.108",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1034",
+        "count_1" : "64"
+      }, {
+        "item" : "-71.1303",
+        "count_1" : "64"
+      } ],
+      "smallest" : "-71.1336",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140584,
+    "name" : "AM/PM",
+    "dataTypeName" : "text",
+    "description" : "The time of day in which the count occurred. Count shifts occur during either AM or PM rush hour. Morning count sessions begin between 7:15 and 7:45 am, and evening count sessions begin between 4:45 and 5:15 pm. ",
+    "fieldName" : "am_pm",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 42456770,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "PM",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PM",
+        "count_1" : "1266"
+      }, {
+        "item" : "AM",
+        "count_1" : "1266"
+      } ],
+      "smallest" : "AM",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140665,
+    "name" : "Mode",
+    "dataTypeName" : "text",
+    "description" : "Mode of travel (whether the count is for bike or pedestrian)",
+    "fieldName" : "mode",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151265546,
+    "cachedContents" : {
+      "non_null" : "2532",
+      "largest" : "Ped",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Ped",
+        "count_1" : "1266"
+      }, {
+        "item" : "Bike",
+        "count_1" : "1266"
+      } ],
+      "smallest" : "Bike",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  }, {
+    "id" : 589140645,
+    "name" : "Count",
+    "dataTypeName" : "number",
+    "description" : "The count of individuals for this year, location, time of day, movement, and mode (that is, count of pedestrians if mode = Ped, count of bikes if mode = Bike) ",
+    "fieldName" : "count",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151265526,
+    "cachedContents" : {
+      "non_null" : "2526",
+      "largest" : "1596",
+      "null" : "6",
+      "top" : [ {
+        "item" : "0",
+        "count_1" : "190"
+      }, {
+        "item" : "73",
+        "count_1" : "18"
+      }, {
+        "item" : "48",
+        "count_1" : "17"
+      }, {
+        "item" : "39",
+        "count_1" : "17"
+      }, {
+        "item" : "61",
+        "count_1" : "16"
+      }, {
+        "item" : "38",
+        "count_1" : "15"
+      }, {
+        "item" : "62",
+        "count_1" : "15"
+      }, {
+        "item" : "45",
+        "count_1" : "15"
+      }, {
+        "item" : "30",
+        "count_1" : "15"
+      }, {
+        "item" : "23",
+        "count_1" : "14"
+      }, {
+        "item" : "49",
+        "count_1" : "14"
+      }, {
+        "item" : "35",
+        "count_1" : "14"
+      }, {
+        "item" : "57",
+        "count_1" : "14"
+      }, {
+        "item" : "110",
+        "count_1" : "14"
+      }, {
+        "item" : "54",
+        "count_1" : "13"
+      }, {
+        "item" : "34",
+        "count_1" : "13"
+      }, {
+        "item" : "77",
+        "count_1" : "13"
+      }, {
+        "item" : "56",
+        "count_1" : "13"
+      }, {
+        "item" : "59",
+        "count_1" : "13"
+      }, {
+        "item" : "46",
+        "count_1" : "13"
+      } ],
+      "smallest" : "0",
+      "count" : "2532",
+      "cardinality" : "2532"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Open Data Commons Open Database License",
+    "termsLink" : "http://opendatacommons.org/licenses/odbl/1.0/"
+  },
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Data Dictionary.pdf",
+      "assetId" : "c3b06e70-6012-4681-8458-c874b6fea80d",
+      "name" : "Data Dictionary.pdf"
+    } ],
+    "custom_fields" : {
+      "Common Core" : {
+        "Contact Email" : "data@somervillema.gov"
+      }
+    },
+    "rowLabel" : "Intersection Count by Year and Active Mode",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "nnwx-dqbu",
+    "displayName" : "SomerStat",
+    "screenName" : "SomerStat",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "nnwx-dqbu",
+    "displayName" : "SomerStat",
+    "screenName" : "SomerStat",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "transportation", "mobility", "bicycle", "pedestrian" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

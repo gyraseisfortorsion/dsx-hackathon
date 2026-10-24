@@ -1,0 +1,683 @@
+{
+  "id" : "q8v9-mcfg",
+  "name" : "Eco-Totem Broadway Bicycle Count",
+  "assetType" : "dataset",
+  "attributionLink" : "https://www.cambridgema.gov/CDD/Transportation/gettingaroundcambridge/bikesincambridge/ecototem",
+  "averageRating" : 0,
+  "category" : "Transportation",
+  "createdAt" : 1454342815,
+  "description" : "NOTE: Due to construction on Broadway, we have paused data collection on the Eco-Totem as of June 30, 2024. When construction is complete we will resume updating this dataset.\n\nThe “Eco-Totem” counter (made by the Montreal-based company Eco-Counter) counts cyclists via in-ground loop detectors embedded under the pavement of Broadway near Kendall Square. The device displays on a monitor how many cyclists pass by, and data is transferred in 15 minute increments daily from the device to Cambridge's Open Data Portal. Funding for this project was generously provided by the Helen & William Mazer Foundation.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3358,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1549904416,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 25205750,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1483478391,
+  "publicationGroup" : 7655103,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1725552015,
+  "tableId" : 13980697,
+  "totalTimesRated" : 0,
+  "viewCount" : 21641,
+  "viewLastModified" : 1758117144,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1483478391,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 747310,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1483478391,
+    "targetAudience" : "public",
+    "workflowId" : 2110,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "xktk-j6qj",
+      "displayName" : "Josh Wolff"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 284656418,
+    "name" : "DateTime",
+    "dataTypeName" : "calendar_date",
+    "description" : "The Broadway Eco Totem tracks the number of bicycles that pass by during fifteen minute increments. Numbers in this column signify the start of each increment. This field is used as a unique ID for the data.",
+    "fieldName" : "datetime",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 34153071,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "2024-06-30T23:45:00.000",
+      "non_null" : "306854",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2023-03-20T23:45:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2023-06-29T23:45:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2022-11-22T23:45:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2020-11-01T01:15:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-10-25T07:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-11-17T05:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-11-17T06:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-10-25T18:30:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T04:15:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-11-17T06:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T14:30:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T00:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-11-17T13:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T00:15:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T17:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-11-17T19:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-10-25T08:15:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-08-02T23:45:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-10-25T06:30:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2020-11-01T01:00:00.000",
+        "count" : "2"
+      } ],
+      "smallest" : "2015-06-24T00:00:00.000",
+      "not_null" : "148975",
+      "count" : "306854",
+      "cardinality" : "306435"
+    },
+    "format" : {
+      "view" : "date_time",
+      "align" : "left"
+    }
+  }, {
+    "id" : 284656419,
+    "name" : "Day",
+    "dataTypeName" : "text",
+    "description" : "The day of the week that the counts were made.",
+    "fieldName" : "day",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 34153072,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "Wednesday",
+      "non_null" : "306854",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Sunday",
+        "count" : "44079"
+      }, {
+        "item" : "Wednesday",
+        "count" : "43931"
+      }, {
+        "item" : "Friday",
+        "count" : "43871"
+      }, {
+        "item" : "Thursday",
+        "count" : "43855"
+      }, {
+        "item" : "Saturday",
+        "count" : "43854"
+      }, {
+        "item" : "Monday",
+        "count" : "43737"
+      }, {
+        "item" : "Tuesday",
+        "count" : "43527"
+      } ],
+      "smallest" : "Friday",
+      "not_null" : "148975",
+      "count" : "306854",
+      "cardinality" : "7"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 284656420,
+    "name" : "Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date (MM-DD-YYYY) that the counts were made.",
+    "fieldName" : "date",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 34153073,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "2024-06-30T00:00:00.000",
+      "non_null" : "306854",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2018-11-17T00:00:00.000",
+        "count" : "192"
+      }, {
+        "item" : "2018-10-25T00:00:00.000",
+        "count" : "192"
+      }, {
+        "item" : "2020-09-28T00:00:00.000",
+        "count" : "192"
+      }, {
+        "item" : "2017-08-02T00:00:00.000",
+        "count" : "192"
+      }, {
+        "item" : "2020-11-01T00:00:00.000",
+        "count" : "100"
+      }, {
+        "item" : "2021-11-07T00:00:00.000",
+        "count" : "100"
+      }, {
+        "item" : "2023-03-20T00:00:00.000",
+        "count" : "99"
+      }, {
+        "item" : "2023-06-29T00:00:00.000",
+        "count" : "98"
+      }, {
+        "item" : "2022-11-22T00:00:00.000",
+        "count" : "98"
+      }, {
+        "item" : "2022-06-12T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2023-12-25T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2023-11-10T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2023-06-01T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2022-07-24T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2022-03-09T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2024-06-26T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2022-11-04T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2024-06-15T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2024-03-30T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2023-03-13T00:00:00.000",
+        "count" : "97"
+      } ],
+      "smallest" : "2015-06-24T00:00:00.000",
+      "not_null" : "148975",
+      "count" : "306854",
+      "cardinality" : "3196"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 284656421,
+    "name" : "Time",
+    "dataTypeName" : "text",
+    "description" : "The Ecototem counts the number of bicyclists that pass by in 15 minute increments. This column indicates the starting time (HHMMSS) of each 15 minute increment.",
+    "fieldName" : "time",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 34153074,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "23:45:00",
+      "non_null" : "306854",
+      "null" : "0",
+      "top" : [ {
+        "item" : " 01:00:00",
+        "count" : "2209"
+      }, {
+        "item" : " 01:45:00",
+        "count" : "2209"
+      }, {
+        "item" : " 01:15:00",
+        "count" : "2209"
+      }, {
+        "item" : " 01:30:00",
+        "count" : "2209"
+      }, {
+        "item" : " 03:45:00",
+        "count" : "2208"
+      }, {
+        "item" : " 03:15:00",
+        "count" : "2208"
+      }, {
+        "item" : " 03:30:00",
+        "count" : "2208"
+      }, {
+        "item" : " 03:00:00",
+        "count" : "2208"
+      }, {
+        "item" : " 06:00:00",
+        "count" : "2207"
+      }, {
+        "item" : " 00:15:00",
+        "count" : "2207"
+      }, {
+        "item" : " 00:30:00",
+        "count" : "2207"
+      }, {
+        "item" : " 00:45:00",
+        "count" : "2207"
+      }, {
+        "item" : " 05:00:00",
+        "count" : "2207"
+      }, {
+        "item" : " 05:15:00",
+        "count" : "2207"
+      }, {
+        "item" : " 05:30:00",
+        "count" : "2207"
+      }, {
+        "item" : " 05:45:00",
+        "count" : "2207"
+      }, {
+        "item" : " 06:15:00",
+        "count" : "2207"
+      }, {
+        "item" : " 06:30:00",
+        "count" : "2207"
+      }, {
+        "item" : " 06:45:00",
+        "count" : "2207"
+      }, {
+        "item" : " 07:00:00",
+        "count" : "2207"
+      } ],
+      "smallest" : " 00:00:00",
+      "not_null" : "148975",
+      "count" : "306854",
+      "cardinality" : "192"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 284656422,
+    "name" : "Total",
+    "dataTypeName" : "number",
+    "description" : "The total number of bicyclists riding through the Kendall Square area on Broadway, both eastbound and westbound.",
+    "fieldName" : "total",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 34153075,
+    "width" : 160,
+    "cachedContents" : {
+      "largest" : "196",
+      "non_null" : "306854",
+      "average" : "10.95689329516550",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "55241"
+      }, {
+        "item" : "1",
+        "count" : "31451"
+      }, {
+        "item" : "2",
+        "count" : "21823"
+      }, {
+        "item" : "3",
+        "count" : "17244"
+      }, {
+        "item" : "4",
+        "count" : "14888"
+      }, {
+        "item" : "5",
+        "count" : "13297"
+      }, {
+        "item" : "6",
+        "count" : "12083"
+      }, {
+        "item" : "7",
+        "count" : "11016"
+      }, {
+        "item" : "8",
+        "count" : "10224"
+      }, {
+        "item" : "9",
+        "count" : "9618"
+      }, {
+        "item" : "10",
+        "count" : "9141"
+      }, {
+        "item" : "11",
+        "count" : "8709"
+      }, {
+        "item" : "12",
+        "count" : "7944"
+      }, {
+        "item" : "13",
+        "count" : "7256"
+      }, {
+        "item" : "14",
+        "count" : "6706"
+      }, {
+        "item" : "15",
+        "count" : "6026"
+      }, {
+        "item" : "16",
+        "count" : "5419"
+      }, {
+        "item" : "17",
+        "count" : "4733"
+      }, {
+        "item" : "18",
+        "count" : "4329"
+      }, {
+        "item" : "19",
+        "count" : "3765"
+      } ],
+      "smallest" : "0",
+      "not_null" : "148975",
+      "count" : "306854",
+      "sum" : "1305218",
+      "cardinality" : "128"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 284656423,
+    "name" : "Westbound",
+    "dataTypeName" : "number",
+    "description" : "The total number of bicyclists riding westbound through Kendall Square on Broadway.",
+    "fieldName" : "entries",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 34153076,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "193",
+      "non_null" : "306854",
+      "average" : "5.028105403658403",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "87017"
+      }, {
+        "item" : "1",
+        "count" : "44289"
+      }, {
+        "item" : "2",
+        "count" : "31284"
+      }, {
+        "item" : "3",
+        "count" : "24711"
+      }, {
+        "item" : "4",
+        "count" : "20391"
+      }, {
+        "item" : "5",
+        "count" : "16647"
+      }, {
+        "item" : "6",
+        "count" : "13604"
+      }, {
+        "item" : "7",
+        "count" : "10965"
+      }, {
+        "item" : "8",
+        "count" : "8720"
+      }, {
+        "item" : "9",
+        "count" : "6919"
+      }, {
+        "item" : "10",
+        "count" : "5481"
+      }, {
+        "item" : "11",
+        "count" : "4517"
+      }, {
+        "item" : "12",
+        "count" : "3619"
+      }, {
+        "item" : "13",
+        "count" : "2928"
+      }, {
+        "item" : "14",
+        "count" : "2452"
+      }, {
+        "item" : "15",
+        "count" : "2152"
+      }, {
+        "item" : "16",
+        "count" : "1760"
+      }, {
+        "item" : "17",
+        "count" : "1485"
+      }, {
+        "item" : "18",
+        "count" : "1341"
+      }, {
+        "item" : "19",
+        "count" : "1256"
+      } ],
+      "smallest" : "0",
+      "not_null" : "148975",
+      "count" : "306854",
+      "sum" : "598963",
+      "cardinality" : "94"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 284656424,
+    "name" : "Eastbound",
+    "dataTypeName" : "number",
+    "description" : "The total number of bicyclists riding eastbound through Kendall Square on Broadway.",
+    "fieldName" : "exits",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 34153077,
+    "width" : 160,
+    "cachedContents" : {
+      "largest" : "113",
+      "non_null" : "306854",
+      "average" : "5.928787891507098",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "91925"
+      }, {
+        "item" : "1",
+        "count" : "39903"
+      }, {
+        "item" : "2",
+        "count" : "27488"
+      }, {
+        "item" : "3",
+        "count" : "21649"
+      }, {
+        "item" : "4",
+        "count" : "18752"
+      }, {
+        "item" : "5",
+        "count" : "15974"
+      }, {
+        "item" : "6",
+        "count" : "14065"
+      }, {
+        "item" : "7",
+        "count" : "12026"
+      }, {
+        "item" : "8",
+        "count" : "9998"
+      }, {
+        "item" : "9",
+        "count" : "8261"
+      }, {
+        "item" : "10",
+        "count" : "6793"
+      }, {
+        "item" : "11",
+        "count" : "5373"
+      }, {
+        "item" : "12",
+        "count" : "4272"
+      }, {
+        "item" : "13",
+        "count" : "3509"
+      }, {
+        "item" : "14",
+        "count" : "2776"
+      }, {
+        "item" : "15",
+        "count" : "2437"
+      }, {
+        "item" : "16",
+        "count" : "1868"
+      }, {
+        "item" : "17",
+        "count" : "1604"
+      }, {
+        "item" : "18",
+        "count" : "1312"
+      }, {
+        "item" : "19",
+        "count" : "1160"
+      } ],
+      "smallest" : "0",
+      "not_null" : "148975",
+      "count" : "306854",
+      "sum" : "706255",
+      "cardinality" : "112"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "datetime",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "Eco-Totem Open Data Metadata Sheet 20210712.pdf",
+      "assetId" : "85ec3d53-18e2-4682-aa55-cf09fdf891a5",
+      "name" : "Eco-Totem Open Data Metadata Sheet 20210712.pdf"
+    } ],
+    "custom_fields" : {
+      "Specific Limitations" : {
+        "Limitations" : "All information that is presented here is accurate to the best of our knowledge at the time of publication. All information stated is subject to revision or retraction at any time. The Eco-Totem under-counts bicyclists to a small but significant degree, because it can only count people that ride over the in-ground tracking loop."
+      },
+      "Maintenance Plan" : {
+        "Maintenance Plan Details" : "Automatic daily updates",
+        "Estimated Update Frequency" : "As Needed"
+      }
+    },
+    "rowLabel" : "15 minute recording period",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "q8ma-sa6g",
+    "displayName" : "Scott Walker",
+    "profileImageUrlLarge" : "/api/users/q8ma-sa6g/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/q8ma-sa6g/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/q8ma-sa6g/profile_images/TINY",
+    "screenName" : "Scott Walker",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 284656418,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "q8ma-sa6g",
+    "displayName" : "Scott Walker",
+    "profileImageUrlLarge" : "/api/users/q8ma-sa6g/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/q8ma-sa6g/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/q8ma-sa6g/profile_images/TINY",
+    "screenName" : "Scott Walker",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "transportation", "vision zero", "kendall square", "eco-totem", "bicycle count", "bicycles" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

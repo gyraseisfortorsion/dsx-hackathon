@@ -1,0 +1,1199 @@
+{
+  "id" : "ijm6-q7em",
+  "name" : "Citywide Bicycle Counts",
+  "assetType" : "dataset",
+  "attribution" : "City of Cambridge",
+  "averageRating" : 0,
+  "category" : "Transportation",
+  "createdAt" : 1596210536,
+  "description" : "This bicycle count data is collected as part of the City of Cambridge’s regular citywide bicycle counts. These counts are typically done on weekdays (Tuesday-Thursday) in September, annually between 2002-2006 and every other year since 2008, with an additional count in 2019 due to poor weather in 2018. See also <a href=\"https://cityofcambridge.shinyapps.io/CitywideBicycleCounts/\" target=\"_blank\">this web app with data visualization tools</a> and more background information on using and interpreting the data.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 375,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "PDDL",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 37123242,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1620075637,
+  "publicationGroup" : 17392933,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1739898420,
+  "tableId" : 18280519,
+  "totalTimesRated" : 0,
+  "viewCount" : 1875,
+  "viewLastModified" : 1745423261,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1620841540,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 3607510,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1620841540,
+    "targetAudience" : "public",
+    "workflowId" : 2110,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1620841541,
+      "failureCount" : 0,
+      "startedAt" : 1620841540,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "xktk-j6qj",
+      "displayName" : "Josh Wolff"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 539196383,
+    "name" : "Count Location",
+    "dataTypeName" : "text",
+    "description" : "The assigned name for the count location. Where possible, this is the name used in the Cambridge GIS Intersections layer",
+    "fieldName" : "countlocation",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418694,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "Putnam Ave & River St",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Cambridge St & Hampshire St",
+        "count_1" : "30296"
+      }, {
+        "item" : "Concord Ave & Fresh Pond Pkwy & New St",
+        "count_1" : "18606"
+      }, {
+        "item" : "Massachusetts Ave & Sidney St",
+        "count_1" : "18340"
+      }, {
+        "item" : "Brattle St & Sparks St",
+        "count_1" : "14944"
+      }, {
+        "item" : "Concord Ave & Garden St",
+        "count_1" : "14522"
+      }, {
+        "item" : "Bow St & Massachusetts Ave",
+        "count_1" : "13856"
+      }, {
+        "item" : "Cedar St & Massachusetts Ave",
+        "count_1" : "12842"
+      }, {
+        "item" : "Anderson Bridge & JFK St & Memorial Dr",
+        "count_1" : "12672"
+      }, {
+        "item" : "Massachusetts Ave & Memorial Dr",
+        "count_1" : "12506"
+      }, {
+        "item" : "Broadway & Hampshire St",
+        "count_1" : "11712"
+      }, {
+        "item" : "Memorial Dr & Western Ave & Western Avenue Bridge",
+        "count_1" : "10278"
+      }, {
+        "item" : "Brookline St & Granite St",
+        "count_1" : "10166"
+      }, {
+        "item" : "Putnam Ave & River St",
+        "count_1" : "9868"
+      }, {
+        "item" : "Massachusetts Ave & Somerville Ave",
+        "count_1" : "9716"
+      }, {
+        "item" : "Chilton St & Huron Ave",
+        "count_1" : "9339"
+      }, {
+        "item" : "Brattle St & Mason St",
+        "count_1" : "9238"
+      }, {
+        "item" : "Massachusetts Ave & Vassar St",
+        "count_1" : "8192"
+      }, {
+        "item" : "Cambridge St & Monsignor OBrien Hwy",
+        "count_1" : "3924"
+      }, {
+        "item" : "Alewife Brook Pkwy & Concord Ave",
+        "count_1" : "2250"
+      }, {
+        "item" : "Galilei Way & Main St & Vassar St",
+        "count_1" : "2232"
+      } ],
+      "smallest" : "Aberdeen Ave & Mt Auburn St",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196384,
+    "name" : "Year",
+    "dataTypeName" : "number",
+    "description" : "The year the count occurred",
+    "fieldName" : "year",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418693,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "2024",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2024",
+        "count_1" : "27198"
+      }, {
+        "item" : "2016",
+        "count_1" : "22536"
+      }, {
+        "item" : "2018",
+        "count_1" : "22392"
+      }, {
+        "item" : "2022",
+        "count_1" : "21924"
+      }, {
+        "item" : "2019",
+        "count_1" : "19818"
+      }, {
+        "item" : "2014",
+        "count_1" : "19674"
+      }, {
+        "item" : "2012",
+        "count_1" : "17792"
+      }, {
+        "item" : "2010",
+        "count_1" : "17576"
+      }, {
+        "item" : "2008",
+        "count_1" : "16944"
+      }, {
+        "item" : "2006",
+        "count_1" : "12061"
+      }, {
+        "item" : "2005",
+        "count_1" : "11459"
+      }, {
+        "item" : "2002",
+        "count_1" : "9904"
+      }, {
+        "item" : "2004",
+        "count_1" : "9767"
+      }, {
+        "item" : "2003",
+        "count_1" : "8818"
+      }, {
+        "item" : "2023",
+        "count_1" : "936"
+      } ],
+      "smallest" : "2002",
+      "count" : "238799"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 539196385,
+    "name" : "Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the count occurred",
+    "fieldName" : "date",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 110418692,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "2024-09-17T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2024-09-17T00:00:00.000",
+        "count_1" : "21654"
+      }, {
+        "item" : "2022-09-14T00:00:00.000",
+        "count_1" : "19242"
+      }, {
+        "item" : "2010-09-14T00:00:00.000",
+        "count_1" : "16184"
+      }, {
+        "item" : "2008-09-10T00:00:00.000",
+        "count_1" : "9056"
+      }, {
+        "item" : "2004-10-07T00:00:00.000",
+        "count_1" : "8871"
+      }, {
+        "item" : "2012-09-12T00:00:00.000",
+        "count_1" : "8608"
+      }, {
+        "item" : "2016-09-20T00:00:00.000",
+        "count_1" : "8568"
+      }, {
+        "item" : "2008-09-11T00:00:00.000",
+        "count_1" : "7888"
+      }, {
+        "item" : "2014-09-10T00:00:00.000",
+        "count_1" : "7308"
+      }, {
+        "item" : "2016-09-15T00:00:00.000",
+        "count_1" : "7092"
+      }, {
+        "item" : "2014-09-09T00:00:00.000",
+        "count_1" : "7020"
+      }, {
+        "item" : "2016-09-13T00:00:00.000",
+        "count_1" : "6876"
+      }, {
+        "item" : "2002-10-29T00:00:00.000",
+        "count_1" : "6784"
+      }, {
+        "item" : "2019-09-11T00:00:00.000",
+        "count_1" : "6300"
+      }, {
+        "item" : "2005-09-20T00:00:00.000",
+        "count_1" : "6051"
+      }, {
+        "item" : "2018-09-27T00:00:00.000",
+        "count_1" : "5940"
+      }, {
+        "item" : "2018-09-26T00:00:00.000",
+        "count_1" : "5652"
+      }, {
+        "item" : "2012-09-11T00:00:00.000",
+        "count_1" : "5520"
+      }, {
+        "item" : "2019-09-17T00:00:00.000",
+        "count_1" : "5508"
+      }, {
+        "item" : "2018-10-03T00:00:00.000",
+        "count_1" : "5436"
+      } ],
+      "smallest" : "2002-10-29T00:00:00.000",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196386,
+    "name" : "Time Period",
+    "dataTypeName" : "text",
+    "description" : "Identifies morning (AM) and evening (PM) count periods",
+    "fieldName" : "timeperiod",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418691,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "PM",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PM",
+        "count_1" : "126862"
+      }, {
+        "item" : "AM",
+        "count_1" : "111937"
+      } ],
+      "smallest" : "AM",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196387,
+    "name" : "Time",
+    "dataTypeName" : "text",
+    "description" : "The start of the 15-minute interval represented in the count record",
+    "fieldName" : "time",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418690,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "18:45:00",
+      "null" : "0",
+      "top" : [ {
+        "item" : "08:45:00",
+        "count_1" : "13996"
+      }, {
+        "item" : "08:30:00",
+        "count_1" : "13994"
+      }, {
+        "item" : "08:00:00",
+        "count_1" : "13994"
+      }, {
+        "item" : "08:15:00",
+        "count_1" : "13993"
+      }, {
+        "item" : "07:30:00",
+        "count_1" : "13992"
+      }, {
+        "item" : "17:45:00",
+        "count_1" : "13991"
+      }, {
+        "item" : "17:30:00",
+        "count_1" : "13991"
+      }, {
+        "item" : "16:30:00",
+        "count_1" : "13990"
+      }, {
+        "item" : "07:45:00",
+        "count_1" : "13990"
+      }, {
+        "item" : "17:15:00",
+        "count_1" : "13990"
+      }, {
+        "item" : "17:00:00",
+        "count_1" : "13988"
+      }, {
+        "item" : "16:45:00",
+        "count_1" : "13986"
+      }, {
+        "item" : "18:00:00",
+        "count_1" : "13448"
+      }, {
+        "item" : "18:15:00",
+        "count_1" : "13444"
+      }, {
+        "item" : "09:00:00",
+        "count_1" : "12839"
+      }, {
+        "item" : "09:15:00",
+        "count_1" : "12837"
+      }, {
+        "item" : "18:30:00",
+        "count_1" : "7471"
+      }, {
+        "item" : "18:45:00",
+        "count_1" : "7471"
+      }, {
+        "item" : "07:00:00",
+        "count_1" : "1151"
+      }, {
+        "item" : "07:15:00",
+        "count_1" : "1151"
+      } ],
+      "smallest" : "07:00:00",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196388,
+    "name" : "Street",
+    "dataTypeName" : "text",
+    "description" : "The street where the count occurred",
+    "fieldName" : "street",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418689,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "Western Ave",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Massachusetts Ave",
+        "count_1" : "36952"
+      }, {
+        "item" : "Concord Ave",
+        "count_1" : "14638"
+      }, {
+        "item" : "Memorial Drive",
+        "count_1" : "13856"
+      }, {
+        "item" : "Hampshire St",
+        "count_1" : "13064"
+      }, {
+        "item" : "Brattle St",
+        "count_1" : "11306"
+      }, {
+        "item" : "Cambridge St",
+        "count_1" : "10910"
+      }, {
+        "item" : "Garden St",
+        "count_1" : "6950"
+      }, {
+        "item" : "Broadway",
+        "count_1" : "6288"
+      }, {
+        "item" : "John F Kennedy St",
+        "count_1" : "5916"
+      }, {
+        "item" : "Putnam Ave",
+        "count_1" : "5760"
+      }, {
+        "item" : "Huron Ave",
+        "count_1" : "5483"
+      }, {
+        "item" : "Brookline St",
+        "count_1" : "5196"
+      }, {
+        "item" : "Sparks St",
+        "count_1" : "4864"
+      }, {
+        "item" : "Main St",
+        "count_1" : "4842"
+      }, {
+        "item" : "Springfield St",
+        "count_1" : "4696"
+      }, {
+        "item" : "Vassar St",
+        "count_1" : "4672"
+      }, {
+        "item" : "Paul Dudley White Path",
+        "count_1" : "4344"
+      }, {
+        "item" : "Western Ave",
+        "count_1" : "4288"
+      }, {
+        "item" : "River St",
+        "count_1" : "4108"
+      }, {
+        "item" : "New St",
+        "count_1" : "3912"
+      } ],
+      "smallest" : "Aberdeen Ave",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196389,
+    "name" : "Traffic Direction",
+    "dataTypeName" : "text",
+    "description" : "The legal direction of traffic on the street where the count occurred",
+    "fieldName" : "trafficdirection",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418688,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "Westbound",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Northbound",
+        "count_1" : "52138"
+      }, {
+        "item" : "Westbound",
+        "count_1" : "50805"
+      }, {
+        "item" : "Southbound",
+        "count_1" : "50546"
+      }, {
+        "item" : "Eastbound",
+        "count_1" : "42500"
+      }, {
+        "item" : "Northwestbound",
+        "count_1" : "18570"
+      }, {
+        "item" : "Southeastbound",
+        "count_1" : "16078"
+      }, {
+        "item" : "Southwestbound",
+        "count_1" : "7624"
+      }, {
+        "item" : "Fresh Pond Bikeway Northbound",
+        "count_1" : "378"
+      }, {
+        "item" : "Northbound - East Sidewalk",
+        "count_1" : "160"
+      } ],
+      "smallest" : "Eastbound",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196390,
+    "name" : "Cyclist Location",
+    "dataTypeName" : "text",
+    "description" : "The location of the cyclist may be: Street (travelling in the street or bike lane), Sidewalk (riding on the sidewalk), or Bikepath",
+    "fieldName" : "cyclistlocation",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418687,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "Street",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Street",
+        "count_1" : "126595"
+      }, {
+        "item" : "Sidewalk",
+        "count_1" : "103100"
+      }, {
+        "item" : "Bikepath",
+        "count_1" : "9104"
+      } ],
+      "smallest" : "Bikepath",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196391,
+    "name" : "Cyclist Direction",
+    "dataTypeName" : "text",
+    "description" : "The direction of the cyclist in relation to the legal traffic direction. May be With Traffic, Against Traffic, or Bikepath",
+    "fieldName" : "cyclistdirection",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418686,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "With Traffic",
+      "null" : "0",
+      "top" : [ {
+        "item" : "With Traffic",
+        "count_1" : "127306"
+      }, {
+        "item" : "Against Traffic",
+        "count_1" : "102389"
+      }, {
+        "item" : "Bikepath",
+        "count_1" : "9104"
+      } ],
+      "smallest" : "Against Traffic",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196392,
+    "name" : "Movement Type",
+    "dataTypeName" : "text",
+    "description" : "The specific movement made by the cyclists in this count, for example Left, Right, or Thru. Values vary by count location. \"Red Light Running\" indicates cyclists that ran the red light. Counts with these values are independent of the turnning movement - a cyclist running a red light to turn left would also be recorded under a \"Left\" turning movement for this location and time.",
+    "fieldName" : "movementtype",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418685,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "To Grand Junction Path",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Thru",
+        "count_1" : "57844"
+      }, {
+        "item" : "Right",
+        "count_1" : "57364"
+      }, {
+        "item" : "Left",
+        "count_1" : "57185"
+      }, {
+        "item" : "Red Light Running",
+        "count_1" : "20194"
+      }, {
+        "item" : "Bear Right",
+        "count_1" : "12458"
+      }, {
+        "item" : "Bear Left",
+        "count_1" : "11806"
+      }, {
+        "item" : "Hard Left",
+        "count_1" : "9784"
+      }, {
+        "item" : "Hard Right",
+        "count_1" : "8712"
+      }, {
+        "item" : "To Fresh Pond Bike Path",
+        "count_1" : "2264"
+      }, {
+        "item" : "Cross Street & Right",
+        "count_1" : "324"
+      }, {
+        "item" : "To Grand Junction Path",
+        "count_1" : "216"
+      }, {
+        "item" : "Cross Street & Left",
+        "count_1" : "216"
+      }, {
+        "item" : "To Fresh Pond Walking Path",
+        "count_1" : "180"
+      }, {
+        "item" : "Cross Fresh Pond Bike Path",
+        "count_1" : "108"
+      }, {
+        "item" : "Cross Fresh Pond Walking Path",
+        "count_1" : "108"
+      }, {
+        "item" : "Thru in Crosswalk",
+        "count_1" : "36"
+      } ],
+      "smallest" : "Bear Left",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196393,
+    "name" : "Count",
+    "dataTypeName" : "number",
+    "description" : "The count of cyclists for this 15-minute period reflecting the associated location, year, time, street, traffic direction, cyclist location, cyclist direction, and movement type.",
+    "fieldName" : "count",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418684,
+    "cachedContents" : {
+      "non_null" : "235739",
+      "largest" : "144",
+      "null" : "3060",
+      "top" : [ {
+        "item" : "0",
+        "count_1" : "189813"
+      }, {
+        "item" : "1",
+        "count_1" : "18302"
+      }, {
+        "item" : "2",
+        "count_1" : "7704"
+      }, {
+        "item" : "3",
+        "count_1" : "4276"
+      }, {
+        "item" : "4",
+        "count_1" : "2858"
+      }, {
+        "item" : "5",
+        "count_1" : "2111"
+      }, {
+        "item" : "6",
+        "count_1" : "1527"
+      }, {
+        "item" : "7",
+        "count_1" : "1216"
+      }, {
+        "item" : "8",
+        "count_1" : "1009"
+      }, {
+        "item" : "9",
+        "count_1" : "815"
+      }, {
+        "item" : "10",
+        "count_1" : "671"
+      }, {
+        "item" : "11",
+        "count_1" : "559"
+      }, {
+        "item" : "12",
+        "count_1" : "509"
+      }, {
+        "item" : "13",
+        "count_1" : "382"
+      }, {
+        "item" : "14",
+        "count_1" : "338"
+      }, {
+        "item" : "15",
+        "count_1" : "325"
+      }, {
+        "item" : "16",
+        "count_1" : "301"
+      }, {
+        "item" : "17",
+        "count_1" : "232"
+      }, {
+        "item" : "18",
+        "count_1" : "211"
+      }, {
+        "item" : "19",
+        "count_1" : "194"
+      } ],
+      "smallest" : "0",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196394,
+    "name" : "Temperature",
+    "dataTypeName" : "number",
+    "description" : "If the time period is AM, the temperature in Fahrenheit degrees at 8:00 AM on the count date. If the time period is PM, the temperature at 5:00 pm on the count date.",
+    "fieldName" : "temperature",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418683,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "82",
+      "null" : "0",
+      "top" : [ {
+        "item" : "66.6",
+        "count_1" : "21654"
+      }, {
+        "item" : "71.2",
+        "count_1" : "19242"
+      }, {
+        "item" : "67",
+        "count_1" : "16972"
+      }, {
+        "item" : "59",
+        "count_1" : "13608"
+      }, {
+        "item" : "40",
+        "count_1" : "11464"
+      }, {
+        "item" : "58",
+        "count_1" : "9840"
+      }, {
+        "item" : "79",
+        "count_1" : "9152"
+      }, {
+        "item" : "52",
+        "count_1" : "8680"
+      }, {
+        "item" : "70",
+        "count_1" : "8339"
+      }, {
+        "item" : "72",
+        "count_1" : "8080"
+      }, {
+        "item" : "73",
+        "count_1" : "7788"
+      }, {
+        "item" : "66",
+        "count_1" : "7748"
+      }, {
+        "item" : "68",
+        "count_1" : "6852"
+      }, {
+        "item" : "48",
+        "count_1" : "6417"
+      }, {
+        "item" : "50",
+        "count_1" : "5832"
+      }, {
+        "item" : "69",
+        "count_1" : "5812"
+      }, {
+        "item" : "62",
+        "count_1" : "5412"
+      }, {
+        "item" : "64",
+        "count_1" : "4951"
+      }, {
+        "item" : "63",
+        "count_1" : "4826"
+      }, {
+        "item" : "75",
+        "count_1" : "4304"
+      } ],
+      "smallest" : "39",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196395,
+    "name" : "Weather",
+    "dataTypeName" : "text",
+    "description" : "If the time period is AM, a description of the weather at 8:00 AM on the count date. If the time period is PM, a description of the weather at  5:00 pm on the count date.",
+    "fieldName" : "weather",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418682,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "Scattered clouds",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Clear",
+        "count_1" : "61479"
+      }, {
+        "item" : "Partially cloudy",
+        "count_1" : "44640"
+      }, {
+        "item" : "Scattered clouds",
+        "count_1" : "39087"
+      }, {
+        "item" : "Few clouds",
+        "count_1" : "26176"
+      }, {
+        "item" : "Overcast clouds",
+        "count_1" : "18811"
+      }, {
+        "item" : "Broken clouds",
+        "count_1" : "14540"
+      }, {
+        "item" : "Light rain",
+        "count_1" : "9564"
+      }, {
+        "item" : "Partly cloudy",
+        "count_1" : "7680"
+      }, {
+        "item" : "Mist",
+        "count_1" : "7056"
+      }, {
+        "item" : "Rain, Partially cloudy",
+        "count_1" : "3618"
+      }, {
+        "item" : "Mostly cloudy",
+        "count_1" : "3120"
+      }, {
+        "item" : "Light rain, haze",
+        "count_1" : "3028"
+      } ],
+      "smallest" : "Broken clouds",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196396,
+    "name" : "Notes",
+    "dataTypeName" : "text",
+    "description" : "Notes related to this count record. May note that the count occurred outside of the typical September count period, or that there was construction in the area during the count.",
+    "fieldName" : "notes",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 110418681,
+    "cachedContents" : {
+      "non_null" : "192809",
+      "largest" : "Westbound bike path closed in both peak periods. Eastbound bike path closed in morning only.",
+      "null" : "45990",
+      "top" : [ {
+        "item" : "NA",
+        "count_1" : "129788"
+      }, {
+        "item" : "Outside of normal City-wide bike count period",
+        "count_1" : "36621"
+      }, {
+        "item" : "construction activity in area at time of counts",
+        "count_1" : "3242"
+      }, {
+        "item" : "Construction at intersection may affect bicycle volumes and movements.",
+        "count_1" : "2898"
+      }, {
+        "item" : "This data is from a 2023 supplemental count. There were technical challenges with the 2022 count at this intersection due to its reconstruction.\n    It is labeled as 2022 to maintain continuity of the 16 intersections counted since 2003.",
+        "count_1" : "2682"
+      }, {
+        "item" : "intersection under construction at time of counts",
+        "count_1" : "2160"
+      }, {
+        "item" : "Outside of normal City-wide bike count period, however weather   conditions were comparable",
+        "count_1" : "1836"
+      }, {
+        "item" : "Roadway Construction is ongoing at this intersection",
+        "count_1" : "1728"
+      }, {
+        "item" : "Ongoing construction at intersection may affect bicycle volumes and movements.",
+        "count_1" : "1530"
+      }, {
+        "item" : "On-going construction on Sidney Street and Massachusetts Avenue may affect bicycle volumes and movements.",
+        "count_1" : "1440"
+      }, {
+        "item" : "Garden St was under construction during the count period in 2024.",
+        "count_1" : "1386"
+      }, {
+        "item" : "Outside of normal City-wide bike count period. Vassar Street separated bike lane closed south of intersection",
+        "count_1" : "1080"
+      }, {
+        "item" : "Alewife Linear Park bike path closed for construction at Cameron Avenue. Outside of normal City-wide bike count period",
+        "count_1" : "1008"
+      }, {
+        "item" : "This intersection was under construction. A police officer directed traffic during the morning count, due to construction lane closures on Massachusetts Avenue. Police officer control takes precendence over automated control, and roadway users may be directed to make moves that are different from what would be done under non-construction scenarios.",
+        "count_1" : "936"
+      }, {
+        "item" : "Outside of normal City-wide bike count period. Separate bicycle counts were not performed for the separated bike lane on the westbound Main Street approach.",
+        "count_1" : "900"
+      }, {
+        "item" : "Roadway Construction underway along Western Ave., between Putnam Ave. and Franklin St.",
+        "count_1" : "810"
+      }, {
+        "item" : "Construction along adjacent Huron Avenue intersections ongoing during counts.",
+        "count_1" : "756"
+      }, {
+        "item" : "intersection under construction at time of counts. Outside of normal City-wide bike count period",
+        "count_1" : "640"
+      }, {
+        "item" : "Westbound bike path closed in both peak periods.",
+        "count_1" : "520"
+      }, {
+        "item" : "Outside of normal City-wide bike count period. Counts occured prior to the rollout of the Mt. Auburn Street Bus Priority Project.",
+        "count_1" : "432"
+      } ],
+      "smallest" : "Alewife Linear Park bike path closed for construction at Cameron Avenue. Outside of normal City-wide bike count period",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196397,
+    "name" : "Node Number",
+    "dataTypeName" : "number",
+    "description" : "The NodeNumber corresponding to the count location from the City GIS Intersections layer, if available.",
+    "fieldName" : "nodenumber",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418680,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "2185",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1089",
+        "count_1" : "30296"
+      }, {
+        "item" : "2172",
+        "count_1" : "18606"
+      }, {
+        "item" : "1864",
+        "count_1" : "18340"
+      }, {
+        "item" : "796",
+        "count_1" : "14944"
+      }, {
+        "item" : "763",
+        "count_1" : "14522"
+      }, {
+        "item" : "1220",
+        "count_1" : "13856"
+      }, {
+        "item" : "2138",
+        "count_1" : "12842"
+      }, {
+        "item" : "1437",
+        "count_1" : "12672"
+      }, {
+        "item" : "2157",
+        "count_1" : "12506"
+      }, {
+        "item" : "1712",
+        "count_1" : "11712"
+      }, {
+        "item" : "1801",
+        "count_1" : "10278"
+      }, {
+        "item" : "2108",
+        "count_1" : "10166"
+      }, {
+        "item" : "1904",
+        "count_1" : "9868"
+      }, {
+        "item" : "343",
+        "count_1" : "9716"
+      }, {
+        "item" : "649",
+        "count_1" : "9339"
+      }, {
+        "item" : "918",
+        "count_1" : "9238"
+      }, {
+        "item" : "1995",
+        "count_1" : "8192"
+      }, {
+        "item" : "1373",
+        "count_1" : "3924"
+      }, {
+        "item" : "2184",
+        "count_1" : "2250"
+      }, {
+        "item" : "1874",
+        "count_1" : "2232"
+      } ],
+      "smallest" : "343",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196398,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "The latitude of the count location",
+    "fieldName" : "latitude",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418679,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "42.398",
+      "null" : "0",
+      "top" : [ {
+        "item" : "42.3737294124495",
+        "count_1" : "24068"
+      }, {
+        "item" : "42.3866993042934",
+        "count_1" : "15402"
+      }, {
+        "item" : "42.3629501164586",
+        "count_1" : "13966"
+      }, {
+        "item" : "42.377844984411",
+        "count_1" : "12352"
+      }, {
+        "item" : "42.3783247779643",
+        "count_1" : "11966"
+      }, {
+        "item" : "42.3722105872441",
+        "count_1" : "11120"
+      }, {
+        "item" : "42.3698035757107",
+        "count_1" : "9864"
+      }, {
+        "item" : "42.3573638035676",
+        "count_1" : "9824"
+      }, {
+        "item" : "42.3979732379374",
+        "count_1" : "9818"
+      }, {
+        "item" : "42.3653543495232",
+        "count_1" : "9624"
+      }, {
+        "item" : "42.3550820186817",
+        "count_1" : "8204"
+      }, {
+        "item" : "42.3643018556095",
+        "count_1" : "8190"
+      }, {
+        "item" : "42.3622574567381",
+        "count_1" : "8050"
+      }, {
+        "item" : "42.3759861670421",
+        "count_1" : "7726"
+      }, {
+        "item" : "42.3812435925366",
+        "count_1" : "7611"
+      }, {
+        "item" : "42.3889652778353",
+        "count_1" : "7268"
+      }, {
+        "item" : "42.3737",
+        "count_1" : "6228"
+      }, {
+        "item" : "42.3601537164813",
+        "count_1" : "5528"
+      }, {
+        "item" : "42.363",
+        "count_1" : "4374"
+      }, {
+        "item" : "42.3867",
+        "count_1" : "3204"
+      } ],
+      "smallest" : "42.3550820186817",
+      "count" : "238799"
+    },
+    "format" : { }
+  }, {
+    "id" : 539196399,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "The longitude of the count location",
+    "fieldName" : "longitude",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 110418678,
+    "cachedContents" : {
+      "non_null" : "238799",
+      "largest" : "-71.0755698135469",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-71.1008374083602",
+        "count_1" : "24068"
+      }, {
+        "item" : "-71.1410023483607",
+        "count_1" : "15402"
+      }, {
+        "item" : "-71.0995802504416",
+        "count_1" : "13966"
+      }, {
+        "item" : "-71.1301673546059",
+        "count_1" : "12352"
+      }, {
+        "item" : "-71.1237087846876",
+        "count_1" : "11966"
+      }, {
+        "item" : "-71.1155873241643",
+        "count_1" : "11120"
+      }, {
+        "item" : "-71.1224581767504",
+        "count_1" : "9864"
+      }, {
+        "item" : "-71.0925673351401",
+        "count_1" : "9824"
+      }, {
+        "item" : "-71.1308970802842",
+        "count_1" : "9818"
+      }, {
+        "item" : "-71.0908877290675",
+        "count_1" : "9624"
+      }, {
+        "item" : "-71.1103288275671",
+        "count_1" : "8204"
+      }, {
+        "item" : "-71.1160715352248",
+        "count_1" : "8190"
+      }, {
+        "item" : "-71.1135465086033",
+        "count_1" : "8050"
+      }, {
+        "item" : "-71.1246143635562",
+        "count_1" : "7726"
+      }, {
+        "item" : "-71.1381141591396",
+        "count_1" : "7611"
+      }, {
+        "item" : "-71.1196946878696",
+        "count_1" : "7268"
+      }, {
+        "item" : "-71.1008",
+        "count_1" : "6228"
+      }, {
+        "item" : "-71.0948824790851",
+        "count_1" : "5528"
+      }, {
+        "item" : "-71.0996",
+        "count_1" : "4374"
+      }, {
+        "item" : "-71.141",
+        "count_1" : "3204"
+      } ],
+      "smallest" : "-71.145824710401",
+      "count" : "238799"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Open Data Commons Public Domain Dedication and License",
+    "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+  },
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Citywide Bicycle Counts Metadata 20210504.pdf",
+      "assetId" : "3633aa89-c47a-44a1-a4a1-a146fd3f983a",
+      "name" : "Citywide Bicycle Counts Metadata 20210504.pdf"
+    } ],
+    "custom_fields" : {
+      "Specific Limitations" : {
+        "Limitations" : "All information that is presented here is accurate to the best of our knowledge at the time of publication. All information stated is subject to revision or retraction at any time."
+      },
+      "Maintenance Plan" : {
+        "Maintenance Plan Details" : "Dataset will be updated as new counts occur, typically every other year.",
+        "Estimated Update Frequency" : "As Needed"
+      }
+    },
+    "rowLabel" : "Count record",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "q8ma-sa6g",
+    "displayName" : "Scott Walker",
+    "profileImageUrlLarge" : "/api/users/q8ma-sa6g/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/q8ma-sa6g/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/q8ma-sa6g/profile_images/TINY",
+    "screenName" : "Scott Walker",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "q8ma-sa6g",
+    "displayName" : "Scott Walker",
+    "profileImageUrlLarge" : "/api/users/q8ma-sa6g/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/q8ma-sa6g/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/q8ma-sa6g/profile_images/TINY",
+    "screenName" : "Scott Walker",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "bicycles", "bicycle count", "transportation" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
