@@ -1,0 +1,1678 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "BU Student Prototype",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/student": {
+      "get": {
+        "summary": "Student Info",
+        "operationId": "student_info_student_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/meal-plan": {
+      "get": {
+        "summary": "Meal Plan",
+        "operationId": "meal_plan_meal_plan_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MealPlanResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/courses": {
+      "get": {
+        "summary": "Courses",
+        "operationId": "courses_courses_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CoursesResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/calendar": {
+      "get": {
+        "summary": "Calendar",
+        "operationId": "calendar_calendar_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CalendarResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/attendance": {
+      "get": {
+        "summary": "Attendance",
+        "operationId": "attendance_attendance_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AttendanceResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/grades": {
+      "get": {
+        "summary": "Grades",
+        "operationId": "grades_grades_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GradesResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events/recommended": {
+      "get": {
+        "summary": "Recommended Events",
+        "operationId": "recommended_events_events_recommended_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RecommendedEvent"
+                  },
+                  "title": "Response Recommended Events Events Recommended Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages": {
+      "get": {
+        "summary": "Messages",
+        "operationId": "messages_messages_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChatMessage"
+                  },
+                  "title": "Response Messages Messages Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/chat": {
+      "post": {
+        "summary": "Chat",
+        "operationId": "chat_chat_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatMessage"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Assessment": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "course_id": {
+            "type": "string",
+            "title": "Course Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "assignment",
+              "quiz",
+              "midterm",
+              "project",
+              "final"
+            ],
+            "title": "Kind"
+          },
+          "due_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Due At"
+          },
+          "starts_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Starts At"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Location"
+          },
+          "max_score": {
+            "type": "number",
+            "exclusiveMinimum": 0.0,
+            "title": "Max Score"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "graded",
+              "missing",
+              "submitted",
+              "upcoming"
+            ],
+            "title": "Status"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "course_id",
+          "title",
+          "kind",
+          "due_at",
+          "max_score",
+          "status"
+        ],
+        "title": "Assessment"
+      },
+      "AttendanceRecord": {
+        "properties": {
+          "course_id": {
+            "type": "string",
+            "title": "Course Id"
+          },
+          "event_id": {
+            "type": "string",
+            "title": "Event Id"
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "present",
+              "late",
+              "absent",
+              "excused"
+            ],
+            "title": "Status"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "course_id",
+          "event_id",
+          "starts_at",
+          "status"
+        ],
+        "title": "AttendanceRecord"
+      },
+      "AttendanceResponse": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "courses": {
+            "items": {
+              "$ref": "#/components/schemas/CourseAttendance"
+            },
+            "type": "array",
+            "title": "Courses"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "as_of",
+          "courses"
+        ],
+        "title": "AttendanceResponse"
+      },
+      "CalendarEvent": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "course_id": {
+            "type": "string",
+            "title": "Course Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "class",
+              "assignment",
+              "quiz",
+              "midterm",
+              "project",
+              "final"
+            ],
+            "title": "Kind"
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "ends_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ends At"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Location"
+          },
+          "section_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Section Id"
+          },
+          "assessment_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assessment Id"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "course_id",
+          "title",
+          "kind",
+          "starts_at",
+          "ends_at",
+          "location"
+        ],
+        "title": "CalendarEvent"
+      },
+      "CalendarResponse": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "timezone": {
+            "type": "string",
+            "title": "Timezone"
+          },
+          "term": {
+            "type": "string",
+            "title": "Term"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "events": {
+            "items": {
+              "$ref": "#/components/schemas/CalendarEvent"
+            },
+            "type": "array",
+            "title": "Events"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "as_of",
+          "timezone",
+          "term",
+          "events"
+        ],
+        "title": "CalendarResponse"
+      },
+      "ChatMessage": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "user",
+              "assistant"
+            ],
+            "title": "Role"
+          },
+          "content": {
+            "type": "string",
+            "title": "Content"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/Citation"
+            },
+            "type": "array",
+            "title": "Sources"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "content",
+          "created_at"
+        ],
+        "title": "ChatMessage"
+      },
+      "ChatRequest": {
+        "properties": {
+          "message": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Message"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "message"
+        ],
+        "title": "ChatRequest"
+      },
+      "Citation": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "title": "Citation"
+      },
+      "Course": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "credits": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Credits"
+          },
+          "required_components": {
+            "items": {
+              "type": "string",
+              "enum": [
+                "lecture",
+                "lab",
+                "discussion"
+              ]
+            },
+            "type": "array",
+            "title": "Required Components"
+          },
+          "sections": {
+            "items": {
+              "$ref": "#/components/schemas/Section"
+            },
+            "type": "array",
+            "title": "Sections"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "code",
+          "title",
+          "credits",
+          "required_components",
+          "sections",
+          "source"
+        ],
+        "title": "Course"
+      },
+      "CourseAttendance": {
+        "properties": {
+          "course_id": {
+            "type": "string",
+            "title": "Course Id"
+          },
+          "counts": {
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0.0
+            },
+            "propertyNames": {
+              "enum": [
+                "present",
+                "late",
+                "absent",
+                "excused"
+              ]
+            },
+            "type": "object",
+            "title": "Counts"
+          },
+          "records": {
+            "items": {
+              "$ref": "#/components/schemas/AttendanceRecord"
+            },
+            "type": "array",
+            "title": "Records"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "course_id",
+          "counts",
+          "records"
+        ],
+        "title": "CourseAttendance"
+      },
+      "CourseGrades": {
+        "properties": {
+          "course_id": {
+            "type": "string",
+            "title": "Course Id"
+          },
+          "earned_points": {
+            "type": "number",
+            "title": "Earned Points"
+          },
+          "graded_possible_points": {
+            "type": "number",
+            "title": "Graded Possible Points"
+          },
+          "current_percentage": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Percentage"
+          },
+          "assessments": {
+            "items": {
+              "$ref": "#/components/schemas/Assessment"
+            },
+            "type": "array",
+            "title": "Assessments"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "course_id",
+          "earned_points",
+          "graded_possible_points",
+          "current_percentage",
+          "assessments"
+        ],
+        "title": "CourseGrades"
+      },
+      "CoursesResponse": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "term": {
+            "$ref": "#/components/schemas/Term"
+          },
+          "courses": {
+            "items": {
+              "$ref": "#/components/schemas/Course"
+            },
+            "type": "array",
+            "title": "Courses"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "as_of",
+          "term",
+          "courses"
+        ],
+        "title": "CoursesResponse"
+      },
+      "GradesResponse": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "courses": {
+            "items": {
+              "$ref": "#/components/schemas/CourseGrades"
+            },
+            "type": "array",
+            "title": "Courses"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "as_of",
+          "courses"
+        ],
+        "title": "GradesResponse"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "MealBalance": {
+        "properties": {
+          "plan_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Plan Id"
+          },
+          "meals_remaining": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Meals Remaining"
+          },
+          "dining_points_balance_cents": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Dining Points Balance Cents"
+          },
+          "convenience_points_balance_cents": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Convenience Points Balance Cents"
+          },
+          "guest_meals_remaining": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Guest Meals Remaining"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "plan_id",
+          "meals_remaining",
+          "dining_points_balance_cents",
+          "convenience_points_balance_cents",
+          "guest_meals_remaining"
+        ],
+        "title": "MealBalance"
+      },
+      "MealPlan": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "academic_year": {
+            "type": "string",
+            "title": "Academic Year"
+          },
+          "meal_period": {
+            "type": "string",
+            "enum": [
+              "unlimited",
+              "weekly",
+              "semester"
+            ],
+            "title": "Meal Period"
+          },
+          "meal_allowance": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Meal Allowance"
+          },
+          "dining_points_included_cents": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Dining Points Included Cents"
+          },
+          "semester_cost_cents": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Semester Cost Cents"
+          },
+          "guest_meal_allowance": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Guest Meal Allowance"
+          },
+          "weekly_reset_day": {
+            "anyOf": [
+              {
+                "type": "string",
+                "const": "Friday"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Weekly Reset Day"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "academic_year",
+          "meal_period",
+          "meal_allowance",
+          "dining_points_included_cents",
+          "semester_cost_cents",
+          "guest_meal_allowance",
+          "source"
+        ],
+        "title": "MealPlan"
+      },
+      "MealPlanResponse": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "currency": {
+            "type": "string",
+            "const": "USD",
+            "title": "Currency",
+            "default": "USD"
+          },
+          "plan": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/MealPlan"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "balance": {
+            "$ref": "#/components/schemas/MealBalance"
+          },
+          "unlimited_meals": {
+            "type": "boolean",
+            "title": "Unlimited Meals"
+          },
+          "meal_period": {
+            "type": "string",
+            "enum": [
+              "unlimited",
+              "weekly",
+              "semester",
+              "none"
+            ],
+            "title": "Meal Period"
+          },
+          "period_starts_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Period Starts On"
+          },
+          "period_ends_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Period Ends On"
+          },
+          "next_reset_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next Reset On"
+          },
+          "rules": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Rules"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            },
+            "type": "array",
+            "title": "Sources"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "as_of",
+          "plan",
+          "balance",
+          "unlimited_meals",
+          "meal_period",
+          "period_starts_on",
+          "period_ends_on",
+          "next_reset_on",
+          "rules",
+          "sources"
+        ],
+        "title": "MealPlanResponse"
+      },
+      "Meeting": {
+        "properties": {
+          "weekdays": {
+            "items": {
+              "type": "integer",
+              "maximum": 6.0,
+              "minimum": 0.0
+            },
+            "type": "array",
+            "title": "Weekdays"
+          },
+          "start_time": {
+            "type": "string",
+            "format": "time",
+            "title": "Start Time"
+          },
+          "end_time": {
+            "type": "string",
+            "format": "time",
+            "title": "End Time"
+          },
+          "room": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Room"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "weekdays",
+          "start_time",
+          "end_time",
+          "room"
+        ],
+        "title": "Meeting"
+      },
+      "RecommendedEvent": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Location"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "starts_at"
+        ],
+        "title": "RecommendedEvent"
+      },
+      "Section": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "component": {
+            "type": "string",
+            "enum": [
+              "lecture",
+              "lab",
+              "discussion"
+            ],
+            "title": "Component"
+          },
+          "instructors": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Instructors"
+          },
+          "meetings": {
+            "items": {
+              "$ref": "#/components/schemas/Meeting"
+            },
+            "type": "array",
+            "title": "Meetings"
+          },
+          "exam_reservations": {
+            "items": {
+              "$ref": "#/components/schemas/Meeting"
+            },
+            "type": "array",
+            "title": "Exam Reservations"
+          },
+          "paired_lecture": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paired Lecture"
+          },
+          "notes": {
+            "type": "string",
+            "title": "Notes",
+            "default": ""
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "component",
+          "instructors",
+          "meetings"
+        ],
+        "title": "Section"
+      },
+      "Source": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "retrieved_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Retrieved On"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "title",
+          "url",
+          "retrieved_on"
+        ],
+        "title": "Source"
+      },
+      "StudentProfile": {
+        "properties": {
+          "user": {
+            "type": "string",
+            "title": "User"
+          },
+          "buid": {
+            "type": "string",
+            "pattern": "^U\\d{8}$",
+            "title": "Buid"
+          },
+          "full_name": {
+            "type": "string",
+            "title": "Full Name"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "school": {
+            "type": "string",
+            "title": "School"
+          },
+          "program": {
+            "type": "string",
+            "title": "Program"
+          },
+          "major": {
+            "type": "string",
+            "title": "Major"
+          },
+          "degree_level": {
+            "type": "string",
+            "enum": [
+              "undergraduate",
+              "graduate",
+              "phd"
+            ],
+            "title": "Degree Level"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Year"
+          },
+          "term": {
+            "type": "string",
+            "title": "Term"
+          },
+          "is_mock": {
+            "type": "boolean",
+            "const": true,
+            "title": "Is Mock",
+            "default": true
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "program_source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "user",
+          "buid",
+          "full_name",
+          "email",
+          "school",
+          "program",
+          "major",
+          "degree_level",
+          "year",
+          "term",
+          "as_of",
+          "program_source"
+        ],
+        "title": "StudentProfile"
+      },
+      "Term": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "timezone": {
+            "type": "string",
+            "title": "Timezone"
+          },
+          "starts_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Starts On"
+          },
+          "ends_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Ends On"
+          },
+          "finals_start": {
+            "type": "string",
+            "format": "date",
+            "title": "Finals Start"
+          },
+          "finals_end": {
+            "type": "string",
+            "format": "date",
+            "title": "Finals End"
+          },
+          "suspended_dates": {
+            "items": {
+              "type": "string",
+              "format": "date"
+            },
+            "type": "array",
+            "title": "Suspended Dates"
+          },
+          "substitute_days": {
+            "additionalProperties": {
+              "type": "integer",
+              "maximum": 6.0,
+              "minimum": 0.0
+            },
+            "propertyNames": {
+              "format": "date"
+            },
+            "type": "object",
+            "title": "Substitute Days"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "timezone",
+          "starts_on",
+          "ends_on",
+          "finals_start",
+          "finals_end",
+          "suspended_dates",
+          "substitute_days",
+          "source"
+        ],
+        "title": "Term"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}
