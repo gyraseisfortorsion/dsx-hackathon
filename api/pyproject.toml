@@ -1,0 +1,32 @@
+[project]
+name = "bu-student-api"
+version = "0.1.0"
+description = "JSON-backed BU student companion prototype"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12,<5",
+    "fastapi>=0.115,<1",
+    "httpx>=0.28,<1",
+    "pydantic-ai>=2.61,<3",
+    "pydantic-settings>=2.7,<3",
+    "python-dotenv>=1,<2",
+    "uvicorn>=0.34,<1",
+    "vercel-oidc>=0.10,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.25,<2", "ruff>=0.11,<1"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.vercel]
+entrypoint = "bu_api.main:app"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

@@ -1,0 +1,1 @@
+"""BU student companion prototype."""

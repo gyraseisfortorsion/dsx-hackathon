@@ -1,0 +1,686 @@
+{
+  "term": {
+    "id": "fall-2026",
+    "timezone": "America/New_York",
+    "starts_on": "2026-09-02",
+    "ends_on": "2026-12-10",
+    "finals_start": "2026-12-14",
+    "finals_end": "2026-12-18",
+    "suspended_dates": [
+      "2026-09-07",
+      "2026-10-12",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "substitute_days": {
+      "2026-10-13": 0
+    },
+    "source": {
+      "title": "BU Registrar: Semester Dates",
+      "url": "https://www.bu.edu/reg/calendars/semester/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  "courses": [
+    {
+      "id": "cas-cs-111",
+      "code": "CAS CS 111",
+      "title": "Introduction to Computer Science 1",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Sullivan",
+            "Januario"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "10:10",
+              "end_time": "11:00",
+              "room": "SCI 113"
+            }
+          ],
+          "notes": "Register for a lecture and a lab. Reserve Wednesday 18:30–19:45 for exams; this is not a weekly class.",
+          "paired_lecture": null,
+          "exam_reservations": [
+            {
+              "weekdays": [
+                2
+              ],
+              "start_time": "18:30",
+              "end_time": "19:45",
+              "room": null
+            }
+          ]
+        },
+        {
+          "id": "B7",
+          "component": "lab",
+          "instructors": [
+            "Sullivan",
+            "Januario"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1
+              ],
+              "start_time": "09:30",
+              "end_time": "10:20",
+              "room": "CDS 364"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": null,
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "lab"
+      ],
+      "source": {
+        "title": "CAS CS 111: Introduction to Computer Science 1 — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-cs-111/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-ma-123",
+      "code": "CAS MA 123",
+      "title": "Calculus 1",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Srinivasan"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "09:05",
+              "end_time": "09:55",
+              "room": "STO B50"
+            }
+          ],
+          "notes": "Register for a discussion B1–BC. Reserve Thursday 18:30–20:30 for exams; this is not a weekly class.",
+          "paired_lecture": null,
+          "exam_reservations": [
+            {
+              "weekdays": [
+                3
+              ],
+              "start_time": "18:30",
+              "end_time": "20:30",
+              "room": null
+            }
+          ]
+        },
+        {
+          "id": "B1",
+          "component": "discussion",
+          "instructors": [
+            "Kaper",
+            "Enkosky"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0
+              ],
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "room": "CAS 216"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": null,
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS MA 123: Calculus 1 — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-ma-123/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-ec-101",
+      "code": "CAS EC 101",
+      "title": "Introductory Microeconomic Analysis",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "AA",
+          "component": "lecture",
+          "instructors": [
+            "Idson"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "10:10",
+              "end_time": "11:00",
+              "room": "MOR 101"
+            }
+          ],
+          "notes": "Register for one A0–A9 discussion.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Idson",
+            "Stamm"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1
+              ],
+              "start_time": "11:15",
+              "end_time": "12:05",
+              "room": "CAS B06B"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "AA",
+          "exam_reservations": []
+        },
+        {
+          "id": "BB",
+          "component": "lecture",
+          "instructors": [
+            "Celik"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "11:15",
+              "end_time": "12:05",
+              "room": "MOR 101"
+            }
+          ],
+          "notes": "Register for one B0–B9 discussion.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "B1",
+          "component": "discussion",
+          "instructors": [
+            "Celik",
+            "Shah"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0
+              ],
+              "start_time": "12:20",
+              "end_time": "13:10",
+              "room": "CAS 214"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "BB",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS EC 101: Introductory Microeconomic Analysis — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-ec-101/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-ec-102",
+      "code": "CAS EC 102",
+      "title": "Introductory Macroeconomic Analysis",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "AA",
+          "component": "lecture",
+          "instructors": [
+            "Watson"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "13:25",
+              "end_time": "14:15",
+              "room": "MOR 101"
+            }
+          ],
+          "notes": "Register for one A0–A9 discussion.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Watson",
+            "Zecca"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "room": "PRB 150"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "AA",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS EC 102: Introductory Macroeconomic Analysis — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-ec-102/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cds-ds-110",
+      "code": "CDS DS 110",
+      "title": "Introduction to Data Science with Python",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Ladenheim"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "12:20",
+              "end_time": "13:10",
+              "room": "CGS 511"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "lab",
+          "instructors": [
+            "Ladenheim"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                2
+              ],
+              "start_time": "13:25",
+              "end_time": "14:15",
+              "room": "CDS 164"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "lab"
+      ],
+      "source": {
+        "title": "CDS DS 110: Introduction to Data Science with Python — Fall 2026",
+        "url": "https://www.bu.edu/academics/cds/courses/cds-ds-110/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cds-ds-120",
+      "code": "CDS DS 120",
+      "title": "Foundations of Data Science",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Chatterjee"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2,
+                4
+              ],
+              "start_time": "11:15",
+              "end_time": "12:05",
+              "room": "PHO 211"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A3",
+          "component": "discussion",
+          "instructors": [
+            "Chatterjee"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0
+              ],
+              "start_time": "13:25",
+              "end_time": "14:15",
+              "room": "CDS 164"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CDS DS 120: Foundations of Data Science — Fall 2026",
+        "url": "https://www.bu.edu/academics/cds/courses/cds-ds-120/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-cs-611",
+      "code": "CAS CS 611",
+      "title": "Object-oriented Software Principles and Design",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Papadakis-Kanaris",
+            "Gao"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1
+              ],
+              "start_time": "16:00",
+              "end_time": "18:45",
+              "room": "CAS 326"
+            }
+          ],
+          "notes": "Catalog heading says CAS CS 611; section notes say GRS CS611. Reserved for GRS CS master's students. Lecture and discussion are required.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Papadakis-Kanaris",
+            "Gao"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                2
+              ],
+              "start_time": "15:35",
+              "end_time": "16:25",
+              "room": "MCS B29"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS CS 611: Object-oriented Software Principles and Design — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-cs-611/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-cs-630",
+      "code": "CAS CS 630",
+      "title": "Graduate Algorithms",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Erdos",
+            "Januario"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1,
+                3
+              ],
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "room": "CAS 326"
+            }
+          ],
+          "notes": "Catalog heading says CAS CS 630; section notes say GRS CS630. Reserved for GRS CS master's students. Lecture and discussion are required.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Erdos",
+            "Jalali Farahani"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                2
+              ],
+              "start_time": "09:05",
+              "end_time": "09:55",
+              "room": "CAS B06B"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS CS 630: Graduate Algorithms — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-cs-630/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-cs-640",
+      "code": "CAS CS 640",
+      "title": "Artificial Intelligence",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Considine",
+            "Kim"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                1,
+                3
+              ],
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "room": "CAS 224"
+            }
+          ],
+          "notes": "Masters Students: AI CORE Requirement.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Considine",
+            "Kim"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                4
+              ],
+              "start_time": "09:05",
+              "end_time": "09:55",
+              "room": "CGS 421"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS CS 640: Artificial Intelligence — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-cs-640/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    {
+      "id": "cas-cs-651",
+      "code": "CAS CS 651",
+      "title": "Distributed Systems",
+      "credits": 4,
+      "sections": [
+        {
+          "id": "A1",
+          "component": "lecture",
+          "instructors": [
+            "Liagouris"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                0,
+                2
+              ],
+              "start_time": "14:30",
+              "end_time": "15:45",
+              "room": "PSY B53"
+            }
+          ],
+          "notes": "Masters Students: Systems Requirement.",
+          "paired_lecture": null,
+          "exam_reservations": []
+        },
+        {
+          "id": "A2",
+          "component": "discussion",
+          "instructors": [
+            "Liagouris"
+          ],
+          "meetings": [
+            {
+              "weekdays": [
+                4
+              ],
+              "start_time": "14:30",
+              "end_time": "15:20",
+              "room": "CDS 364"
+            }
+          ],
+          "notes": "",
+          "paired_lecture": "A1",
+          "exam_reservations": []
+        }
+      ],
+      "required_components": [
+        "lecture",
+        "discussion"
+      ],
+      "source": {
+        "title": "CAS CS 651: Distributed Systems — Fall 2026",
+        "url": "https://www.bu.edu/academics/cas/courses/cas-cs-651/",
+        "retrieved_on": "2026-10-24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3498 @@
+[
+  {
+    "profile": {
+      "user": "alex",
+      "full_name": "Alex Morgan",
+      "buid": "U99000001",
+      "email": "alex@students.example.test",
+      "school": "College of Arts & Sciences",
+      "program": "BA in Computer Science",
+      "major": "Computer Science",
+      "degree_level": "undergraduate",
+      "year": 1,
+      "term": "fall-2026",
+      "is_mock": true,
+      "as_of": "2026-10-24T12:00:00-04:00",
+      "program_source": {
+        "title": "BA in Computer Science",
+        "url": "https://www.bu.edu/academics/cas/programs/computer-science/ba/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    "meal_balance": {
+      "plan_id": "open-access",
+      "meals_remaining": null,
+      "dining_points_balance_cents": 18742,
+      "convenience_points_balance_cents": 6045,
+      "guest_meals_remaining": 8
+    },
+    "enrollments": [
+      {
+        "course_id": "cas-cs-111",
+        "section_ids": [
+          "A1",
+          "B7"
+        ]
+      },
+      {
+        "course_id": "cas-ma-123",
+        "section_ids": [
+          "A1",
+          "B1"
+        ]
+      },
+      {
+        "course_id": "cas-ec-101",
+        "section_ids": [
+          "BB",
+          "B1"
+        ]
+      }
+    ],
+    "attendance": [
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-02:0",
+        "starts_at": "2026-09-02T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-04:0",
+        "starts_at": "2026-09-04T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-04:0",
+        "starts_at": "2026-09-04T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-04:0",
+        "starts_at": "2026-09-04T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-09-08:0",
+        "starts_at": "2026-09-08T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T09:05:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-09:0",
+        "starts_at": "2026-09-09T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-11:0",
+        "starts_at": "2026-09-11T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-11:0",
+        "starts_at": "2026-09-11T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-11:0",
+        "starts_at": "2026-09-11T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T10:10:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-14:0",
+        "starts_at": "2026-09-14T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-09-14:0",
+        "starts_at": "2026-09-14T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-14:0",
+        "starts_at": "2026-09-14T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-09-15:0",
+        "starts_at": "2026-09-15T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-16:0",
+        "starts_at": "2026-09-16T11:15:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-18:0",
+        "starts_at": "2026-09-18T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-18:0",
+        "starts_at": "2026-09-18T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-18:0",
+        "starts_at": "2026-09-18T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-21:0",
+        "starts_at": "2026-09-21T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-09-21:0",
+        "starts_at": "2026-09-21T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-21:0",
+        "starts_at": "2026-09-21T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-09-22:0",
+        "starts_at": "2026-09-22T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-23:0",
+        "starts_at": "2026-09-23T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-25:0",
+        "starts_at": "2026-09-25T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-25:0",
+        "starts_at": "2026-09-25T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-25:0",
+        "starts_at": "2026-09-25T11:15:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-28:0",
+        "starts_at": "2026-09-28T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-09-28:0",
+        "starts_at": "2026-09-28T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-28:0",
+        "starts_at": "2026-09-28T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-09-29:0",
+        "starts_at": "2026-09-29T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T09:05:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-09-30:0",
+        "starts_at": "2026-09-30T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-02:0",
+        "starts_at": "2026-10-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-02:0",
+        "starts_at": "2026-10-02T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-02:0",
+        "starts_at": "2026-10-02T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T10:10:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-05:0",
+        "starts_at": "2026-10-05T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-10-05:0",
+        "starts_at": "2026-10-05T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-05:0",
+        "starts_at": "2026-10-05T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-10-06:0",
+        "starts_at": "2026-10-06T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-07:0",
+        "starts_at": "2026-10-07T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-09:0",
+        "starts_at": "2026-10-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-09:0",
+        "starts_at": "2026-10-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-09:0",
+        "starts_at": "2026-10-09T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-13:0",
+        "starts_at": "2026-10-13T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-10-13:0",
+        "starts_at": "2026-10-13T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-13:0",
+        "starts_at": "2026-10-13T16:30:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-14:0",
+        "starts_at": "2026-10-14T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-16:0",
+        "starts_at": "2026-10-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-16:0",
+        "starts_at": "2026-10-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-16:0",
+        "starts_at": "2026-10-16T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T09:05:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-19:0",
+        "starts_at": "2026-10-19T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:B1:2026-10-19:0",
+        "starts_at": "2026-10-19T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-19:0",
+        "starts_at": "2026-10-19T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:B7:2026-10-20:0",
+        "starts_at": "2026-10-20T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T10:10:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-21:0",
+        "starts_at": "2026-10-21T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-23:0",
+        "starts_at": "2026-10-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-111",
+        "event_id": "cas-cs-111:A1:2026-10-23:0",
+        "starts_at": "2026-10-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:BB:2026-10-23:0",
+        "starts_at": "2026-10-23T11:15:00-04:00",
+        "status": "present"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "alex:cas-cs-111:hw1",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 88,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-cs-111:quiz1",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 16,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-cs-111:midterm",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T19:45:00-04:00",
+        "starts_at": "2026-10-14T18:30:00-04:00",
+        "location": null,
+        "max_score": 100,
+        "score": 81,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-cs-111:project",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-cs-111:hw2",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-cs-111:final",
+        "course_id": "cas-cs-111",
+        "title": "CAS CS 111: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-14T11:00:00-05:00",
+        "starts_at": "2026-12-14T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:hw1",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 89,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:quiz1",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 17,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:midterm",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-15T20:30:00-04:00",
+        "starts_at": "2026-10-15T18:30:00-04:00",
+        "location": null,
+        "max_score": 100,
+        "score": 82,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:project",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:hw2",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ma-123:final",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-15T15:00:00-05:00",
+        "starts_at": "2026-12-15T13:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:hw1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 90,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:quiz1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 18,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:midterm",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T12:05:00-04:00",
+        "starts_at": "2026-10-14T11:15:00-04:00",
+        "location": "MOR 101",
+        "max_score": 100,
+        "score": 83,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:project",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:hw2",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "alex:cas-ec-101:final",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-16T11:00:00-05:00",
+        "starts_at": "2026-12-16T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      }
+    ]
+  },
+  {
+    "profile": {
+      "user": "maya",
+      "full_name": "Maya Patel",
+      "buid": "U99000002",
+      "email": "maya@students.example.test",
+      "school": "College of Arts & Sciences",
+      "program": "BA in Economics",
+      "major": "Economics",
+      "degree_level": "undergraduate",
+      "year": 1,
+      "term": "fall-2026",
+      "is_mock": true,
+      "as_of": "2026-10-24T12:00:00-04:00",
+      "program_source": {
+        "title": "BA in Economics",
+        "url": "https://www.bu.edu/academics/cas/programs/economics/ba/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    "meal_balance": {
+      "plan_id": "weekly-10-plus",
+      "meals_remaining": 6,
+      "dining_points_balance_cents": 61234,
+      "convenience_points_balance_cents": 3190,
+      "guest_meals_remaining": 7
+    },
+    "enrollments": [
+      {
+        "course_id": "cas-ec-101",
+        "section_ids": [
+          "AA",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cas-ec-102",
+        "section_ids": [
+          "AA",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cas-ma-123",
+        "section_ids": [
+          "A1",
+          "B1"
+        ]
+      }
+    ],
+    "attendance": [
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-02:0",
+        "starts_at": "2026-09-02T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-02:0",
+        "starts_at": "2026-09-02T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-04:0",
+        "starts_at": "2026-09-04T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-04:0",
+        "starts_at": "2026-09-04T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-04:0",
+        "starts_at": "2026-09-04T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-09-08:0",
+        "starts_at": "2026-09-08T08:00:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-08:0",
+        "starts_at": "2026-09-08T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-09:0",
+        "starts_at": "2026-09-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-09:0",
+        "starts_at": "2026-09-09T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-11:0",
+        "starts_at": "2026-09-11T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-11:0",
+        "starts_at": "2026-09-11T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-11:0",
+        "starts_at": "2026-09-11T13:25:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-14:0",
+        "starts_at": "2026-09-14T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-14:0",
+        "starts_at": "2026-09-14T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-14:0",
+        "starts_at": "2026-09-14T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-09-15:0",
+        "starts_at": "2026-09-15T08:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-15:0",
+        "starts_at": "2026-09-15T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T09:05:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-16:0",
+        "starts_at": "2026-09-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-16:0",
+        "starts_at": "2026-09-16T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-18:0",
+        "starts_at": "2026-09-18T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-18:0",
+        "starts_at": "2026-09-18T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-18:0",
+        "starts_at": "2026-09-18T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-21:0",
+        "starts_at": "2026-09-21T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-21:0",
+        "starts_at": "2026-09-21T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-21:0",
+        "starts_at": "2026-09-21T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-09-22:0",
+        "starts_at": "2026-09-22T08:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-22:0",
+        "starts_at": "2026-09-22T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-23:0",
+        "starts_at": "2026-09-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-23:0",
+        "starts_at": "2026-09-23T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-25:0",
+        "starts_at": "2026-09-25T09:05:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-25:0",
+        "starts_at": "2026-09-25T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-25:0",
+        "starts_at": "2026-09-25T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-28:0",
+        "starts_at": "2026-09-28T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-28:0",
+        "starts_at": "2026-09-28T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-09-28:0",
+        "starts_at": "2026-09-28T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-09-29:0",
+        "starts_at": "2026-09-29T08:00:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-29:0",
+        "starts_at": "2026-09-29T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-30:0",
+        "starts_at": "2026-09-30T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-09-30:0",
+        "starts_at": "2026-09-30T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-02:0",
+        "starts_at": "2026-10-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-02:0",
+        "starts_at": "2026-10-02T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-02:0",
+        "starts_at": "2026-10-02T13:25:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-05:0",
+        "starts_at": "2026-10-05T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-05:0",
+        "starts_at": "2026-10-05T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-05:0",
+        "starts_at": "2026-10-05T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-10-06:0",
+        "starts_at": "2026-10-06T08:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-10-06:0",
+        "starts_at": "2026-10-06T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-07:0",
+        "starts_at": "2026-10-07T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-07:0",
+        "starts_at": "2026-10-07T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-09:0",
+        "starts_at": "2026-10-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-09:0",
+        "starts_at": "2026-10-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-09:0",
+        "starts_at": "2026-10-09T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-13:0",
+        "starts_at": "2026-10-13T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-13:0",
+        "starts_at": "2026-10-13T13:25:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-13:0",
+        "starts_at": "2026-10-13T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-14:0",
+        "starts_at": "2026-10-14T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-14:0",
+        "starts_at": "2026-10-14T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-16:0",
+        "starts_at": "2026-10-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-16:0",
+        "starts_at": "2026-10-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-16:0",
+        "starts_at": "2026-10-16T13:25:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-19:0",
+        "starts_at": "2026-10-19T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-19:0",
+        "starts_at": "2026-10-19T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:B1:2026-10-19:0",
+        "starts_at": "2026-10-19T16:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:A2:2026-10-20:0",
+        "starts_at": "2026-10-20T08:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-10-20:0",
+        "starts_at": "2026-10-20T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T09:05:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-21:0",
+        "starts_at": "2026-10-21T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-21:0",
+        "starts_at": "2026-10-21T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ma-123",
+        "event_id": "cas-ma-123:A1:2026-10-23:0",
+        "starts_at": "2026-10-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-23:0",
+        "starts_at": "2026-10-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-102",
+        "event_id": "cas-ec-102:AA:2026-10-23:0",
+        "starts_at": "2026-10-23T13:25:00-04:00",
+        "status": "present"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "maya:cas-ec-101:hw1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 89,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-101:quiz1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 16,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-101:midterm",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T11:00:00-04:00",
+        "starts_at": "2026-10-14T10:10:00-04:00",
+        "location": "MOR 101",
+        "max_score": 100,
+        "score": 82,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-101:project",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-101:hw2",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-101:final",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-14T11:00:00-05:00",
+        "starts_at": "2026-12-14T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:hw1",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 90,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:quiz1",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 0,
+        "status": "missing",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:midterm",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T14:15:00-04:00",
+        "starts_at": "2026-10-14T13:25:00-04:00",
+        "location": "MOR 101",
+        "max_score": 100,
+        "score": 83,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:project",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:hw2",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ec-102:final",
+        "course_id": "cas-ec-102",
+        "title": "CAS EC 102: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-15T15:00:00-05:00",
+        "starts_at": "2026-12-15T13:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:hw1",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 91,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:quiz1",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 18,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:midterm",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-15T20:30:00-04:00",
+        "starts_at": "2026-10-15T18:30:00-04:00",
+        "location": null,
+        "max_score": 100,
+        "score": 84,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:project",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:hw2",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "maya:cas-ma-123:final",
+        "course_id": "cas-ma-123",
+        "title": "CAS MA 123: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-16T11:00:00-05:00",
+        "starts_at": "2026-12-16T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      }
+    ]
+  },
+  {
+    "profile": {
+      "user": "jordan",
+      "full_name": "Jordan Rivera",
+      "buid": "U99000003",
+      "email": "jordan@students.example.test",
+      "school": "Faculty of Computing & Data Sciences",
+      "program": "BS in Data Science",
+      "major": "Data Science",
+      "degree_level": "undergraduate",
+      "year": 1,
+      "term": "fall-2026",
+      "is_mock": true,
+      "as_of": "2026-10-24T12:00:00-04:00",
+      "program_source": {
+        "title": "BS in Data Science",
+        "url": "https://www.bu.edu/academics/cds/programs/bs-in-data-science/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    "meal_balance": {
+      "plan_id": "kosher",
+      "meals_remaining": 8,
+      "dining_points_balance_cents": 21150,
+      "convenience_points_balance_cents": 1325,
+      "guest_meals_remaining": 9
+    },
+    "enrollments": [
+      {
+        "course_id": "cds-ds-110",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cds-ds-120",
+        "section_ids": [
+          "A1",
+          "A3"
+        ]
+      },
+      {
+        "course_id": "cas-ec-101",
+        "section_ids": [
+          "AA",
+          "A2"
+        ]
+      }
+    ],
+    "attendance": [
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-02:0",
+        "starts_at": "2026-09-02T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-09-02:0",
+        "starts_at": "2026-09-02T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-04:0",
+        "starts_at": "2026-09-04T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-04:0",
+        "starts_at": "2026-09-04T11:15:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-04:0",
+        "starts_at": "2026-09-04T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-08:0",
+        "starts_at": "2026-09-08T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-09:0",
+        "starts_at": "2026-09-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-09-09:0",
+        "starts_at": "2026-09-09T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-11:0",
+        "starts_at": "2026-09-11T10:10:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-11:0",
+        "starts_at": "2026-09-11T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-11:0",
+        "starts_at": "2026-09-11T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-14:0",
+        "starts_at": "2026-09-14T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-09-14:0",
+        "starts_at": "2026-09-14T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-15:0",
+        "starts_at": "2026-09-15T11:15:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-16:0",
+        "starts_at": "2026-09-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-09-16:0",
+        "starts_at": "2026-09-16T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-18:0",
+        "starts_at": "2026-09-18T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-18:0",
+        "starts_at": "2026-09-18T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-18:0",
+        "starts_at": "2026-09-18T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-21:0",
+        "starts_at": "2026-09-21T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-09-21:0",
+        "starts_at": "2026-09-21T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-22:0",
+        "starts_at": "2026-09-22T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-23:0",
+        "starts_at": "2026-09-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T12:20:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-09-23:0",
+        "starts_at": "2026-09-23T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-25:0",
+        "starts_at": "2026-09-25T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-25:0",
+        "starts_at": "2026-09-25T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-25:0",
+        "starts_at": "2026-09-25T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-28:0",
+        "starts_at": "2026-09-28T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T12:20:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-09-28:0",
+        "starts_at": "2026-09-28T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-09-29:0",
+        "starts_at": "2026-09-29T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-09-30:0",
+        "starts_at": "2026-09-30T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-09-30:0",
+        "starts_at": "2026-09-30T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-02:0",
+        "starts_at": "2026-10-02T10:10:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-02:0",
+        "starts_at": "2026-10-02T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-02:0",
+        "starts_at": "2026-10-02T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-05:0",
+        "starts_at": "2026-10-05T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-10-05:0",
+        "starts_at": "2026-10-05T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-10-06:0",
+        "starts_at": "2026-10-06T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-07:0",
+        "starts_at": "2026-10-07T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-10-07:0",
+        "starts_at": "2026-10-07T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-09:0",
+        "starts_at": "2026-10-09T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-09:0",
+        "starts_at": "2026-10-09T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-09:0",
+        "starts_at": "2026-10-09T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-13:0",
+        "starts_at": "2026-10-13T10:10:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-10-13:0",
+        "starts_at": "2026-10-13T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-14:0",
+        "starts_at": "2026-10-14T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-10-14:0",
+        "starts_at": "2026-10-14T13:25:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-16:0",
+        "starts_at": "2026-10-16T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-16:0",
+        "starts_at": "2026-10-16T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-16:0",
+        "starts_at": "2026-10-16T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-19:0",
+        "starts_at": "2026-10-19T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A3:2026-10-19:0",
+        "starts_at": "2026-10-19T13:25:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:A2:2026-10-20:0",
+        "starts_at": "2026-10-20T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-21:0",
+        "starts_at": "2026-10-21T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T12:20:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A2:2026-10-21:0",
+        "starts_at": "2026-10-21T13:25:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-ec-101",
+        "event_id": "cas-ec-101:AA:2026-10-23:0",
+        "starts_at": "2026-10-23T10:10:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-120",
+        "event_id": "cds-ds-120:A1:2026-10-23:0",
+        "starts_at": "2026-10-23T11:15:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cds-ds-110",
+        "event_id": "cds-ds-110:A1:2026-10-23:0",
+        "starts_at": "2026-10-23T12:20:00-04:00",
+        "status": "present"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "jordan:cds-ds-110:hw1",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 90,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-110:quiz1",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 16,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-110:midterm",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T13:10:00-04:00",
+        "starts_at": "2026-10-14T12:20:00-04:00",
+        "location": "CGS 511",
+        "max_score": 100,
+        "score": 83,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-110:project",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-110:hw2",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-110:final",
+        "course_id": "cds-ds-110",
+        "title": "CDS DS 110: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-14T11:00:00-05:00",
+        "starts_at": "2026-12-14T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:hw1",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 91,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:quiz1",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 17,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:midterm",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T12:05:00-04:00",
+        "starts_at": "2026-10-14T11:15:00-04:00",
+        "location": "PHO 211",
+        "max_score": 100,
+        "score": 84,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:project",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:hw2",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cds-ds-120:final",
+        "course_id": "cds-ds-120",
+        "title": "CDS DS 120: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-15T15:00:00-05:00",
+        "starts_at": "2026-12-15T13:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:hw1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 92,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:quiz1",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 18,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:midterm",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T11:00:00-04:00",
+        "starts_at": "2026-10-14T10:10:00-04:00",
+        "location": "MOR 101",
+        "max_score": 100,
+        "score": 85,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:project",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:hw2",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "jordan:cas-ec-101:final",
+        "course_id": "cas-ec-101",
+        "title": "CAS EC 101: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-16T11:00:00-05:00",
+        "starts_at": "2026-12-16T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      }
+    ]
+  },
+  {
+    "profile": {
+      "user": "sam",
+      "full_name": "Sam Chen",
+      "buid": "U99000004",
+      "email": "sam@students.example.test",
+      "school": "Graduate School of Arts & Sciences",
+      "program": "MS in Computer Science",
+      "major": "Computer Science",
+      "degree_level": "graduate",
+      "year": 1,
+      "term": "fall-2026",
+      "is_mock": true,
+      "as_of": "2026-10-24T12:00:00-04:00",
+      "program_source": {
+        "title": "MS in Computer Science",
+        "url": "https://www.bu.edu/academics/grs/programs/computer-science/ms/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    "meal_balance": {
+      "plan_id": "connector-50-plus",
+      "meals_remaining": 34,
+      "dining_points_balance_cents": 28765,
+      "convenience_points_balance_cents": 8500,
+      "guest_meals_remaining": 0
+    },
+    "enrollments": [
+      {
+        "course_id": "cas-cs-611",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cas-cs-630",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cas-cs-640",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      }
+    ],
+    "attendance": [
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-09-02:0",
+        "starts_at": "2026-09-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-09-02:0",
+        "starts_at": "2026-09-02T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-03:0",
+        "starts_at": "2026-09-03T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-03:0",
+        "starts_at": "2026-09-03T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-04:0",
+        "starts_at": "2026-09-04T09:05:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-08:0",
+        "starts_at": "2026-09-08T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-08:0",
+        "starts_at": "2026-09-08T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-09-08:0",
+        "starts_at": "2026-09-08T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-09-09:0",
+        "starts_at": "2026-09-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-09-09:0",
+        "starts_at": "2026-09-09T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-10:0",
+        "starts_at": "2026-09-10T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-10:0",
+        "starts_at": "2026-09-10T11:00:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-11:0",
+        "starts_at": "2026-09-11T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-15:0",
+        "starts_at": "2026-09-15T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-15:0",
+        "starts_at": "2026-09-15T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-09-15:0",
+        "starts_at": "2026-09-15T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-09-16:0",
+        "starts_at": "2026-09-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-09-16:0",
+        "starts_at": "2026-09-16T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-17:0",
+        "starts_at": "2026-09-17T09:30:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-17:0",
+        "starts_at": "2026-09-17T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-18:0",
+        "starts_at": "2026-09-18T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-22:0",
+        "starts_at": "2026-09-22T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-22:0",
+        "starts_at": "2026-09-22T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-09-22:0",
+        "starts_at": "2026-09-22T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-09-23:0",
+        "starts_at": "2026-09-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-09-23:0",
+        "starts_at": "2026-09-23T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-24:0",
+        "starts_at": "2026-09-24T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-24:0",
+        "starts_at": "2026-09-24T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-25:0",
+        "starts_at": "2026-09-25T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-09-29:0",
+        "starts_at": "2026-09-29T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-29:0",
+        "starts_at": "2026-09-29T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-09-29:0",
+        "starts_at": "2026-09-29T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-09-30:0",
+        "starts_at": "2026-09-30T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-09-30:0",
+        "starts_at": "2026-09-30T15:35:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-01:0",
+        "starts_at": "2026-10-01T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-01:0",
+        "starts_at": "2026-10-01T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-02:0",
+        "starts_at": "2026-10-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-06:0",
+        "starts_at": "2026-10-06T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-06:0",
+        "starts_at": "2026-10-06T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-10-06:0",
+        "starts_at": "2026-10-06T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-10-07:0",
+        "starts_at": "2026-10-07T09:05:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-10-07:0",
+        "starts_at": "2026-10-07T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-08:0",
+        "starts_at": "2026-10-08T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-08:0",
+        "starts_at": "2026-10-08T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-09:0",
+        "starts_at": "2026-10-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-10-14:0",
+        "starts_at": "2026-10-14T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-10-14:0",
+        "starts_at": "2026-10-14T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-15:0",
+        "starts_at": "2026-10-15T09:30:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-15:0",
+        "starts_at": "2026-10-15T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-16:0",
+        "starts_at": "2026-10-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-20:0",
+        "starts_at": "2026-10-20T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-20:0",
+        "starts_at": "2026-10-20T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A1:2026-10-20:0",
+        "starts_at": "2026-10-20T16:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A2:2026-10-21:0",
+        "starts_at": "2026-10-21T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-611",
+        "event_id": "cas-cs-611:A2:2026-10-21:0",
+        "starts_at": "2026-10-21T15:35:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-630",
+        "event_id": "cas-cs-630:A1:2026-10-22:0",
+        "starts_at": "2026-10-22T09:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-22:0",
+        "starts_at": "2026-10-22T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-23:0",
+        "starts_at": "2026-10-23T09:05:00-04:00",
+        "status": "present"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "sam:cas-cs-611:hw1",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 91,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-611:quiz1",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 16,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-611:midterm",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-20T18:45:00-04:00",
+        "starts_at": "2026-10-20T16:00:00-04:00",
+        "location": "CAS 326",
+        "max_score": 100,
+        "score": 84,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-611:project",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-611:hw2",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-611:final",
+        "course_id": "cas-cs-611",
+        "title": "CAS CS 611: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-14T11:00:00-05:00",
+        "starts_at": "2026-12-14T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:hw1",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 92,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:quiz1",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 17,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:midterm",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-15T10:45:00-04:00",
+        "starts_at": "2026-10-15T09:30:00-04:00",
+        "location": "CAS 326",
+        "max_score": 100,
+        "score": 85,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:project",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:hw2",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-630:final",
+        "course_id": "cas-cs-630",
+        "title": "CAS CS 630: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-15T15:00:00-05:00",
+        "starts_at": "2026-12-15T13:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:hw1",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 93,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:quiz1",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 18,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:midterm",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-15T12:15:00-04:00",
+        "starts_at": "2026-10-15T11:00:00-04:00",
+        "location": "CAS 224",
+        "max_score": 100,
+        "score": 86,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:project",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:hw2",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "sam:cas-cs-640:final",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-16T11:00:00-05:00",
+        "starts_at": "2026-12-16T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      }
+    ]
+  },
+  {
+    "profile": {
+      "user": "taylor",
+      "full_name": "Taylor Brooks",
+      "buid": "U99000005",
+      "email": "taylor@students.example.test",
+      "school": "Graduate School of Arts & Sciences",
+      "program": "PhD in Computer Science",
+      "major": "Computer Science",
+      "degree_level": "phd",
+      "year": 2,
+      "term": "fall-2026",
+      "is_mock": true,
+      "as_of": "2026-10-24T12:00:00-04:00",
+      "program_source": {
+        "title": "PhD in Computer Science",
+        "url": "https://www.bu.edu/academics/grs/programs/computer-science/phd/",
+        "retrieved_on": "2026-10-24"
+      }
+    },
+    "meal_balance": {
+      "plan_id": null,
+      "meals_remaining": 0,
+      "dining_points_balance_cents": 0,
+      "convenience_points_balance_cents": 9425,
+      "guest_meals_remaining": 0
+    },
+    "enrollments": [
+      {
+        "course_id": "cas-cs-640",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "course_id": "cas-cs-651",
+        "section_ids": [
+          "A1",
+          "A2"
+        ]
+      }
+    ],
+    "attendance": [
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-02:0",
+        "starts_at": "2026-09-02T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-03:0",
+        "starts_at": "2026-09-03T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-04:0",
+        "starts_at": "2026-09-04T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-09-04:0",
+        "starts_at": "2026-09-04T14:30:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-08:0",
+        "starts_at": "2026-09-08T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-09:0",
+        "starts_at": "2026-09-09T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-10:0",
+        "starts_at": "2026-09-10T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-11:0",
+        "starts_at": "2026-09-11T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-09-11:0",
+        "starts_at": "2026-09-11T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-14:0",
+        "starts_at": "2026-09-14T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-15:0",
+        "starts_at": "2026-09-15T11:00:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-16:0",
+        "starts_at": "2026-09-16T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-17:0",
+        "starts_at": "2026-09-17T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-18:0",
+        "starts_at": "2026-09-18T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-09-18:0",
+        "starts_at": "2026-09-18T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-21:0",
+        "starts_at": "2026-09-21T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-22:0",
+        "starts_at": "2026-09-22T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-23:0",
+        "starts_at": "2026-09-23T14:30:00-04:00",
+        "status": "excused"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-24:0",
+        "starts_at": "2026-09-24T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-09-25:0",
+        "starts_at": "2026-09-25T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-09-25:0",
+        "starts_at": "2026-09-25T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-28:0",
+        "starts_at": "2026-09-28T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-09-29:0",
+        "starts_at": "2026-09-29T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-09-30:0",
+        "starts_at": "2026-09-30T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-01:0",
+        "starts_at": "2026-10-01T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-02:0",
+        "starts_at": "2026-10-02T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-10-02:0",
+        "starts_at": "2026-10-02T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-05:0",
+        "starts_at": "2026-10-05T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-06:0",
+        "starts_at": "2026-10-06T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-07:0",
+        "starts_at": "2026-10-07T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-08:0",
+        "starts_at": "2026-10-08T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-09:0",
+        "starts_at": "2026-10-09T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-10-09:0",
+        "starts_at": "2026-10-09T14:30:00-04:00",
+        "status": "absent"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-13:0",
+        "starts_at": "2026-10-13T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-14:0",
+        "starts_at": "2026-10-14T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-15:0",
+        "starts_at": "2026-10-15T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-16:0",
+        "starts_at": "2026-10-16T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-10-16:0",
+        "starts_at": "2026-10-16T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-19:0",
+        "starts_at": "2026-10-19T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-20:0",
+        "starts_at": "2026-10-20T11:00:00-04:00",
+        "status": "late"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A1:2026-10-21:0",
+        "starts_at": "2026-10-21T14:30:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A1:2026-10-22:0",
+        "starts_at": "2026-10-22T11:00:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-640",
+        "event_id": "cas-cs-640:A2:2026-10-23:0",
+        "starts_at": "2026-10-23T09:05:00-04:00",
+        "status": "present"
+      },
+      {
+        "course_id": "cas-cs-651",
+        "event_id": "cas-cs-651:A2:2026-10-23:0",
+        "starts_at": "2026-10-23T14:30:00-04:00",
+        "status": "present"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "taylor:cas-cs-640:hw1",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 92,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-640:quiz1",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 16,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-640:midterm",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-15T12:15:00-04:00",
+        "starts_at": "2026-10-15T11:00:00-04:00",
+        "location": "CAS 224",
+        "max_score": 100,
+        "score": 85,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-640:project",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-640:hw2",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-640:final",
+        "course_id": "cas-cs-640",
+        "title": "CAS CS 640: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-14T11:00:00-05:00",
+        "starts_at": "2026-12-14T09:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:hw1",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Assignment 1",
+        "kind": "assignment",
+        "due_at": "2026-09-18T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": 93,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:quiz1",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Quiz 1",
+        "kind": "quiz",
+        "due_at": "2026-10-02T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 20,
+        "score": 17,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:midterm",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Midterm",
+        "kind": "midterm",
+        "due_at": "2026-10-14T15:45:00-04:00",
+        "starts_at": "2026-10-14T14:30:00-04:00",
+        "location": "PSY B53",
+        "max_score": 100,
+        "score": 86,
+        "status": "graded",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:project",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Project proposal",
+        "kind": "project",
+        "due_at": "2026-10-22T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "submitted",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:hw2",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Assignment 2",
+        "kind": "assignment",
+        "due_at": "2026-10-30T23:59:00-04:00",
+        "starts_at": null,
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      },
+      {
+        "id": "taylor:cas-cs-651:final",
+        "course_id": "cas-cs-651",
+        "title": "CAS CS 651: Final exam",
+        "kind": "final",
+        "due_at": "2026-12-15T15:00:00-05:00",
+        "starts_at": "2026-12-15T13:00:00-05:00",
+        "location": null,
+        "max_score": 100,
+        "score": null,
+        "status": "upcoming",
+        "is_mock": true
+      }
+    ]
+  }
+]

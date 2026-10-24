@@ -1,0 +1,114 @@
+[
+  {
+    "id": "open-access",
+    "name": "Open Access",
+    "academic_year": "2026-2027",
+    "meal_period": "unlimited",
+    "meal_allowance": null,
+    "dining_points_included_cents": 29500,
+    "semester_cost_cents": 378500,
+    "guest_meal_allowance": 10,
+    "weekly_reset_day": null,
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "open-access-plus",
+    "name": "Open Access+",
+    "academic_year": "2026-2027",
+    "meal_period": "unlimited",
+    "meal_allowance": null,
+    "dining_points_included_cents": 58000,
+    "semester_cost_cents": 401500,
+    "guest_meal_allowance": 10,
+    "weekly_reset_day": null,
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "weekly-10-plus",
+    "name": "Weekly 10+",
+    "academic_year": "2026-2027",
+    "meal_period": "weekly",
+    "meal_allowance": 10,
+    "dining_points_included_cents": 108500,
+    "semester_cost_cents": 401500,
+    "guest_meal_allowance": 10,
+    "weekly_reset_day": "Friday",
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "kosher",
+    "name": "Kosher",
+    "academic_year": "2026-2027",
+    "meal_period": "weekly",
+    "meal_allowance": 11,
+    "dining_points_included_cents": 41000,
+    "semester_cost_cents": 378500,
+    "guest_meal_allowance": 10,
+    "weekly_reset_day": "Friday",
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "connector-50",
+    "name": "Campus Connector 50",
+    "academic_year": "2026-2027",
+    "meal_period": "semester",
+    "meal_allowance": 50,
+    "dining_points_included_cents": 25000,
+    "semester_cost_cents": 94000,
+    "guest_meal_allowance": 0,
+    "weekly_reset_day": null,
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "connector-50-plus",
+    "name": "Campus Connector 50+",
+    "academic_year": "2026-2027",
+    "meal_period": "semester",
+    "meal_allowance": 50,
+    "dining_points_included_cents": 50000,
+    "semester_cost_cents": 119000,
+    "guest_meal_allowance": 0,
+    "weekly_reset_day": null,
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  },
+  {
+    "id": "connector-75-plus",
+    "name": "Campus Connector 75+",
+    "academic_year": "2026-2027",
+    "meal_period": "semester",
+    "meal_allowance": 75,
+    "dining_points_included_cents": 50000,
+    "semester_cost_cents": 153500,
+    "guest_meal_allowance": 0,
+    "weekly_reset_day": null,
+    "source": {
+      "title": "BU Dining: 2026–2027 Meal Plan Comparison",
+      "url": "https://www.bu.edu/dining/plans-points/",
+      "retrieved_on": "2026-10-24"
+    }
+  }
+]
