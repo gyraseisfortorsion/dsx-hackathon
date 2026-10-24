@@ -71,6 +71,7 @@ def test_schema_and_docs(client):
         "/chat", "/preferences", "/events", "/events/options", "/events/search",
         "/events/clusters", "/events/saved", "/events/{event_id}",
         "/events/{event_id}/feedback",
+        "/events/{event_id}/tags/suggest", "/events/{event_id}/tags",
     }
     for operations in schema["paths"].values():
         for operation in operations.values():

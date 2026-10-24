@@ -5,8 +5,8 @@
   "functions": {
     "bu_api/main.py": {
       "maxDuration": 120,
-      "includeFiles": "data/**",
-      "excludeFiles": "{tests,scripts,runtime,.pytest_cache,.ruff_cache}/**"
+      "includeFiles": "{data/**,bu_api/event_tags/taxonomy/**}",
+      "excludeFiles": "{tests,scripts,runtime,labeling,.pytest_cache,.ruff_cache}/**"
     }
   }
 }

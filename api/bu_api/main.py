@@ -19,6 +19,7 @@ from .blob_history import BlobHistoryStore
 from .config import API_ROOT, Settings
 from .docs import SWAGGER_HTML
 from .event_routes import install_event_routes
+from .event_tags import KeywordBaseline, Tagger, load_taxonomy
 from .events import EventService
 from .history import HistoryConflict, HistoryStore, HistoryUnavailable
 from .preferences import BlobPreferenceStore, PreferenceStore
@@ -87,6 +88,14 @@ def create_app(
                 )
                 events = EventService(settings.data_dir / "event_artifacts.json")
                 app.state.preferences, app.state.events = preferences, events
+                app.state.tag_taxonomy = load_taxonomy(
+                    API_ROOT / "bu_api" / "event_tags" / "taxonomy" / "taxonomy.v1.json"
+                )
+                app.state.tag_scorer = KeywordBaseline(app.state.tag_taxonomy)
+                app.state.tagger = Tagger(
+                    app.state.tag_taxonomy, thresholds={}, default_threshold=0.1,
+                    max_tags=5, source="baseline",
+                )
                 app.state.chat = ChatService(
                     settings, repository, search, history, model, events, preferences
                 )

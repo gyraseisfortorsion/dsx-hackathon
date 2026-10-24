@@ -1,0 +1,103 @@
+{
+  "version": "1",
+  "tags": [
+    {
+      "id": "academic",
+      "facet": "topic",
+      "name": "Academic & Study",
+      "definition": "Coursework, study support, advising, research skills, or scholarly subject matter.",
+      "examples": ["study group", "advising session", "research skills workshop", "thesis info"]
+    },
+    {
+      "id": "career",
+      "facet": "topic",
+      "name": "Career & Professional",
+      "definition": "Jobs, internships, employers, recruiting, resumes, or professional development.",
+      "examples": ["career fair", "resume review", "employer info session", "internship panel"]
+    },
+    {
+      "id": "tech",
+      "facet": "topic",
+      "name": "Technology & Computing",
+      "definition": "Software, data, AI, engineering, or information-technology topics.",
+      "examples": ["hackathon", "coding workshop", "AI talk", "data science meetup"]
+    },
+    {
+      "id": "arts-culture",
+      "facet": "topic",
+      "name": "Arts & Culture",
+      "definition": "Music, visual or performing arts, film, literature, or creative expression.",
+      "examples": ["concert", "art exhibit", "open mic", "film screening"]
+    },
+    {
+      "id": "sports-recreation",
+      "facet": "topic",
+      "name": "Sports & Recreation",
+      "definition": "Athletics, fitness, outdoor activity, games, or intramural recreation.",
+      "examples": ["intramural soccer", "yoga session", "hiking trip", "game night"]
+    },
+    {
+      "id": "wellness-health",
+      "facet": "topic",
+      "name": "Wellness & Health",
+      "definition": "Mental or physical health, counseling, mindfulness, or healthy-living support.",
+      "examples": ["mental health workshop", "meditation", "wellness fair", "stress relief"]
+    },
+    {
+      "id": "community-service",
+      "facet": "topic",
+      "name": "Community Service & Giving",
+      "definition": "Volunteering, service projects, fundraising, or charitable giving.",
+      "examples": ["volunteer day", "food drive", "charity fundraiser", "service project"]
+    },
+    {
+      "id": "cultural-identity",
+      "facet": "topic",
+      "name": "Cultural & Identity",
+      "definition": "Events centered on a cultural, religious, national, or identity community.",
+      "examples": ["heritage celebration", "cultural showcase", "identity affinity group", "religious service"]
+    },
+    {
+      "id": "workshop",
+      "facet": "format",
+      "name": "Workshop / Training",
+      "definition": "Hands-on, skill-building, or instructional format where attendees practice or learn to do something.",
+      "examples": ["hands-on workshop", "training session", "how-to clinic", "skills bootcamp"]
+    },
+    {
+      "id": "talk-panel",
+      "facet": "format",
+      "name": "Talk / Panel / Lecture",
+      "definition": "Speaker-led format: a lecture, presentation, panel discussion, or Q&A.",
+      "examples": ["guest lecture", "panel discussion", "keynote", "fireside chat"]
+    },
+    {
+      "id": "social",
+      "facet": "format",
+      "name": "Social / Mixer",
+      "definition": "Informal gathering whose main purpose is socializing, meeting people, or fun.",
+      "examples": ["mixer", "welcome party", "bingo night", "meet and greet"]
+    },
+    {
+      "id": "performance",
+      "facet": "format",
+      "name": "Performance / Showcase",
+      "definition": "A staged or presented performance or showcase that attendees watch.",
+      "examples": ["dance showcase", "theater performance", "a cappella show", "recital"]
+    },
+    {
+      "id": "free-food",
+      "facet": "other",
+      "name": "Free Food",
+      "definition": "Food or drinks are provided free to attendees.",
+      "examples": ["free pizza", "free boba", "snacks provided", "catered lunch"]
+    },
+    {
+      "id": "networking",
+      "facet": "other",
+      "name": "Networking",
+      "definition": "An explicit goal of building professional or peer connections among attendees.",
+      "examples": ["networking night", "alumni mixer", "meet recruiters", "connect with peers"]
+    }
+  ]
+}

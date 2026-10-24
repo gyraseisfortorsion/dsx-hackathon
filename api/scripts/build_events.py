@@ -3,6 +3,7 @@
 import hashlib
 import json
 import re
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -14,9 +15,32 @@ from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import silhouette_score
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from bu_api.event_tags import KeywordBaseline, Tagger, load_taxonomy  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parent / "research/events/raw/bu_events.ics"
 OUTPUT = ROOT / "data/event_artifacts.json"
+TAXONOMY = ROOT / "bu_api" / "event_tags" / "taxonomy" / "taxonomy.v1.json"
+TAG_THRESHOLD = 0.1
+MAX_TAGS = 5
+
+
+def apply_tags(records):
+    """Add fixed-taxonomy baseline tags to every record (empty tags allowed)."""
+    taxonomy = load_taxonomy(TAXONOMY)
+    baseline = KeywordBaseline(taxonomy)
+    tagger = Tagger(taxonomy, thresholds={}, default_threshold=TAG_THRESHOLD,
+                    max_tags=MAX_TAGS, source="baseline")
+    for event in records:
+        scores = baseline.score(event.get("title", ""), event.get("description", ""))
+        result = tagger.build(event["id"], baseline.version, event.get("title", ""),
+                              event.get("description", ""), scores)
+        event["tags"] = {s.tag_id: s.score for s in result.suggestions}
+        event["tag_source"] = "baseline"
+        event["taxonomy_version"] = taxonomy.version
+    return taxonomy.version, baseline.version
 
 
 def clean(value):
@@ -119,6 +143,9 @@ def build():
         "idf": {str(t): float(w) for t, w in zip(terms, vectorizer.idf_, strict=True)},
         "clusters": clusters,
     }
+    taxonomy_version, tag_model_version = apply_tags(records)
+    bundle["taxonomy_version"] = taxonomy_version
+    bundle["tag_model_version"] = tag_model_version
     bundle["version"] = hashlib.sha256(
         json.dumps(
             {key: bundle[key] for key in ("events", "vectors", "idf", "clusters")},

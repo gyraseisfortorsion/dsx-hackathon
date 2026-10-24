@@ -7,3 +7,5 @@ __pycache__/
 .venv/
 venv/
 node_modules/
+# Kiro Crew per-machine service config and lock (not source)
+.kiro/settings/

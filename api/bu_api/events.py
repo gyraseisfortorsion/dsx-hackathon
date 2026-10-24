@@ -75,6 +75,16 @@ class Feedback(Schema):
         return self
 
 
+class TagCorrection(Schema):
+    """A PER-STUDENT final tag set for an event. Overrides the auto tags for that
+    user only (the prototype has no shared organizer identity). An empty list is a
+    meaningful override ("no tag applies"), not 'uncorrected'.
+    """
+
+    prediction_id: str = ""
+    final_tag_ids: list[str] = Field(default_factory=list, max_length=20)
+
+
 class Window(Schema):
     starts_at: AwareDatetime
     ends_at: AwareDatetime

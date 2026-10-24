@@ -13,6 +13,7 @@ from .events import (
     EventSearch,
     Feedback,
     Preferences,
+    TagCorrection,
     deduplicate_events,
 )
 from .history import HistoryConflict
@@ -134,11 +135,27 @@ def install_event_routes(app, selected_student):
             for e in app.state.repository.calendar(student).events
             if end and e.ends_at and start < e.ends_at and e.starts_at < end
         ]
-        return EventCard(
+        built = EventCard(
             **event,
             **feedback.model_dump(),
             conflict_ids=conflicts,
             conflict_check_complete=end is not None,
+        )
+        return apply_tag_correction(built, state.tag_corrections.get(eid))
+
+    def apply_tag_correction(card_obj, correction):
+        """An organizer correction OVERRIDES the auto tags. An empty corrected set is
+        a real correction ('no tag applies'), not 'uncorrected'. Organizer tags have
+        no score (null).
+        """
+        if correction is None:
+            return card_obj
+        app.state.tag_taxonomy.assert_known(correction.final_tag_ids)
+        return card_obj.model_copy(
+            update={
+                "tags": {tid: None for tid in correction.final_tag_ids},
+                "tag_source": "organizer",
+            }
         )
 
     @app.get("/events/saved", response_model=list[EventCard])
@@ -172,3 +189,46 @@ def install_event_routes(app, selected_student):
                 "profile_version": state.preferences.version,
                 **body.model_dump(),
             }
+
+    @app.get("/events/{event_id}/tags/suggest")
+    def suggest_tags(event_id: str, student=Depends(selected_student)):
+        """Auto-suggest tags for an existing event from the fixed taxonomy."""
+        event = app.state.events.by_id.get(event_id)
+        if event is None:
+            raise HTTPException(404, "Unknown event")
+        scores = app.state.tag_scorer.score(event.get("title", ""), event.get("description", ""))
+        result = app.state.tagger.build(
+            event_id, app.state.tag_scorer.version,
+            event.get("title", ""), event.get("description", ""), scores,
+        )
+        correction = app.state.preferences.load(student.profile.user).tag_corrections.get(event_id)
+        payload = result.to_json()
+        # Per-student override (not a shared organizer edit); see PUT /events/{id}/tags.
+        payload["user_corrected"] = correction is not None
+        payload.pop("organizer_corrected", None)
+        if correction is not None:
+            payload["corrected_tag_ids"] = correction.final_tag_ids
+        return payload
+
+    @app.put("/events/{event_id}/tags")
+    async def correct_tags(event_id: str, body: TagCorrection, student=Depends(selected_student)):
+        """Store a PER-STUDENT tag override for an event (empty set allowed).
+
+        LIMITATION (prototype): this is scoped to the calling demo user, stored in
+        that user's PreferenceState. It is NOT a shared, organizer-wide correction
+        visible to other students -- the app has no separate organizer identity yet.
+        The override takes priority over the auto-assigned tags for THIS user only.
+        """
+        if event_id not in app.state.events.by_id:
+            raise HTTPException(404, "Unknown event")
+        try:
+            app.state.tag_taxonomy.assert_known(body.final_tag_ids)
+        except ValueError:
+            raise HTTPException(422, "final_tag_ids contains a tag not in the taxonomy") from None
+        store, user = app.state.preferences, student.profile.user
+        async with store.lock(user):
+            state = await asyncio.to_thread(store.load, user)
+            state.tag_corrections[event_id] = body
+            state.preferences.version += 1
+            await asyncio.to_thread(store.save, user, state)
+        return card(student, event_id)
