@@ -13,6 +13,7 @@ from .events import (
     EventSearch,
     Feedback,
     Preferences,
+    deduplicate_events,
 )
 from .history import HistoryConflict
 
@@ -79,7 +80,7 @@ def install_event_routes(app, selected_student):
 
     @app.get("/events/recommended", response_model=list[EventCard])
     def recommended(
-        limit: int = Query(20, ge=1, le=100),
+        limit: int = Query(5, ge=1, le=100),
         avoid_schedule_conflicts: bool | None = None,
         student=Depends(selected_student),
     ):
@@ -143,11 +144,13 @@ def install_event_routes(app, selected_student):
     @app.get("/events/saved", response_model=list[EventCard])
     def saved(student=Depends(selected_student)):
         state = app.state.preferences.load(student.profile.user)
-        return [
-            card(student, eid)
-            for eid, fb in state.feedback.items()
-            if fb.saved and eid in app.state.events.by_id
-        ]
+        return deduplicate_events(
+            [
+                card(student, eid)
+                for eid, fb in state.feedback.items()
+                if fb.saved and eid in app.state.events.by_id
+            ]
+        )
 
     @app.get("/events/{event_id}", response_model=EventCard)
     def details(event_id: str, student=Depends(selected_student)):

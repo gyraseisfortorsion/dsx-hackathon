@@ -155,3 +155,114 @@ def test_chat_event_cards_are_canonical_and_persist(settings, fake_transport):
         assert client.get("/messages?user=alex", headers=AUTH).json()[-1]["event_cards"] == cards
     payload = json.loads((settings.history_path() / "alex.json").read_text())
     assert payload["messages"][-1]["event_cards"] == cards
+
+
+def test_recommendations_default_to_five_with_explicit_override(client):
+    response = client.get("/events/recommended?user=alex", headers=AUTH)
+    assert response.status_code == 200
+    assert len(response.json()) == 5
+    assert len(client.get("/events/recommended?user=alex&limit=8", headers=AUTH).json()) == 8
+    parameters = client.get("/openapi.json?user=alex", headers=AUTH).json()["paths"][
+        "/events/recommended"
+    ]["get"]["parameters"]
+    assert next(p for p in parameters if p["name"] == "limit")["schema"]["default"] == 5
+
+
+@pytest.fixture
+def duplicate_catalog(client, monkeypatch):
+    service = client.app.state.events
+    now = client.app.state.repository.students["alex"].profile.as_of
+    records = []
+    for i, title in enumerate(["Music Club", "  MUSIC  Club  ", "Science Club"]):
+        start = now + timedelta(days=i + 1)
+        records.append(
+            service.events[0]
+            | {
+                "id": f"dedup-{i}",
+                "title": title,
+                "starts_at": start.isoformat(),
+                "ends_at": (start + timedelta(hours=1)).isoformat(),
+            }
+        )
+    monkeypatch.setattr(service, "events", records)
+    monkeypatch.setattr(service, "by_id", {e["id"]: e for e in records})
+    monkeypatch.setattr(
+        service,
+        "vectors",
+        {
+            "dedup-0": {"music": 0.6, "science": 0.8},
+            "dedup-1": {"music": 1.0},
+            "dedup-2": {"science": 1.0},
+        },
+    )
+    return records
+
+
+def test_dedup_before_pagination_and_counts(client, duplicate_catalog):
+    first = client.get(
+        "/events?user=alex&limit=1&avoid_schedule_conflicts=false", headers=AUTH
+    ).json()
+    assert first["total"] == 2
+    assert first["next_offset"] == 1
+    assert first["items"][0]["id"] == "dedup-0"  # earliest eligible occurrence
+    second = client.get(
+        "/events?user=alex&limit=1&offset=1&avoid_schedule_conflicts=false", headers=AUTH
+    ).json()
+    assert second["items"][0]["id"] == "dedup-2"
+    assert second["next_offset"] is None
+
+
+def test_dedup_keeps_best_ranked_eligible_occurrence(client, duplicate_catalog):
+    body = {"query": "music", "filters": {"avoid_schedule_conflicts": False}}
+    ranked = client.post("/events/search?user=alex", headers=AUTH, json=body).json()
+    assert ranked["total"] == 1
+    assert ranked["items"][0]["id"] == "dedup-1"
+    body["filters"]["starts_before"] = duplicate_catalog[1]["starts_at"]
+    filtered = client.post("/events/search?user=alex", headers=AUTH, json=body).json()
+    assert filtered["items"][0]["id"] == "dedup-0"
+    # Both source occurrence records remain accessible by ID.
+    assert client.get("/events/dedup-1?user=alex", headers=AUTH).status_code == 200
+
+
+def test_saved_lists_and_cluster_counts_deduplicate(client, duplicate_catalog):
+    for eid in ["dedup-0", "dedup-1"]:
+        assert (
+            client.put(
+                f"/events/{eid}/feedback?user=alex", headers=AUTH, json={"saved": True}
+            ).status_code
+            == 200
+        )
+    saved = client.get("/events/saved?user=alex", headers=AUTH).json()
+    assert len(saved) == 1
+    for eid in ["dedup-0", "dedup-1"]:
+        assert client.get(f"/events/{eid}?user=alex", headers=AUTH).json()["saved"]
+    cluster = duplicate_catalog[0]["cluster_id"]
+    # Switch conflict avoidance off so the synthetic sessions all qualify.
+    client.put(
+        "/preferences?user=alex",
+        headers=AUTH,
+        json={"version": 2, "avoid_schedule_conflicts": False},
+    )
+    groups = client.get("/events/clusters?user=alex", headers=AUTH).json()["clusters"]
+    assert next(g for g in groups if g["id"] == cluster)["upcoming_count"] == 2
+
+
+@pytest.mark.parametrize(
+    "path,body",
+    [
+        ("/events?user=alex&limit=100", None),
+        ("/events/recommended?user=alex&limit=100", None),
+        ("/events/search?user=alex", {"query": "", "limit": 100}),
+    ],
+)
+def test_real_feed_returns_unique_titles(client, path, body):
+    response = (
+        client.get(path, headers=AUTH)
+        if body is None
+        else client.post(path, headers=AUTH, json=body)
+    )
+    assert response.status_code == 200
+    payload = response.json()
+    items = payload if isinstance(payload, list) else payload["items"]
+    titles = [" ".join(e["title"].casefold().split()) for e in items]
+    assert len(titles) == len(set(titles))

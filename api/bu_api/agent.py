@@ -15,7 +15,7 @@ from pydantic_ai.usage import UsageLimits
 from vercel.oidc import get_vercel_oidc_token
 
 from .config import Settings
-from .events import EventSearch
+from .events import EventSearch, deduplicate_events
 from .history import Conversation, HistoryStore
 from .repository import Repository
 from .schemas import ChatMessage, Citation, EventCard, StudentRecord
@@ -194,7 +194,7 @@ class ChatService:
                     for url, citation in deps.retrieved_sources.items()
                     if url in result.output
                 ],
-                event_cards=list(deps.event_cards.values()),
+                event_cards=deduplicate_events(list(deps.event_cards.values())),
             )
             completed = Conversation(
                 messages=[*conversation.messages, user_message, assistant],

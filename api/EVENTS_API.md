@@ -39,7 +39,7 @@ separate preferences, saved events, and chat history.
 | Screen/action | Request | Response |
 | --- | --- | --- |
 | Upcoming | GET `/events?user=alex&limit=20&offset=0` | General event envelope |
-| For You | GET `/events/recommended?user=alex&limit=20` | Array of event cards; existing array contract preserved |
+| For You | GET `/events/recommended?user=alex&limit=5` | Array of event cards; defaults to 5 |
 | Search or advanced filtering | POST `/events/search?user=alex` | Ranked event envelope |
 | Explore themes | GET `/events/clusters?user=alex` | Exploratory clusters with upcoming eligible counts |
 | Event details | GET `/events/{id}?user=alex` | Canonical event card |
@@ -102,6 +102,18 @@ The general list is chronological, honors hidden events and the schedule toggle,
 and does not use profile similarity. Interest matching and saved-event similarity
 rank For You. A current search query dominates saved preferences. Hiding affects
 eligibility only; there is no trained negative-feedback model.
+
+Discovery lists deduplicate by Unicode-normalized, case-insensitive title with
+whitespace collapsed, after filtering/ranking and before pagination. Repeated
+sessions therefore appear once, using the highest-ranked eligible occurrence
+(earliest first for chronological browsing). Totals and cluster counts reflect
+these deduplicated lists. Saved lists and chat cards also show a single entry per
+title. Individual occurrence IDs and feedback remain stored, and details remain
+accessible by ID. Events with identical titles are grouped even if their hosts
+differ; this is a display rule, not deletion or fuzzy semantic matching.
+
+Only GET `/events/recommended` changes its default limit to 5. Explicit limits
+still work; general browsing and POST search retain their default of 20.
 
 ## Calendar and LLM behavior
 

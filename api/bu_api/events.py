@@ -3,6 +3,7 @@
 import json
 import math
 import re
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from typing import Literal
@@ -10,6 +11,21 @@ from typing import Literal
 from pydantic import AwareDatetime, Field, model_validator
 
 from .schemas import EventCard, Schema
+
+
+def deduplicate_events(events: list[EventCard]) -> list[EventCard]:
+    """Keep the first ranked occurrence per title, without changing stored records."""
+    seen = set()
+    unique = []
+    for event in events:
+        key = " ".join(unicodedata.normalize("NFKC", event.title).casefold().split())
+        # Missing titles must not collapse unrelated events.
+        key = key or event.id
+        if key not in seen:
+            seen.add(key)
+            unique.append(event)
+    return unique
+
 
 INTERESTS = {
     "technology": "technology robotics programming software engineering computers",
@@ -217,6 +233,7 @@ class EventService:
                 )
             )
         rows.sort(key=lambda e: (-(e.score or 0), e.starts_at, e.id))
+        rows = deduplicate_events(rows)
         unmatched_profile = mode == "personalized" and not any(e.score for e in rows)
         if unmatched_profile:
             mode = "general"
