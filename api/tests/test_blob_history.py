@@ -1,3 +1,4 @@
+import gzip
 import json
 
 import httpx
@@ -24,7 +25,16 @@ def blob_transport():
             blob = blobs.get(request.url.path.removeprefix("/"))
             if not blob:
                 return httpx.Response(404)
-            return httpx.Response(200, content=blob[0], headers={"etag": blob[1]})
+            # Match Blob's real HTTP behavior: compressed responses carry weak ETags,
+            # which cannot satisfy the strong revision required by a conditional PUT.
+            content, revision = blob
+            if "gzip" in request.headers.get("accept-encoding", ""):
+                return httpx.Response(
+                    200,
+                    content=gzip.compress(content),
+                    headers={"etag": f"W/{revision}", "content-encoding": "gzip"},
+                )
+            return httpx.Response(200, content=content, headers={"etag": revision})
         assert request.method == "PUT"
         assert request.headers["x-vercel-blob-access"] == "private"
         assert request.headers["x-add-random-suffix"] == "0"

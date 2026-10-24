@@ -49,8 +49,13 @@ class BlobHistoryStore(HistoryStore):
         store = self.store_id.removeprefix("store_").lower()
         url = f"https://{store}.private.blob.vercel-storage.com/{pathname}"
         try:
-            # Origin reads avoid stale cached JSON after a previous turn's overwrite.
-            response = self.client.get(url, params={"cache": "0"}, headers=self._headers())
+            # Origin reads avoid stale JSON; identity encoding preserves the strong ETag
+            # required for conditional writes (gzip responses have a weak W/ ETag).
+            response = self.client.get(
+                url,
+                params={"cache": "0"},
+                headers=self._headers() | {"Accept-Encoding": "identity"},
+            )
             if response.status_code == 404:
                 return Conversation()
             response.raise_for_status()
