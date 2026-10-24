@@ -58,13 +58,13 @@ curl 'http://localhost:8000/messages?user=alex' \
 | GET | `/calendar` | Whole-semester class meetings, deadlines, and exams, sorted by start time |
 | GET | `/attendance` | Completed-session records and counts grouped by course |
 | GET | `/grades` | Assessments and unweighted current points percentage per course |
-| GET | `/events/recommended` | `[]` for every student |
+| GET | `/events/recommended` | Real upcoming events ranked by saved interests, with general fallback |
 | POST | `/chat` | One assistant `ChatMessage`; body: `{"message":"..."}` |
 | GET | `/messages` | Chronological array of user and assistant `ChatMessage` objects |
 | GET | `/openapi.json` | Protected OpenAPI specification |
 
 Structured student responses contain `user`, `as_of`, and `is_mock: true`.
-Chat messages contain `id`, `role`, `content`, UTC `created_at`, and `sources`
+Chat messages contain `id`, `role`, `content`, UTC `created_at`, `event_cards`, and `sources`
 (`title`, `url`). Chat is a normal completed JSON response, without streaming.
 
 `/meal-plan` returns integer USD cents in `balance.dining_points_balance_cents`
@@ -112,7 +112,8 @@ loaded at startup. Agent instructions, routes, tool code, and stored histories
 do not depend on Gemini-specific request/response formats.
 
 The agent receives only the selected student's profile, finances, course
-schedule, calendar, attendance, grades, and empty recommendations. Time-sensitive
+schedule, calendar, attendance, and grades. The `search_events` tool retrieves real
+events using saved preferences and known schedule conflicts. Time-sensitive
 answers use the fixed demo snapshot. `search_bu(query)` fetches the 20 official
 pages in `data/sources.json`, strips navigation/scripts, caches their readable
 text for 15 minutes, and returns up to five keyword-ranked excerpts with source
@@ -196,3 +197,13 @@ and mocked HTTP for search. They cover all routes' password/user validation,
 fixture consistency, calendar holidays and DST, search cache/failures/citations,
 chat isolation, restart memory, per-user concurrency, timeout/failure rollback,
 and atomic JSON persistence. No provider key is needed to run them.
+
+## Event discovery and personalization
+
+See [EVENTS_API.md](EVENTS_API.md) for the iOS request/response contract, preferences,
+saved/hidden events, general browsing, personalized search, clustering, and chat cards.
+The implementation uses 247 real Terrier Central events, an offline TF–IDF artifact,
+and separate durable preferences for the five mock students. It does not require
+an LLM key outside chat. Source and build artifacts are bundled; requests do not
+fit models or refresh the feed. These changes require deployment before they are
+available at the production URL above.

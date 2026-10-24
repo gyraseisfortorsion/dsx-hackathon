@@ -18,7 +18,10 @@ from .agent import ChatService
 from .blob_history import BlobHistoryStore
 from .config import API_ROOT, Settings
 from .docs import SWAGGER_HTML
+from .event_routes import install_event_routes
+from .events import EventService
 from .history import HistoryConflict, HistoryStore, HistoryUnavailable
+from .preferences import BlobPreferenceStore, PreferenceStore
 from .repository import Repository
 from .schemas import (
     AttendanceResponse,
@@ -28,7 +31,6 @@ from .schemas import (
     CoursesResponse,
     GradesResponse,
     MealPlanResponse,
-    RecommendedEvent,
     StudentProfile,
     StudentRecord,
 )
@@ -76,7 +78,18 @@ def create_app(
                     else HistoryStore(settings.history_path())
                 )
                 app.state.repository, app.state.history = repository, history
-                app.state.chat = ChatService(settings, repository, search, history, model)
+                preferences = (
+                    BlobPreferenceStore(settings.blob_store_id, history_client,
+                        settings.blob_read_write_token.get_secret_value()
+                        if settings.blob_read_write_token else None)
+                    if settings.history_backend == "blob"
+                    else PreferenceStore(settings.history_path().parent / "preferences")
+                )
+                events = EventService(settings.data_dir / "event_artifacts.json")
+                app.state.preferences, app.state.events = preferences, events
+                app.state.chat = ChatService(
+                    settings, repository, search, history, model, events, preferences
+                )
                 yield
 
     bearer = HTTPBearer(auto_error=False)
@@ -104,7 +117,7 @@ def create_app(
         app.add_middleware(
             CORSMiddleware,
             allow_origins=origins,
-            allow_methods=["GET", "POST"],
+            allow_methods=["GET", "POST", "PUT"],
             allow_headers=["Authorization", "Content-Type"],
         )
 
@@ -118,6 +131,16 @@ def create_app(
         return student
 
     Student = Annotated[StudentRecord, Depends(selected_student)]
+
+    @app.exception_handler(HistoryConflict)
+    async def state_conflict(request, exc):
+        return JSONResponse(status_code=409, content={"detail": "State changed; reload and retry"})
+
+    @app.exception_handler(HistoryUnavailable)
+    async def state_unavailable(request, exc):
+        return JSONResponse(status_code=503, content={"detail": "Storage temporarily unavailable"})
+
+    install_event_routes(app, selected_student)
 
     @app.get("/student", response_model=StudentProfile)
     async def student_info(student: Student):
@@ -142,10 +165,6 @@ def create_app(
     @app.get("/grades", response_model=GradesResponse)
     async def grades(student: Student):
         return app.state.repository.grades(student)
-
-    @app.get("/events/recommended", response_model=list[RecommendedEvent])
-    async def recommended_events(student: Student):
-        return []
 
     @app.get("/messages", response_model=list[ChatMessage])
     async def messages(student: Student):

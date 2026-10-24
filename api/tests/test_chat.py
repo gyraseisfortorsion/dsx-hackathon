@@ -116,7 +116,7 @@ def test_search_budget_finishes_answer_and_resets_each_turn(
 
     def respond(messages, info):
         # Keep requesting search until the agent removes it from the available tools.
-        if info.function_tools:
+        if any(t.name == "search_bu" for t in info.function_tools):
             return ModelResponse(
                 parts=[
                     ToolCallPart(

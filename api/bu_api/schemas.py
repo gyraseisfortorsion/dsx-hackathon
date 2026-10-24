@@ -225,6 +225,20 @@ class RecommendedEvent(Schema):
     location: str | None = None
 
 
+class EventCard(RecommendedEvent):
+    description: str
+    ends_at: datetime | None = None
+    source_url: str
+    source_category: str
+    cluster_id: str
+    saved: bool = False
+    not_interested: bool = False
+    conflict_ids: list[str] = Field(default_factory=list)
+    conflict_check_complete: bool
+    score: float | None = None
+    reasons: list[str] = Field(default_factory=list)
+
+
 class ChatRequest(Schema):
     message: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=8000)]
 
@@ -240,3 +254,4 @@ class ChatMessage(Schema):
     content: str
     created_at: datetime
     sources: list[Citation] = Field(default_factory=list)
+    event_cards: list[EventCard] = Field(default_factory=list)

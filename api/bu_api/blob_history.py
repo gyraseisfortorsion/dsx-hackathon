@@ -15,8 +15,6 @@ from .history import (
     HistoryConflict,
     HistoryStore,
     HistoryUnavailable,
-    decode_conversation,
-    encode_conversation,
 )
 
 
@@ -57,9 +55,9 @@ class BlobHistoryStore(HistoryStore):
                 headers=self._headers() | {"Accept-Encoding": "identity"},
             )
             if response.status_code == 404:
-                return Conversation()
+                return self.empty()
             response.raise_for_status()
-            result = decode_conversation(user, response.content)
+            result = self.decode(user, response.content)
             result.revision = response.headers.get("etag")
             if not result.revision:
                 raise HistoryUnavailable("Blob did not return a history revision")
@@ -83,7 +81,7 @@ class BlobHistoryStore(HistoryStore):
                 "https://vercel.com/api/blob/",
                 params={"pathname": pathname},
                 headers=headers,
-                json=encode_conversation(user, conversation),
+                json=self.encode(user, conversation),
             )
             if response.status_code in {409, 412}:
                 raise HistoryConflict("Conversation changed during this turn")

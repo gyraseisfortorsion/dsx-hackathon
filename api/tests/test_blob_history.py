@@ -7,8 +7,10 @@ from fastapi.testclient import TestClient
 from pydantic_ai.models.test import TestModel
 
 from bu_api.blob_history import BlobHistoryStore
+from bu_api.events import Preferences
 from bu_api.history import Conversation, HistoryConflict, HistoryUnavailable
 from bu_api.main import create_app
+from bu_api.preferences import BlobPreferenceStore
 
 from .conftest import AUTH
 
@@ -72,6 +74,21 @@ def test_private_history_persists_and_rejects_racing_writes(blob_transport):
         assert second.load("maya").messages == []
         with pytest.raises(ValueError):
             first.load("../alex")
+
+
+def test_preferences_blob_is_separate_and_conditional(blob_transport):
+    transport, blobs = blob_transport
+    with httpx.Client(transport=transport) as client:
+        store = BlobPreferenceStore("store_test123", client, "fixture-token")
+        first, racing = store.load("alex"), store.load("alex")
+        first.preferences = Preferences(version=1, interest_ids=["music"])
+        store.save("alex", first)
+        with pytest.raises(HistoryConflict):
+            store.save("alex", racing)
+        assert store.load("alex").preferences.interest_ids == ["music"]
+        assert store.load("maya").preferences.version == 0
+        assert "preferences/alex.json" in blobs
+        assert "chat/alex.json" not in blobs
 
 
 def test_deployed_chat_and_messages_use_blob(settings, fake_transport, blob_transport, monkeypatch):

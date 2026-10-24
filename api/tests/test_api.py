@@ -38,7 +38,9 @@ def test_all_read_endpoints(client, user):
     for route in GET_ROUTES:
         response = client.get(route, params={"user": user}, headers=AUTH)
         assert response.status_code == 200, response.text
-        if route == "/events/recommended" or route == "/messages":
+        if route == "/events/recommended":
+            assert response.json() and all(e["source_url"] for e in response.json())
+        elif route == "/messages":
             assert response.json() == []
         elif route != "/openapi.json":
             assert response.json()["user"] == user
@@ -65,7 +67,11 @@ def test_schema_and_docs(client):
     response = client.get("/openapi.json?user=alex", headers=AUTH)
     assert response.headers["cache-control"] == "no-store"
     schema = response.json()
-    assert set(schema["paths"]) == set(GET_ROUTES[:-1]) | {"/chat"}
+    assert set(schema["paths"]) == set(GET_ROUTES[:-1]) | {
+        "/chat", "/preferences", "/events", "/events/options", "/events/search",
+        "/events/clusters", "/events/saved", "/events/{event_id}",
+        "/events/{event_id}/feedback",
+    }
     for operations in schema["paths"].values():
         for operation in operations.values():
             assert operation["security"] == [{"HTTPBearer": []}]

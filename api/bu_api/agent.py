@@ -15,9 +15,10 @@ from pydantic_ai.usage import UsageLimits
 from vercel.oidc import get_vercel_oidc_token
 
 from .config import Settings
+from .events import EventSearch
 from .history import Conversation, HistoryStore
 from .repository import Repository
-from .schemas import ChatMessage, Citation, StudentRecord
+from .schemas import ChatMessage, Citation, EventCard, StudentRecord
 from .search import BUSearch, SearchResponse
 
 MAX_BU_SEARCHES = 3
@@ -37,7 +38,11 @@ Prefer the explicit 2026–2027 Dining Plan Comparison for that year's plan amou
 FAQ paragraphs (notably the Kosher amount). Distinguish Dining Points, Convenience Points,
 meal swipes, and guest meals. Open Access is unlimited, not a finite daily swipe entitlement.
 If pages are unavailable or have no relevant results, explain the coverage limit.
-Event recommendations are currently empty for everyone. Do not invent recommendations.
+For event discovery call search_events. It ranks real events using saved preferences and
+known schedule constraints. Event matching uses words, not a guarantee of semantic relevance.
+Use the returned event IDs and facts only. Never invent events or guarantee unknown eligibility,
+price, or schedule fit. Explain no matches honestly. Event cards accompany the answer.
+Preferences change only through explicit app controls; a chat request does not save them.
 Use at most three search_bu calls per turn. Once search is unavailable, finish your answer
 using the supplied student data and already retrieved sources, and acknowledge any gaps.
 Answer concisely. Scores are mock points; current percentages are not official final grades.
@@ -50,6 +55,12 @@ class StudentContext:
     search: BUSearch
     retrieved_sources: dict[str, Citation] = field(default_factory=dict)
     search_calls: int = 0
+    event_service: object | None = None
+    event_student: StudentRecord | None = None
+    event_calendar: object | None = None
+    preference_state: object | None = None
+    event_cards: dict[str, EventCard] = field(default_factory=dict)
+    event_calls: int = 0
 
 
 def build_agent(model: Model | str) -> Agent[StudentContext, str]:
@@ -92,6 +103,36 @@ def build_agent(model: Model | str) -> Agent[StudentContext, str]:
             ctx.deps.retrieved_sources[item.url] = Citation(title=item.title, url=item.url)
         return result
 
+    async def prepare_events(
+        ctx: RunContext[StudentContext], definition: ToolDefinition
+    ) -> ToolDefinition | None:
+        if ctx.deps.event_calls >= 3 or ctx.usage.requests >= MAX_MODEL_REQUESTS - 1:
+            return None
+        return definition
+
+    @agent.tool(prepare=prepare_events)
+    async def search_events(ctx: RunContext[StudentContext], request: EventSearch) -> dict:
+        """Find campus events. Use a query and explicit date/availability filters if supplied."""
+        deps = ctx.deps
+        if deps.event_service is None:
+            return {"notice": "Event discovery unavailable"}
+        if deps.event_calls >= 3:
+            return {"notice": "Event search budget reached; use existing results"}
+        deps.event_calls += 1
+        request = request.model_copy(update={"limit": min(request.limit, 5), "offset": 0})
+        try:
+            result = deps.event_service.search(
+                deps.event_student, deps.event_calendar, deps.preference_state, request
+            )
+        except ValueError:
+            return {"notice": "Invalid category or cluster; retry without those filters"}
+        for event in result.items:
+            deps.event_cards[event.id] = event
+            deps.retrieved_sources[event.source_url] = Citation(
+                title=event.title, url=event.source_url
+            )
+        return result.model_dump(mode="json")
+
     return agent
 
 
@@ -103,10 +144,13 @@ class ChatService:
         search: BUSearch,
         history: HistoryStore,
         model: Model | None = None,
+        events=None,
+        preferences=None,
     ):
         self.settings, self.repository = settings, repository
         self.search, self.history = search, history
         self.provided_model = model
+        self.events, self.preferences = events, preferences
         self.agent = build_agent(model if model is not None else settings.llm_model)
 
     async def send(self, student: StudentRecord, message: str) -> ChatMessage:
@@ -114,6 +158,10 @@ class ChatService:
         async with self.history.lock(user):
             conversation = await asyncio.to_thread(self.history.load, user)
             deps = StudentContext(self.repository.chat_context(student), self.search)
+            if self.events is not None:
+                deps.event_service, deps.event_student = self.events, student
+                deps.event_calendar = self.repository.calendar(student)
+                deps.preference_state = await asyncio.to_thread(self.preferences.load, user)
             user_message = ChatMessage(
                 id=str(uuid4()), role="user", content=message, created_at=datetime.now(UTC)
             )
@@ -146,6 +194,7 @@ class ChatService:
                     for url, citation in deps.retrieved_sources.items()
                     if url in result.output
                 ],
+                event_cards=list(deps.event_cards.values()),
             )
             completed = Conversation(
                 messages=[*conversation.messages, user_message, assistant],

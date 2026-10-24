@@ -49,6 +49,10 @@ def encode_conversation(user: str, conversation: Conversation) -> dict:
 
 
 class HistoryStore:
+    decode = staticmethod(decode_conversation)
+    encode = staticmethod(encode_conversation)
+    empty = staticmethod(Conversation)
+
     def __init__(self, root: Path):
         self.root = root
         self._locks: dict[str, asyncio.Lock] = {}
@@ -66,12 +70,12 @@ class HistoryStore:
         try:
             data = path.read_bytes()
         except FileNotFoundError:
-            return Conversation()
-        return decode_conversation(user, data)
+            return self.empty()
+        return self.decode(user, data)
 
     def save(self, user: str, conversation: Conversation) -> None:
         path = self._path(user)
-        payload = encode_conversation(user, conversation)
+        payload = self.encode(user, conversation)
         self.root.mkdir(parents=True, exist_ok=True)
         temporary = None
         try:

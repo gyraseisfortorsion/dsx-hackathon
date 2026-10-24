@@ -1,0 +1,2 @@
+# Preserve the original calendar snapshot's CRLF bytes and provenance hash.
+research/events/raw/*.ics -text -whitespace

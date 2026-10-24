@@ -5,8 +5,9 @@ personalized discovery of events and campus opportunities. Meal-plan balances,
 events, and other integrations can be mocked for the prototype while its data
 science component uses clearly attributed data.
 
-The project structure reserves `../api/` for the backend and `../app/` for the
-mobile app. Both contain only Git placeholders; implementation has not started.
+The backend is implemented in `../api/`. The iOS app is maintained on another
+computer; `../app/` is currently a placeholder. See
+[the implemented events API](../api/EVENTS_API.md) for personalization integration.
 
 ## Research files
 
@@ -47,5 +48,6 @@ data must not be presented as a verified BU student population.
 - [Participant resource guide](https://docs.google.com/document/d/1kwfZWTHP8fj_bcB7FF2L3LMfoK9Xs9Dc7kiqKbRP1qE/edit)
 - [CollegeHack data sources](https://library.bu.edu/dsxhackathon/college)
 
-Research conducted October 24, 2026. No recommendation model or mobile/backend
-implementation is included yet.
+Research conducted October 24, 2026. Event discovery now uses a separately built
+TF–IDF artifact and exploratory event clusters; see the API guide for current
+capabilities and validation limits.
