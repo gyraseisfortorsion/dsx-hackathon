@@ -101,6 +101,47 @@ def test_agent_search_tool_and_citations_survive_restart(settings, fake_transpor
     )
 
 
+@pytest.mark.parametrize("batch_size", [1, 4])
+def test_search_budget_finishes_answer_and_resets_each_turn(
+    settings, fake_transport, monkeypatch, batch_size
+):
+    searches = []
+    original_search = BUSearch.search
+
+    async def count_search(self, query):
+        searches.append(query)
+        return await original_search(self, query)
+
+    monkeypatch.setattr(BUSearch, "search", count_search)
+
+    def respond(messages, info):
+        # Keep requesting search until the agent removes it from the available tools.
+        if info.function_tools:
+            return ModelResponse(
+                parts=[
+                    ToolCallPart(
+                        "search_bu",
+                        {"query": "meal plan"},
+                        tool_call_id=f"search-{len(messages)}-{index}",
+                    )
+                    for index in range(batch_size)
+                ]
+            )
+        return ModelResponse(parts=[TextPart(content="Here are the meal plan options.")])
+
+    with TestClient(
+        create_app(settings, model=FunctionModel(respond), search_transport=fake_transport)
+    ) as client:
+        for turn in range(2):
+            response = client.post(
+                "/chat?user=alex", headers=AUTH, json={"message": "Meal plan options?"}
+            )
+            assert response.status_code == 200, response.text
+            assert response.json()["content"] == "Here are the meal plan options."
+            assert len(searches) == (turn + 1) * 3
+        assert len(client.get("/messages?user=alex", headers=AUTH).json()) == 4
+
+
 @pytest.mark.parametrize("failure,expected", [("provider", 502), ("timeout", 504)])
 def test_failed_turn_does_not_change_history(settings, fake_transport, failure, expected, caplog):
     async def respond(messages, info):

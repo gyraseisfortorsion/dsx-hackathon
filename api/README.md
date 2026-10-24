@@ -122,8 +122,10 @@ are reported to the agent; missing facts must not be invented.
 BU's search frontend requires a CAPTCHA token for web results, so this is the
 agreed **curated-page search**, with limited coverage. It needs no additional
 API key, database, vector index, or external search service. The agent is limited
-to five model requests and three tool executions per turn, with a 60-second
-timeout configurable through `CHAT_TIMEOUT_SECONDS`.
+to five model requests and three BU searches per turn. At the search limit,
+search is removed so the model can finish from the results it already has.
+Extra calls within a parallel batch receive a budget notice without fetching
+more pages. The 60-second timeout is configurable through `CHAT_TIMEOUT_SECONDS`.
 
 ## Persistence and checks
 
