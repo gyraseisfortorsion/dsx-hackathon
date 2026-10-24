@@ -35,7 +35,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375451",
       "source_category": "NEWBURY, Luncheon",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "53a9cc1e3784d191b491634d",
@@ -46,7 +51,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375201",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "7c0ab5efe80a846e05ee5d1d",
@@ -57,7 +67,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375200",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "db21ed8167680b6e9e0b40a1",
@@ -68,7 +81,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375199",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f60898fefc5482ba9609d132",
@@ -79,7 +97,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375197",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "free-food": 0.4286,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "ef4f3cdfb125f2f1fd13caa4",
@@ -90,7 +114,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375186",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "free-food": 0.4286
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "83083feb8ab5f3794b344154",
@@ -101,7 +130,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375206",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667,
+        "sports-recreation": 0.1304
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "06852e4d0f988300847ecf5e",
@@ -112,7 +147,10 @@
       "location": "View Boston Observation Deck, 800 Boylston Street, Floor 52, Boston, MA 02199, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375352",
       "source_category": "COMSTUGOV1114, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4e2bb7682a446088dad253f3",
@@ -123,7 +161,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375198",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667,
+        "free-food": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "faed93bc9b529d0613deeabc",
@@ -134,7 +178,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375205",
       "source_category": "SLIC, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cfb4894d6ae1e67d5720efdc",
@@ -145,7 +194,10 @@
       "location": "George Sherman Union B03A - Alley, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375240",
       "source_category": "UPRO1433, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "db2e4a62318611ba112eb2a1",
@@ -156,7 +208,16 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375453",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "social": 0.1667,
+        "free-food": 0.1429,
+        "networking": 0.1429,
+        "cultural-identity": 0.1053,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9d3c4672504f0f5c89d1d39c",
@@ -167,7 +228,13 @@
       "location": "Questrom HAR 105, 595 Commonwealth Ave, Boston 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375534",
       "source_category": "AKPSI1022, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "career": 0.1304,
+        "talk-panel": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3aedde9c754920cb32a963b6",
@@ -178,7 +245,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375350",
       "source_category": "SASE1364, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cb4ca689a54adf23b20378e7",
@@ -189,7 +259,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375817",
       "source_category": "UPRO1433, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a383850ea0fb525f9294f27b",
@@ -200,7 +273,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375454",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "social": 0.2917,
+        "free-food": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3553dc6eb17056492d83247c",
@@ -211,7 +290,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375537",
       "source_category": "AKPSI1022, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "career": 0.1304,
+        "talk-panel": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "341e4fbc7d6f340fa9821e29",
@@ -222,7 +307,13 @@
       "location": "CAS 322, 725 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375581",
       "source_category": "BUBURSA1629, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.2105,
+        "social": 0.1667
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "5de6548d401507a8df045a6f",
@@ -233,7 +324,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376112",
       "source_category": "BMES1062, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4a56e0b7a53e67f8f9cacf2e",
@@ -244,7 +338,10 @@
       "location": "CAS 203 , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375977",
       "source_category": "ROTARACT1344, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "837f96672bab2555acbf593b",
@@ -255,7 +352,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375501",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "da821c8638c49b14693566fd",
@@ -266,7 +366,10 @@
       "location": "GSU Backcourt, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375579",
       "source_category": "CSA1101, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "ed7e8c60f4dc092d4ef44c4e",
@@ -277,7 +380,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375707",
       "source_category": "BUFS1153, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "81bb009b904e7316fad2b8a8",
@@ -288,7 +394,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375974",
       "source_category": "UAV1432, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6bfaab40060fe522e939a26d",
@@ -299,7 +408,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375535",
       "source_category": "AKPSI1022, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "98e753ffdf263906a8bffcfa",
@@ -310,7 +424,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375762",
       "source_category": "ALPHAPHIALPHA1024, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0db785b3bc9a1d59d6a6f3c1",
@@ -321,7 +440,15 @@
       "location": "Online Event",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375456",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "networking": 0.1429,
+        "social": 0.125,
+        "cultural-identity": 0.1053,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d633a48ff3fdc394ac17836c",
@@ -332,7 +459,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376037",
       "source_category": "BUAIAA1029, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0d1d9c040aaea20ee678aabf",
@@ -343,7 +473,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375461",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "088dbd8ddaca3230be893e36",
@@ -354,7 +491,10 @@
       "location": "Bates University , 2 Andrews Rd, Lewsiton, ME 04240, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375935",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f0fdd5c8babd3f9f8d2cc791",
@@ -365,7 +505,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375536",
       "source_category": "AKPSI1022, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "career": 0.1739,
+        "workshop": 0.1579,
+        "networking": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "762871339d59ea356dabf2a2",
@@ -376,7 +523,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376164",
       "source_category": "RACC1346, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.25,
+        "cultural-identity": 0.1579,
+        "arts-culture": 0.1364
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "02ba112c0b0526112f8f25ed",
@@ -387,7 +541,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375813",
       "source_category": "SWE1369, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "networking": 0.1429,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "927981ee95a910dedbee384d",
@@ -398,7 +558,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375505",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0a00a5adfac94d2a0fc50c0c",
@@ -409,7 +572,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375476",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1ccaa4c89c9a18f0cc1c7576",
@@ -420,7 +589,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375474",
       "source_category": "NEWBURY, Academic",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "academic": 0.1154
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f53a58bc399abcebef2b5dae",
@@ -431,7 +605,10 @@
       "location": "CAS 316, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376492",
       "source_category": "BUAWM1382, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6e7bfd1f85ecefd3fd991931",
@@ -442,7 +619,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375765",
       "source_category": "RHETTYTOREAD, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f4e8fbed70f6302718b85252",
@@ -453,7 +633,10 @@
       "location": "George Sherman Union B03A - Alley , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376404",
       "source_category": "BMES1062, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d4db5c19ee01972442de8afa",
@@ -464,7 +647,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376403",
       "source_category": "AKA1020, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "128cdd46268ff6a293f4652a",
@@ -475,7 +663,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376486",
       "source_category": "UWE1562, Career Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "career": 0.1739,
+        "networking": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d06d1d11ac5d7ad8151cc7df",
@@ -486,7 +680,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375506",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a3961d6f9f535d3ca59b110f",
@@ -497,7 +694,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376083",
       "source_category": "SWE1369, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "af743d7a556e34fb0ff78ea6",
@@ -508,7 +711,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376576",
       "source_category": "3HCLUB1722, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "community-service": 0.1667,
+        "cultural-identity": 0.1579
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "62dd03dfc3357ceeaeb6ae0b",
@@ -519,7 +728,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375463",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "de4d9c98bf8cecfaec7fa76b",
@@ -530,7 +746,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375971",
       "source_category": "NEWBURY, Office Hours",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0fc15e0f05555aad8dd64985",
@@ -541,7 +760,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376443",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "89a64cc357e7fec46a442a41",
@@ -552,7 +774,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375491",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "ff43b2b7817384ae7fc724ad",
@@ -563,7 +791,12 @@
       "location": "CGS527, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376282",
       "source_category": "ARTFORTHEHEART1499, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "community-service": 0.1111
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "83eb47bfacdf3b294cd3bde7",
@@ -574,7 +807,13 @@
       "location": "Center for Computing and Data Sciences (CDS), 665 Commonwealth Avenue, Boston 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376571",
       "source_category": "CASABU1641, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3422c6d9c96d5b5a04fb250d",
@@ -585,7 +824,10 @@
       "location": "CGS 129, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375729",
       "source_category": "SLIP1362, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dae851b14ed0d91123f6497e",
@@ -596,7 +838,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375942",
       "source_category": "ALPFABU1047, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9accb5d4d4c0c72c4758962e",
@@ -607,7 +854,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375507",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fc7dff2d880d883fdf2d494b",
@@ -618,7 +868,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375957",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "db3672eb6407e1dfcbe3c72c",
@@ -629,7 +885,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375544",
       "source_category": "NEWBURY, Athletic/Sports",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "sports-recreation": 0.2174,
+        "social": 0.1667,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "e748e8d4dcd977eff3cd26de",
@@ -640,7 +903,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375508",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b76db4fbd16f1f969ad86189",
@@ -651,7 +917,16 @@
       "location": "Questrom Room 408, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376344",
       "source_category": "BBSA1063, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "free-food": 0.3571,
+        "networking": 0.2381,
+        "workshop": 0.2105,
+        "sports-recreation": 0.1304,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "58516c323ff9d96481c8c8f0",
@@ -662,7 +937,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376161",
       "source_category": "BMES1062, Conference",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dfeeb64220ff1c15fc1d8962",
@@ -673,7 +951,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375464",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3e9385a7107c46f81a498636",
@@ -684,7 +969,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375978",
       "source_category": "NEWBURY, Office Hours",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "93b6a0739f2aefe50d5f801c",
@@ -695,7 +983,12 @@
       "location": "FLR 152 , 808 Commonwealth Avenue, Brookline, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377000",
       "source_category": "RACC1346, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d3ece4bd34870a33565dd417",
@@ -706,7 +999,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375602",
       "source_category": "CLOSET1711, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "free-food": 0.1429,
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "425dbacb48ce6dacdc3a4a3c",
@@ -717,7 +1016,10 @@
       "location": "BU Central , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375702",
       "source_category": "LF1259, Performance",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0c827b4ffeb639dd6511a98a",
@@ -728,7 +1030,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375695",
       "source_category": "SLIC, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4488c2c898406524c350994d",
@@ -739,7 +1046,12 @@
       "location": "Metcalf Trustee Center, 1 Silber Way, 9th Floor, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375363",
       "source_category": "BUCG1117, Conference",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "networking": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c570e820ac52137a5038e32e",
@@ -750,7 +1062,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376789",
       "source_category": "BUQB1631, Conference",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b8f7eed19256abead28e4695",
@@ -761,7 +1076,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376273",
       "source_category": "SLIC, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9e844cc6fae4081512a7360c",
@@ -772,7 +1092,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376271",
       "source_category": "SLIC, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1d070d8144c1aad56d11d432",
@@ -783,7 +1108,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375769",
       "source_category": "ISBU1222, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "618e01c75c8f00195986ff46",
@@ -794,7 +1122,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376276",
       "source_category": "SLIC, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "61fc9d4f25bee364c79a2859",
@@ -805,7 +1138,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376802",
       "source_category": "ASA1577, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "458e44e87ad76d3a99ec1638",
@@ -816,7 +1152,13 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377115",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "networking": 0.1905,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "45d95e49ed5d6ba4b6ab30fd",
@@ -827,7 +1169,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377080",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fd4128755d49aaa90fe060b7",
@@ -838,7 +1188,15 @@
       "location": "Metcalf Trustee Center – Portrait Gallery, Lounge, and Ballroom, One Silber Way, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376469",
       "source_category": "SAUDIS1351, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.2105,
+        "community-service": 0.1667,
+        "free-food": 0.1429,
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0006074d21dd0d23fa54e017",
@@ -849,7 +1207,14 @@
       "location": "George Sherman Union B03 - BU Central, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376327",
       "source_category": "THEBEACON1630, Ceremony",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "arts-culture": 0.2273,
+        "performance": 0.1176,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "84b5c845861543e5d4055589",
@@ -860,7 +1225,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375509",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4575b820974c74d4c4214e68",
@@ -871,7 +1239,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375958",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "61f123cde325858aa9d22669",
@@ -882,7 +1256,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376397",
       "source_category": "ROTARACT1344, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "83b959fb17ba37ead70fed4c",
@@ -893,7 +1270,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375548",
       "source_category": "NEWBURY, Office Hours",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "social": 0.1667,
+        "academic": 0.1538
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "78b2b25c4df5e1ab4751a352",
@@ -904,7 +1287,13 @@
       "location": "CAS 203, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377135",
       "source_category": "UWE1562, Career Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "career": 0.1739,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cbb226eed2259a6a1402fa85",
@@ -915,7 +1304,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375510",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f91a85c696ed855f7928d9e4",
@@ -926,7 +1318,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377344",
       "source_category": "STUGOV1384, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "community-service": 0.1111
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d4fbd303ce9d0732a3dfb150",
@@ -937,7 +1334,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375465",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1ab0efbdd6e32a26b85b5306",
@@ -948,7 +1352,12 @@
       "location": "GSU Link, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376877",
       "source_category": "BUCD1108, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2eddbaa8e6754b6d556d1f72",
@@ -959,7 +1368,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376448",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "660c0e8e59e8e991f7708884",
@@ -970,7 +1382,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376982",
       "source_category": "ISABU1209, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "e851782820bfde1a442723f4",
@@ -981,7 +1398,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377161",
       "source_category": "SOULAAN1709, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.3684,
+        "social": 0.2083,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a9975fa6560b45a0082398f3",
@@ -992,7 +1416,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376278",
       "source_category": "SLIC, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "7256b259315fba3614191a8a",
@@ -1003,7 +1432,15 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377243",
       "source_category": "OPS1303, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "sports-recreation": 0.2174,
+        "social": 0.1667,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "093ee3cab940c07e32169cad",
@@ -1014,7 +1451,15 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375318",
       "source_category": "AL1012, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.1667,
+        "performance": 0.1176,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "124ddedbfe31433df60fca39",
@@ -1025,7 +1470,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376292",
       "source_category": "NSA1610, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "375b3e4e43e1c6ea761310f3",
@@ -1036,7 +1486,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377081",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "8a037ec22b5c94856ffca0d9",
@@ -1047,7 +1505,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376833",
       "source_category": "ONELOVE1619, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "5f601c4be23a518f8ad8cb31",
@@ -1058,7 +1519,10 @@
       "location": "George Sherman Union 239 - Metcalf Ballroom , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376341",
       "source_category": "HCA1196, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "587262abc05e98098e526267",
@@ -1069,7 +1533,12 @@
       "location": "GSU Backcourt, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377186",
       "source_category": "BUTSA1418, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f9dcf3c0c719048246aab2cb",
@@ -1080,7 +1549,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375511",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c240a8ccacdc14aa090a31fb",
@@ -1091,7 +1563,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375959",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2de80322d13130dc4c66abfb",
@@ -1102,7 +1580,10 @@
       "location": "George Sherman Union - LinkTables, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377505",
       "source_category": "SOON1691, Fundraiser",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "bfdfd7beae9f4ec27f3fffb0",
@@ -1113,7 +1594,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377454",
       "source_category": "BMES1062, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "7c55cad144dd473ce8bc1afa",
@@ -1124,7 +1608,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377296",
       "source_category": "OHABU1576, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9ee031bf3d77e280394f8561",
@@ -1135,7 +1622,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375512",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cc7d6648b6ae6986405747c1",
@@ -1146,7 +1636,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375466",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fb13aabdf64025e5e343b6d3",
@@ -1157,7 +1654,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376470",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f1ee00effd54261a632a2487",
@@ -1168,7 +1670,13 @@
       "location": "CAS 228, 808 Commonwealth Avenue, Brookline, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377539",
       "source_category": "RACC1346, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "sports-recreation": 0.2174,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b76264f811acc01a4362c377",
@@ -1179,7 +1687,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375313",
       "source_category": "SLIP1362, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b6c51732b3c22a7cd0982994",
@@ -1190,7 +1701,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377082",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2801f7267156fbd418a7f284",
@@ -1201,7 +1720,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375513",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "26274353867482724c6df29b",
@@ -1212,7 +1734,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377177",
       "source_category": "BUCR1109, Lecture",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fc8c90bc8e5a061df04aa8f1",
@@ -1223,7 +1748,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377267",
       "source_category": "STUGOV1384, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1c6a8e00051fc5579ccb5ccb",
@@ -1234,7 +1762,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375960",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "929f1b51522c1b5a7ea5fd5f",
@@ -1245,7 +1779,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377187",
       "source_category": "NEWBURY, Office Hours",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "academic": 0.1538,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cdf7ce0120c5038205bff36c",
@@ -1256,7 +1796,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375549",
       "source_category": "STUGOV1384, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.1579,
+        "community-service": 0.1111
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2325f18a1feeda68c4168eb5",
@@ -1267,7 +1813,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375514",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "29aec453458f9416bbbcd265",
@@ -1278,7 +1827,12 @@
       "location": "CFA Student Lounge, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377205",
       "source_category": "DTG1121, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4763514e8398dbd678243c9a",
@@ -1289,7 +1843,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375467",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1b7ef0d26e6bf6929f078633",
@@ -1300,7 +1861,12 @@
       "location": "George Sherman Union B03 - BU Central , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377510",
       "source_category": "BUTSA1418, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "sports-recreation": 0.1739
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "93f836815104a8cdff16b591",
@@ -1311,7 +1877,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376471",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f3b9aef6068877fc0897eb37",
@@ -1322,7 +1891,10 @@
       "location": "CGS527, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377348",
       "source_category": "ARTFORTHEHEART1499, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "078fc82a52886ec465c95b60",
@@ -1333,7 +1905,12 @@
       "location": "Boston University Student Theater at Agganis Arena, Boston University Student Theater at Agganis Arena, Boston 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377063",
       "source_category": "RST1339, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "27401d610a4cfd1bf7cc086d",
@@ -1344,7 +1921,10 @@
       "location": "Tsai Performance Center, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375603",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b53047bba0cfbd93c877b274",
@@ -1355,7 +1935,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377427",
       "source_category": "AXS1015, Luncheon",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "free-food": 0.2857
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "39d869a6f3c33da87cb5d6b3",
@@ -1366,7 +1951,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377690",
       "source_category": "BUSS1354, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6340ade18093be1daa827238",
@@ -1377,7 +1965,10 @@
       "location": "Serafina Seaport, 11 Fan Pier Boulevard, Boston, MA 02210, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377117",
       "source_category": "BUHA1028, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "5c23fb924f3f52e5d809242c",
@@ -1388,7 +1979,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376303",
       "source_category": "BUJOC1692, Conference",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1e5cae873a5a53d83f0a68d7",
@@ -1399,7 +1993,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376354",
       "source_category": "OPHIA1298, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "53431ef1ef7a4b95eb2e9046",
@@ -1410,7 +2007,12 @@
       "location": "College of General Studies, Jacob Sleeper Auditoriun, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377268",
       "source_category": "THEDEARABBEYS1409, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "performance": 0.1765
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "41dab192361c7c77ff9b8f5d",
@@ -1421,7 +2023,10 @@
       "location": "Tsai Performance Center, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375656",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "915e35deb0fc824235014006",
@@ -1432,7 +2037,10 @@
       "location": "Tsai Performance Center, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375682",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b5eeffe0b7125afb8700b2fa",
@@ -1443,7 +2051,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377083",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0f02cad347a5a1637209d6a3",
@@ -1454,7 +2070,10 @@
       "location": "Tsai Performance Center, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375657",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "18f1cedc3a98e3fafe1bd046",
@@ -1465,7 +2084,10 @@
       "location": "Tsai Performance Center, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375683",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9c85555d2200a555ab4f8365",
@@ -1476,7 +2098,14 @@
       "location": "George Sherman Union B03 - BU Central, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377478",
       "source_category": "THEBEACON1630, Ceremony",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "arts-culture": 0.2273,
+        "performance": 0.1176,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "92f632400975a0f62e86bd2b",
@@ -1487,7 +2116,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375515",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "e9ae2466a7ac33b9d26e9964",
@@ -1498,7 +2130,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376444",
       "source_category": "ALPHAPHIALPHA1024, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "wellness-health": 0.2,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6de7da14312e3bf719995aae",
@@ -1509,7 +2148,12 @@
       "location": "School of Hospitlaity Administration Lobby, 928 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375814",
       "source_category": "SHAGOV1352, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "talk-panel": 0.25
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dcda4d17b687925e414236c4",
@@ -1520,7 +2164,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375961",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "e9829551b754fc17de5ad9e1",
@@ -1531,7 +2181,14 @@
       "location": "Howard Thurman Center, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376434",
       "source_category": "ALPHAPHIALPHA1024, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "networking": 0.2381,
+        "workshop": 0.2105,
+        "career": 0.1304
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4b47345176eca498b32567e4",
@@ -1542,7 +2199,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377722",
       "source_category": "NMDP1055, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1af9adc911528952ede1222e",
@@ -1553,7 +2213,10 @@
       "location": "Chick-Fil-A at Copley Square In-Line, 569 Boylston St, Boston 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377723",
       "source_category": "ROTARACT1344, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4ce77f33ae2761a045508a0c",
@@ -1564,7 +2227,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376729",
       "source_category": "COMSTUGOV1114, Academic",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0758235d5ad5efe8eb573442",
@@ -1575,7 +2241,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377538",
       "source_category": "STUGOV1384, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.2917,
+        "free-food": 0.1429
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1fd522f4e208fc2775b32e41",
@@ -1586,7 +2258,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376439",
       "source_category": "ALPHAPHIALPHA1024, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "community-service": 0.1111,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c05ad012ad8772f13893eacd",
@@ -1597,7 +2275,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375516",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c938bc937fdc3ac4c7a3542d",
@@ -1608,7 +2289,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377380",
       "source_category": "OHABU1576, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1376e63fb52e89be774387b6",
@@ -1619,7 +2303,10 @@
       "location": "George Sherman Union , 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377191",
       "source_category": "SOON1691, Fundraiser",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "59ae7f78e42aab4394b09f5b",
@@ -1630,7 +2317,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377536",
       "source_category": "STUGOV1384, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a900e80120d2c557cd1565bc",
@@ -1641,7 +2331,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377808",
       "source_category": "3HCLUB1722, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "747cbc9e72a2e0971acf312a",
@@ -1652,7 +2347,15 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376440",
       "source_category": "ALPHAPHIALPHA1024, Community Service",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "community-service": 0.2778,
+        "wellness-health": 0.15,
+        "cultural-identity": 0.1053,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a6c2754ad062adf36cf00985",
@@ -1663,7 +2366,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376195",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "eb5d638644f98449d511c10c",
@@ -1674,7 +2380,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375468",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a84aa5770305de5eca3d570c",
@@ -1685,7 +2398,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376472",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "154dd9169dad8c4db17f5b08",
@@ -1696,7 +2412,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377425",
       "source_category": "AURALFIXATION1050, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "performance": 0.2941
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "52748ab853ff723c41ffe3b3",
@@ -1707,7 +2428,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376196",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a3d0b75d62b167c47f768a1e",
@@ -1718,7 +2442,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377176",
       "source_category": "CFASG1092, Dinner/Gala",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "bf99177b166d04bca984ce57",
@@ -1729,7 +2456,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376442",
       "source_category": "ALPHAPHIALPHA1024, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cfb885aeb1cd8ad26fc1279b",
@@ -1740,7 +2470,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376034",
       "source_category": "LF1259, Performance",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "369430fc777364db3a346e50",
@@ -1751,7 +2484,10 @@
       "location": "GSU Backcourt, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376984",
       "source_category": "BUJSA1227, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "059e31fbd9ee1c19a637bc41",
@@ -1762,7 +2498,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377637",
       "source_category": "AXS1015, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "101bac3b37b2566ac2c3e66b",
@@ -1773,7 +2512,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376197",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0f443393356db518e08a6748",
@@ -1784,7 +2526,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377084",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "8a7dfebe9789884bb41d1b92",
@@ -1795,7 +2545,10 @@
       "location": "CAS B36, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377507",
       "source_category": "ISGC1210, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1b1fc33e8e0462009d2c549b",
@@ -1806,7 +2559,10 @@
       "location": "GSU Backcourts, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377590",
       "source_category": "BUBURSA1629, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "58a849fb7b74d752f8a72b2d",
@@ -1817,7 +2573,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376612",
       "source_category": "DS1124, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b3eff8cf6d1de3da2a9687ad",
@@ -1828,7 +2587,15 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377868",
       "source_category": "OPS1303, Cultural",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.2105,
+        "free-food": 0.1429,
+        "networking": 0.1429,
+        "community-service": 0.1111
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f8e8cfd340a2b66affd6491c",
@@ -1839,7 +2606,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377641",
       "source_category": "STUGOV1384, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a8e1bf8aab81ff0dd9a025ba",
@@ -1850,7 +2620,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377447",
       "source_category": "SUNO1394, Fundraiser",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "78c155321aa1d98c54c72587",
@@ -1861,7 +2634,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377580",
       "source_category": "BUSBC1685, Conference",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "talk-panel": 0.25
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fe2edf18c84c89252c5c5780",
@@ -1872,7 +2650,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375517",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d5639b0acba4a8c5f1b4f14a",
@@ -1883,7 +2664,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375962",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "660f15c1a90118187350d5a7",
@@ -1894,7 +2681,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377345",
       "source_category": "STUGOV1384, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "5443c170fee02ae1d91e86d2",
@@ -1905,7 +2695,15 @@
       "location": "PHO 906, 775 Commonwealth Ave B43, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377535",
       "source_category": "STUGOV1384, Educational/Awareness",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "talk-panel": 0.25,
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "workshop": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0560474c23f684423f16d1cb",
@@ -1916,7 +2714,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375518",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "bd258d234c7c95cbc9bdd1a7",
@@ -1927,7 +2728,12 @@
       "location": "CAS 313, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377591",
       "source_category": "WIN1596, Academic",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "talk-panel": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3383811c89707a348e1ffe07",
@@ -1938,7 +2744,10 @@
       "location": "Student Theater at Agganis Arena, 925 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375292",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d6539d297743c8a46f68a59f",
@@ -1949,7 +2758,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376157",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0f593bae273674ba8f8cfd19",
@@ -1960,7 +2774,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375469",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c69ec9cc573ae1450c555fde",
@@ -1971,7 +2792,12 @@
       "location": "GSU, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377872",
       "source_category": "OPS1303, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "cultural-identity": 0.2632
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "7d8614b0f4d7076edbadc232",
@@ -1982,7 +2808,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376473",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4ccd27cf60be0ba6c9acd0c2",
@@ -1993,7 +2822,12 @@
       "location": "BU Castle, 225 Bay State Road, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377070",
       "source_category": "THEBUZZ1081, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "13991576d53c0efb3bf3f0ee",
@@ -2004,7 +2838,10 @@
       "location": "Student Theater at Agganis Arena, 925 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375684",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1abdd837c3136eebe7d211c9",
@@ -2015,7 +2852,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376158",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "8e402dd525acf9dbdb2bc849",
@@ -2026,7 +2868,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377725",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c874f5594b6ec17782ba6cbe",
@@ -2037,7 +2884,10 @@
       "location": "Student Theater at Agganis Arena, 925 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375660",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "82ab6ecc126c96c4e261f955",
@@ -2048,7 +2898,10 @@
       "location": "Student Theater at Agganis Arena, 925 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375685",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d0a1064d640579124fe78eb1",
@@ -2059,7 +2912,12 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377726",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d1f9bc7e0ad900dc2464a07d",
@@ -2070,7 +2928,10 @@
       "location": "Student Theater at Agganis Arena, 925 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375661",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "81461c15c551aa359687ff3d",
@@ -2081,7 +2942,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377085",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0fc5e750668a2f6a0f4c2e53",
@@ -2092,7 +2961,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375519",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "623e60c968c0dbdfa21c3ad2",
@@ -2103,7 +2975,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375963",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "46b653ffb78f880d77a4a874",
@@ -2114,7 +2992,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377581",
       "source_category": "STUGOV1384, Social",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {
+        "social": 0.125,
+        "performance": 0.1176
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "40c5b8807a801af92362424f",
@@ -2125,7 +3009,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375520",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "11fa7e887a8c7acc4c72a3db",
@@ -2136,7 +3023,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375470",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f5ea9de9cc3bd43885dce1a6",
@@ -2147,7 +3041,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376475",
       "source_category": "DS1124, Workshop",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "10941261f68047ff1729da11",
@@ -2158,7 +3055,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376551",
       "source_category": "BUG1163, Performance",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "274f14526ed962edd05e3348",
@@ -2169,7 +3069,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377086",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "eec72a67aea55138b7682976",
@@ -2180,7 +3088,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375521",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "8a81501da5ffe16755270ce7",
@@ -2191,7 +3102,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375952",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dfe89b14d2ac3b609fc5c497",
@@ -2202,7 +3119,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375522",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a350ecc83d68844f3358751c",
@@ -2213,7 +3133,10 @@
       "location": "925 Commonwealth Avenue, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376190",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "8b28b3f3b549fb599098e695",
@@ -2224,7 +3147,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375471",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "0a05f26a52e37abd04db0093",
@@ -2235,7 +3165,10 @@
       "location": "925 Commonwealth Avenue, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376193",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "87e05e1b37be0c239227ef2a",
@@ -2246,7 +3179,10 @@
       "location": "925 Commonwealth Avenue, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376194",
       "source_category": "WANDERINGMINDS1442, Performance",
-      "cluster_id": "cluster-0"
+      "cluster_id": "cluster-0",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "540ccf23b4688b3fbe54f2a7",
@@ -2257,7 +3193,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377087",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f4ea16a95405c1063bb07795",
@@ -2268,7 +3212,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375523",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dc81d5287225ae77169db37a",
@@ -2279,7 +3226,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375953",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "48e0baa6c3e1cec4f85ac99b",
@@ -2290,7 +3243,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377381",
       "source_category": "OHABU1576, Meeting",
-      "cluster_id": "cluster-7"
+      "cluster_id": "cluster-7",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a2320ad3b75cfeed395ea82c",
@@ -2301,7 +3257,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375524",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1c947cf43200e909c906aced",
@@ -2312,7 +3271,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376336",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cf760723ab027143b5c500b2",
@@ -2323,7 +3285,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375472",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "1b55d08a765e26409f249d0b",
@@ -2334,7 +3303,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376337",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "bd0ec98fa2b9c4ae277e3da3",
@@ -2345,7 +3317,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376039",
       "source_category": "LF1259, Performance",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "50e902323e06f20d2f0bd37e",
@@ -2356,7 +3331,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376338",
       "source_category": "OB1299, Performance",
-      "cluster_id": "cluster-3"
+      "cluster_id": "cluster-3",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "592b6e067380bfcb30b2d11b",
@@ -2367,7 +3345,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377088",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "46ca24cbb5cd68579169f6b7",
@@ -2378,7 +3364,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375525",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "686ba615ce5d638efbbfed2f",
@@ -2389,7 +3378,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375954",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2532b6cc06d466aa39ef4a16",
@@ -2400,7 +3395,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375526",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c05eba88448ace24e09ed7e0",
@@ -2411,7 +3409,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377089",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "4bb79edab44fa5d8c978bcaf",
@@ -2422,7 +3428,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375527",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "819e8d4a845fdafad7ed24c0",
@@ -2433,7 +3442,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375955",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f982385f12f121f4a78378b9",
@@ -2444,7 +3459,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375528",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "28b3da2e0be47b98d72556db",
@@ -2455,7 +3473,10 @@
       "location": "Student Theater at Agganis Arena, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375608",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "da4474a9c2265c9d8956efa8",
@@ -2466,7 +3487,14 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375473",
       "source_category": "NEWBURY, Social",
-      "cluster_id": "cluster-2"
+      "cluster_id": "cluster-2",
+      "tags": {
+        "free-food": 0.1429,
+        "community-service": 0.1111,
+        "cultural-identity": 0.1053
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "09a694881c983d85784d15d0",
@@ -2477,7 +3505,10 @@
       "location": "Student Theater at Agganis Arena, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375658",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b12528e738324e4a21e64cee",
@@ -2488,7 +3519,10 @@
       "location": "Student Theater at Agganis Arena, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375686",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2535c981dd7111e3bf1fe2f0",
@@ -2499,7 +3533,10 @@
       "location": "Student Theater at Agganis Arena, 775 Commonwealth Ave, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375659",
       "source_category": "STAGETROUPE1377, Social",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "a17f16953529067eb6e5e933",
@@ -2510,7 +3547,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377090",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "cf8415b623e1bf0a17bfe801",
@@ -2521,7 +3566,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375529",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c357b4b9eed50d5629503b31",
@@ -2532,7 +3580,13 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375956",
       "source_category": "NEWBURY, Meeting",
-      "cluster_id": "cluster-6"
+      "cluster_id": "cluster-6",
+      "tags": {
+        "cultural-identity": 0.1053,
+        "wellness-health": 0.1
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "9a3e1d0a3e80d40a894d3209",
@@ -2543,7 +3597,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375530",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "41de7bbaab2d0087c5aca53a",
@@ -2554,7 +3611,10 @@
       "location": "Sign in to download the location",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=376042",
       "source_category": "LF1259, Performance",
-      "cluster_id": "cluster-4"
+      "cluster_id": "cluster-4",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6f5d830f209522763bb7a1e8",
@@ -2565,7 +3625,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375531",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "50d77c19cb078080677e437c",
@@ -2576,7 +3639,10 @@
       "location": "Sargent 101 , 635 Commonwealth Avenue, Room 101, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=375532",
       "source_category": "DS1124, Meeting",
-      "cluster_id": "cluster-1"
+      "cluster_id": "cluster-1",
+      "tags": {},
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "f65b8fbf3fa0d38ecc07cbf0",
@@ -2587,7 +3653,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377091",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "bb74a054209ad9413fd36d1e",
@@ -2598,7 +3672,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377092",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "c6a4546126ddcf74b86a1345",
@@ -2609,7 +3691,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377093",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "6c69df3064ba53a403b3fea5",
@@ -2620,7 +3710,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377094",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "2db84e204b8059165808bad5",
@@ -2631,7 +3729,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377095",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "b1c5a0d2936aab38ad937426",
@@ -2642,7 +3748,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377096",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "87644449a2a0eee136d24625",
@@ -2653,7 +3767,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377097",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "3daabc99415528c5c8082266",
@@ -2664,7 +3786,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377098",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "fdee940d2611bb44808777f4",
@@ -2675,7 +3805,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377099",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "78d932f2b4509b4027788e17",
@@ -2686,7 +3824,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377100",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "07898c20668daf6eda37f535",
@@ -2697,7 +3843,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377101",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "d55f4368491b76cf26ead7ea",
@@ -2708,7 +3862,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377102",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "51ae8ef190078ea18338e27c",
@@ -2719,7 +3881,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377103",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "5b04e499feae500ed9e2f8f0",
@@ -2730,7 +3900,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377104",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     },
     {
       "id": "dbcebe8091f9f322dae8888a",
@@ -2741,7 +3919,15 @@
       "location": "Howard Thurman Center for Common Ground (HTC), Room 207, 808 Commonwealth Avenue, Boston, MA 02215, United States",
       "source_url": "https://terriercentral.bu.edu/rsvp?id=377105",
       "source_category": "BROTHERSUNITED1681, Social",
-      "cluster_id": "cluster-5"
+      "cluster_id": "cluster-5",
+      "tags": {
+        "cultural-identity": 0.2632,
+        "networking": 0.2381,
+        "workshop": 0.1579,
+        "social": 0.125
+      },
+      "tag_source": "baseline",
+      "taxonomy_version": "1"
     }
   ],
   "vectors": {
@@ -16627,5 +17813,7 @@
       ],
       "reviewed": false
     }
-  }
+  },
+  "taxonomy_version": "1",
+  "tag_model_version": "baseline-v1"
 }

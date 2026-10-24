@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from pydantic import TypeAdapter
 
 from .blob_history import BlobHistoryStore
-from .events import Feedback, Preferences
+from .events import Feedback, Preferences, TagCorrection
 from .history import HistoryStore
 
 
@@ -14,6 +14,7 @@ from .history import HistoryStore
 class PreferenceState:
     preferences: Preferences = field(default_factory=Preferences)
     feedback: dict[str, Feedback] = field(default_factory=dict)
+    tag_corrections: dict[str, TagCorrection] = field(default_factory=dict)
     revision: str | None = None
 
 
@@ -24,6 +25,9 @@ def decode_preferences(user, data):
     return PreferenceState(
         preferences=Preferences.model_validate(payload["preferences"]),
         feedback=TypeAdapter(dict[str, Feedback]).validate_python(payload["feedback"]),
+        tag_corrections=TypeAdapter(dict[str, TagCorrection]).validate_python(
+            payload.get("tag_corrections", {})
+        ),
     )
 
 
@@ -33,6 +37,9 @@ def encode_preferences(user, state):
         "user": user,
         "preferences": state.preferences.model_dump(mode="json"),
         "feedback": {eid: fb.model_dump() for eid, fb in state.feedback.items()},
+        "tag_corrections": {
+            eid: tc.model_dump() for eid, tc in state.tag_corrections.items()
+        },
     }
 
 

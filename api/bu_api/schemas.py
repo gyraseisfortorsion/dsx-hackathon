@@ -231,6 +231,12 @@ class EventCard(RecommendedEvent):
     source_url: str
     source_category: str
     cluster_id: str
+    # Fixed-taxonomy tags. `tag_source`: "baseline" (auto), "model" (learned), or
+    # "organizer" = a PER-STUDENT override (prototype has no shared organizer id);
+    # it overrides the auto set for that user only, even when empty.
+    tags: dict[str, float | None] = Field(default_factory=dict)
+    tag_source: Literal["baseline", "model", "organizer"] = "baseline"
+    taxonomy_version: str | None = None
     saved: bool = False
     not_interested: bool = False
     conflict_ids: list[str] = Field(default_factory=list)
