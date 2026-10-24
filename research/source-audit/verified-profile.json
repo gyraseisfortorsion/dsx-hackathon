@@ -1,0 +1,50 @@
+{
+  "ipeds-hd2024.zip": {
+    "rows": 6072,
+    "columns": 72,
+    "institutions": 6072,
+    "unique_candidate_keys": 6072,
+    "key": [
+      "UNITID"
+    ]
+  },
+  "ipeds-ic2024.zip": {
+    "rows": 5963,
+    "columns": 111,
+    "institutions": 5963,
+    "unique_candidate_keys": 5963,
+    "key": [
+      "UNITID"
+    ]
+  },
+  "scorecard.zip": {
+    "rows": 6278,
+    "columns": 3379,
+    "institutions": 6278,
+    "unique_candidate_keys": 6278,
+    "key": [
+      "UNITID"
+    ],
+    "massachusetts_rows": 140
+  },
+  "om2023.zip": {
+    "rows": 47342,
+    "columns": 54,
+    "institutions": 3626,
+    "unique_candidate_keys": 47342,
+    "key": [
+      "UNITID",
+      "OMCHRT"
+    ]
+  },
+  "massgis": {
+    "campus_points": 204,
+    "points_with_nces_id": 182
+  },
+  "openalex_bu_2024": {
+    "api_total_matching": 9493,
+    "downloaded_sample": 25,
+    "sample_with_abstract": 21,
+    "sample_with_topic": 25
+  }
+}

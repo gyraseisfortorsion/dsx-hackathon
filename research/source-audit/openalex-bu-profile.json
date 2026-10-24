@@ -1,0 +1,12 @@
+{
+  "url": "https://api.openalex.org/works?filter=authorships.institutions.id:I111088046,publication_year:2024&per_page=25&select=id,display_name,publication_year,primary_topic,topics,abstract_inverted_index",
+  "total_matching": 9493,
+  "sample_records": 25,
+  "sample_with_abstract": 21,
+  "sample_with_topic": 25,
+  "sample_titles": [
+    "Review of Particle Physics",
+    "The 2024 report of the Lancet Countdown on health and climate change: facing record-breaking threats from delayed action",
+    "Genetic drivers of heterogeneity in type 2 diabetes pathophysiology"
+  ]
+}

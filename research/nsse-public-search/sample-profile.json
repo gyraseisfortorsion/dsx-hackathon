@@ -1,0 +1,353 @@
+{
+  "source": "https://nsse.indiana.edu/nsse/reports-data/nsse25-sample-data-us.zip",
+  "source_page": "https://nsse.indiana.edu/nsse/reports-data/data-files.html",
+  "rows": 13,
+  "columns": 255,
+  "file_label": null,
+  "notes": [],
+  "selected_variables": [
+    {
+      "variable": "CLstudy",
+      "label": "Prepared for exams by discussing or working through course material with other students",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "SFcareer",
+      "label": "Talked about career plans with a faculty member",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SFotherwork",
+      "label": "Worked with a faculty member on activities other than coursework (committees, student groups, etc.)",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "SFdiscuss",
+      "label": "Discussed course topics, ideas, or concepts with a faculty member outside of class",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SFperform",
+      "label": "Discussed your academic performance with a faculty member",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "research",
+      "label": "Work with a faculty member on a research project",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "servcourse",
+      "label": "About how many of your courses at this institution have included a community-based project (service-learning)?",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "QIfaculty",
+      "label": "Quality of interactions with faculty",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "QIfacultyR",
+      "label": "Quality of interactions with faculty",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "empstudy",
+      "label": "Institutional emphasis: Spending significant amounts of time studying and on academic work",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "SEacademic",
+      "label": "Institutional emphasis: Providing support to help students succeed academically",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SElearnsup",
+      "label": "Institutional emphasis: Using learning support services (tutoring services, writing center, etc.)",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SEdiverse",
+      "label": "Institutional emphasis: Encouraging contact among students from different backgrounds (social, racial/ethnic, religious, etc.)",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "SEsocial",
+      "label": "Institutional emphasis: Providing opportunities to be involved socially",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SEwellness",
+      "label": "Institutional emphasis: Providing support for your overall well-being (recreation, health care, counseling, etc.)",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "SEnonacad",
+      "label": "Institutional emphasis: Helping you manage your non-academic responsibilities (work, family, etc.)",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "SEactivities",
+      "label": "Institutional emphasis: Attending campus activities and events (performing arts, athletic events, etc.)",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "SEevents",
+      "label": "Institutional emphasis: Attending events that address important social, economic, or political issues",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "sbmyself",
+      "label": "Agree/Disagree: I feel comfortable being myself at this institution.",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "sbvalued",
+      "label": "Agree/Disagree: I feel valued by this institution.",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "sbcommunity",
+      "label": "Agree/Disagree: I feel like part of the community at this institution.",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "tmprep",
+      "label": "Hours per week: Preparing for class (studying, reading, writing, doing homework or lab work, analyzing data, rehearsing, and other academic activities)",
+      "nonmissing": 13,
+      "distinct": 5
+    },
+    {
+      "variable": "tmcocurr",
+      "label": "Hours per week: Participating in co-curricular activities (organizations, campus publications, student government, fraternity or sorority, intercollegiate or intramural sports, etc.)",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "tmworkon",
+      "label": "Hours per week: Working for pay ON CAMPUS",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "tmworkoff",
+      "label": "Hours per week: Working for pay OFF CAMPUS",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "tmcommute",
+      "label": "Hours per week: Commuting to campus (driving, walking, etc.)",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "tmcommutehrs",
+      "label": "Estimated hours: tmcommute recoded by NSSE using the midpoints of response ranges and an estimate for unbounded options",
+      "nonmissing": 13,
+      "distinct": 3
+    },
+    {
+      "variable": "tmworkhrs",
+      "label": "Estimated number of hrs working for pay recoded and summed by NSSE from tmworkonhrs and tmworkoffhrs using the response range midpoints and an estimate for unbounded options",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "reading",
+      "label": "Of the time you spend preparing for class in a typical 7-day week, about how much is on ASSIGNED READING?",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "pgothers",
+      "label": "Perceived gains: Working effectively with others",
+      "nonmissing": 12,
+      "distinct": 4
+    },
+    {
+      "variable": "evalexp",
+      "label": "How would you evaluate your entire educational experience at this institution?",
+      "nonmissing": 12,
+      "distinct": 3
+    },
+    {
+      "variable": "sameinst",
+      "label": "If you could start over again, would you go to the SAME INSTITUTION you are now attending?",
+      "nonmissing": 12,
+      "distinct": 3
+    },
+    {
+      "variable": "returnexp",
+      "label": "Do you intend to return to this institution next year?",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "coursetype",
+      "label": "What types of courses have you taken at this institution this current school year?",
+      "nonmissing": 11,
+      "distinct": 3
+    },
+    {
+      "variable": "grades",
+      "label": "What have most of your grades been up to now at this institution?",
+      "nonmissing": 11,
+      "distinct": 6
+    },
+    {
+      "variable": "begincol",
+      "label": "Did you begin college at this institution or elsewhere?",
+      "nonmissing": 11,
+      "distinct": 1
+    },
+    {
+      "variable": "disability21",
+      "label": "Do you have a disability or condition that impacts your learning, working, or living activities?",
+      "nonmissing": 11,
+      "distinct": 3
+    },
+    {
+      "variable": "athlete",
+      "label": "Are you a student-athlete on a team sponsored by your institution\u2019s athletics department?",
+      "nonmissing": 11,
+      "distinct": 1
+    },
+    {
+      "variable": "commprompt",
+      "label": "Institution chosen prompt for the final comment",
+      "nonmissing": 13,
+      "distinct": 1
+    },
+    {
+      "variable": "SF",
+      "label": "Student-Faculty Interaction",
+      "nonmissing": 13,
+      "distinct": 7
+    },
+    {
+      "variable": "sb",
+      "label": "Sense of Belonging",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "weight1",
+      "label": "Gender, FT/PT weight for FY,SR within an institution",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "weight2",
+      "label": "Gender, FT/PT weight up to pop for FY,SR within an institution",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "IRsex19",
+      "label": "Institution-reported: Sex",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "IRrace",
+      "label": "Institution-reported: Race or ethnicity",
+      "nonmissing": 13,
+      "distinct": 4
+    },
+    {
+      "variable": "IRclass",
+      "label": "Institution-reported: Class level",
+      "nonmissing": 13,
+      "distinct": 1
+    },
+    {
+      "variable": "IRenrollment",
+      "label": "Institution-reported: Enrollment status",
+      "nonmissing": 13,
+      "distinct": 2
+    },
+    {
+      "variable": "IRreportme",
+      "label": "Institution-reported: Sample for reporting",
+      "nonmissing": 13,
+      "distinct": 1
+    },
+    {
+      "variable": "IRbirthYear",
+      "label": "Institution-reported: Birth year",
+      "nonmissing": 13,
+      "distinct": 10
+    },
+    {
+      "variable": "studentid",
+      "label": "Institution-reported: Student ID",
+      "nonmissing": 13,
+      "distinct": 13
+    },
+    {
+      "variable": "actcomp",
+      "label": "Institution-reported: Composite ACT score",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "satm",
+      "label": "Institution-reported: SAT math score",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "satv",
+      "label": "Institution-reported: SAT verbal or critical reading score",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "satw",
+      "label": "Institution-reported: SAT writing score (if newer form of SAT taken)",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "rSATm",
+      "label": "Institution-reported: SAT math score",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "rSATewr",
+      "label": "Institution-reported: SAT writing score",
+      "nonmissing": 0,
+      "distinct": 0
+    },
+    {
+      "variable": "sample",
+      "label": "Sample type",
+      "nonmissing": 13,
+      "distinct": 1
+    }
+  ],
+  "provenance_caveat": "Official sample file. Public documentation reviewed does not establish whether these records are real, simulated, or altered."
+}
