@@ -11,7 +11,7 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
-from pydantic_ai.exceptions import AgentRunError, UserError
+from pydantic_ai.exceptions import AgentRunError, UsageLimitExceeded, UserError
 from pydantic_ai.models import Model
 
 from .agent import ChatService
@@ -174,7 +174,16 @@ def create_app(
             raise HTTPException(
                 503, "Chat model is not configured; check LLM_MODEL and provider credentials"
             ) from None
-        except (AgentRunError, httpx.HTTPError):
+        except (AgentRunError, httpx.HTTPError) as error:
+            # Provider exceptions can contain prompts or credentials; log only safe metadata.
+            logger.warning(
+                "Chat agent failed: error_type=%s model=%s status_code=%s",
+                type(error).__name__,
+                settings.llm_model,
+                getattr(error, "status_code", None),
+            )
+            if isinstance(error, UsageLimitExceeded):
+                logger.warning("Chat agent usage limit: %s", error)
             raise HTTPException(
                 502, "The model could not complete this turn; no messages were saved"
             ) from None

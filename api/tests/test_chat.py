@@ -102,7 +102,7 @@ def test_agent_search_tool_and_citations_survive_restart(settings, fake_transpor
 
 
 @pytest.mark.parametrize("failure,expected", [("provider", 502), ("timeout", 504)])
-def test_failed_turn_does_not_change_history(settings, fake_transport, failure, expected):
+def test_failed_turn_does_not_change_history(settings, fake_transport, failure, expected, caplog):
     async def respond(messages, info):
         if failure == "timeout":
             await asyncio.sleep(0.1)
@@ -129,6 +129,9 @@ def test_failed_turn_does_not_change_history(settings, fake_transport, failure, 
         assert response.status_code == expected, response.text
         assert len(client.get("/messages?user=alex", headers=AUTH).json()) == 2
     assert (settings.history_path() / "alex.json").read_bytes() == before
+    if failure == "provider":
+        assert "error_type=UnexpectedModelBehavior" in caplog.text
+        assert "simulated provider failure" not in caplog.text
 
 
 async def test_same_user_serializes_but_other_users_can_run(settings, fake_transport):
