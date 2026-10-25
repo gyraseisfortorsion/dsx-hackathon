@@ -23,7 +23,6 @@ export function AssistantScreen({ initialPrompt }: { initialPrompt?: string }) {
   const history = useAssistantMessages();
   const send = useSendAssistantMessage();
   const [pending, setPending] = useState<PendingMessage | null>(null);
-  const listRef = useRef<FlatList<AssistantMessage>>(null);
   const sentInitialPrompt = useRef(false);
 
   const submit = (text: string) => {
@@ -44,7 +43,10 @@ export function AssistantScreen({ initialPrompt }: { initialPrompt?: string }) {
   }, [initialPrompt]);
 
   const messages = history.data ?? [];
-  const showIntro = history.data !== undefined && messages.length === 0 && !pending;
+  const chatting = messages.length > 0 || pending != null;
+  const showIntro = history.data !== undefined && !chatting;
+  // Newest first so an inverted list opens on the latest reply instead of the first message.
+  const rows = chatting ? [...messages].reverse() : messages;
 
   return (
     <KeyboardContainer>
@@ -58,33 +60,45 @@ export function AssistantScreen({ initialPrompt }: { initialPrompt?: string }) {
         </View>
       ) : (
         <FlatList
-          ref={listRef}
-          data={messages}
+          inverted={chatting}
+          data={rows}
           keyExtractor={(message) => message.id}
-          contentInsetAdjustmentBehavior="automatic"
           keyboardShouldPersistTaps="handled"
           keyboardDismissMode="interactive"
           contentContainerStyle={{ padding: spacing.screen, gap: spacing.md, flexGrow: 1 }}
-          onContentSizeChange={() => listRef.current?.scrollToEnd({ animated: messages.length > 0 })}
-          ListHeaderComponent={showIntro ? <AssistantIntro onSelect={submit} /> : undefined}
-          renderItem={({ item }) => <AssistantBubble message={item} />}
-          ListFooterComponent={
-            pending ? (
-              <View style={{ gap: spacing.md, marginTop: messages.length ? spacing.md : 0 }}>
-                <AssistantBubble message={{ id: 'pending', role: 'user', content: pending.text, created_at: '' }} />
-                {pending.failed ? (
-                  <SendFailure message={errorMessage(send.error)} onRetry={() => submit(pending.text)} onDiscard={() => setPending(null)} />
-                ) : (
-                  <TypingIndicator />
-                )}
-              </View>
+          maintainVisibleContentPosition={chatting ? { minIndexForVisible: 0, autoscrollToTopThreshold: 80 } : undefined}
+          ListHeaderComponent={
+            chatting ? (
+              pending ? <PendingBlock pending={pending} error={send.error} onRetry={() => submit(pending.text)} onDiscard={() => setPending(null)} /> : undefined
+            ) : showIntro ? (
+              <AssistantIntro onSelect={submit} />
             ) : undefined
           }
+          renderItem={({ item }) => <AssistantBubble message={item} />}
         />
       )}
       <Composer placeholder="Ask about BU…" onSend={submit} sending={send.isPending} attachments={false} />
       <UndoToast bottomOffset={64} />
     </KeyboardContainer>
+  );
+}
+
+function PendingBlock({
+  pending,
+  error,
+  onRetry,
+  onDiscard,
+}: {
+  pending: PendingMessage;
+  error: unknown;
+  onRetry: () => void;
+  onDiscard: () => void;
+}) {
+  return (
+    <View style={{ gap: spacing.md }}>
+      <AssistantBubble message={{ id: 'pending', role: 'user', content: pending.text, created_at: '' }} />
+      {pending.failed ? <SendFailure message={errorMessage(error)} onRetry={onRetry} onDiscard={onDiscard} /> : <TypingIndicator />}
+    </View>
   );
 }
 
