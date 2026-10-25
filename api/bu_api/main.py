@@ -14,6 +14,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic_ai.exceptions import AgentRunError, UsageLimitExceeded, UserError
 from pydantic_ai.models import Model
 
+from .academic import AcademicService, AcademicStore, BlobAcademicStore, install_academic_routes
 from .agent import ChatService
 from .blob_history import BlobHistoryStore
 from .community_ml import CommunityModels
@@ -108,6 +109,17 @@ def create_app(
                     if settings.history_backend == "blob"
                     else ServiceStore(settings.history_path().parent / "services")
                 )
+                academic_store = (
+                    BlobAcademicStore(
+                        settings.blob_store_id,
+                        history_client,
+                        settings.blob_read_write_token.get_secret_value()
+                        if settings.blob_read_write_token
+                        else None,
+                    )
+                    if settings.history_backend == "blob"
+                    else AcademicStore(settings.history_path().parent / "academic")
+                )
                 app.state.community = (
                     BlobCommunityStore(
                         settings.blob_store_id,
@@ -137,6 +149,11 @@ def create_app(
                 except (OSError, ValueError, KeyError):
                     logger.warning("Request router artifacts unavailable; routing disabled")
                     app.state.request_router = None
+                app.state.academic = AcademicService(
+                    academic_store,
+                    repository,
+                    encoder=app.state.request_router.encoder if app.state.request_router else None,
+                )
                 try:
                     app.state.community_models = CommunityModels(
                         settings.data_dir / "community_models",
@@ -158,6 +175,7 @@ def create_app(
                     events,
                     preferences,
                     request_router=app.state.request_router,
+                    academic=app.state.academic,
                 )
                 yield
 
@@ -213,6 +231,7 @@ def create_app(
     install_service_routes(app, selected_student)
     install_community_routes(app, selected_student, settings)
     install_routing_routes(app, selected_student)
+    install_academic_routes(app, selected_student)
 
     @app.get("/student", response_model=StudentProfile)
     async def student_info(student: Student):

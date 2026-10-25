@@ -58,6 +58,7 @@ curl 'http://localhost:8000/messages?user=alex' \
 | GET | `/calendar` | Whole-semester class meetings, deadlines, and exams, sorted by start time |
 | GET | `/attendance` | Completed-session records and counts grouped by course |
 | GET | `/grades` | Assessments and unweighted current points percentage per course |
+| GET | `/academic/dashboard` | Reviewed academic records, deadlines, credits, and study plan |
 | GET | `/events/recommended` | Real upcoming events ranked by saved interests, with general fallback |
 | POST | `/chat` | One assistant `ChatMessage`; body: `{"message":"..."}` |
 | GET | `/messages` | Chronological array of user and assistant `ChatMessage` objects |
@@ -129,6 +130,11 @@ Extra calls within a parallel batch receive a budget notice without fetching
 more pages. The 60-second timeout is configurable through `CHAT_TIMEOUT_SECONDS`.
 
 ## Persistence and checks
+
+[Academic planning API](ACADEMICS_API.md) documents syllabus upload and review, local hybrid
+vector search, cited academic chat, grade scenarios, assignment breakdowns, workload
+forecasting, weekly plans, recovery mode, and prerequisite checks. Its vector search uses the
+bundled local encoder and in-memory similarity calculations, without a vector database.
 
 Locally, one conversation per user is stored in `runtime/messages/<user>.json` (ignored
 by Git). `HISTORY_DIR` can select another writable persistent local directory;

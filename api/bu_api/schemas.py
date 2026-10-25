@@ -256,6 +256,15 @@ class Citation(Schema):
     url: str
 
 
+class AcademicCitation(Schema):
+    course_id: str
+    syllabus_id: str
+    passage_id: str
+    page: int | None = None
+    excerpt: str
+    path: str
+
+
 class ChatMessage(Schema):
     id: str
     role: Literal["user", "assistant"]
@@ -264,3 +273,4 @@ class ChatMessage(Schema):
     sources: list[Citation] = Field(default_factory=list)
     event_cards: list[EventCard] = Field(default_factory=list)
     routing: RoutingResult | None = None
+    academic_citations: list[AcademicCitation] = Field(default_factory=list)

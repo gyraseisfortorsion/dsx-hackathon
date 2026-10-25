@@ -5,6 +5,8 @@ import pytest
 from fastapi.testclient import TestClient
 from pydantic_ai.models.test import TestModel
 
+from bu_api.academic.models import AcademicState
+from bu_api.academic.store import BlobAcademicStore, StoredAcademicState
 from bu_api.blob_history import BlobHistoryStore
 from bu_api.events import Preferences
 from bu_api.history import Conversation, HistoryConflict, HistoryUnavailable
@@ -50,6 +52,23 @@ def test_preferences_blob_is_separate_and_conditional(blob_transport):
         assert store.load("alex").preferences.interest_ids == ["music"]
         assert store.load("maya").preferences.version == 0
         assert "preferences/alex.json" in blobs
+        assert "chat/alex.json" not in blobs
+
+
+def test_academic_blob_is_separate_and_conditional(blob_transport):
+    transport, blobs = blob_transport
+    with httpx.Client(transport=transport) as client:
+        store = BlobAcademicStore("store_test123", client, "fixture-token")
+        first, racing = store.load("alex"), store.load("alex")
+        first.data = AcademicState(version=1)
+        store.save("alex", first)
+        racing.data = AcademicState(version=1)
+        with pytest.raises(HistoryConflict):
+            store.save("alex", racing)
+        restored = store.load("alex")
+        assert isinstance(restored, StoredAcademicState)
+        assert restored.data.version == 1
+        assert "academic/alex.json" in blobs
         assert "chat/alex.json" not in blobs
 
 
