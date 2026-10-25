@@ -1,61 +1,115 @@
 import { router, Stack } from 'expo-router';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
+import { errorMessage } from '@/api/client';
+import { clockTime, currentTimesheet, useServiceWrite, useWork, type Shift } from '@/api/services';
 import { AppText } from '@/components/app-text';
 import { Button } from '@/components/button';
 import { DemoBanner, InlineError } from '@/components/feedback';
 import { ChoiceField, TextField } from '@/components/form';
+import { QueryView } from '@/components/query-view';
 import { Screen } from '@/components/screen';
 import { TimeField } from '@/components/time-field';
-import { SHIFT_DATES } from '@/data/services';
-import { useWorkStore } from '@/stores/work-store';
 import { colors, spacing } from '@/theme';
+import { addDays } from '@/utils/campus-time';
 import { successFeedback } from '@/utils/haptics';
 import { calculateHours, validateShift, type ShiftDraft } from '@/utils/shift';
 
-type ShiftDate = (typeof SHIFT_DATES)[number];
+const datesIn = (start: string, end: string) => {
+  const dates: string[] = [];
+  for (let date = start; date <= end; date = addDays(date, 1)) dates.push(date);
+  return dates;
+};
 
-const NEW_SHIFT: ShiftDraft = { date: 'Oct 18', start: '13:00', end: '16:00', breakMin: '0', note: '' };
+export function ShiftFormScreen({ shiftId, sheetId }: { shiftId?: string; sheetId?: string }) {
+  const work = useWork();
+  return (
+    <Screen onRefresh={work.refetch}>
+      <QueryView query={work} loadingLabel="Loading timesheet…">
+        {(snapshot) => {
+          const sheet = snapshot.data.timesheets.find((item) => item.id === sheetId) ?? currentTimesheet(snapshot.data.timesheets);
+          if (!sheet) return <InlineError message="No draft timesheet is available." />;
+          return <ShiftEditor jobTitle={`${snapshot.data.job.title} · ${snapshot.data.job.department}`} sheetId={sheet.id} dates={datesIn(sheet.starts_on, sheet.ends_on)} existing={sheet.shifts.find((shift) => shift.id === shiftId)} others={sheet.shifts.filter((shift) => shift.id !== shiftId)} />;
+        }}
+      </QueryView>
+    </Screen>
+  );
+}
 
-export function ShiftFormScreen({ shiftId }: { shiftId?: string }) {
-  const shifts = useWorkStore((state) => state.shifts);
-  const saveShift = useWorkStore((state) => state.saveShift);
-  const existing = shifts.find((shift) => shift.id === shiftId);
-
+function ShiftEditor({
+  jobTitle,
+  sheetId,
+  dates,
+  existing,
+  others,
+}: {
+  jobTitle: string;
+  sheetId: string;
+  dates: string[];
+  existing?: Shift;
+  others: Shift[];
+}) {
+  const save = useServiceWrite();
   const [draft, setDraft] = useState<ShiftDraft>(() =>
-    existing ? { ...existing, breakMin: String(existing.breakMin) } : NEW_SHIFT,
+    existing
+      ? { date: existing.date, start: clockTime(existing.start), end: clockTime(existing.end), breakMin: String(existing.break_minutes), note: existing.note }
+      : { date: dates[0] ?? '', start: '13:00', end: '16:00', breakMin: '0', note: '' },
   );
   const [error, setError] = useState('');
+
+  const localOthers = useMemo(
+    () => others.map((shift) => ({ id: shift.id, date: shift.date, start: clockTime(shift.start), end: clockTime(shift.end), breakMin: shift.break_minutes, hours: shift.hours, note: shift.note })),
+    [others],
+  );
 
   const update = (change: Partial<ShiftDraft>) => {
     setDraft((current) => ({ ...current, ...change }));
     setError('');
   };
 
-  const save = () => {
-    const result = validateShift(draft, shifts.filter((shift) => shift.id !== existing?.id));
+  const submit = () => {
+    const result = validateShift(draft, localOthers);
     if (!result.ok) return setError(result.error);
-    saveShift(result.shift, existing?.id);
-    successFeedback();
-    router.back();
+    save.mutate(
+      {
+        path: existing
+          ? `/work/timesheets/${encodeURIComponent(sheetId)}/shifts/${encodeURIComponent(existing.id)}`
+          : `/work/timesheets/${encodeURIComponent(sheetId)}/shifts`,
+        method: existing ? 'PUT' : 'POST',
+        body: {
+          date: result.shift.date,
+          start: `${result.shift.start}:00`,
+          end: `${result.shift.end}:00`,
+          break_minutes: result.shift.breakMin,
+          note: result.shift.note,
+        },
+      },
+      {
+        onSuccess: () => {
+          successFeedback();
+          router.back();
+        },
+        onError: (err) => setError(errorMessage(err)),
+      },
+    );
   };
 
   const hours = calculateHours(draft.start, draft.end, Number(draft.breakMin) || 0);
 
   return (
-    <Screen>
+    <>
       <Stack.Screen options={{ title: existing ? 'Edit shift' : 'Add shift' }} />
-      <DemoBanner title="Demo time entry">Enter only hours actually worked. BU One never invents time.</DemoBanner>
+      <DemoBanner title="Time entry">Enter only hours actually worked. BU One never invents time.</DemoBanner>
 
-      <ChoiceField<ShiftDate> label="Date" options={SHIFT_DATES} value={draft.date as ShiftDate} onChange={(date) => update({ date })} />
+      <ChoiceField label="Date" options={dates} value={draft.date} onChange={(date) => update({ date })} />
 
       <View style={{ gap: 6, marginBottom: 14 }}>
         <AppText variant="caption" style={{ color: colors.label, fontWeight: '600' }}>
           Job
         </AppText>
         <AppText variant="headline" style={{ fontWeight: '500' }}>
-          Student Assistant · BU Spark! · Demo
+          {jobTitle}
         </AppText>
       </View>
 
@@ -70,7 +124,7 @@ export function ShiftFormScreen({ shiftId }: { shiftId?: string }) {
         keyboardType="number-pad"
         onChangeText={(value) => update({ breakMin: value.replace(/[^0-9]/g, '') })}
       />
-      <TextField label="Optional note" value={draft.note} multiline onChangeText={(note) => update({ note })} placeholder="Visible to your demo supervisor." />
+      <TextField label="Optional note" value={draft.note} multiline onChangeText={(note) => update({ note })} placeholder="Visible to your supervisor." />
 
       <View
         style={{
@@ -90,8 +144,8 @@ export function ShiftFormScreen({ shiftId }: { shiftId?: string }) {
       </View>
 
       <InlineError message={error} />
-      <Button title="Save demo shift" onPress={save} />
+      <Button title={save.isPending ? 'Saving…' : 'Save shift'} disabled={save.isPending} onPress={submit} />
       <Button title="Cancel" variant="secondary" onPress={() => router.back()} style={{ marginTop: 10 }} />
-    </Screen>
+    </>
   );
 }

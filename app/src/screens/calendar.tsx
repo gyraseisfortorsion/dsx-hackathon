@@ -13,10 +13,8 @@ import { Icon } from '@/components/icon';
 import { QueryView } from '@/components/query-view';
 import { Screen } from '@/components/screen';
 import { Timeline, type TimelineEntry } from '@/components/timeline';
-import { clubs } from '@/data/campus';
+import { useCalendarExtras, useSettings, type PlannerEvent } from '@/api/services';
 import { goToTab, openAsk } from '@/navigation/routes';
-import { usePlannerStore } from '@/stores/planner-store';
-import { usePreferencesStore } from '@/stores/preferences-store';
 import type { AgendaKind } from '@/types';
 import { colors, radius, shadows, spacing } from '@/theme';
 import {
@@ -36,8 +34,6 @@ import { tapFeedback } from '@/utils/haptics';
 type CalendarView = 'Day' | 'Week';
 type Row = { key: string; kind: AgendaKind; label: string; time: string; title: string; subtitle: string; href: Href };
 
-const club = clubs[0];
-
 const entryRow = (entry: AgendaEntry, time: string): Row => ({
   key: entry.id,
   kind: entry.kind,
@@ -48,38 +44,73 @@ const entryRow = (entry: AgendaEntry, time: string): Row => ({
   href: { pathname: '/agenda/[id]', params: { id: entry.id } },
 });
 
-/** Club open houses planned locally, shown on today's date. Saved events are bookmarks and stay off the calendar. */
-function usePlannedRows(): Row[] {
-  const openHouse = usePlannerStore((state) => state.plannedOpenHouseIds.includes(club.id));
-  return [
-    ...(openHouse
-      ? [{ key: 'club', kind: 'event' as const, label: 'Club event', time: club.openHouse.timeShort, title: club.openHouse.title, subtitle: `${club.openHouse.place} · club chat available`, href: { pathname: '/club/[id]', params: { id: club.id } } as Href }]
-      : []),
-  ];
+const extraKind = (item: PlannerEvent): { kind: AgendaKind; label: string } => {
+  if (item.kind === 'club_open_house') return { kind: 'event', label: 'Club event' };
+  if (item.kind === 'study_group') return { kind: 'academic', label: 'Study group' };
+  return { kind: 'deadline', label: 'Deadline' };
+};
+
+function extraHref(item: PlannerEvent): Href {
+  if (item.club_id) return { pathname: '/club/[id]', params: { id: item.club_id } };
+  if (item.thread_id) return { pathname: '/chat/[id]', params: { id: item.thread_id } };
+  return '/calendar';
+}
+
+function extraRow(item: PlannerEvent, time: string): Row {
+  const { kind, label } = extraKind(item);
+  return {
+    key: item.id,
+    kind,
+    label,
+    time,
+    title: item.title,
+    subtitle: [item.location, item.ends_at ? `${formatTime(item.starts_at)}–${formatTime(item.ends_at)}` : null].filter(Boolean).join(' · '),
+    href: extraHref(item),
+  };
+}
+
+function extrasOn(extras: PlannerEvent[], date: string) {
+  return extras.filter((item) => item.starts_at.slice(0, 10) === date);
 }
 
 export function CalendarScreen() {
   const schedule = useSchedule();
+  const extras = useCalendarExtras();
   const [planningDate, setPlanningDate] = useState<string | null>(null);
+  const query = {
+    data: schedule.data && extras.data ? { schedule: schedule.data, extras: extras.data.data } : undefined,
+    error: schedule.error ?? extras.error,
+    refetch: () => Promise.all([schedule.refetch(), extras.refetch()]),
+  };
 
   return (
-    <QueryView query={schedule} loadingLabel="Loading your calendar…">
-      {(data) =>
+    <QueryView query={query} loadingLabel="Loading your calendar…">
+      {({ schedule: data, extras: planner }) =>
         planningDate ? (
-          <PlanMyDay schedule={data} date={planningDate} onClose={() => setPlanningDate(null)} />
+          <PlanMyDay schedule={data} extras={planner} date={planningDate} onClose={() => setPlanningDate(null)} />
         ) : (
-          <CalendarOverview schedule={data} onRefresh={schedule.refetch} onPlan={setPlanningDate} />
+          <CalendarOverview schedule={data} extras={planner} onRefresh={query.refetch} onPlan={setPlanningDate} />
         )
       }
     </QueryView>
   );
 }
 
-function CalendarOverview({ schedule, onRefresh, onPlan }: { schedule: Schedule; onRefresh: () => Promise<unknown>; onPlan: (date: string) => void }) {
+function CalendarOverview({
+  schedule,
+  extras,
+  onRefresh,
+  onPlan,
+}: {
+  schedule: Schedule;
+  extras: PlannerEvent[];
+  onRefresh: () => Promise<unknown>;
+  onPlan: (date: string) => void;
+}) {
   const today = campusToday();
   const [view, setView] = useState<CalendarView>('Day');
   const [date, setDate] = useState(today);
-  const plannedRows = usePlannedRows();
+  const plannedRows = extrasOn(extras, date).map((item) => extraRow(item, formatShortTime(item.starts_at)));
 
   const { term } = schedule;
   const firstDay = term.starts_on;
@@ -90,13 +121,14 @@ function CalendarOverview({ schedule, onRefresh, onPlan }: { schedule: Schedule;
   const canGoForward = addDays(anchor, step) <= lastDay;
 
   const dayEntries = schedule.byDate.get(date) ?? [];
-  const dayRows = [...dayEntries.map((entry) => entryRow(entry, formatShortTime(entry.startsAt))), ...(date === today ? plannedRows : [])];
+  const dayRows = [...dayEntries.map((entry) => entryRow(entry, formatShortTime(entry.startsAt))), ...plannedRows];
   const conflicts = countConflicts(dayEntries);
 
   const weekStart = startOfWeek(date);
-  const weekRows = Array.from({ length: 7 }, (_, offset) => addDays(weekStart, offset)).flatMap((day) =>
-    (schedule.byDate.get(day) ?? []).map((entry) => entryRow(entry, formatDayChip(day))),
-  );
+  const weekRows = Array.from({ length: 7 }, (_, offset) => addDays(weekStart, offset)).flatMap((day) => [
+    ...(schedule.byDate.get(day) ?? []).map((entry) => entryRow(entry, formatDayChip(day))),
+    ...extrasOn(extras, day).map((item) => extraRow(item, formatDayChip(day))),
+  ]);
 
   return (
     <Screen onRefresh={onRefresh}>
@@ -226,7 +258,7 @@ function CalendarOverview({ schedule, onRefresh, onPlan }: { schedule: Schedule;
         <EmptyCalendar date={date} schedule={schedule} />
       )}
 
-      {view === 'Day' && date === today && plannedRows.length === 0 && (
+      {view === 'Day' && date === today && extrasOn(extras, today).length === 0 && (
         <Callout
           title="Your evening is open"
           body="Explore recommended campus events that fit around your classes."
@@ -347,11 +379,20 @@ function buildDayPlan(entries: AgendaEntry[], { vegetarian, stepFree }: { vegeta
   return plan.sort((a, b) => a.at - b.at).map(({ at: _at, ...entry }) => entry);
 }
 
-function PlanMyDay({ schedule, date, onClose }: { schedule: Schedule; date: string; onClose: () => void }) {
-  const vegetarian = usePreferencesStore((state) => state.vegetarian);
-  const stepFree = usePreferencesStore((state) => state.stepFree);
+function PlanMyDay({ schedule, extras, date, onClose }: { schedule: Schedule; extras: PlannerEvent[]; date: string; onClose: () => void }) {
+  const settings = useSettings().data?.data;
+  const vegetarian = settings?.vegetarian ?? true;
+  const stepFree = settings?.step_free ?? true;
   const entries = schedule.byDate.get(date) ?? [];
-  const plan = buildDayPlan(entries, { vegetarian, stepFree });
+  const plan = [
+    ...buildDayPlan(entries, { vegetarian, stepFree }),
+    ...extrasOn(extras, date).map((item) => ({
+      key: item.id,
+      time: formatShortTime(item.starts_at),
+      title: item.title,
+      subtitle: [extraKind(item).label, item.location].filter(Boolean).join(' · '),
+    })),
+  ];
   const day = formatLongDate(date);
 
   return (

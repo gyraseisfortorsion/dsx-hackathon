@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
@@ -5,6 +6,7 @@ import { errorMessage } from '@/api/client';
 import { useAssistantMessages, useSendAssistantMessage } from '@/api/queries';
 import type { AssistantMessage, RequestRouting } from '@/api/types';
 import { AppText } from '@/components/app-text';
+import { AssistantMarkdown, markdownPlainText } from '@/components/assistant-markdown';
 import { Composer } from '@/components/chat';
 import { EventCard } from '@/components/event-card';
 import { IntroBlock } from '@/components/content';
@@ -117,37 +119,24 @@ function AssistantIntro({ onSelect }: { onSelect: (prompt: string) => void }) {
   );
 }
 
-/** Renders `**bold**` spans, the only markdown the assistant commonly uses inline. */
-function RichText({ text, color }: { text: string; color: string }) {
-  const parts = text.split(/\*\*(.+?)\*\*/g);
-  return (
-    <AppText selectable style={{ fontSize: 15, lineHeight: 21, color }}>
-      {parts.map((part, index) =>
-        index % 2 === 1 ? (
-          <AppText key={index} style={{ fontSize: 15, lineHeight: 21, color, fontWeight: '700' }}>
-            {part}
-          </AppText>
-        ) : (
-          part.replace(/^#{1,6}\s+/gm, '').replace(/^\s*[-*]\s+/gm, '• ')
-        ),
-      )}
-    </AppText>
-  );
-}
-
 function AssistantBubble({ message }: { message: AssistantMessage }) {
   const mine = message.role === 'user';
   return (
     <View style={{ alignSelf: mine ? 'flex-end' : 'stretch', maxWidth: mine ? '82%' : '100%', gap: spacing.sm }}>
       <View
-        accessible
-        accessibilityLabel={`${mine ? 'You' : 'BU One'}: ${message.content.replace(/\*\*/g, '')}`}
+        accessible={mine}
+        accessibilityLabel={`${mine ? 'You' : 'BU One'}: ${markdownPlainText(message.content)}`}
         style={
           mine
             ? { backgroundColor: colors.brand, borderRadius: 18, borderBottomRightRadius: 5, borderCurve: 'continuous', paddingHorizontal: 14, paddingVertical: 10 }
             : { backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.separator, borderRadius: radius.xl, borderCurve: 'continuous', padding: spacing.lg }
         }>
-        <RichText text={message.content} color={mine ? colors.onDark : colors.ink} />
+        <AssistantMarkdown
+          text={message.content}
+          color={mine ? colors.onDark : colors.ink}
+          linkColor={mine ? colors.onDark : colors.brand}
+          compact={mine}
+        />
       </View>
       {!mine && message.routing ? <RoutingCard routing={message.routing} /> : null}
       {!mine && message.sources?.length ? (
@@ -166,6 +155,18 @@ function AssistantBubble({ message }: { message: AssistantMessage }) {
               <AppText variant="caption" numberOfLines={1} style={{ flex: 1, color: colors.brand, fontWeight: '600' }}>
                 {source.title}
               </AppText>
+            </Pressable>
+          ))}
+        </View>
+      ) : null}
+      {!mine && message.academic_citations?.length ? (
+        <View style={{ gap: spacing.sm }}>
+          <AppText variant="eyebrow">SYLLABUS SOURCES</AppText>
+          {message.academic_citations.map((citation, index) => (
+            <Pressable key={`${citation.passage_id}-${index}`} accessibilityRole="button" accessibilityLabel={`Read source for ${citation.course_id}${citation.page ? `, page ${citation.page}` : ''}`} onPress={() => router.push({ pathname: '/academic/passage/[id]', params: { id: citation.path.match(/^\/academic\/passages\/([^/?#]+)$/)?.[1] ? decodeURIComponent(citation.path.split('/').pop()!) : citation.passage_id } })} style={({ pressed }) => ({ padding: spacing.md, minHeight: 44, backgroundColor: colors.surfaceMuted, borderRadius: radius.md, gap: spacing.xs, opacity: pressed ? .6 : 1 })}>
+              <AppText variant="headline">{citation.course_id.replace(/-/g, ' ').toUpperCase()}{citation.page ? ` · Page ${citation.page}` : ''}</AppText>
+              <AppText variant="caption" numberOfLines={3}>{citation.excerpt}</AppText>
+              <AppText variant="caption" style={{ color: colors.brand }}>Read source passage</AppText>
             </Pressable>
           ))}
         </View>

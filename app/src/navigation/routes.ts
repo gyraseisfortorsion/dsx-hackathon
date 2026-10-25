@@ -1,6 +1,5 @@
 import { router, type Href } from 'expo-router';
 
-import type { ExternalLinkId } from '@/data/services';
 
 export const TAB_HREFS = {
   today: '/',
@@ -14,8 +13,12 @@ export type TabName = keyof typeof TAB_HREFS;
 
 /** Switches tabs from anywhere, closing any detail screens stacked above the tab bar. */
 export function goToTab(tab: TabName) {
-  if (router.canDismiss()) router.dismissAll();
-  router.navigate(TAB_HREFS[tab]);
+  // POP_TO is a stack action; tab roots need normal navigation instead.
+  if (router.canDismiss()) {
+    router.dismissTo(TAB_HREFS[tab]);
+  } else {
+    router.navigate(TAB_HREFS[tab]);
+  }
 }
 
 export function openAsk(prompt?: string) {
@@ -23,6 +26,6 @@ export function openAsk(prompt?: string) {
 }
 
 /** Confirms before handing off to an official BU website. */
-export function openExternal(id: ExternalLinkId) {
+export function openExternal(id: string) {
   router.push({ pathname: '/external/[id]', params: { id } });
 }

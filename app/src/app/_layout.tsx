@@ -77,6 +77,7 @@ export default function RootLayout() {
                 <Stack.Screen name="onboarding" options={{ ...modalOptions, title: 'Personalize events', gestureEnabled: true }} />
                 <Stack.Screen name="event-filters" options={{ ...modalCancelOptions, title: 'Filters' }} />
                 <Stack.Screen name="housing/report" options={{ ...modalCancelOptions, title: 'Report an issue' }} />
+                <Stack.Screen name="marketplace/new" options={{ ...modalCancelOptions, title: 'New listing' }} />
                 <Stack.Screen name="work/shift" options={{ ...modalCancelOptions, title: 'Shift' }} />
                 <Stack.Screen
                   name="external/[id]"
@@ -93,7 +94,15 @@ export default function RootLayout() {
                 <Stack.Screen name="event/[id]" options={{ title: 'Event details' }} />
                 <Stack.Screen name="cluster/[id]" options={{ title: 'Topic group' }} />
                 <Stack.Screen name="chat/[id]" options={{ title: 'Chat' }} />
+                <Stack.Screen name="clubs" options={{ title: 'Clubs & Organizations' }} />
                 <Stack.Screen name="club/[id]" options={{ title: 'Club discovery' }} />
+                <Stack.Screen name="study/index" options={{ title: 'Study peers' }} />
+                <Stack.Screen name="study/[id]" options={{ title: 'Classmate' }} />
+                <Stack.Screen name="marketplace/index" options={{ title: 'Marketplace' }} />
+                <Stack.Screen name="marketplace/[id]" options={{ title: 'Listing' }} />
+                <Stack.Screen name="inbox/index" options={{ title: 'Peer messages' }} />
+                <Stack.Screen name="inbox/[id]" options={{ title: 'Conversation' }} />
+                <Stack.Screen name="requests" options={{ title: 'Where to ask' }} />
                 <Stack.Screen name="agenda/[id]" options={{ title: '' }} />
                 <Stack.Screen name="dining/index" options={{ title: 'Dining / Campus Wallet' }} />
                 <Stack.Screen name="dining/[id]" options={{ ...detailOptions, title: 'Transaction' }} />
@@ -110,6 +119,24 @@ export default function RootLayout() {
                 <Stack.Screen name="work/direct-deposit" options={{ title: 'Direct deposit' }} />
                 <Stack.Screen name="work/checklist" options={{ title: 'Employment checklist' }} />
                 <Stack.Screen name="work/guide/[id]" options={{ title: 'Guidance' }} />
+                <Stack.Screen name="academic/index" options={{ title: 'Academics' }} />
+                <Stack.Screen name="academic/search" options={{ title: 'Search syllabi' }} />
+                <Stack.Screen name="academic/upload" options={{ title: 'Upload syllabus' }} />
+                <Stack.Screen name="academic/syllabi" options={{ title: 'Syllabus library' }} />
+                <Stack.Screen name="academic/syllabus/[id]" options={{ title: 'Review syllabus' }} />
+                <Stack.Screen name="academic/course/[id]" options={{ title: 'Course' }} />
+                <Stack.Screen name="academic/assessment/[id]" options={{ title: 'Assessment' }} />
+                <Stack.Screen name="academic/passage/[id]" options={{ title: 'Source passage' }} />
+                <Stack.Screen name="academic/task/[id]" options={{ title: 'Study task' }} />
+                <Stack.Screen name="academic/planner" options={{ title: 'Study planner' }} />
+                <Stack.Screen name="academic/availability" options={{ title: 'Study availability' }} />
+                <Stack.Screen name="academic/completed" options={{ title: 'Completed courses' }} />
+                <Stack.Screen name="academic/prerequisites" options={{ title: 'Prerequisites' }} />
+                <Stack.Screen name="academic/grade-scenario" options={{ title: 'Grade scenario' }} />
+                <Stack.Screen name="academic/grading-scheme" options={{ title: 'Grading scheme' }} />
+                <Stack.Screen name="marketplace/edit/[id]" options={{ title: 'Edit listing' }} />
+                <Stack.Screen name="community/tools" options={{ title: 'Community tools' }} />
+                <Stack.Screen name="community/moderation" options={{ title: 'Moderator tools' }} />
                 <Stack.Screen name="attendance/index" options={{ title: 'Attendance' }} />
                 <Stack.Screen name="attendance/[id]" options={{ title: 'Course' }} />
                 <Stack.Screen name="grades/index" options={{ title: 'Grades' }} />

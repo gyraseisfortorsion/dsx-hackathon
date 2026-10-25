@@ -28,6 +28,7 @@ import { QueryView } from '@/components/query-view';
 import { Screen } from '@/components/screen';
 import { Section } from '@/components/section';
 import { openAsk } from '@/navigation/routes';
+import { usePatchSettings, useSettings } from '@/api/services';
 import { useAcademicsStore } from '@/stores/academics-store';
 import { colors, radius, spacing } from '@/theme';
 import { campusToday, dateOf, formatLongDate, formatRelativeDay, formatShortDate, formatTime } from '@/utils/campus-time';
@@ -246,17 +247,18 @@ function gradeLabel(grade: CourseGrades) {
 
 export function GradesScreen() {
   const query = useGradesWithCourses();
-  const visible = useAcademicsStore((state) => state.gradesVisible);
-  const setVisible = useAcademicsStore((state) => state.setGradesVisible);
+  const settings = useSettings();
+  const patch = usePatchSettings();
+  const visible = !(settings.data?.data.grades_hidden ?? true);
 
   return (
     <Screen onRefresh={query.refetch}>
       <DemoBanner title="Demo grade data">From the BU One demo API. Not connected to Student Link or your LMS.</DemoBanner>
       <PrivacyToggle
         visible={visible}
-        onToggle={() => setVisible(!visible)}
+        onToggle={() => patch.mutate({ grades_hidden: visible })}
         label={visible ? 'Grades visible' : 'Grades hidden'}
-        caption={visible ? 'Privacy mode is off for this session.' : 'Protected by Face ID privacy mode.'}
+        caption="Saved in your campus-service preferences"
         actionLabel={visible ? 'Hide Grades' : 'Show Grades'}
       />
 

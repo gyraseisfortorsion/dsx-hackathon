@@ -7,7 +7,17 @@ import { openLink } from '@/utils/open-link';
 import { AppText } from './app-text';
 
 /** Red-outlined call-first panel with BU emergency numbers. */
-export function EmergencyCallPanel({ title, copy, children }: { title?: string; copy?: string; children?: ReactNode }) {
+export function EmergencyCallPanel({
+  title,
+  copy,
+  children,
+  calls = emergencyCalls,
+}: {
+  title?: string;
+  copy?: string;
+  children?: ReactNode;
+  calls?: { label: string; href: string }[];
+}) {
   return (
     <View style={{ backgroundColor: colors.surface, borderWidth: 2, borderColor: colors.brand, borderRadius: spacing.lg, borderCurve: 'continuous', padding: 14, marginVertical: spacing.lg }}>
       {title ? <AppText variant="heading">{title}</AppText> : null}
@@ -16,7 +26,7 @@ export function EmergencyCallPanel({ title, copy, children }: { title?: string; 
           {copy}
         </AppText>
       ) : null}
-      {emergencyCalls.map((call, index) => (
+      {calls.map((call, index) => (
         <Pressable
           key={call.label}
           accessibilityRole="link"

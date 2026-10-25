@@ -14,6 +14,7 @@ import type {
   EventOptions,
   EventResults,
   Preferences,
+  TagSuggestResponse,
 } from './types';
 
 export const EVENT_PAGE_SIZE = 20;
@@ -98,6 +99,30 @@ export const eventSearchQuery = (query: string, filters: EventFilters) => (user:
     initialPageParam: 0,
     getNextPageParam: (last) => last.next_offset ?? undefined,
   });
+
+export const tagSuggestQuery = (id: string) => (user: DemoUser) =>
+  queryOptions({
+    queryKey: [...eventsKey(user), 'tags', id] as const,
+    queryFn: ({ signal }) => apiRequest<TagSuggestResponse>(user, `/events/${encodeURIComponent(id)}/tags/suggest`, { signal }),
+  });
+
+export const useTagSuggest = (id: string) => useUserQuery(tagSuggestQuery(id));
+
+export function useSaveEventTags() {
+  const user = useCurrentUser();
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: ({ eventId, predictionId, tagIds }: { eventId: string; predictionId: string; tagIds: string[] }) =>
+      apiRequest(user!, `/events/${encodeURIComponent(eventId)}/tags`, {
+        method: 'PUT',
+        body: { prediction_id: predictionId, final_tag_ids: tagIds },
+      }),
+    onSuccess: () => {
+      if (!user) return;
+      void client.invalidateQueries({ queryKey: eventsKey(user) });
+    },
+  });
+}
 
 export const usePreferences = () => useUserQuery(preferencesQuery);
 export const useEventOptions = () => useUserQuery(eventOptionsQuery);

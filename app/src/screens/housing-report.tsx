@@ -8,16 +8,17 @@ import { EmergencyCallPanel } from '@/components/emergency-call-panel';
 import { IntroBlock, KeyValueList } from '@/components/content';
 import { InlineError, Orb } from '@/components/feedback';
 import { CheckboxRow, ChoiceField, TextField, ToggleRow } from '@/components/form';
+import { QueryView } from '@/components/query-view';
 import { Screen } from '@/components/screen';
+import { errorMessage } from '@/api/client';
+import { useHousing, useServiceWrite, type HousingRequest, type Residence } from '@/api/services';
 import {
   HOUSING_CATEGORIES,
   HOUSING_DEMO_FILES,
   HOUSING_EXAMPLES,
   HOUSING_TIMES,
   HOUSING_URGENCIES,
-  residence,
 } from '@/data/services';
-import { useHousingStore } from '@/stores/housing-store';
 import type { HousingUrgency } from '@/types';
 import { colors, radius, spacing } from '@/theme';
 import { classifyHousing, DEFAULT_ROUTING, EMERGENCY_TERMS } from '@/utils/classify-housing';
@@ -31,7 +32,16 @@ type Category = (typeof HOUSING_CATEGORIES)[number];
 type PreferredTime = (typeof HOUSING_TIMES)[number];
 
 export function HousingReportScreen() {
-  const submit = useHousingStore((state) => state.submit);
+  const housing = useHousing();
+  return (
+    <QueryView query={housing} loadingLabel="Loading residence…">
+      {(snapshot) => <HousingReportForm residence={snapshot.data} />}
+    </QueryView>
+  );
+}
+
+function HousingReportForm({ residence }: { residence: Residence }) {
+  const submit = useServiceWrite<HousingRequest>();
   const [step, setStep] = useState(1);
   const [error, setError] = useState('');
   const [submittedId, setSubmittedId] = useState<string | null>(null);
@@ -84,9 +94,28 @@ export function HousingReportScreen() {
 
   const send = () => {
     if (!acknowledged) return setError('Acknowledge the demo-only notice before sending.');
-    const id = submit({ description: description.trim(), category, destination, attachment: attachment || undefined, building, room });
-    successFeedback();
-    setSubmittedId(id);
+    submit.mutate(
+      {
+        path: '/housing/requests',
+        method: 'POST',
+        body: {
+          description: description.trim(),
+          category,
+          urgency,
+          building,
+          room,
+          preferred_time: time,
+          photos: [],
+        },
+      },
+      {
+        onSuccess: (snapshot) => {
+          successFeedback();
+          setSubmittedId(snapshot.data.id);
+        },
+        onError: (err) => setError(errorMessage(err)),
+      },
+    );
   };
 
   if (submittedId) {
@@ -246,7 +275,7 @@ export function HousingReportScreen() {
                 }}>
                 I understand this is a demo and no real BU request will be created.
               </CheckboxRow>
-              <Button title="Send demo request" onPress={send} />
+              <Button title={submit.isPending ? 'Sending…' : 'Send request'} disabled={submit.isPending} onPress={send} />
             </View>
           )}
         </>

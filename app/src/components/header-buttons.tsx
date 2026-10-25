@@ -3,7 +3,7 @@ import { Pressable, View } from 'react-native';
 
 import { useProfileDisplay } from '@/api/use-profile';
 import { openAsk } from '@/navigation/routes';
-import { usePreferencesStore } from '@/stores/preferences-store';
+import { usePatchSettings } from '@/api/services';
 import { colors } from '@/theme';
 import { AppText } from './app-text';
 import { Icon } from './icon';
@@ -53,7 +53,7 @@ export function HeaderTextButton({ label, onPress }: { label: string; onPress: (
 }
 
 export function MenuAvatarButton() {
-  const dismissMenuHint = usePreferencesStore((state) => state.dismissMenuHint);
+  const dismissMenuHint = usePatchSettings();
   const { initials } = useProfileDisplay();
   return (
     <Pressable
@@ -61,7 +61,7 @@ export function MenuAvatarButton() {
       accessibilityLabel="Open BU One menu"
       hitSlop={6}
       onPress={() => {
-        dismissMenuHint();
+        dismissMenuHint.mutate({ menu_hint_visible: false });
         router.push('/menu');
       }}
       style={({ pressed }) => ({ opacity: pressed ? 0.7 : 1 })}>

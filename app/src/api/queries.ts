@@ -32,7 +32,8 @@ export const SIGNED_OUT = 'signed-out' as DemoUser;
 
 export function useUserQuery<T, TKey extends QueryKey>(factory: (user: DemoUser) => UseQueryOptions<T, Error, T, TKey>) {
   const user = useCurrentUser();
-  return useQuery({ ...factory(user ?? SIGNED_OUT), enabled: user != null });
+  const options = factory(user ?? SIGNED_OUT);
+  return useQuery({ ...options, enabled: user != null ? options.enabled : false });
 }
 
 export const useStudent = () => useUserQuery(studentQuery);

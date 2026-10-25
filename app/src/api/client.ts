@@ -23,11 +23,12 @@ export class ApiError extends Error {
 type QueryValue = string | number | boolean | null | undefined;
 
 type RequestOptions = {
-  method?: 'GET' | 'POST' | 'PUT';
+  method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
   body?: unknown;
   /** Extra query parameters; `null`/`undefined` values are omitted. `user` is always appended. */
   params?: Record<string, QueryValue>;
   signal?: AbortSignal;
+  moderatorToken?: string;
 };
 
 function buildUrl(user: DemoUser, path: string, params: Record<string, QueryValue> = {}) {
@@ -36,10 +37,11 @@ function buildUrl(user: DemoUser, path: string, params: Record<string, QueryValu
     .filter((entry): entry is [string, string | number | boolean] => entry[1] != null)
     .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(String(value))}`)
     .join('&');
-  return `${BASE_URL}${path}?${query}`;
+  const base = process.env.EXPO_OS === 'web' ? '/api/student' : BASE_URL;
+  return `${base}${path}?${query}`;
 }
 
-export async function apiRequest<T>(user: DemoUser, path: string, { method = 'GET', body, params, signal }: RequestOptions = {}): Promise<T> {
+export async function apiRequest<T>(user: DemoUser, path: string, { method = 'GET', body, params, signal, moderatorToken }: RequestOptions = {}): Promise<T> {
   if (!BASE_URL || !PASSWORD) {
     throw new ApiError('API is not configured. Set EXPO_PUBLIC_API_URL and EXPO_PUBLIC_API_PASSWORD in .env.local.', -1);
   }
@@ -52,6 +54,7 @@ export async function apiRequest<T>(user: DemoUser, path: string, { method = 'GE
       headers: {
         Accept: 'application/json',
         Authorization: `Bearer ${PASSWORD}`,
+        ...(moderatorToken ? { 'x-moderator-token': moderatorToken } : null),
         ...(body === undefined ? null : { 'Content-Type': 'application/json' }),
       },
       body: body === undefined ? undefined : JSON.stringify(body),

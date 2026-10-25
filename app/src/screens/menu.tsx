@@ -29,14 +29,19 @@ const groups: { title: string; items: MenuItem[] }[] = [
       { label: 'Dining & Campus Wallet', href: '/dining' },
       { label: 'Housing', href: '/housing' },
       { label: 'Work & Pay', href: '/work' },
+      { label: 'Academics', href: '/academic' },
       { label: 'Attendance', href: '/attendance' },
       { label: 'Grades', href: '/grades', icon: 'lock' },
-      { label: 'Clubs & Organizations', href: { pathname: '/club/[id]', params: { id: 'data-science-association' } } },
+      { label: 'Clubs & Organizations', href: '/clubs' },
+      { label: 'Study peers', href: '/study' },
+      { label: 'Marketplace', href: '/marketplace' },
     ],
   },
   {
     title: 'CAMPUS',
     items: [
+      { label: 'Peer messages', href: '/inbox' },
+      { label: 'Where to ask', href: '/requests' },
       { label: 'Map & Transit', href: settingsHref('map-transit') },
       { label: 'Campus Resources', href: settingsHref('campus-resources') },
       { label: 'Safety & Emergency', href: settingsHref('safety-emergency') },
@@ -49,6 +54,7 @@ const groups: { title: string; items: MenuItem[] }[] = [
       { label: 'Notifications', href: settingsHref('notifications') },
       { label: 'Accessibility', href: settingsHref('accessibility') },
       { label: 'Privacy', href: settingsHref('privacy') },
+      { label: 'Community tools', href: '/community/tools' },
       { label: 'Help & Feedback', href: settingsHref('help-feedback') },
     ],
   },
@@ -70,13 +76,17 @@ export function MenuScreen() {
   const pendingAction = useRef<(() => void) | null>(null);
 
   const finish = () => {
-    router.back();
-    pendingAction.current?.();
+    const action = pendingAction.current;
     pendingAction.current = null;
+    if (action) action();
+    else router.back();
   };
 
-  const close = (after?: () => void) => {
-    pendingAction.current = after ?? null;
+  const close = (after?: () => void, dismissMenu = true) => {
+    pendingAction.current = () => {
+      if (dismissMenu) router.back();
+      after?.();
+    };
     offset.set(withTiming(-drawerWidth, { duration: CLOSE_MS }, (finished) => {
       if (finished) scheduleOnRN(finish);
     }));
@@ -148,7 +158,7 @@ export function MenuScreen() {
               <View style={{ flex: 1 }}>
                 <AppText variant="headline">{name}</AppText>
                 <AppText variant="caption">{subtitle}</AppText>
-                <Pressable accessibilityRole="button" onPress={() => close(() => goToTab('me'))} style={{ minHeight: 32, justifyContent: 'center' }}>
+                <Pressable accessibilityRole="button" onPress={() => close(() => goToTab('me'), false)} style={{ minHeight: 32, justifyContent: 'center' }}>
                   <AppText variant="caption" style={{ color: colors.brand, fontWeight: '700' }}>
                     View profile
                   </AppText>

@@ -5,6 +5,7 @@ import { FlatList, Pressable, RefreshControl, TextInput, View } from 'react-nati
 
 import { errorMessage } from '@/api/client';
 import { conflictOverride, eventCategory, eventToday, eventTypes, eventWhen, formatAsOf, toApiFilters } from '@/api/event-format';
+import { eventTagIds, TAG_IDS, tagLabel } from '@/api/event-taxonomy';
 import {
   isEmptyPreferences,
   useEventClusters,
@@ -13,14 +14,16 @@ import {
   useEventOptions,
   useEventSearch,
   usePreferences,
+  useSaveEventTags,
   useSavedEvents,
+  useTagSuggest,
 } from '@/api/events';
 import type { EventCard as EventCardModel, EventCluster, EventResults } from '@/api/types';
 import { AppText } from '@/components/app-text';
 import { Button } from '@/components/button';
 import { DetailItem, Paragraph } from '@/components/content';
-import { ConflictLine, EventCard, useEventActions } from '@/components/event-card';
-import { EmptyState, ErrorState, LoadingState, StaleBanner } from '@/components/feedback';
+import { ConflictLine, EventCard, EventTagChips, useEventActions } from '@/components/event-card';
+import { EmptyState, ErrorState, InlineError, LoadingState, StaleBanner } from '@/components/feedback';
 import { Icon } from '@/components/icon';
 import { Pill, PillGroup } from '@/components/pill';
 import { QueryView } from '@/components/query-view';
@@ -37,6 +40,7 @@ import {
   type BrowseFilters,
 } from '@/stores/event-browse-store';
 import { colors, radius, spacing } from '@/theme';
+import { showToast } from '@/stores/toast-store';
 import { openLink } from '@/utils/open-link';
 import { useDebouncedValue } from '@/utils/use-debounced-value';
 
@@ -566,9 +570,11 @@ function EventDetail({ event }: { event: EventCardModel }) {
 
       <DetailItem icon="calendar" title={eventWhen(event, eventToday(asOf))} subtitle="Boston time" />
       <DetailItem icon="pin" title={event.location ?? 'Location not listed'} subtitle={event.location ? undefined : 'Check the official listing'} />
-      <View style={{ paddingVertical: spacing.md, borderBottomWidth: 1, borderBottomColor: colors.separator }}>
+      <View style={{ paddingVertical: spacing.md, borderBottomWidth: 1, borderBottomColor: colors.separator, gap: spacing.sm }}>
         <ConflictLine event={event} />
+        <EventTagChips tags={event.tags} />
       </View>
+      <EventTagsEditor event={event} />
 
       {event.reasons?.length ? (
         <Section title="Why this event?">
@@ -603,5 +609,51 @@ function EventDetail({ event }: { event: EventCardModel }) {
         {!event.not_interested && <Button title="Not interested" icon="hide" variant="ghost" onPress={() => actions.hide(event)} style={{ alignSelf: 'center' }} />}
       </View>
     </>
+  );
+}
+
+function EventTagsEditor({ event }: { event: EventCardModel }) {
+  const suggest = useTagSuggest(event.id);
+  const save = useSaveEventTags();
+  const [draft, setDraft] = useState<string[] | null>(null);
+  const selected = draft ?? eventTagIds(event.tags);
+  const predictionId = suggest.data?.prediction_id ?? event.id;
+  const suggested = new Set((suggest.data?.suggestions ?? []).map((item) => item.tag_id));
+
+  const toggle = (id: string) => {
+    setDraft((current) => {
+      const next = current ?? eventTagIds(event.tags);
+      return next.includes(id) ? next.filter((item) => item !== id) : [...next, id];
+    });
+  };
+
+  return (
+    <Section title="Tags" caption={event.tag_source === 'organizer' ? 'Your override' : 'From the campus taxonomy'}>
+      <AppText variant="caption" style={{ marginBottom: spacing.sm }}>
+        These labels are for this event in your profile. An empty set is allowed and is not the same as leaving tags uncorrected.
+      </AppText>
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginBottom: spacing.md }}>
+        {TAG_IDS.map((id) => (
+          <Pill key={id} label={suggested.has(id) ? `${tagLabel(id)} · suggested` : tagLabel(id)} active={selected.includes(id)} onPress={() => toggle(id)} />
+        ))}
+      </View>
+      {save.error ? <InlineError message={errorMessage(save.error)} /> : null}
+      <Button
+        title={save.isPending ? 'Saving tags…' : 'Save tags'}
+        variant="secondary"
+        disabled={save.isPending}
+        onPress={() =>
+          save.mutate(
+            { eventId: event.id, predictionId, tagIds: selected },
+            {
+              onSuccess: () => {
+                setDraft(null);
+                showToast(selected.length ? 'Tags saved for you' : 'Saved with no tags');
+              },
+            },
+          )
+        }
+      />
+    </Section>
   );
 }

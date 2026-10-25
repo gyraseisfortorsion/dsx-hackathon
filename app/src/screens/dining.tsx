@@ -13,9 +13,9 @@ import { NotFound } from '@/components/not-found';
 import { QueryView } from '@/components/query-view';
 import { Screen } from '@/components/screen';
 import { Section } from '@/components/section';
-import { transactions } from '@/data/services';
+import { useDiningTransactions, type DiningTransaction } from '@/api/services';
 import { colors, spacing } from '@/theme';
-import { formatLongDate, formatShortDate, formatTime } from '@/utils/campus-time';
+import { formatLongDate, formatShortDate, formatTime, toCampusIso } from '@/utils/campus-time';
 import { openLink } from '@/utils/open-link';
 
 type Balance = { id: string; label: string; value: string; suffix?: string; note: string };
@@ -52,16 +52,29 @@ function balancesOf(data: MealPlanResponse): Balance[] {
 
 export function DiningScreen() {
   const mealPlan = useMealPlan();
+  const transactions = useDiningTransactions();
+  const query = {
+    data: mealPlan.data && transactions.data ? { mealPlan: mealPlan.data, transactions: transactions.data.data } : undefined,
+    error: mealPlan.error ?? transactions.error,
+    refetch: () => Promise.all([mealPlan.refetch(), transactions.refetch()]),
+  };
   return (
-    <Screen onRefresh={mealPlan.refetch}>
-      <QueryView query={mealPlan} loadingLabel="Loading your meal plan…">
-        {(data) => <DiningContent data={data} />}
+    <Screen onRefresh={query.refetch}>
+      <QueryView query={query} loadingLabel="Loading your meal plan…">
+        {({ mealPlan: data, transactions: items }) => <DiningContent data={data} transactions={items} />}
       </QueryView>
     </Screen>
   );
 }
 
-function DiningContent({ data }: { data: MealPlanResponse }) {
+const ACCOUNT_LABEL = { dining_points: 'Dining Points', convenience_points: 'Convenience Points' } as const;
+
+function transactionMeta(item: DiningTransaction) {
+  const when = toCampusIso(item.occurred_at);
+  return `${formatShortDate(when.slice(0, 10))}, ${formatTime(when)} · ${ACCOUNT_LABEL[item.account]}`;
+}
+
+function DiningContent({ data, transactions }: { data: MealPlanResponse; transactions: DiningTransaction[] }) {
   const summary = mealSummary(data);
   const links = [...(data.plan ? [data.plan.source] : []), ...data.sources].filter((link, index, all) => all.findIndex((item) => item.url === link.url) === index);
 
@@ -120,13 +133,13 @@ function DiningContent({ data }: { data: MealPlanResponse }) {
         ))}
       </Section>
 
-      <Section title="Recent transactions" caption="Sample data">
+      <Section title="Recent transactions">
         {transactions.map((item) => (
           <ListRow
             key={item.id}
             title={item.merchant}
-            subtitle={item.meta}
-            value={item.amount}
+            subtitle={transactionMeta(item)}
+            value={formatCents(item.amount_cents)}
             valueStyle={{ fontSize: 13 }}
             onPress={() => router.push({ pathname: '/dining/[id]', params: { id: item.id } })}
           />
@@ -153,15 +166,24 @@ function DiningContent({ data }: { data: MealPlanResponse }) {
 }
 
 export function TransactionScreen({ id }: { id: string }) {
-  const transaction = transactions.find((item) => item.id === id);
-  if (!transaction) return <NotFound what="transaction" />;
-
+  const query = useDiningTransactions();
   return (
-    <Screen>
-      <MetricHero eyebrow="SAMPLE TERRIER CARD ACTIVITY" value={transaction.amount} description={transaction.merchant} />
-      <DetailItem icon="calendar" title="Completed" subtitle="Sample transaction · Not an official receipt" />
-      <DetailItem icon="check" title={transaction.source} subtitle="Terrier Card balance source" />
-      <Button title="Close" variant="secondary" onPress={() => router.back()} style={{ marginTop: spacing.xl }} />
+    <Screen onRefresh={query.refetch}>
+      <QueryView query={query} loadingLabel="Loading transaction…">
+        {(snapshot) => {
+          const transaction = snapshot.data.find((item) => item.id === id);
+          if (!transaction) return <NotFound what="transaction" />;
+          const when = toCampusIso(transaction.occurred_at);
+          return (
+            <>
+              <MetricHero eyebrow="TERRIER CARD ACTIVITY" value={formatCents(transaction.amount_cents)} description={transaction.merchant} />
+              <DetailItem icon="calendar" title={`${formatLongDate(when.slice(0, 10))} · ${formatTime(when)}`} subtitle="Not an official receipt" />
+              <DetailItem icon="check" title={ACCOUNT_LABEL[transaction.account]} subtitle="Terrier Card balance source" />
+              <Button title="Close" variant="secondary" onPress={() => router.back()} style={{ marginTop: spacing.xl }} />
+            </>
+          );
+        }}
+      </QueryView>
     </Screen>
   );
 }

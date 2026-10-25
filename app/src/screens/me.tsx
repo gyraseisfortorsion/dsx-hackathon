@@ -13,12 +13,12 @@ import { ListRow } from '@/components/list-row';
 import { Screen } from '@/components/screen';
 import { Card, Section } from '@/components/section';
 import { goToTab } from '@/navigation/routes';
-import { usePreferencesStore } from '@/stores/preferences-store';
+import { useHousing, useSettings, useWork, currentTimesheet } from '@/api/services';
 import { spacing } from '@/theme';
 import { campusToday } from '@/utils/campus-time';
 import { confirmSignOut } from '@/utils/confirm-sign-out';
 
-const settings = (id: string): Href => ({ pathname: '/settings/[id]', params: { id } });
+const settingsHref = (id: string): Href => ({ pathname: '/settings/[id]', params: { id } });
 
 function useInterestSummary() {
   const preferences = usePreferences();
@@ -31,7 +31,10 @@ function useInterestSummary() {
 
 export function MeScreen() {
   const interestSummary = useInterestSummary();
-  const stepFree = usePreferencesStore((state) => state.stepFree);
+  const serviceSettings = useSettings();
+  const housing = useHousing();
+  const work = useWork();
+  const stepFree = serviceSettings.data?.data.step_free ?? true;
   const { profile, name, initials, subtitle } = useProfileDisplay();
   const mealPlan = useMealPlan();
   const attendance = useAttendance();
@@ -39,6 +42,7 @@ export function MeScreen() {
 
   const attendanceStats = attendance.data ? overallAttendance(attendance.data.courses) : null;
   const todayCount = schedule.data?.byDate.get(campusToday())?.length;
+  const sheet = currentTimesheet(work.data?.data.timesheets);
 
   const essentials: { title: string; subtitle: string; onPress: () => void }[] = [
     {
@@ -46,13 +50,22 @@ export function MeScreen() {
       subtitle: mealPlan.data ? `${formatCents(mealPlan.data.balance.dining_points_balance_cents)} Dining Points` : 'Meal plan and balances',
       onPress: () => router.push('/dining'),
     },
-    { title: 'Housing', subtitle: 'Warren Towers · Demo data', onPress: () => router.push('/housing') },
-    { title: 'Work & Pay', subtitle: 'Timesheet due Sunday · Demo', onPress: () => router.push('/work') },
+    {
+      title: 'Housing',
+      subtitle: housing.data ? `${housing.data.data.building} · Room ${housing.data.data.room}` : 'Residence and requests',
+      onPress: () => router.push('/housing'),
+    },
+    {
+      title: 'Work & Pay',
+      subtitle: sheet ? `${sheet.status} · ${sheet.hours.toFixed(1)}h` : 'Timesheets and pay',
+      onPress: () => router.push('/work'),
+    },
     {
       title: 'Attendance',
       subtitle: attendanceStats ? `${attendanceStats.percent}% · ${pluralize(attendanceStats.absent, 'absence', 'absences')}` : 'Course attendance',
       onPress: () => router.push('/attendance'),
     },
+    { title: 'Academics', subtitle: 'Syllabi, study plans, and grade scenarios', onPress: () => router.push('/academic') },
     { title: 'Grades', subtitle: profile ? `${formatTerm(profile.term)} progress` : 'Term progress', onPress: () => router.push('/grades') },
     {
       title: 'Calendar',
@@ -60,10 +73,12 @@ export function MeScreen() {
       onPress: () => goToTab('calendar'),
     },
     { title: 'Events', subtitle: 'Upcoming, For You, and Saved', onPress: () => goToTab('events') },
+    { title: 'Study peers', subtitle: 'Find classmates for this term', onPress: () => router.push('/study') },
+    { title: 'Marketplace', subtitle: 'Books and campus pickup', onPress: () => router.push('/marketplace') },
   ];
 
   return (
-    <Screen onRefresh={() => Promise.all([mealPlan.refetch(), attendance.refetch(), schedule.refetch()])}>
+    <Screen onRefresh={() => Promise.all([mealPlan.refetch(), attendance.refetch(), schedule.refetch(), housing.refetch(), work.refetch(), serviceSettings.refetch()])}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 15, paddingTop: 5, paddingBottom: 17 }}>
         <Avatar initials={initials} size={64} tone="dark" />
         <View style={{ flex: 1, gap: 2 }}>
@@ -73,7 +88,7 @@ export function MeScreen() {
           <AppText>{subtitle}</AppText>
         </View>
       </View>
-      <Button title="Edit profile" variant="secondary" onPress={() => router.push(settings('edit-profile'))} />
+      <Button title="Edit profile" variant="secondary" onPress={() => router.push(settingsHref('edit-profile'))} />
 
       {profile && (
         <Section title="Student record" caption="Demo API">
@@ -99,14 +114,16 @@ export function MeScreen() {
       </Card>
 
       <Section title="Personalization">
+        <ListRow title="Peer messages" subtitle="Study invites and marketplace chats" onPress={() => router.push('/inbox')} minHeight={61} />
+        <ListRow title="Where to ask" subtitle="Find the right BU office" onPress={() => router.push('/requests')} minHeight={61} />
         <ListRow title="Interests & Preferences" subtitle={interestSummary} onPress={() => router.push('/preferences')} minHeight={61} />
-        <ListRow title="Accessibility" subtitle={stepFree ? 'Step-free routes' : 'System defaults'} onPress={() => router.push(settings('accessibility'))} minHeight={61} />
-        <ListRow title="Notifications" subtitle="Classes and saved events" onPress={() => router.push(settings('notifications'))} minHeight={61} />
+        <ListRow title="Accessibility" subtitle={stepFree ? 'Step-free routes' : 'System defaults'} onPress={() => router.push(settingsHref('accessibility'))} minHeight={61} />
+        <ListRow title="Notifications" subtitle="Classes and saved events" onPress={() => router.push(settingsHref('notifications'))} minHeight={61} />
       </Section>
 
       <Section title="Privacy & connections">
-        <ListRow title="Data Connections" subtitle="BU Student Prototype API" onPress={() => router.push(settings('data-connections'))} minHeight={61} />
-        <ListRow title="Privacy" subtitle="You choose what BU One uses" onPress={() => router.push(settings('privacy'))} minHeight={61} />
+        <ListRow title="Data Connections" subtitle="BU Student Prototype API" onPress={() => router.push(settingsHref('data-connections'))} minHeight={61} />
+        <ListRow title="Privacy" subtitle="You choose what BU One uses" onPress={() => router.push(settingsHref('privacy'))} minHeight={61} />
         <ListRow title="Sign out" subtitle={`Signed in as ${name}`} accessory="none" onPress={() => confirmSignOut(name)} minHeight={61} />
       </Section>
     </Screen>

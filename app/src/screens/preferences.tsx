@@ -1,7 +1,6 @@
 import { useQueryClient } from '@tanstack/react-query';
 import { useState, type ReactNode } from 'react';
 import { View } from 'react-native';
-import { useShallow } from 'zustand/react/shallow';
 
 import { combineQueries } from '@/api/combine';
 import { ApiError, errorMessage } from '@/api/client';
@@ -19,7 +18,7 @@ import { Section } from '@/components/section';
 import { goToTab } from '@/navigation/routes';
 import { useEventBrowseStore } from '@/stores/event-browse-store';
 import { useOnboardingStore } from '@/stores/onboarding-store';
-import { usePreferencesStore } from '@/stores/preferences-store';
+import { usePatchSettings, useSettings } from '@/api/services';
 import { useCurrentUser } from '@/stores/session-store';
 import { showToast } from '@/stores/toast-store';
 import { colors, spacing } from '@/theme';
@@ -155,12 +154,12 @@ function PreferencesEditor({
 
 export function PreferencesScreen() {
   const form = usePreferencesForm();
-  const { vegetarian, stepFree, setVegetarian, setStepFree } = usePreferencesStore(
-    useShallow((state) => ({ vegetarian: state.vegetarian, stepFree: state.stepFree, setVegetarian: state.setVegetarian, setStepFree: state.setStepFree })),
-  );
+  const settings = useSettings();
+  const patch = usePatchSettings();
+  const flags = settings.data?.data;
 
   return (
-    <Screen onRefresh={form.refetch}>
+    <Screen onRefresh={() => Promise.all([form.refetch(), settings.refetch()])}>
       <AppText variant="caption" style={{ marginBottom: spacing.lg }}>
         Saved to your BU One profile and used to rank For You and search. Event options come from the student API.
       </AppText>
@@ -168,9 +167,13 @@ export function PreferencesScreen() {
         {({ options, preferences }) => <PreferencesEditor options={options} initial={preferences} submitLabel="Save preferences" requireChanges />}
       </QueryView>
 
-      <Section title="On this device" caption="Plan my day">
-        <ToggleRow label="Vegetarian suggestions" value={vegetarian} onValueChange={setVegetarian} />
-        <ToggleRow label="Step-free routes" value={stepFree} onValueChange={setStepFree} />
+      <Section title="Campus services" caption="Used by Plan my day">
+        <ToggleRow
+          label="Vegetarian suggestions"
+          value={flags?.vegetarian ?? true}
+          onValueChange={(vegetarian) => patch.mutate({ vegetarian })}
+        />
+        <ToggleRow label="Step-free routes" value={flags?.step_free ?? true} onValueChange={(step_free) => patch.mutate({ step_free })} />
       </Section>
     </Screen>
   );

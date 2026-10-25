@@ -161,6 +161,10 @@ export type EventCard = {
   /** "<ORG CODE>, <Event type>", e.g. "BUJSA1227, Cultural". */
   source_category: string;
   cluster_id: string;
+  /** Tag id → score. Organizer/user overrides store `null` scores. Never show scores as probabilities. */
+  tags?: Record<string, number | null>;
+  tag_source?: 'baseline' | 'model' | 'organizer' | (string & {});
+  taxonomy_version?: string | null;
   saved?: boolean;
   not_interested?: boolean;
   conflict_ids?: string[];
@@ -253,6 +257,8 @@ export type RequestRouting = {
   submitted: false;
 };
 
+export type AcademicCitation = { course_id: string; syllabus_id: string; passage_id: string; page: number | null; excerpt: string; path: string };
+
 export type AssistantMessage = {
   id: string;
   role: 'user' | 'assistant' | (string & {});
@@ -262,4 +268,18 @@ export type AssistantMessage = {
   /** Missing on older deployments and history; treat as empty. */
   event_cards?: EventCard[];
   routing?: RequestRouting | null;
+  academic_citations?: AcademicCitation[];
+};
+
+export type TagSuggestion = { tag_id: string; score: number; source: string };
+
+export type TagSuggestResponse = {
+  prediction_id: string;
+  taxonomy_version: string;
+  model_version: string;
+  status: string;
+  suggestions: TagSuggestion[];
+  optional?: TagSuggestion[];
+  user_corrected?: boolean;
+  corrected_tag_ids?: string[];
 };

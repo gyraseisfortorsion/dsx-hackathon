@@ -3,6 +3,7 @@ import { Pressable, View } from 'react-native';
 
 import { errorMessage } from '@/api/client';
 import { conflictStatus, eventCategory, eventToday, eventWhen, type ConflictStatus } from '@/api/event-format';
+import { eventTagIds, tagLabel } from '@/api/event-taxonomy';
 import { useEventBrowseStore } from '@/stores/event-browse-store';
 import { CLEAR, HIDE, SAVE, useEventFeedback } from '@/api/events';
 import type { EventCard as EventCardModel, EventFeedback } from '@/api/types';
@@ -108,6 +109,7 @@ export function EventCard({ event, showReasons = true }: { event: EventCardModel
           {[type, event.location].filter(Boolean).join(' · ')}
         </AppText>
         <ConflictLine event={event} />
+        <EventTagChips tags={event.tags} />
         {showReasons && event.reasons?.length ? (
           <View style={{ marginTop: spacing.xs, backgroundColor: colors.surfaceSheet, borderRadius: radius.sm, padding: spacing.sm, gap: 2 }}>
             <AppText variant="micro" style={{ color: colors.label }}>
@@ -132,6 +134,20 @@ export function EventCard({ event, showReasons = true }: { event: EventCardModel
         <View style={{ width: 1, backgroundColor: colors.separator }} />
         <CardAction icon="hide" label="Not interested" accessibilityLabel={`Hide ${event.title}`} onPress={() => actions.hide(event)} />
       </View>
+    </View>
+  );
+}
+
+export function EventTagChips({ tags }: { tags?: Record<string, number | null> }) {
+  const ids = eventTagIds(tags);
+  if (!ids.length) return null;
+  return (
+    <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6, marginTop: 4 }}>
+      {ids.map((id) => (
+        <View key={id} style={{ paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8, backgroundColor: colors.surfaceSheet }}>
+          <AppText variant="micro">{tagLabel(id)}</AppText>
+        </View>
+      ))}
     </View>
   );
 }
