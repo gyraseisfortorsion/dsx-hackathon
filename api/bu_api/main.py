@@ -16,6 +16,9 @@ from pydantic_ai.models import Model
 
 from .agent import ChatService
 from .blob_history import BlobHistoryStore
+from .community_ml import CommunityModels
+from .community_routes import install_community_routes
+from .community_store import BlobCommunityStore, CommunityStore
 from .config import API_ROOT, Settings
 from .docs import SWAGGER_HTML
 from .event_routes import install_event_routes
@@ -105,6 +108,17 @@ def create_app(
                     if settings.history_backend == "blob"
                     else ServiceStore(settings.history_path().parent / "services")
                 )
+                app.state.community = (
+                    BlobCommunityStore(
+                        settings.blob_store_id,
+                        history_client,
+                        settings.blob_read_write_token.get_secret_value()
+                        if settings.blob_read_write_token
+                        else None,
+                    )
+                    if settings.history_backend == "blob"
+                    else CommunityStore(settings.history_path().parent / "community")
+                )
                 events = EventService(settings.data_dir / "event_artifacts.json")
                 app.state.preferences, app.state.events = preferences, events
                 app.state.tag_taxonomy = load_taxonomy(
@@ -123,6 +137,18 @@ def create_app(
                 except (OSError, ValueError, KeyError):
                     logger.warning("Request router artifacts unavailable; routing disabled")
                     app.state.request_router = None
+                try:
+                    app.state.community_models = CommunityModels(
+                        settings.data_dir / "community_models",
+                        encoder=app.state.request_router.encoder
+                        if app.state.request_router
+                        else None,
+                    )
+                except (OSError, ValueError, KeyError, TypeError):
+                    logger.warning(
+                        "Community model artifacts unavailable; experimental ML disabled"
+                    )
+                    app.state.community_models = None
                 app.state.chat = ChatService(
                     settings,
                     repository,
@@ -185,6 +211,7 @@ def create_app(
 
     install_event_routes(app, selected_student)
     install_service_routes(app, selected_student)
+    install_community_routes(app, selected_student, settings)
     install_routing_routes(app, selected_student)
 
     @app.get("/student", response_model=StudentProfile)

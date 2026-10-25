@@ -21,5 +21,15 @@ class Settings(BaseSettings):
     cors_origins: str = "http://localhost:3000,http://localhost:5173"
     chat_timeout_seconds: float = Field(default=60, gt=0)
 
+    community_ml_review_enabled: bool = False
+    community_verified_users: str = "alex,maya,jordan,sam,taylor"
+    community_moderator_token: SecretStr = SecretStr("")
+    study_min_overlap_minutes: int = Field(default=30, ge=1, le=1440)
+    study_overlap_target_minutes: int = Field(default=180, ge=1)
+    marketplace_expiry_days: int = Field(default=30, ge=1, le=365)
+    community_invitations_per_hour: int = Field(default=20, ge=1)
+    community_listings_per_hour: int = Field(default=10, ge=1)
+    community_messages_per_hour: int = Field(default=120, ge=1)
+
     def history_path(self) -> Path:
         return self.history_dir if self.history_dir.is_absolute() else API_ROOT / self.history_dir

@@ -9,6 +9,7 @@ dependencies = [
     "httpx>=0.28,<1",
     "model2vec>=0.7,<1",
     "numpy>=2,<3",
+    "pillow>=11,<13",
     "pydantic-ai>=2.61,<3",
     "pydantic-settings>=2.7,<3",
     "python-dotenv>=1,<2",

@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "version": "study-ranker-v1-74156240af99",
+  "synthetic_only": true,
+  "target": "synthetic_pairwise_preference_not_student_outcome",
+  "data_sha256": "74156240af99225c9b44063cf44e3fc31cbfdc8d82639be32d595e071b5fbf8c",
+  "features": [
+    "availability",
+    "goals",
+    "study_format",
+    "meeting_mode",
+    "interests",
+    "shared_courses",
+    "availability_x_goals",
+    "availability_x_preferences"
+  ],
+  "weights": [
+    12.136448233289007,
+    7.151158872857246,
+    2.8225565040630483,
+    1.8628588347094661,
+    1.4220839630104927,
+    1.3552823868726434,
+    6.39107869558089,
+    4.7538797372135955
+  ],
+  "bias": 0,
+  "display_scale": 6.744089047437283,
+  "hyperparameters": {
+    "C": 1.0,
+    "seed": 20261024,
+    "pair_margin": 0.05
+  },
+  "sklearn_version": "1.9.1"
+}

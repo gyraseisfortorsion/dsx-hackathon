@@ -1,0 +1,362 @@
+[
+  {
+    "group": "train-0-00",
+    "split": "train",
+    "text": "Used calculus textbook with a few pencil notes. Inspect before paying at the library.",
+    "label": 0
+  },
+  {
+    "group": "train-0-01",
+    "split": "train",
+    "text": "Wooden desk with surface scratches. Bring a friend to help carry it after class.",
+    "label": 0
+  },
+  {
+    "group": "train-0-02",
+    "split": "train",
+    "text": "Working desk lamp, warm bulb included. Campus pickup only.",
+    "label": 0
+  },
+  {
+    "group": "train-0-03",
+    "split": "train",
+    "text": "Giving away extra notebooks and unopened pens. Free to a student who needs them.",
+    "label": 0
+  },
+  {
+    "group": "train-0-04",
+    "split": "train",
+    "text": "Clean office chair with adjustable height. Test it at pickup before deciding.",
+    "label": 0
+  },
+  {
+    "group": "train-0-05",
+    "split": "train",
+    "text": "Graphing calculator with a fresh battery. I can demonstrate it in person.",
+    "label": 0
+  },
+  {
+    "group": "train-0-06",
+    "split": "train",
+    "text": "Chemistry textbook, previous edition. Please check the ISBN with your syllabus.",
+    "label": 0
+  },
+  {
+    "group": "train-0-07",
+    "split": "train",
+    "text": "Small fan from my dorm room. A little noisy but fully functional.",
+    "label": 0
+  },
+  {
+    "group": "train-0-08",
+    "split": "train",
+    "text": "USB monitor for sale. I will show it working on my laptop at the campus center.",
+    "label": 0
+  },
+  {
+    "group": "train-0-09",
+    "split": "train",
+    "text": "Two dining chairs, sold as a pair. Available this weekend on campus.",
+    "label": 0
+  },
+  {
+    "group": "train-0-10",
+    "split": "train",
+    "text": "Backpack with a repaired zipper. Photos show the wear clearly.",
+    "label": 0
+  },
+  {
+    "group": "train-0-11",
+    "split": "train",
+    "text": "Spare art supplies from a finished class. Most paint tubes are partly used.",
+    "label": 0
+  },
+  {
+    "group": "train-0-12",
+    "split": "train",
+    "text": "Mini bookcase in good condition. Measurements and extra photos available.",
+    "label": 0
+  },
+  {
+    "group": "train-0-13",
+    "split": "train",
+    "text": "Selling my spare keyboard because I changed computers. All keys work.",
+    "label": 0
+  },
+  {
+    "group": "train-0-14",
+    "split": "train",
+    "text": "Economics book with highlighting. Pay cash or Venmo after checking it at pickup.",
+    "label": 0
+  },
+  {
+    "group": "train-0-15",
+    "split": "train",
+    "text": "Bike helmet, unused in its packaging. Selling because it does not fit.",
+    "label": 0
+  },
+  {
+    "group": "train-0-16",
+    "split": "train",
+    "text": "Lab goggles and a clean lab coat, both used for one semester.",
+    "label": 0
+  },
+  {
+    "group": "train-0-17",
+    "split": "train",
+    "text": "Dorm rug with a small stain under one corner, shown in the photos.",
+    "label": 0
+  },
+  {
+    "group": "train-1-00",
+    "split": "train",
+    "text": "Pay a nonrefundable reservation fee before I tell you where the item is.",
+    "label": 1
+  },
+  {
+    "group": "train-1-01",
+    "split": "train",
+    "text": "I only accept gift card codes sent in advance. No in-person inspection.",
+    "label": 1
+  },
+  {
+    "group": "train-1-02",
+    "split": "train",
+    "text": "Send your university login and password to verify that you can buy this desk.",
+    "label": 1
+  },
+  {
+    "group": "train-1-03",
+    "split": "train",
+    "text": "Click my external verification site and enter your bank credentials to see the item.",
+    "label": 1
+  },
+  {
+    "group": "train-1-04",
+    "split": "train",
+    "text": "Guaranteed investment profit for students. Send crypto now to double your tuition money.",
+    "label": 1
+  },
+  {
+    "group": "train-1-05",
+    "split": "train",
+    "text": "I am overseas; wire the full payment first and my courier will deliver it later.",
+    "label": 1
+  },
+  {
+    "group": "train-1-06",
+    "split": "train",
+    "text": "No actual item for sale. Join my paid referral program and recruit classmates.",
+    "label": 1
+  },
+  {
+    "group": "train-1-07",
+    "split": "train",
+    "text": "Send me the one-time login code you receive so I can confirm your purchase.",
+    "label": 1
+  },
+  {
+    "group": "train-1-08",
+    "split": "train",
+    "text": "Text me your credit card number and security code to reserve the book.",
+    "label": 1
+  },
+  {
+    "group": "train-1-09",
+    "split": "train",
+    "text": "Special campus grant: pay a processing fee now to unlock thousands in funding.",
+    "label": 1
+  },
+  {
+    "group": "train-1-10",
+    "split": "train",
+    "text": "I will send you a check for too much; return the difference to my shipping agent.",
+    "label": 1
+  },
+  {
+    "group": "train-1-11",
+    "split": "train",
+    "text": "This is a bulk advertisement for essay writing services, not a used textbook.",
+    "label": 1
+  },
+  {
+    "group": "train-1-12",
+    "split": "train",
+    "text": "Instant guaranteed earnings. Buy my starter kit and recruit five students.",
+    "label": 1
+  },
+  {
+    "group": "train-1-13",
+    "split": "train",
+    "text": "I have no photos or item details. Only paying customers get to see what is offered.",
+    "label": 1
+  },
+  {
+    "group": "train-1-14",
+    "split": "train",
+    "text": "Use this shortened payment link immediately; I refuse campus pickup or any questions.",
+    "label": 1
+  },
+  {
+    "group": "train-1-15",
+    "split": "train",
+    "text": "I am selling access to stolen campus accounts with working passwords.",
+    "label": 1
+  },
+  {
+    "group": "train-1-16",
+    "split": "train",
+    "text": "I need a copy of your passport and banking password before I can sell a chair.",
+    "label": 1
+  },
+  {
+    "group": "train-1-17",
+    "split": "train",
+    "text": "Send a cryptocurrency deposit in the next five minutes or lose this incredible deal.",
+    "label": 1
+  },
+  {
+    "group": "dev-0-00",
+    "split": "dev",
+    "text": "Selling a secondhand laptop stand. Meet at the student union and inspect it first.",
+    "label": 0
+  },
+  {
+    "group": "dev-0-01",
+    "split": "dev",
+    "text": "Free folders left over from orientation. No delivery or payment needed.",
+    "label": 0
+  },
+  {
+    "group": "dev-0-02",
+    "split": "dev",
+    "text": "Biology textbook, binding intact, with some handwritten study notes.",
+    "label": 0
+  },
+  {
+    "group": "dev-0-03",
+    "split": "dev",
+    "text": "A bedside table I no longer use. Please bring your own transport.",
+    "label": 0
+  },
+  {
+    "group": "dev-0-04",
+    "split": "dev",
+    "text": "Coffee maker in working condition. Can bring it to campus for pickup.",
+    "label": 0
+  },
+  {
+    "group": "dev-0-05",
+    "split": "dev",
+    "text": "Portable speaker with a weak battery. It works when plugged in; priced accordingly.",
+    "label": 0
+  },
+  {
+    "group": "dev-1-00",
+    "split": "dev",
+    "text": "To buy this notebook, first send the activation PIN from a prepaid store card.",
+    "label": 1
+  },
+  {
+    "group": "dev-1-01",
+    "split": "dev",
+    "text": "Your account must be validated on my offsite portal using your campus password.",
+    "label": 1
+  },
+  {
+    "group": "dev-1-02",
+    "split": "dev",
+    "text": "You won a scholarship. Transfer the handling charge before I release your prize.",
+    "label": 1
+  },
+  {
+    "group": "dev-1-03",
+    "split": "dev",
+    "text": "I cannot show the laptop. Pay the entire price via irreversible transfer before delivery.",
+    "label": 1
+  },
+  {
+    "group": "dev-1-04",
+    "split": "dev",
+    "text": "Make easy money reselling fake admissions letters to other students through my program.",
+    "label": 1
+  },
+  {
+    "group": "dev-1-05",
+    "split": "dev",
+    "text": "Before pickup, send the verification code from your banking app to my number.",
+    "label": 1
+  },
+  {
+    "group": "test-0-00",
+    "split": "test",
+    "text": "Wireless mouse, receipt available, happy to let you test it before buying.",
+    "label": 0
+  },
+  {
+    "group": "test-0-01",
+    "split": "test",
+    "text": "Free moving boxes outside the residence common area. First come first served.",
+    "label": 0
+  },
+  {
+    "group": "test-0-02",
+    "split": "test",
+    "text": "Statistics book, same ISBN as listed, water mark on the back cover.",
+    "label": 0
+  },
+  {
+    "group": "test-0-03",
+    "split": "test",
+    "text": "I can hold this shelf until tomorrow. No deposit required, pay when you collect.",
+    "label": 0
+  },
+  {
+    "group": "test-0-04",
+    "split": "test",
+    "text": "Selling a used tablet stylus. Verify compatibility with your device at pickup.",
+    "label": 0
+  },
+  {
+    "group": "test-0-05",
+    "split": "test",
+    "text": "A set of storage bins, cracked lid on one bin. Photos show all defects.",
+    "label": 0
+  },
+  {
+    "group": "test-1-00",
+    "split": "test",
+    "text": "Reserve this textbook by sending a photo of an unused gift voucher and its secret code.",
+    "label": 1
+  },
+  {
+    "group": "test-1-01",
+    "split": "test",
+    "text": "I need your account recovery phrase to activate the tablet before you receive it.",
+    "label": 1
+  },
+  {
+    "group": "test-1-02",
+    "split": "test",
+    "text": "Earn a guaranteed huge return overnight by depositing digital coins into my wallet.",
+    "label": 1
+  },
+  {
+    "group": "test-1-03",
+    "split": "test",
+    "text": "No meeting or inspection allowed. Pay a compulsory insurance charge to my delivery agent.",
+    "label": 1
+  },
+  {
+    "group": "test-1-04",
+    "split": "test",
+    "text": "Purchase my membership and advertise it to classmates; there is no physical item.",
+    "label": 1
+  },
+  {
+    "group": "test-1-05",
+    "split": "test",
+    "text": "Please share the password to your student email so I can approve this sale.",
+    "label": 1
+  }
+]

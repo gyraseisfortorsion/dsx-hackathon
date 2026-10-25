@@ -229,3 +229,12 @@ See the [pipeline, metrics, rebuild commands, and limitations](../research/reque
 Artifacts are bundled under `data/request_router`; serving requires no download or
 training. Missing artifacts return 503 for routing while other services still start.
 The routing labels and evaluation are synthetic-only and need human validation.
+
+## Study partners and marketplace
+
+[Community API](COMMUNITY_API.md) adds shared study profiles, deterministic matching,
+opt-in trained ranking, invitations, private conversations, marketplace listings,
+validated photos, search/saves, expiry, reporting, blocks and separate moderator
+controls. This is a backend-only implementation using the existing demo identity
+system. [Training data and model evaluation](../research/community-training/README.md)
+document the two actually fitted, synthetic-only models and their limitations.

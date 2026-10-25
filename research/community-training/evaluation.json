@@ -1,0 +1,215 @@
+{
+  "synthetic_only": true,
+  "seed": 20261024,
+  "split_checks": {
+    "scenario_groups_disjoint": true,
+    "exact_text_disjoint": true,
+    "student_ids_disjoint": true,
+    "study_dates_ordered": true
+  },
+  "data_sha256": {
+    "moderation": "f1b47cd0850ed62d2a68095ab561b42db9dfb57732063ab3049fb7b3db857ba7",
+    "study": "74156240af99225c9b44063cf44e3fc31cbfdc8d82639be32d595e071b5fbf8c",
+    "boundary": "d98d62c6623445288e6dac0db71cc3bb04a8bfb1c8bf6defb8ae36def299dfa1"
+  },
+  "counts": {
+    "train": {
+      "moderation": 216,
+      "study": 1440
+    },
+    "dev": {
+      "moderation": 72,
+      "study": 320
+    },
+    "test": {
+      "moderation": 72,
+      "study": 480
+    }
+  },
+  "moderation": {
+    "selected_C": 0.1,
+    "test_independent_scenarios": {
+      "examples": 12,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "accuracy": 0.8333333333333334,
+      "roc_auc": 0.9166666666666667,
+      "average_precision": 0.9150793650793649,
+      "false_positive_rate": 0.16666666666666666,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "review_coverage": 0.5
+    },
+    "review_threshold": 0.55,
+    "threshold_policy": "Dev precision >= .90 and FPR <= .10, >=6 decisions; otherwise abstain",
+    "dev": {
+      "examples": 72,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353,
+      "accuracy": 0.9444444444444444,
+      "roc_auc": 0.992283950617284,
+      "average_precision": 0.993140243902439,
+      "false_positive_rate": 0.0,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          36,
+          0
+        ],
+        [
+          4,
+          32
+        ]
+      ],
+      "review_coverage": 0.4444444444444444
+    },
+    "test": {
+      "examples": 72,
+      "precision": 0.8571428571428571,
+      "recall": 0.8333333333333334,
+      "f1": 0.8450704225352113,
+      "accuracy": 0.8472222222222222,
+      "roc_auc": 0.9220679012345679,
+      "average_precision": 0.9094589375596442,
+      "false_positive_rate": 0.1388888888888889,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          31,
+          5
+        ],
+        [
+          6,
+          30
+        ]
+      ],
+      "review_coverage": 0.4861111111111111
+    },
+    "boundary": {
+      "examples": 16,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.75,
+      "accuracy": 0.75,
+      "roc_auc": 0.7666666666666666,
+      "average_precision": 0.5652777777777778,
+      "false_positive_rate": 0.4,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "review_coverage": 0.625
+    },
+    "test_keyword_baseline": {
+      "examples": 72,
+      "precision": 0.6666666666666666,
+      "recall": 0.3333333333333333,
+      "f1": 0.4444444444444444,
+      "accuracy": 0.5833333333333334,
+      "roc_auc": 0.5833333333333334,
+      "average_precision": 0.5555555555555556,
+      "false_positive_rate": 0.16666666666666666,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          30,
+          6
+        ],
+        [
+          24,
+          12
+        ]
+      ],
+      "review_coverage": 0.25
+    },
+    "test_tfidf_baseline": {
+      "examples": 72,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "accuracy": 0.875,
+      "roc_auc": 0.8842592592592593,
+      "average_precision": 0.8398330806563588,
+      "false_positive_rate": 0.25,
+      "confusion_matrix_labels": [
+        "ordinary",
+        "needs_review"
+      ],
+      "confusion_matrix": [
+        [
+          27,
+          9
+        ],
+        [
+          0,
+          36
+        ]
+      ],
+      "review_coverage": 0.625
+    }
+  },
+  "study_ranker": {
+    "training_comparisons": 8524,
+    "selected_C": 1.0,
+    "dev": {
+      "queries": 40,
+      "ndcg_at_5": 0.9978685008800715,
+      "pairwise_accuracy": 0.9906152241918665,
+      "evaluated_pairs": 959
+    },
+    "test": {
+      "queries": 60,
+      "ndcg_at_5": 0.9958929818498213,
+      "pairwise_accuracy": 0.9875862068965517,
+      "evaluated_pairs": 1450
+    },
+    "test_rules_baseline": {
+      "queries": 60,
+      "ndcg_at_5": 0.9950041122557333,
+      "pairwise_accuracy": 0.9786206896551725,
+      "evaluated_pairs": 1450
+    }
+  },
+  "limitations": [
+    "Entire evaluation is synthetic; no production accuracy or usefulness claim",
+    "Shared neutral suffixes appear across moderation split groups",
+    "Study labels use an explicit synthetic rubric plus noise, not observed outcomes",
+    "No real student history, private messages, or identity attributes used",
+    "Never auto-remove listings or suspend accounts using model scores"
+  ],
+  "local_warm_single_listing_inference_ms_mean": 0.0666258402634412,
+  "export_parity_verified": true
+}

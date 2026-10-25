@@ -1,0 +1,13 @@
+{
+  "seed": 20261024,
+  "synthetic_only": true,
+  "moderation_rows": 360,
+  "study_rows": 2240,
+  "boundary_rows": 16,
+  "no_real_student_data": true,
+  "limitations": [
+    "No real reviewed abuse labels",
+    "No actual student outcomes",
+    "No claim of production scam detection or matching usefulness"
+  ]
+}
