@@ -10,6 +10,7 @@ Terrier Central calendar snapshot.
 - [Backend setup and configuration](api/README.md)
 - [Event discovery and personalization API](api/EVENTS_API.md)
 - [Mobile app (Expo / React Native)](app/README.md)
+- [Request routing: synthetic data, trained encoder classifier, API and chat integration](research/request-routing/README.md)
 - [Dataset sources and limitations](research/README.md)
 - [Event labeling instructions](api/labeling/README.md)
 

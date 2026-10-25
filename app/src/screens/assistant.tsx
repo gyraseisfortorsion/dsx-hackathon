@@ -3,7 +3,7 @@ import { FlatList, Pressable, View } from 'react-native';
 
 import { errorMessage } from '@/api/client';
 import { useAssistantMessages, useSendAssistantMessage } from '@/api/queries';
-import type { AssistantMessage } from '@/api/types';
+import type { AssistantMessage, RequestRouting } from '@/api/types';
 import { AppText } from '@/components/app-text';
 import { Composer } from '@/components/chat';
 import { EventCard } from '@/components/event-card';
@@ -149,6 +149,7 @@ function AssistantBubble({ message }: { message: AssistantMessage }) {
         }>
         <RichText text={message.content} color={mine ? colors.onDark : colors.ink} />
       </View>
+      {!mine && message.routing ? <RoutingCard routing={message.routing} /> : null}
       {!mine && message.sources?.length ? (
         <View style={{ gap: 2, paddingHorizontal: spacing.xs }}>
           <AppText variant="eyebrow" style={{ fontSize: 9 }}>
@@ -211,6 +212,45 @@ function SendFailure({ message, onRetry, onDiscard }: { message: string; onRetry
           </AppText>
         </Pressable>
       </View>
+    </View>
+  );
+}
+
+function RoutingCard({ routing }: { routing: RequestRouting }) {
+  const departments = routing.department
+    ? [routing.department]
+    : routing.handling === 'multiple_routes'
+      ? routing.candidates.map((candidate) => candidate.department)
+      : [];
+  const title = routing.handling === 'urgent_bypass'
+    ? 'Get urgent help'
+    : routing.handling === 'route'
+      ? 'Suggested office'
+      : routing.handling === 'multiple_routes'
+        ? 'More than one office can help'
+        : 'More detail needed';
+  return (
+    <View style={{ backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.separator, borderRadius: radius.xl, padding: spacing.lg, gap: spacing.sm }}>
+      <AppText variant="label">{title}</AppText>
+      <AppText>{routing.message}</AppText>
+      {departments.map((department) => (
+        <View key={department.id} style={{ gap: spacing.xs }}>
+          <AppText variant="label">{department.name}</AppText>
+          <AppText variant="caption">{department.handles}</AppText>
+          <AppText variant="caption">{department.boundaries}</AppText>
+          {department.official_source_urls.slice(0, 1).map((url) => (
+            <Pressable key={url} accessibilityRole="link" onPress={() => openLink(url)} style={{ minHeight: 44, justifyContent: 'center' }}>
+              <AppText style={{ color: colors.brand }}>Official contact and intake</AppText>
+            </Pressable>
+          ))}
+        </View>
+      ))}
+      {routing.handling === 'urgent_bypass' ? (
+        <Pressable accessibilityRole="link" onPress={() => openLink('https://www.bu.edu/emergency/')} style={{ minHeight: 44, justifyContent: 'center' }}>
+          <AppText style={{ color: colors.brand }}>BU emergency guidance</AppText>
+        </Pressable>
+      ) : null}
+      <AppText variant="caption">Prototype suggestion · No request submitted</AppText>
     </View>
   );
 }

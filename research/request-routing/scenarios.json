@@ -1,0 +1,122 @@
+{
+  "registrar": [
+    ["legal-name", "My legal name changed and I need my academic record updated.", "Where can I submit my new legal name for my university records?"],
+    ["graduation-record", "My completed degree is not showing on my academic record.", "Who can investigate why my awarded degree is absent from my transcript?"],
+    ["transcript-delivery", "The employer never received the official transcript I ordered.", "Can someone trace my academic transcript delivery to my employer?"],
+    ["verification-error", "My enrollment verification letter lists the wrong semester.", "Who corrects the term on an official proof of enrollment?"],
+    ["diploma-replacement", "My diploma was damaged and I need a replacement copy.", "How can I replace a lost university diploma?"],
+    ["record-date", "My transcript has the wrong date of attendance.", "The dates I attended BU are incorrect on my academic record."],
+    ["degree-verification", "I need official verification of my completed degree for a job.", "My employer wants confirmation that I graduated from BU."],
+    ["transfer-record", "Approved transfer credit is absent from my academic record.", "My school approved transfer credits but the university record is missing them."],
+    ["transcript-hold", "My transcript order is stuck even though there are no account holds.", "Please help check the status of my official transcript order; my bill is paid."],
+    ["student-status", "My semester record incorrectly shows me as not enrolled.", "I am attending classes but my official enrollment status is wrong."]
+  ],
+  "financial_assistance": [
+    ["income-loss", "I'm an undergraduate and my parent lost their job; can my aid be reconsidered?", "How does an undergrad appeal financial aid after a family income loss?"],
+    ["verification-document", "Undergrad aid verification is asking for a tax document I cannot get.", "I need help finding an alternative document for undergraduate aid verification."],
+    ["fafsa-correction", "My undergraduate financial aid application has incorrect family information.", "Who helps undergraduates correct information used to determine financial aid?"],
+    ["award-eligibility", "As an undergraduate, I want to understand my grant eligibility.", "Can someone explain why my undergraduate grant eligibility changed?"],
+    ["aid-renewal", "What documents do I need to renew undergraduate financial aid next year?", "I'm an undergrad trying to complete the annual financial aid renewal."],
+    ["appeal-status", "I'm an undergraduate waiting for a decision on my financial aid appeal.", "Can I check progress on my undergrad aid reconsideration request?"],
+    ["parent-document", "My undergraduate aid application needs information from an unavailable parent.", "How can an undergraduate finish aid documents when a parent cannot provide them?"],
+    ["work-study-award", "My undergraduate aid offer does not include the work study award I expected.", "Who reviews eligibility for work study in an undergrad financial aid package?"],
+    ["loan-offer", "I'm an undergraduate and my loan offer is absent from my aid package.", "My undergraduate aid award is missing an expected loan offer, before billing."],
+    ["aid-reduction", "My undergraduate scholarship award was reduced and I want a review.", "Who explains a reduction in my undergraduate financial assistance offer?"]
+  ],
+  "student_financials": [
+    ["duplicate-charge", "Tuition was charged twice on my student bill.", "My student account has a duplicate tuition charge to dispute."],
+    ["payment-plan", "How do I arrange installments for my university bill?", "I need help setting up a tuition payment plan on my account."],
+    ["refund-status", "My student account credit refund has not arrived in my bank.", "Can someone trace the refund from my student billing account?"],
+    ["wire-payment", "An international wire payment has not appeared on my tuition account.", "I paid my bill by wire but my account balance still hasn't updated."],
+    ["sponsor-invoice", "My sponsor needs an invoice for my student account charges.", "Who can provide a billing invoice for the organization paying my tuition?"],
+    ["late-fee", "I want a review of a late payment fee on my university bill.", "Can I dispute the late fee posted to my student account?"],
+    ["aid-posting", "My approved scholarship shows in my award but was posted twice to the bill.", "The award is correct; the scholarship transaction on my billing account is wrong."],
+    ["payment-reversal", "A tuition payment on my account was reversed unexpectedly.", "Why was my posted student account payment returned?"],
+    ["balance-hold", "A student account balance hold is blocking my registration.", "My registration error specifically says unpaid bill financial hold."],
+    ["receipt", "I need a receipt for the tuition payment on my student account.", "Where can I get proof of my posted university bill payment?"]
+  ],
+  "housing": [
+    ["swap-friend", "My friend and I want to swap our assigned dorm rooms for personal preference.", "How do two students request an ordinary dorm room swap?"],
+    ["roommate-choice", "I want to request a particular roommate for my housing assignment.", "How do I add my chosen roommate to my residence assignment request?"],
+    ["assignment-status", "My housing assignment has not appeared and I can log in fine.", "Who can check my pending residence room assignment?"],
+    ["move-location", "I'd prefer a dorm closer to my classes, with no accommodation need.", "Can I request an ordinary housing location change for convenience?"],
+    ["vacancy", "Is there a process to request an available room in another residence?", "I want to apply for a regular vacant dorm room assignment."],
+    ["room-type", "I want a different room type as a personal preference.", "How do I request a regular move from a triple to a double?"],
+    ["swap-cancel", "I need to cancel the ordinary room swap request I submitted.", "Can Housing withdraw my pending preference based room change?"],
+    ["assignment-error", "My room assignment lists a different roommate than my confirmed request.", "Please review an error in my confirmed roommate assignment."],
+    ["waitlist", "How do I check the waitlist for a voluntary room change?", "I'm waiting for a preference based housing reassignment and need an update."],
+    ["next-term", "I want to change my housing assignment next semester for personal reasons.", "When can I request an ordinary dorm reassignment for the next term?"]
+  ],
+  "residential_maintenance": [
+    ["desk-drawer", "The drawer in my university dorm desk is jammed.", "My university supplied desk drawer needs repair."],
+    ["ceiling-light", "The overhead light in my dorm room stopped working.", "Can someone replace the failed ceiling light in my residence room?"],
+    ["closet-door", "My dorm closet door is off its track.", "I need a repair for a broken closet door in my residence."],
+    ["sink-drip", "The sink faucet in my residence has a slow drip.", "How do I report a steadily dripping dorm sink for routine repair?"],
+    ["window-latch", "My dorm window latch is broken; there is no immediate danger.", "I need a routine repair to the latch on my residence window."],
+    ["bed-frame", "A university supplied bed frame in my room is loose.", "Where can I request a repair for my dorm bed frame?"],
+    ["fridge", "The university refrigerator in my dorm is no longer cooling.", "I need maintenance for a university supplied residence fridge."],
+    ["blinds", "The window blinds in my dorm room are broken.", "Can residence maintenance fix the blinds in my room?"],
+    ["paint", "Paint is peeling on the wall in my university residence.", "I need to report peeling dorm room paint for routine upkeep."],
+    ["chair", "The university chair in my room has a damaged leg.", "How do I ask for repair of a university supplied dorm chair?"]
+  ],
+  "it_help": [
+    ["duo-phone", "I replaced my phone and cannot approve BU Duo sign ins.", "Duo authentication for my BU account is stuck after getting a new phone."],
+    ["wifi-device", "My laptop cannot authenticate to eduroam on campus.", "eduroam keeps rejecting my BU login on my laptop."],
+    ["password-reset", "The password reset for my BU account keeps failing.", "I forgot my BU password and the recovery process gives an error."],
+    ["housing-login", "The housing portal rejects my credentials before I can sign in.", "I cannot authenticate to My Housing with my BU account."],
+    ["billing-login", "The student billing portal sign in page loops back to authentication.", "I cannot log in to view my student bill because SSO is broken."],
+    ["email-login", "My BU email says authentication failed.", "I cannot sign in to my university email account."],
+    ["account-lock", "My university account is locked after several login attempts.", "Who can help unlock my BU computing account?"],
+    ["wifi-drop", "Campus wireless keeps disconnecting my computer.", "My laptop repeatedly loses its eduroam connection."],
+    ["portal-error", "The student portal displays a technical server error after login.", "I can sign in but the portal crashes with a technical error page."],
+    ["duo-code", "My BU two factor verification code is always rejected.", "I need technical help with failed two factor login codes."]
+  ],
+  "disability_access": [
+    ["accessible-room", "I need a wheelchair accessible housing accommodation review.", "How do I apply for accessible residence accommodations for my disability?"],
+    ["exam-time", "I need to apply for extra exam time as a disability accommodation.", "Who reviews requests for disability related extended testing time?"],
+    ["documentation", "Where do I submit documentation for disability accommodations?", "I need help with the documents required for my access accommodation application."],
+    ["captioning", "I need classroom captioning as a hearing disability accommodation.", "Who can review a disability request for captioned class material?"],
+    ["accommodation-renewal", "I need to renew my academic disability accommodations.", "How do I update the disability accommodations approved for my courses?"],
+    ["accessible-materials", "I need accessible textbooks because of a documented disability.", "How do I request course readings in an accessible format as an accommodation?"],
+    ["housing-medical", "My disability requires a different housing arrangement and an accommodation review.", "I need a disability based room accommodation rather than an ordinary room swap."],
+    ["note-taking", "I want to apply for note taking support for my disability.", "Who reviews disability related classroom note taking accommodations?"],
+    ["accommodation-appeal", "I want to request reconsideration of a disability accommodation decision.", "How do I appeal a denied access accommodation?"],
+    ["temporary-access", "I need to ask about academic access accommodations after an injury.", "Who reviews temporary disability related classroom accommodation needs?"]
+  ],
+  "isso": [
+    ["travel-signature", "I need a travel signature on my I-20 before leaving the country.", "Who reviews I-20 travel endorsements for an international student?"],
+    ["passport-update", "My passport changed and I need to update my international student immigration record.", "Where do I report renewed passport details for my student immigration status?"],
+    ["i20-error", "My I-20 has an incorrect program date and I need advising.", "Who can review an error on my international student I-20?"],
+    ["opt-advice", "I need immigration advising about optional practical training.", "Who advises international students about OPT paperwork?"],
+    ["cpt-advice", "Who can advise me on CPT authorization for an internship?", "I need international student advising on curricular practical training documents."],
+    ["visa-renewal", "I need university immigration advising before renewing my student visa.", "Who can discuss student visa renewal travel documents with me?"],
+    ["sevis-transfer", "I need guidance on transferring my SEVIS record.", "Who helps international students with SEVIS transfer paperwork?"],
+    ["status-extension", "I want to ask an immigration advisor about extending my I-20.", "My international program document expires soon and I need advising."],
+    ["entry-document", "Which university office can advise on documents for reentering in F-1 status?", "I want an international student advisor to review my travel document questions."],
+    ["immigration-address", "I moved and need to update my address for my international student record.", "How do I report an address change for my SEVIS student record?"]
+  ],
+  "terrier_card": [
+    ["lost-card", "I lost my Terrier Card and need a replacement student ID.", "Where do I replace a missing BU Terrier Card?"],
+    ["damaged-card", "My physical Terrier Card is cracked and needs replacing.", "Can I replace my damaged university ID card?"],
+    ["meal-change", "I can sign in but need help changing the meal plan on my account.", "Who handles meal plan change questions when My Housing login works?"],
+    ["points-balance", "The Convenience Points balance on my Terrier Card seems incorrect.", "I need someone to review my card account Convenience Points balance."],
+    ["swipe-account", "My meal swipe balance looks wrong on my meal plan account.", "Who reviews incorrect meal swipes on a Terrier Card account?"],
+    ["card-photo", "I need help with the photo for my Terrier Card.", "Who can answer questions about my university ID card photo?"],
+    ["replacement-status", "Can I check the status of my replacement Terrier Card?", "I'm waiting for my new student ID card after requesting a replacement."],
+    ["dining-points", "I have an account question about Dining Points on my meal plan.", "Who can explain the Dining Points balance tied to my Terrier Card?"],
+    ["card-name", "My Terrier Card displays the wrong name, though my academic record is correct.", "I need my physical student ID corrected after my record was already updated."],
+    ["card-pickup", "Where do I pick up my new Terrier Card?", "I need instructions for collecting my replacement university ID."]
+  ],
+  "university_service_center": [
+    ["leave-start", "I'm an undergraduate considering a semester away and need leave process guidance.", "Who guides undergraduates through requesting a leave of absence?"],
+    ["leave-return", "I'm an undergraduate planning to return after an approved leave.", "I need guidance on the undergraduate return from leave process."],
+    ["withdrawal-process", "I'm an undergraduate considering leaving BU permanently; what is the process?", "Who can explain university withdrawal steps to an undergraduate?"],
+    ["leave-deadline", "I'm an undergraduate and want guidance on leave of absence deadlines.", "Who can explain the timing of an undergrad university leave request?"],
+    ["leave-form", "As an undergraduate I need help finding the university leave paperwork.", "Where should an undergrad start the formal leave of absence request?"],
+    ["leave-extension", "I'm an undergraduate wanting to extend my current university leave.", "Who provides process guidance about extending an undergraduate leave of absence?"],
+    ["leave-cancel", "I'm an undergraduate and want to cancel my planned leave before it starts.", "Who can guide an undergrad in withdrawing a pending leave request?"],
+    ["leave-options", "I'm an undergraduate unsure whether to take a leave or discontinue enrollment.", "Can someone explain undergraduate leave versus permanent withdrawal processes?"],
+    ["family-leave", "I'm an undergraduate needing a semester off for family reasons.", "Who guides undergraduates through a university leave for family circumstances?"],
+    ["leave-checklist", "I'm an undergraduate looking for the steps to complete before a leave.", "Can I get general undergraduate guidance on arranging a semester leave?"]
+  ]
+}

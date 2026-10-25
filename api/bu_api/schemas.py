@@ -3,6 +3,8 @@ from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, StringConstraints, model_validator
 
+from .request_routing import RoutingResult
+
 NonNegativeInt = Annotated[int, Field(ge=0)]
 Component = Literal["lecture", "lab", "discussion"]
 AssessmentKind = Literal["assignment", "quiz", "midterm", "project", "final"]
@@ -261,3 +263,4 @@ class ChatMessage(Schema):
     created_at: datetime
     sources: list[Citation] = Field(default_factory=list)
     event_cards: list[EventCard] = Field(default_factory=list)
+    routing: RoutingResult | None = None

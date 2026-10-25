@@ -1,0 +1,122 @@
+[
+  {
+    "id": "registrar",
+    "name": "Office of the University Registrar",
+    "handles": "Academic records, transcripts, enrollment verification, and missing semester records.",
+    "boundaries": "Financial holds go to Student Financials. Prerequisite overrides, advising, class standing, and dean's list approval may require the school/college.",
+    "official_source_urls": [
+      "https://www.bu.edu/reg/contact-us/",
+      "https://www.bu.edu/reg/students/faqs/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "financial_assistance",
+    "name": "BU Financial Assistance — undergraduate",
+    "handles": "Undergraduate aid applications, missing expected aid, supporting documents, and aid appeals.",
+    "boundaries": "Posted account charges, refunds, and late fees go to Student Financials. Graduate aid generally goes to the school/program aid office.",
+    "official_source_urls": [
+      "https://www.bu.edu/finaid/contact-us/",
+      "https://www.bu.edu/studentfinancials/resources/frequently-asked-questions/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "student_financials",
+    "name": "Student Financials / Student Accounting Services",
+    "handles": "Student account billing, payment arrangements, posted transactions, financial holds, and late-fee review.",
+    "boundaries": "Missing expected aid and aid eligibility go to the relevant financial aid office. Login authentication failures go to IT.",
+    "official_source_urls": [
+      "https://www.bu.edu/studentfinancials/your-bill/",
+      "https://www.bu.edu/studentfinancials/resources/frequently-asked-questions/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "housing",
+    "name": "BU Housing — assignments",
+    "handles": "Ordinary housing assignment changes, room-change requests, and roommate requests.",
+    "boundaries": "Disability-based housing requests require DAS. Physical repairs use residential maintenance channels. Housing portal authentication errors go to IT.",
+    "official_source_urls": [
+      "https://www.bu.edu/housing/assignments/changes/requests/",
+      "https://www.bu.edu/housing/assignments/changes/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "residential_maintenance",
+    "name": "Residential maintenance — residence office / FMO",
+    "handles": "Routine residence upkeep and repair issues, via the residence office; furniture/appliances via My Housing.",
+    "boundaries": "This is a service queue, not a direct API into FMO. Follow official intake instructions. Urgent hazards must not wait in a routine ticket queue.",
+    "official_source_urls": [
+      "https://www.bu.edu/housing/services/maintenance/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "it_help",
+    "name": "IS&T IT Help Center",
+    "handles": "BU authentication, account access, connectivity, and technical help intake.",
+    "boundaries": "IT can investigate login/system access failures; it cannot approve aid, remove financial holds, or grant academic overrides.",
+    "official_source_urls": [
+      "https://www.bu.edu/tech/contact/",
+      "https://www.bu.edu/tech/services/infrastructure/networks/wireless/eduroam/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "disability_access",
+    "name": "Disability & Access Services",
+    "handles": "Disability accommodation eligibility and requests for academic access; disability-based housing review.",
+    "boundaries": "Routine repairs are maintenance. Ordinary room changes are Housing. Existing accommodated testing scheduling may require the testing center.",
+    "official_source_urls": [
+      "https://www.bu.edu/disability/accommodations/procedures/",
+      "https://www.bu.edu/disability/about/",
+      "https://www.bu.edu/housing/assignments/changes/requests/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "isso",
+    "name": "International Students & Scholars Office",
+    "handles": "International student immigration-status and travel-document advising.",
+    "boundaries": "Route for advising only; the classifier does not determine immigration eligibility or provide legal advice. Financial transactions remain with Student Financials.",
+    "official_source_urls": [
+      "https://www.bu.edu/isso/about/",
+      "https://www.bu.edu/isso/international-students/traveling-while-at-bu/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "terrier_card",
+    "name": "Terrier Card Office",
+    "handles": "Terrier Card replacement and meal-plan/card-account questions; official meal-plan changes use My Housing.",
+    "boundaries": "Login failures go to IT; tuition billing goes to Student Financials. Food-service feedback is not automatically a Terrier Card issue.",
+    "official_source_urls": [
+      "https://www.bu.edu/housing/services/terriercards/",
+      "https://www.bu.edu/dining/plans-points/faqs/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  },
+  {
+    "id": "university_service_center",
+    "name": "University Service Center — undergraduate leave guidance",
+    "handles": "General undergraduate leave/discontinuation guidance and related process questions.",
+    "boundaries": "Scope depends on school and student status; graduate and some program workflows differ. Immigration effects require ISSO; academic planning requires advising.",
+    "official_source_urls": [
+      "https://www.bu.edu/usc/faqs/",
+      "https://www.bu.edu/usc/"
+    ],
+    "verified_on": "2026-10-24",
+    "label_status": "researcher_defined_routing_queue_not_BU_endorsement"
+  }
+]

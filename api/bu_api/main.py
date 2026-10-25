@@ -24,6 +24,8 @@ from .events import EventService
 from .history import HistoryConflict, HistoryStore, HistoryUnavailable
 from .preferences import BlobPreferenceStore, PreferenceStore
 from .repository import Repository
+from .request_routing import RequestRouter
+from .request_routing.routes import install_routing_routes
 from .schemas import (
     AttendanceResponse,
     CalendarResponse,
@@ -116,8 +118,20 @@ def create_app(
                     max_tags=5,
                     source="baseline",
                 )
+                try:
+                    app.state.request_router = RequestRouter(settings.data_dir / "request_router")
+                except (OSError, ValueError, KeyError):
+                    logger.warning("Request router artifacts unavailable; routing disabled")
+                    app.state.request_router = None
                 app.state.chat = ChatService(
-                    settings, repository, search, history, model, events, preferences
+                    settings,
+                    repository,
+                    search,
+                    history,
+                    model,
+                    events,
+                    preferences,
+                    request_router=app.state.request_router,
                 )
                 yield
 
@@ -171,6 +185,7 @@ def create_app(
 
     install_event_routes(app, selected_student)
     install_service_routes(app, selected_student)
+    install_routing_routes(app, selected_student)
 
     @app.get("/student", response_model=StudentProfile)
     async def student_info(student: Student):

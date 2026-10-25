@@ -234,6 +234,25 @@ export type EventClustersResponse = { artifact_version: string; clusters: EventC
 
 export type Citation = { title: string; url: string };
 
+export type RoutingDepartment = {
+  id: string;
+  name: string;
+  handles: string;
+  boundaries: string;
+  official_source_urls: string[];
+};
+
+export type RequestRouting = {
+  handling: 'route' | 'clarify' | 'multiple_routes' | 'out_of_scope' | 'urgent_bypass';
+  department: RoutingDepartment | null;
+  candidates: { department: RoutingDepartment; score: number | null }[];
+  message: string;
+  model_version: string;
+  source: 'classifier' | 'boundary_rule';
+  synthetic_only: true;
+  submitted: false;
+};
+
 export type AssistantMessage = {
   id: string;
   role: 'user' | 'assistant' | (string & {});
@@ -242,4 +261,5 @@ export type AssistantMessage = {
   sources?: Citation[];
   /** Missing on older deployments and history; treat as empty. */
   event_cards?: EventCard[];
+  routing?: RequestRouting | null;
 };

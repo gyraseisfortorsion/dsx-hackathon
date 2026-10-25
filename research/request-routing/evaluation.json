@@ -1,0 +1,1452 @@
+{
+  "version": "routing-v1-edb7330322e6",
+  "dataset_sha256": "edb7330322e63361389a63210cbd4c1d835f0209ce43f7b1d88d41cc45c2c5c9",
+  "encoder": "minishlab/potion-base-8M",
+  "encoder_revision": "bf8b056651a2c21b8d2565580b8569da283cab23",
+  "model2vec_version": "0.10.0",
+  "sklearn_version": "1.9.1",
+  "seed": 42,
+  "split_counts": {
+    "train": 182,
+    "dev": 62,
+    "test": 56
+  },
+  "group_counts": {
+    "train": 39,
+    "dev": 12,
+    "test": 12
+  },
+  "classes": [
+    "disability_access",
+    "financial_assistance",
+    "housing",
+    "isso",
+    "it_help",
+    "registrar",
+    "residential_maintenance",
+    "student_financials",
+    "terrier_card",
+    "university_service_center"
+  ],
+  "selected_c": 1,
+  "thresholds": {
+    "probability": 0.3,
+    "margin": 0.1,
+    "similarity": 0.4
+  },
+  "dev": {
+    "accuracy": 0.9354838709677419,
+    "macro_f1": 0.9340934065934066,
+    "per_department": {
+      "disability_access": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 6.0
+      },
+      "financial_assistance": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "housing": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 8.0
+      },
+      "isso": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "it_help": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "registrar": {
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1-score": 0.875,
+        "support": 8.0
+      },
+      "residential_maintenance": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "student_financials": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "terrier_card": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "university_service_center": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1-score": 0.9523809523809523,
+        "support": 10.0
+      },
+      "accuracy": 0.9354838709677419,
+      "macro avg": {
+        "precision": 0.9307900432900432,
+        "recall": 0.95,
+        "f1-score": 0.9340934065934066,
+        "support": 62.0
+      },
+      "weighted avg": {
+        "precision": 0.9446306381790252,
+        "recall": 0.9354838709677419,
+        "f1-score": 0.9352593642916223,
+        "support": 62.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        6,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        7,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.875,
+    "macro_f1": 0.8669841269841271,
+    "per_department": {
+      "disability_access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "financial_assistance": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "housing": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1-score": 0.8571428571428571,
+        "support": 6.0
+      },
+      "isso": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "it_help": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 12.0
+      },
+      "registrar": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "residential_maintenance": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "student_financials": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "terrier_card": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "university_service_center": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "accuracy": 0.875,
+      "macro avg": {
+        "precision": 0.8883333333333333,
+        "recall": 0.8916666666666666,
+        "f1-score": 0.8669841269841271,
+        "support": 56.0
+      },
+      "weighted avg": {
+        "precision": 0.9113095238095238,
+        "recall": 0.875,
+        "f1-score": 0.8723356009070294,
+        "support": 56.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        9,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "limitations": "Synthetic only; labels need human review. Boundary rules are regression checks, not independent evaluation. Encoder is frozen; head trained on train only. Dev selects C and thresholds; test never tunes them.",
+  "test_predictions": [
+    {
+      "id": "registrar-transcript-1",
+      "expected": "registrar",
+      "predicted": "registrar",
+      "score": 0.3534913659095764,
+      "accepted": true
+    },
+    {
+      "id": "registrar-transcript-2",
+      "expected": "registrar",
+      "predicted": "registrar",
+      "score": 0.28784939646720886,
+      "accepted": false
+    },
+    {
+      "id": "financial_assistance-application-1",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.527269721031189,
+      "accepted": true
+    },
+    {
+      "id": "financial_assistance-application-2",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.45312386751174927,
+      "accepted": true
+    },
+    {
+      "id": "student_financials-payments-1",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.34624046087265015,
+      "accepted": true
+    },
+    {
+      "id": "student_financials-payments-2",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.43226999044418335,
+      "accepted": true
+    },
+    {
+      "id": "housing-roommate-1",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.32390227913856506,
+      "accepted": true
+    },
+    {
+      "id": "housing-roommate-2",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.3490262031555176,
+      "accepted": true
+    },
+    {
+      "id": "residential_maintenance-lighting-1",
+      "expected": "residential_maintenance",
+      "predicted": "residential_maintenance",
+      "score": 0.4547117054462433,
+      "accepted": true
+    },
+    {
+      "id": "residential_maintenance-lighting-2",
+      "expected": "residential_maintenance",
+      "predicted": "residential_maintenance",
+      "score": 0.35753244161605835,
+      "accepted": false
+    },
+    {
+      "id": "it_help-wifi-1",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.21866440773010254,
+      "accepted": false
+    },
+    {
+      "id": "it_help-wifi-2",
+      "expected": "it_help",
+      "predicted": "isso",
+      "score": 0.17847643792629242,
+      "accepted": false
+    },
+    {
+      "id": "it_help-portal_login-1",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.3443107008934021,
+      "accepted": true
+    },
+    {
+      "id": "it_help-portal_login-2",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.2274189442396164,
+      "accepted": false
+    },
+    {
+      "id": "disability_access-documents-1",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.5897042751312256,
+      "accepted": true
+    },
+    {
+      "id": "disability_access-documents-2",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.3939022719860077,
+      "accepted": true
+    },
+    {
+      "id": "terrier_card-meal_change-1",
+      "expected": "terrier_card",
+      "predicted": "housing",
+      "score": 0.24024619162082672,
+      "accepted": false
+    },
+    {
+      "id": "terrier_card-meal_change-2",
+      "expected": "terrier_card",
+      "predicted": "terrier_card",
+      "score": 0.21227839589118958,
+      "accepted": false
+    },
+    {
+      "id": "university_service_center-leave_status-1",
+      "expected": "university_service_center",
+      "predicted": "university_service_center",
+      "score": 0.3548939824104309,
+      "accepted": true
+    },
+    {
+      "id": "university_service_center-leave_status-2",
+      "expected": "university_service_center",
+      "predicted": "university_service_center",
+      "score": 0.26370540261268616,
+      "accepted": false
+    },
+    {
+      "id": "expanded-registrar-transcript-delivery-1",
+      "expected": "registrar",
+      "predicted": "registrar",
+      "score": 0.3698056936264038,
+      "accepted": true
+    },
+    {
+      "id": "expanded-registrar-transcript-delivery-2",
+      "expected": "registrar",
+      "predicted": "registrar",
+      "score": 0.30064642429351807,
+      "accepted": true
+    },
+    {
+      "id": "expanded-registrar-transcript-hold-1",
+      "expected": "registrar",
+      "predicted": "student_financials",
+      "score": 0.15912243723869324,
+      "accepted": false
+    },
+    {
+      "id": "expanded-registrar-transcript-hold-2",
+      "expected": "registrar",
+      "predicted": "student_financials",
+      "score": 0.26161429286003113,
+      "accepted": false
+    },
+    {
+      "id": "expanded-financial_assistance-fafsa-correction-1",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.5244942307472229,
+      "accepted": true
+    },
+    {
+      "id": "expanded-financial_assistance-fafsa-correction-2",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.44405296444892883,
+      "accepted": true
+    },
+    {
+      "id": "expanded-financial_assistance-aid-renewal-1",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.46755680441856384,
+      "accepted": true
+    },
+    {
+      "id": "expanded-financial_assistance-aid-renewal-2",
+      "expected": "financial_assistance",
+      "predicted": "financial_assistance",
+      "score": 0.47058507800102234,
+      "accepted": true
+    },
+    {
+      "id": "expanded-student_financials-payment-plan-1",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.20810182392597198,
+      "accepted": false
+    },
+    {
+      "id": "expanded-student_financials-payment-plan-2",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.45634517073631287,
+      "accepted": true
+    },
+    {
+      "id": "expanded-student_financials-wire-payment-1",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.6159555315971375,
+      "accepted": true
+    },
+    {
+      "id": "expanded-student_financials-wire-payment-2",
+      "expected": "student_financials",
+      "predicted": "student_financials",
+      "score": 0.43290960788726807,
+      "accepted": true
+    },
+    {
+      "id": "expanded-housing-roommate-choice-1",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.4595925807952881,
+      "accepted": true
+    },
+    {
+      "id": "expanded-housing-roommate-choice-2",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.38611704111099243,
+      "accepted": true
+    },
+    {
+      "id": "expanded-housing-assignment-error-1",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.4439440667629242,
+      "accepted": true
+    },
+    {
+      "id": "expanded-housing-assignment-error-2",
+      "expected": "housing",
+      "predicted": "housing",
+      "score": 0.21598272025585175,
+      "accepted": false
+    },
+    {
+      "id": "expanded-residential_maintenance-ceiling-light-1",
+      "expected": "residential_maintenance",
+      "predicted": "residential_maintenance",
+      "score": 0.6342149376869202,
+      "accepted": true
+    },
+    {
+      "id": "expanded-residential_maintenance-ceiling-light-2",
+      "expected": "residential_maintenance",
+      "predicted": "residential_maintenance",
+      "score": 0.44967326521873474,
+      "accepted": true
+    },
+    {
+      "id": "expanded-it_help-wifi-device-1",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.15231283009052277,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-wifi-device-2",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.2614676356315613,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-housing-login-1",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.18979719281196594,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-housing-login-2",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.19343391060829163,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-billing-login-1",
+      "expected": "it_help",
+      "predicted": "student_financials",
+      "score": 0.23591019213199615,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-billing-login-2",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.18917912244796753,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-wifi-drop-1",
+      "expected": "it_help",
+      "predicted": "residential_maintenance",
+      "score": 0.3045119643211365,
+      "accepted": false
+    },
+    {
+      "id": "expanded-it_help-wifi-drop-2",
+      "expected": "it_help",
+      "predicted": "it_help",
+      "score": 0.1739615947008133,
+      "accepted": false
+    },
+    {
+      "id": "expanded-disability_access-documentation-1",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.6373265385627747,
+      "accepted": true
+    },
+    {
+      "id": "expanded-disability_access-documentation-2",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.3970816433429718,
+      "accepted": true
+    },
+    {
+      "id": "expanded-disability_access-note-taking-1",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.347424179315567,
+      "accepted": true
+    },
+    {
+      "id": "expanded-disability_access-note-taking-2",
+      "expected": "disability_access",
+      "predicted": "disability_access",
+      "score": 0.5615176558494568,
+      "accepted": true
+    },
+    {
+      "id": "expanded-isso-passport-update-1",
+      "expected": "isso",
+      "predicted": "isso",
+      "score": 0.4299788177013397,
+      "accepted": true
+    },
+    {
+      "id": "expanded-isso-passport-update-2",
+      "expected": "isso",
+      "predicted": "isso",
+      "score": 0.44950583577156067,
+      "accepted": true
+    },
+    {
+      "id": "expanded-terrier_card-meal-change-1",
+      "expected": "terrier_card",
+      "predicted": "terrier_card",
+      "score": 0.20671382546424866,
+      "accepted": false
+    },
+    {
+      "id": "expanded-terrier_card-meal-change-2",
+      "expected": "terrier_card",
+      "predicted": "housing",
+      "score": 0.23864930868148804,
+      "accepted": false
+    },
+    {
+      "id": "expanded-university_service_center-leave-extension-1",
+      "expected": "university_service_center",
+      "predicted": "university_service_center",
+      "score": 0.4103093147277832,
+      "accepted": true
+    },
+    {
+      "id": "expanded-university_service_center-leave-extension-2",
+      "expected": "university_service_center",
+      "predicted": "university_service_center",
+      "score": 0.4198501706123352,
+      "accepted": true
+    }
+  ],
+  "selective_test": {
+    "coverage": 0.6071428571428571,
+    "accuracy": 1.0,
+    "accepted": 34
+  },
+  "tfidf_baseline_test": {
+    "accuracy": 0.7857142857142857,
+    "macro_f1": 0.7932034632034631,
+    "per_department": {
+      "disability_access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "financial_assistance": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "housing": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "isso": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "it_help": {
+        "precision": 0.875,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7,
+        "support": 12.0
+      },
+      "registrar": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "residential_maintenance": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "student_financials": {
+        "precision": 0.5555555555555556,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "terrier_card": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 4.0
+      },
+      "university_service_center": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "accuracy": 0.7857142857142857,
+      "macro avg": {
+        "precision": 0.806388888888889,
+        "recall": 0.825,
+        "f1-score": 0.7932034632034631,
+        "support": 56.0
+      },
+      "weighted avg": {
+        "precision": 0.8327380952380953,
+        "recall": 0.7857142857142857,
+        "f1-score": 0.7877860235003091,
+        "support": 56.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        7,
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "boundary_regression": [
+    {
+      "id": "boundary-01",
+      "expected": "clarify",
+      "actual": "clarify"
+    },
+    {
+      "id": "boundary-02",
+      "expected": "clarify",
+      "actual": "clarify"
+    },
+    {
+      "id": "boundary-03",
+      "expected": "clarify",
+      "actual": "clarify"
+    },
+    {
+      "id": "boundary-04",
+      "expected": "clarify",
+      "actual": "clarify"
+    },
+    {
+      "id": "boundary-05",
+      "expected": "multiple_routes",
+      "actual": "multiple_routes"
+    },
+    {
+      "id": "boundary-06",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope"
+    },
+    {
+      "id": "boundary-07",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope"
+    },
+    {
+      "id": "boundary-08",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope"
+    },
+    {
+      "id": "boundary-09",
+      "expected": "multiple_routes",
+      "actual": "multiple_routes"
+    },
+    {
+      "id": "boundary-10",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope"
+    },
+    {
+      "id": "boundary-11",
+      "expected": "urgent_bypass",
+      "actual": "urgent_bypass"
+    },
+    {
+      "id": "boundary-12",
+      "expected": "clarify",
+      "actual": "clarify"
+    }
+  ],
+  "end_to_end_test": {
+    "coverage": 0.5892857142857143,
+    "routed": 33,
+    "total": 56,
+    "accuracy": 1.0,
+    "predictions": [
+      {
+        "id": "registrar-transcript-1",
+        "expected": "registrar",
+        "handling": "route",
+        "predicted": "registrar"
+      },
+      {
+        "id": "registrar-transcript-2",
+        "expected": "registrar",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "financial_assistance-application-1",
+        "expected": "financial_assistance",
+        "handling": "route",
+        "predicted": "financial_assistance"
+      },
+      {
+        "id": "financial_assistance-application-2",
+        "expected": "financial_assistance",
+        "handling": "route",
+        "predicted": "financial_assistance"
+      },
+      {
+        "id": "student_financials-payments-1",
+        "expected": "student_financials",
+        "handling": "route",
+        "predicted": "student_financials"
+      },
+      {
+        "id": "student_financials-payments-2",
+        "expected": "student_financials",
+        "handling": "route",
+        "predicted": "student_financials"
+      },
+      {
+        "id": "housing-roommate-1",
+        "expected": "housing",
+        "handling": "route",
+        "predicted": "housing"
+      },
+      {
+        "id": "housing-roommate-2",
+        "expected": "housing",
+        "handling": "route",
+        "predicted": "housing"
+      },
+      {
+        "id": "residential_maintenance-lighting-1",
+        "expected": "residential_maintenance",
+        "handling": "route",
+        "predicted": "residential_maintenance"
+      },
+      {
+        "id": "residential_maintenance-lighting-2",
+        "expected": "residential_maintenance",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "it_help-wifi-1",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "it_help-wifi-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "it_help-portal_login-1",
+        "expected": "it_help",
+        "handling": "route",
+        "predicted": "it_help"
+      },
+      {
+        "id": "it_help-portal_login-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "disability_access-documents-1",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "disability_access-documents-2",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "terrier_card-meal_change-1",
+        "expected": "terrier_card",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "terrier_card-meal_change-2",
+        "expected": "terrier_card",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "university_service_center-leave_status-1",
+        "expected": "university_service_center",
+        "handling": "route",
+        "predicted": "university_service_center"
+      },
+      {
+        "id": "university_service_center-leave_status-2",
+        "expected": "university_service_center",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-registrar-transcript-delivery-1",
+        "expected": "registrar",
+        "handling": "route",
+        "predicted": "registrar"
+      },
+      {
+        "id": "expanded-registrar-transcript-delivery-2",
+        "expected": "registrar",
+        "handling": "route",
+        "predicted": "registrar"
+      },
+      {
+        "id": "expanded-registrar-transcript-hold-1",
+        "expected": "registrar",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-registrar-transcript-hold-2",
+        "expected": "registrar",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-financial_assistance-fafsa-correction-1",
+        "expected": "financial_assistance",
+        "handling": "route",
+        "predicted": "financial_assistance"
+      },
+      {
+        "id": "expanded-financial_assistance-fafsa-correction-2",
+        "expected": "financial_assistance",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-financial_assistance-aid-renewal-1",
+        "expected": "financial_assistance",
+        "handling": "route",
+        "predicted": "financial_assistance"
+      },
+      {
+        "id": "expanded-financial_assistance-aid-renewal-2",
+        "expected": "financial_assistance",
+        "handling": "route",
+        "predicted": "financial_assistance"
+      },
+      {
+        "id": "expanded-student_financials-payment-plan-1",
+        "expected": "student_financials",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-student_financials-payment-plan-2",
+        "expected": "student_financials",
+        "handling": "route",
+        "predicted": "student_financials"
+      },
+      {
+        "id": "expanded-student_financials-wire-payment-1",
+        "expected": "student_financials",
+        "handling": "route",
+        "predicted": "student_financials"
+      },
+      {
+        "id": "expanded-student_financials-wire-payment-2",
+        "expected": "student_financials",
+        "handling": "route",
+        "predicted": "student_financials"
+      },
+      {
+        "id": "expanded-housing-roommate-choice-1",
+        "expected": "housing",
+        "handling": "route",
+        "predicted": "housing"
+      },
+      {
+        "id": "expanded-housing-roommate-choice-2",
+        "expected": "housing",
+        "handling": "route",
+        "predicted": "housing"
+      },
+      {
+        "id": "expanded-housing-assignment-error-1",
+        "expected": "housing",
+        "handling": "route",
+        "predicted": "housing"
+      },
+      {
+        "id": "expanded-housing-assignment-error-2",
+        "expected": "housing",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-residential_maintenance-ceiling-light-1",
+        "expected": "residential_maintenance",
+        "handling": "route",
+        "predicted": "residential_maintenance"
+      },
+      {
+        "id": "expanded-residential_maintenance-ceiling-light-2",
+        "expected": "residential_maintenance",
+        "handling": "route",
+        "predicted": "residential_maintenance"
+      },
+      {
+        "id": "expanded-it_help-wifi-device-1",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-wifi-device-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-housing-login-1",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-housing-login-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-billing-login-1",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-billing-login-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-wifi-drop-1",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-it_help-wifi-drop-2",
+        "expected": "it_help",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-disability_access-documentation-1",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "expanded-disability_access-documentation-2",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "expanded-disability_access-note-taking-1",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "expanded-disability_access-note-taking-2",
+        "expected": "disability_access",
+        "handling": "route",
+        "predicted": "disability_access"
+      },
+      {
+        "id": "expanded-isso-passport-update-1",
+        "expected": "isso",
+        "handling": "route",
+        "predicted": "isso"
+      },
+      {
+        "id": "expanded-isso-passport-update-2",
+        "expected": "isso",
+        "handling": "route",
+        "predicted": "isso"
+      },
+      {
+        "id": "expanded-terrier_card-meal-change-1",
+        "expected": "terrier_card",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-terrier_card-meal-change-2",
+        "expected": "terrier_card",
+        "handling": "clarify",
+        "predicted": null
+      },
+      {
+        "id": "expanded-university_service_center-leave-extension-1",
+        "expected": "university_service_center",
+        "handling": "route",
+        "predicted": "university_service_center"
+      },
+      {
+        "id": "expanded-university_service_center-leave-extension-2",
+        "expected": "university_service_center",
+        "handling": "route",
+        "predicted": "university_service_center"
+      }
+    ]
+  },
+  "warm_local_latency_ms": {
+    "p50": 0.10272901272401214,
+    "p95": 0.1792290131561458,
+    "count": 56,
+    "scope": "Single local process, guard + encoder + head; excludes HTTP/LLM"
+  }
+}

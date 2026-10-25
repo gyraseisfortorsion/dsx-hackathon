@@ -214,3 +214,18 @@ available at the production URL above.
 clubs, housing requests/photos, work/timesheets, dining transactions, calendar
 extras, settings/profile edits and menu resources. These endpoints are ready for
 frontend integration; they do not connect to official BU service systems.
+
+
+## Request routing
+
+The API includes a bundled local Model2Vec encoder and trained logistic regression
+classifier for 10 student support queues. `POST /requests/route?user=alex` accepts
+`{"text":"I need an official academic transcript"}` with the existing bearer password.
+`GET /requests/departments?user=alex` lists the supported offices. The assistant can
+call the routing tool and returns structured routing cards in `ChatMessage.routing`.
+The model suggests an office or requests clarification; it never submits a ticket.
+
+See the [pipeline, metrics, rebuild commands, and limitations](../research/request-routing/README.md).
+Artifacts are bundled under `data/request_router`; serving requires no download or
+training. Missing artifacts return 503 for routing while other services still start.
+The routing labels and evaluation are synthetic-only and need human validation.

@@ -18,6 +18,7 @@ from .config import Settings
 from .events import EventSearch, deduplicate_events
 from .history import Conversation, HistoryStore
 from .repository import Repository
+from .request_routing import RequestRouter, RoutingResult, boundary
 from .schemas import ChatMessage, Citation, EventCard, StudentRecord
 from .search import BUSearch, SearchResponse
 
@@ -45,6 +46,14 @@ price, or schedule fit. Explain no matches honestly. Event cards accompany the a
 Preferences change only through explicit app controls; a chat request does not save them.
 Use at most three search_bu calls per turn. Once search is unavailable, finish your answer
 using the supplied student data and already retrieved sources, and acknowledge any gaps.
+For requests about which office can help, administrative support problems, or university
+service requests, call route_request with the student's request. Respect clarify,
+multiple_routes, out_of_scope and urgent_bypass handling; never turn candidates into a
+confirmed destination. Ask the returned clarification when needed. A suggested office is
+not a submitted ticket. Do not claim to contact BU. Scores are uncalibrated synthetic-data
+classifier scores, not probabilities of real-world correctness. Use official source links
+from the routing result for the suggested office. Do not use routing for ordinary questions
+about the student's schedule, grades, or event discovery.
 Answer concisely. Scores are mock points; current percentages are not official final grades.
 """
 
@@ -61,6 +70,9 @@ class StudentContext:
     preference_state: object | None = None
     event_cards: dict[str, EventCard] = field(default_factory=dict)
     event_calls: int = 0
+    request_router: RequestRouter | None = None
+    routing: RoutingResult | None = None
+    routing_calls: int = 0
 
 
 def build_agent(model: Model | str) -> Agent[StudentContext, str]:
@@ -74,7 +86,15 @@ def build_agent(model: Model | str) -> Agent[StudentContext, str]:
 
     @agent.instructions
     def student_context(ctx: RunContext[StudentContext]) -> str:
-        return "Selected student data (JSON):\n" + json.dumps(ctx.deps.student, ensure_ascii=False)
+        context = "Selected student data (JSON):\n" + json.dumps(
+            ctx.deps.student, ensure_ascii=False
+        )
+        if ctx.deps.routing is not None:
+            context += (
+                "\nRequest routing guidance (respect this handling in your answer):\n"
+                + ctx.deps.routing.model_dump_json()
+            )
+        return context
 
     async def prepare_search(
         ctx: RunContext[StudentContext], definition: ToolDefinition
@@ -112,7 +132,7 @@ def build_agent(model: Model | str) -> Agent[StudentContext, str]:
 
     @agent.tool(prepare=prepare_events)
     async def search_events(ctx: RunContext[StudentContext], request: EventSearch) -> dict:
-        """Find campus events. Use a query and explicit date/availability filters if supplied."""
+        "Find campus events. Use a query and explicit date/availability filters if supplied."
         deps = ctx.deps
         if deps.event_service is None:
             return {"notice": "Event discovery unavailable"}
@@ -133,6 +153,24 @@ def build_agent(model: Model | str) -> Agent[StudentContext, str]:
             )
         return result.model_dump(mode="json")
 
+    @agent.tool
+    def route_request(ctx: RunContext[StudentContext], text: str) -> dict:
+        """Suggest which BU office handles a student support request; never submits it."""
+        if ctx.deps.request_router is None:
+            return {"notice": "Routing unavailable. Ask for detail or use official BU sources."}
+        if ctx.deps.routing_calls >= 2:
+            return {"notice": "Routing call limit reached; use the existing result."}
+        if ctx.deps.routing and ctx.deps.routing.handling == "urgent_bypass":
+            return ctx.deps.routing.model_dump(mode="json")
+        ctx.deps.routing_calls += 1
+        result = ctx.deps.request_router.route(text)
+        ctx.deps.routing = result
+        if result.department:
+            department = result.department
+            for url in department.official_source_urls:
+                ctx.deps.retrieved_sources[url] = Citation(title=department.name, url=url)
+        return result.model_dump(mode="json")
+
     return agent
 
 
@@ -146,11 +184,13 @@ class ChatService:
         model: Model | None = None,
         events=None,
         preferences=None,
+        request_router: RequestRouter | None = None,
     ):
         self.settings, self.repository = settings, repository
         self.search, self.history = search, history
         self.provided_model = model
         self.events, self.preferences = events, preferences
+        self.request_router = request_router
         self.agent = build_agent(model if model is not None else settings.llm_model)
 
     async def send(self, student: StudentRecord, message: str) -> ChatMessage:
@@ -158,6 +198,9 @@ class ChatService:
         async with self.history.lock(user):
             conversation = await asyncio.to_thread(self.history.load, user)
             deps = StudentContext(self.repository.chat_context(student), self.search)
+            deps.request_router = self.request_router
+            if self.request_router is not None and boundary(message):
+                deps.routing = self.request_router.route(message)
             if self.events is not None:
                 deps.event_service, deps.event_student = self.events, student
                 deps.event_calendar = self.repository.calendar(student)
@@ -195,6 +238,7 @@ class ChatService:
                     if url in result.output
                 ],
                 event_cards=deduplicate_events(list(deps.event_cards.values())),
+                routing=deps.routing,
             )
             completed = Conversation(
                 messages=[*conversation.messages, user_message, assistant],

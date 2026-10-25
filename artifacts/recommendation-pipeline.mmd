@@ -1,0 +1,6 @@
+flowchart LR
+    A[BU events] --> B[Clean & prepare] --> C[Save TF-IDF vectors and event clusters]
+    D[User query + preferences] --> E[Filter & rank]
+    C -->|Reuse| E
+    E --> F[LLM explanation — optional] --> G[Recommendations]
+    E -->|Without LLM| G

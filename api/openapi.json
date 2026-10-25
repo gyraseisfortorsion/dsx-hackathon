@@ -1012,6 +1012,114 @@
           }
         }
       }
+    },
+    "/requests/departments": {
+      "get": {
+        "summary": "Departments",
+        "operationId": "departments_requests_departments_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  },
+                  "title": "Response Departments Requests Departments Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/requests/route": {
+      "post": {
+        "summary": "Route",
+        "operationId": "route_requests_route_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32,
+              "pattern": "^[a-z][a-z0-9_-]*$",
+              "title": "User"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoutingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoutingResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1362,6 +1470,16 @@
             },
             "type": "array",
             "title": "Event Cards"
+          },
+          "routing": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RoutingResult"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "additionalProperties": false,
@@ -2562,6 +2680,148 @@
           "ends_at"
         ],
         "title": "Window"
+      },
+      "Department": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "handles": {
+            "type": "string",
+            "title": "Handles"
+          },
+          "boundaries": {
+            "type": "string",
+            "title": "Boundaries"
+          },
+          "official_source_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Official Source Urls"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "handles",
+          "boundaries",
+          "official_source_urls"
+        ],
+        "title": "Department"
+      },
+      "Candidate": {
+        "properties": {
+          "department": {
+            "$ref": "#/components/schemas/Department"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          }
+        },
+        "type": "object",
+        "required": [
+          "department"
+        ],
+        "title": "Candidate"
+      },
+      "RoutingRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Text"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "RoutingRequest"
+      },
+      "RoutingResult": {
+        "properties": {
+          "handling": {
+            "type": "string",
+            "enum": [
+              "route",
+              "clarify",
+              "multiple_routes",
+              "out_of_scope",
+              "urgent_bypass"
+            ],
+            "title": "Handling"
+          },
+          "department": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Department"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "candidates": {
+            "items": {
+              "$ref": "#/components/schemas/Candidate"
+            },
+            "type": "array",
+            "title": "Candidates"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "model_version": {
+            "type": "string",
+            "title": "Model Version"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "classifier",
+              "boundary_rule"
+            ],
+            "title": "Source"
+          },
+          "synthetic_only": {
+            "type": "boolean",
+            "const": true,
+            "title": "Synthetic Only",
+            "default": true
+          },
+          "submitted": {
+            "type": "boolean",
+            "const": false,
+            "title": "Submitted",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "handling",
+          "message",
+          "model_version",
+          "source"
+        ],
+        "title": "RoutingResult"
       }
     },
     "securitySchemes": {
