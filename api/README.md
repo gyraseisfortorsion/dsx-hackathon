@@ -1,5 +1,10 @@
 # BU Student API
 
+For the current frontend integration summary, see [FRONTEND_HANDOFF.md](FRONTEND_HANDOFF.md).
+The additive [BU public dining and transit API](BU_PUBLIC_API.md) uses a server-only
+hackathon key, with the supplied access window ending October 25, 2026 at 5 p.m. Eastern.
+Existing personal/student contracts remain unchanged.
+
 A small FastAPI service with five fictional BU students, researched Fall 2026
 courses and 2026–2027 dining plans, and a Pydantic AI chat agent. All student data
 is a fixed **October 24, 2026, 12:00 America/New_York** snapshot.

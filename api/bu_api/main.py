@@ -27,6 +27,8 @@ from .event_tags import KeywordBaseline, Tagger, load_taxonomy
 from .events import EventService
 from .history import HistoryConflict, HistoryStore, HistoryUnavailable
 from .preferences import BlobPreferenceStore, PreferenceStore
+from .public_api import BUPublicAPI, BUPublicError
+from .public_routes import install_public_routes
 from .repository import Repository
 from .request_routing import RequestRouter
 from .request_routing.routes import install_routing_routes
@@ -54,6 +56,7 @@ def create_app(
     model: Model | None = None,
     search_transport: httpx.AsyncBaseTransport | None = None,
     history_transport: httpx.BaseTransport | None = None,
+    bu_transport: httpx.AsyncBaseTransport | None = None,
 ) -> FastAPI:
     if settings is None:
         # Provider SDKs read environment variables; dotenv also supports providers beyond Google.
@@ -69,11 +72,20 @@ def create_app(
             raise RuntimeError("Vercel deployments require HISTORY_BACKEND=blob")
         repository = Repository(settings.data_dir)
         with httpx.Client(timeout=15, transport=history_transport) as history_client:
-            async with httpx.AsyncClient(
-                timeout=8,
-                transport=search_transport,
-                headers={"User-Agent": "BUStudentPrototype/0.1 (public BU reference pages)"},
-            ) as client:
+            async with (
+                httpx.AsyncClient(
+                    timeout=8,
+                    transport=search_transport,
+                    headers={"User-Agent": "BUStudentPrototype/0.1 (public BU reference pages)"},
+                ) as client,
+                httpx.AsyncClient(
+                    base_url=settings.bu_public_api_base_url.rstrip("/") + "/",
+                    timeout=settings.bu_public_api_timeout_seconds,
+                    transport=bu_transport,
+                    follow_redirects=False,
+                ) as bu_client,
+            ):
+                app.state.bu_public = BUPublicAPI(bu_client, settings)
                 search = BUSearch(client, repository.sources)
                 history = (
                     BlobHistoryStore(
@@ -176,6 +188,7 @@ def create_app(
                     preferences,
                     request_router=app.state.request_router,
                     academic=app.state.academic,
+                    bu_public=app.state.bu_public,
                 )
                 yield
 
@@ -232,6 +245,14 @@ def create_app(
     install_community_routes(app, selected_student, settings)
     install_routing_routes(app, selected_student)
     install_academic_routes(app, selected_student)
+    install_public_routes(app, selected_student)
+
+    @app.exception_handler(BUPublicError)
+    async def bu_service_unavailable(request, exc):
+        headers = {"Cache-Control": "no-store"}
+        if exc.retry_after:
+            headers["Retry-After"] = str(exc.retry_after)
+        return JSONResponse(status_code=exc.status, content={"detail": exc.detail}, headers=headers)
 
     @app.get("/student", response_model=StudentProfile)
     async def student_info(student: Student):

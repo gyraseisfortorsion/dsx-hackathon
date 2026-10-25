@@ -31,7 +31,13 @@ def no_live_model_requests(monkeypatch):
 
 @pytest.fixture
 def settings(tmp_path):
-    return Settings(api_password="test-password", history_dir=tmp_path / "messages", _env_file=None)
+    return Settings(
+        api_password="test-password",
+        history_dir=tmp_path / "messages",
+        _env_file=None,
+        bu_public_api_key=None,
+        bu_public_api_expires_at=None,
+    )
 
 
 @pytest.fixture

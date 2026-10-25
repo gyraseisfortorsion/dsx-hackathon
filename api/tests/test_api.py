@@ -1,3 +1,5 @@
+import json
+
 import httpx
 import pytest
 from fastapi.testclient import TestClient
@@ -6,6 +8,13 @@ from bu_api.config import Settings
 from bu_api.main import create_app
 
 from .conftest import AUTH, GET_ROUTES, USERS
+
+
+def test_exported_openapi_is_current(client):
+    from bu_api.config import API_ROOT
+
+    exported = json.loads((API_ROOT / "openapi.json").read_text())
+    assert client.get("/openapi.json?user=alex", headers=AUTH).json() == exported
 
 
 @pytest.mark.parametrize("route", GET_ROUTES + ("/chat",))

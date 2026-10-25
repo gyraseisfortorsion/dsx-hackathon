@@ -8,6 +8,8 @@ Terrier Central calendar snapshot.
 ## Run and explore
 
 - [Backend setup and configuration](api/README.md)
+- [Frontend handoff and compatibility notes](api/FRONTEND_HANDOFF.md)
+- [BU public dining and transit integration](api/BU_PUBLIC_API.md)
 - [Event discovery and personalization API](api/EVENTS_API.md)
 - [Mobile app (Expo / React Native)](app/README.md)
 - [Academic planning, syllabus intelligence, and local vector search API](api/ACADEMICS_API.md)
