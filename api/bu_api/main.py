@@ -36,6 +36,8 @@ from .schemas import (
     StudentRecord,
 )
 from .search import BUSearch
+from .service_routes import install_service_routes, load_state
+from .service_store import BlobServiceStore, ServiceStore
 
 logger = logging.getLogger(__name__)
 
@@ -80,11 +82,26 @@ def create_app(
                 )
                 app.state.repository, app.state.history = repository, history
                 preferences = (
-                    BlobPreferenceStore(settings.blob_store_id, history_client,
+                    BlobPreferenceStore(
+                        settings.blob_store_id,
+                        history_client,
                         settings.blob_read_write_token.get_secret_value()
-                        if settings.blob_read_write_token else None)
+                        if settings.blob_read_write_token
+                        else None,
+                    )
                     if settings.history_backend == "blob"
                     else PreferenceStore(settings.history_path().parent / "preferences")
+                )
+                app.state.services = (
+                    BlobServiceStore(
+                        settings.blob_store_id,
+                        history_client,
+                        settings.blob_read_write_token.get_secret_value()
+                        if settings.blob_read_write_token
+                        else None,
+                    )
+                    if settings.history_backend == "blob"
+                    else ServiceStore(settings.history_path().parent / "services")
                 )
                 events = EventService(settings.data_dir / "event_artifacts.json")
                 app.state.preferences, app.state.events = preferences, events
@@ -93,8 +110,11 @@ def create_app(
                 )
                 app.state.tag_scorer = KeywordBaseline(app.state.tag_taxonomy)
                 app.state.tagger = Tagger(
-                    app.state.tag_taxonomy, thresholds={}, default_threshold=0.1,
-                    max_tags=5, source="baseline",
+                    app.state.tag_taxonomy,
+                    thresholds={},
+                    default_threshold=0.1,
+                    max_tags=5,
+                    source="baseline",
                 )
                 app.state.chat = ChatService(
                     settings, repository, search, history, model, events, preferences
@@ -126,7 +146,7 @@ def create_app(
         app.add_middleware(
             CORSMiddleware,
             allow_origins=origins,
-            allow_methods=["GET", "POST", "PUT"],
+            allow_methods=["GET", "POST", "PUT", "DELETE"],
             allow_headers=["Authorization", "Content-Type"],
         )
 
@@ -150,10 +170,16 @@ def create_app(
         return JSONResponse(status_code=503, content={"detail": "Storage temporarily unavailable"})
 
     install_event_routes(app, selected_student)
+    install_service_routes(app, selected_student)
 
     @app.get("/student", response_model=StudentProfile)
     async def student_info(student: Student):
-        return student.profile
+        state = await asyncio.to_thread(load_state, app, student)
+        return student.profile.model_copy(
+            update={
+                "full_name": state.data.profile_name or student.profile.full_name,
+            }
+        )
 
     @app.get("/meal-plan", response_model=MealPlanResponse)
     async def meal_plan(student: Student):
@@ -188,6 +214,17 @@ def create_app(
     @app.post("/chat", response_model=ChatMessage)
     async def chat(body: ChatRequest, student: Student):
         try:
+            state = await asyncio.to_thread(load_state, app, student)
+            if state.data.profile_name:
+                student = student.model_copy(
+                    update={
+                        "profile": student.profile.model_copy(
+                            update={
+                                "full_name": state.data.profile_name,
+                            }
+                        ),
+                    }
+                )
             return await app.state.chat.send(student, body.message)
         except HistoryConflict:
             raise HTTPException(

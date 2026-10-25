@@ -1,4 +1,3 @@
-import gzip
 import json
 
 import httpx
@@ -13,43 +12,6 @@ from bu_api.main import create_app
 from bu_api.preferences import BlobPreferenceStore
 
 from .conftest import AUTH
-
-
-@pytest.fixture
-def blob_transport():
-    blobs = {}
-
-    def handler(request):
-        assert request.headers["authorization"] == "Bearer fixture-token"
-        assert request.headers["x-vercel-blob-store-id"] == "store_test123"
-        if request.method == "GET":
-            assert request.url.params["cache"] == "0"
-            blob = blobs.get(request.url.path.removeprefix("/"))
-            if not blob:
-                return httpx.Response(404)
-            # Match Blob's real HTTP behavior: compressed responses carry weak ETags,
-            # which cannot satisfy the strong revision required by a conditional PUT.
-            content, revision = blob
-            if "gzip" in request.headers.get("accept-encoding", ""):
-                return httpx.Response(
-                    200,
-                    content=gzip.compress(content),
-                    headers={"etag": f"W/{revision}", "content-encoding": "gzip"},
-                )
-            return httpx.Response(200, content=content, headers={"etag": revision})
-        assert request.method == "PUT"
-        assert request.headers["x-vercel-blob-access"] == "private"
-        assert request.headers["x-add-random-suffix"] == "0"
-        path = request.url.params["pathname"]
-        old = blobs.get(path)
-        if old and request.headers.get("x-if-match") != old[1]:
-            return httpx.Response(412)
-        assert request.headers["x-allow-overwrite"] == ("1" if old else "0")
-        version = int(old[1].strip('"')) + 1 if old else 1
-        blobs[path] = (request.content, f'"{version}"')
-        return httpx.Response(200, json={"etag": f'"{version}"'})
-
-    return httpx.MockTransport(handler), blobs
 
 
 def test_private_history_persists_and_rejects_racing_writes(blob_transport):

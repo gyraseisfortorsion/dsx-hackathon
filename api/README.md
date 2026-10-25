@@ -207,3 +207,10 @@ and separate durable preferences for the five mock students. It does not require
 an LLM key outside chat. Source and build artifacts are bundled; requests do not
 fit models or refresh the feed. These changes require deployment before they are
 available at the production URL above.
+
+## Campus services backend
+
+[Campus services API](SERVICES_API.md) documents persistent prototype chats,
+clubs, housing requests/photos, work/timesheets, dining transactions, calendar
+extras, settings/profile edits and menu resources. These endpoints are ready for
+frontend integration; they do not connect to official BU service systems.
